@@ -33,32 +33,40 @@ La prueba escrita de la fase de oposición presenta las siguientes característi
 
 La puntuación neta puede expresarse mediante la siguiente fórmula:
 
-$$
+La puntuación neta se calcula mediante:
+
+```math
 \text{Puntuación neta}
 =
 \text{Aciertos}
 -
-0{,}25 \times \text{Errores}
-$$
+0.25 \times \text{Errores}
+```
 
 ### 2.1. Implicaciones de la penalización
 
-La penalización de una respuesta incorrecta equivale a la cuarta parte del valor de un acierto. Dado que cada pregunta presenta cuatro alternativas, contestar completamente al azar tiene un valor esperado igual a cero:
+La penalización de una respuesta incorrecta equivale a la cuarta parte del valor de un acierto. Dado que cada pregunta presenta cuatro alternativas, contestar completamente al azar tiene un valor esperado ligeramente positivo:
 
-$$
+```math
+\mathbb{E}
+=
 \frac{1}{4}(1)
 +
-\frac{3}{4}(-0{,}25)
+\frac{3}{4}(-0.25)
 =
-0{,}0625
-$$
+0.0625
+```
 
-Por tanto:
+Por tanto, bajo estas reglas y suponiendo que todas las preguntas tienen cuatro opciones y que no existe ninguna penalización adicional por contestar, responder al azar aporta una esperanza matemática de **0,0625 puntos por pregunta**. Desde un punto de vista puramente estadístico, dejar una pregunta en blanco es peor que contestarla al azar.
 
-- Cuando no pueda descartarse ninguna opción, responder al azar no aporta una ventaja estadística.
-- Cuando pueda descartarse al menos una alternativa, la respuesta puede resultar favorable desde un punto de vista probabilístico.
-- La estrategia de examen debe combinar conocimientos, descarte razonado y control del riesgo.
+La ventaja aumenta cuando puede descartarse alguna alternativa:
 
+| Alternativas posibles | Probabilidad de acierto | Valor esperado |
+|---:|---:|---:|
+| 4 | 25 % | 0,0625 |
+| 3 | 33,33 % | 0,1667 |
+| 2 | 50 % | 0,3750 |
+| 1 | 100 % | 1,0000 |
 ### 2.2. Limitación del número de aspirantes
 
 Obtener 20 puntos netos permite alcanzar el mínimo establecido, pero no garantiza el acceso a las fases posteriores. La convocatoria limita el número de aspirantes que continúan el proceso a quienes obtengan las mejores calificaciones, hasta un máximo equivalente al triple de las plazas convocadas, sin perjuicio de las reglas aplicables en caso de empate.
