@@ -1,59 +1,135 @@
-# P04: INGENIERO DE DESARROLLO
+# Preparación P04 — Ingeniero de Desarrollo
 
-## ÁREAS DE CONOCIMIENTO ESPECÍFICAS: TEMARIO FASE OPOSICIÓN
+Material de estudio para la preparación del proceso selectivo de la categoría **P04 — Ingeniero de Desarrollo**, organizado conforme al temario de gestión de proyectos e igualdad incluido en la convocatoria.
 
-### 1. Políticas de Igualdad de Género
+## Resumen
 
-- Políticas de Igualdad de Género, como la Ley Orgánica 3/2007, de 22 de marzo, para la Igualdad efectiva de mujeres y hombres.
-- Ley 15/2022, de 12 de julio, integral para la igualdad de trato y no discriminación.
+Este repositorio reúne unos apuntes estructurados para facilitar el estudio, la consulta y la actualización continua del temario. Los contenidos combinan explicación teórica, definiciones, comparaciones, ejemplos aplicados a proyectos TIC, fórmulas, errores frecuentes, tarjetas de memorización y preguntas tipo test con soluciones razonadas.
 
-### 2. Fundamentos y principios de la Gestión de Proyectos
+Los temas se han redactado en **Markdown** para poder:
 
-- Concepto de proyecto y sus características.
-- Principios generales de la dirección de proyectos.
-- Beneficios de la gestión de proyectos.
-- Tipología de proyectos.
-- Ciclo de vida del proyecto: fases y entregables.
-- Concepto de oficina de dirección de proyectos (PMO).
-- Diferencias entre proyectos y operaciones.
+- Consultarlos cómodamente desde GitHub.
+- Mantener un historial de cambios.
+- Corregir y actualizar conceptos o referencias normativas.
+- Reutilizar el contenido en Notion u otros editores.
+- Generar posteriormente documentos PDF y una edición conjunta en formato libro.
 
-### 3. Evaluación y selección de proyectos
+La documentación toma como referencia principal fuentes oficiales como el **BOE**, **PMI**, **PeopleCert**, **ISO**, **NIST**, la **Comisión Europea** y otros organismos públicos. No obstante, estos apuntes son material de apoyo y no sustituyen la consulta de los textos normativos, estándares y publicaciones oficiales vigentes.
 
-- Criterios de evaluación de un proyecto: financieros y no financieros.
-- Métodos de selección de proyectos: cualitativos y cuantitativos.
-- Factores clave en la toma de decisiones de selección de proyectos.
-- Herramientas y técnicas.
+---
 
-### 4. Ejecución de proyectos
+## Introducción y guía de preparación
 
-- Formas de organización de los proyectos.
-- Gestión de dominios o ámbitos y de procesos en los proyectos.
-- Gestión por excepción.
-- Roles y responsabilidades clave en proyectos.
-- Enfoque en productos y gestión de proyectos.
-- Adaptación al entorno del proyecto.
+Antes de comenzar los temas, se recomienda leer la introducción, donde se explican la estructura de los apuntes, las características de la prueba, la estrategia de estudio y los criterios utilizados para seleccionar y actualizar las fuentes.
 
-### 5. Estándares y Marcos de Referencia para la Gestión de Proyecto
+- [Introducción y guía de preparación](Introduccion_Guia_Preparacion_Oposicion_P04.md)
 
-- PRINCE2® (*PRojects IN Controlled Environments*).
-- PMBOK® (*Project Management Body of Knowledge*): ediciones 7ª y 8ª.
-- Metodologías Ágiles: Scrum, Kanban.
-- ISO 21502: Gestión de proyectos, programas y portafolios – Guía sobre la gestión de proyectos.
+---
 
-### 6. Herramientas y Técnicas
+## Temario
 
-- Planificación: Estructura de División del Trabajo (*Work Breakdown Structure*), cronogramas, estimación.
-- Gestión de riesgos en los proyectos.
-- Control de cambios y configuración.
-- Métricas de desempeño: valor ganado (EVM).
-- Herramientas colaborativas.
-- Informes y seguimiento.
+### Tema 1. Políticas de igualdad de género
 
-### 7. Tendencias
+Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, y Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación.
 
-- Hibridación de metodologías (predictivo + agile).
-- Automatización y herramientas digitales.
-- Gestión de interesados en el proyecto.
-- Ciberseguridad y cumplimiento normativo en proyectos.
-- Gestión de Proyectos en el ámbito de la Inteligencia Artificial y la gestión basada en datos. Sostenibilidad y Responsabilidad Social en los proyectos.
-- Habilidades blandas en la gestión de proyectos.
+- [Tema 1 — Políticas de igualdad de género](Tema_01_Politicas_Igualdad_Genero.md)
+
+### Tema 2. Fundamentos y principios de la gestión de proyectos
+
+Concepto y características de los proyectos, principios generales, beneficios, tipologías, ciclos de vida, fases, entregables, PMO y diferencias entre proyectos y operaciones.
+
+- [Tema 2 — Fundamentos y principios de la gestión de proyectos](Tema_02_Fundamentos_Gestion_Proyectos.md)
+
+### Tema 3. Evaluación y selección de proyectos
+
+Criterios financieros y no financieros, métodos cualitativos y cuantitativos, análisis multicriterio, factores de decisión, selección y equilibrio de carteras.
+
+- [Tema 3 — Evaluación y selección de proyectos](Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
+
+### Tema 4. Ejecución de proyectos
+
+Formas de organización, gobierno y gestión, dominios y procesos, gestión por excepción, roles y responsabilidades, enfoque en productos y adaptación al entorno.
+
+- [Tema 4 — Ejecución de proyectos](Tema_04_Ejecucion_de_Proyectos.md)
+
+### Tema 5. Estándares y marcos de referencia
+
+PRINCE2 7, PMBOK 7 y 8, Scrum, Kanban e ISO 21502, con comparaciones entre sus principios, dominios, prácticas, procesos, roles y elementos fundamentales.
+
+- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
+
+### Tema 6. Herramientas y técnicas
+
+WBS, cronogramas, estimación, gestión de riesgos, control de cambios, gestión de configuración, valor ganado, herramientas colaborativas, informes y seguimiento.
+
+- [Tema 6 — Herramientas y técnicas](Tema_06_Herramientas_y_Tecnicas.md)
+
+### Tema 7. Tendencias en gestión de proyectos
+
+Enfoques híbridos, automatización, herramientas digitales, gestión de interesados, ciberseguridad, cumplimiento, inteligencia artificial, gestión basada en datos, sostenibilidad y habilidades interpersonales.
+
+- [Tema 7 — Tendencias en gestión de proyectos](Tema_07_Tendencias_Gestion_Proyectos.md)
+
+---
+
+## Estructura de los temas
+
+Aunque cada tema se adapta a su contenido, se mantiene una estructura común:
+
+1. Párrafo introductorio.
+2. Contenido exigido por el temario.
+3. Orientación de estudio.
+4. Objetivos de aprendizaje.
+5. Desarrollo teórico.
+6. Tablas comparativas y ejemplos.
+7. Errores y confusiones frecuentes.
+8. Resumen de repaso rápido.
+9. Tarjetas de memorización.
+10. Preguntas tipo test.
+11. Soluciones razonadas.
+12. Lista de comprobación de dominio.
+13. Bibliografía y recursos oficiales.
+
+La numeración de los apartados incorpora siempre el número del tema. Por ejemplo:
+
+- `6.1. Planificación integrada del proyecto`
+- `6.1.1. Finalidad de la planificación`
+
+Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejemplo** o **Limitaciones**, se mantienen sin numeración.
+
+---
+
+## Organización del repositorio
+
+```text
+.
+├── README.md
+├── Introduccion_Guia_Preparacion_Oposicion_P04.md
+├── Tema_01_Politicas_Igualdad_Genero.md
+├── Tema_02_Fundamentos_Gestion_Proyectos.md
+├── Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
+├── Tema_04_Ejecucion_de_Proyectos.md
+├── Tema_05_Estandares_Marcos_Gestion_Proyectos.md
+├── Tema_06_Herramientas_y_Tecnicas.md
+└── Tema_07_Tendencias_Gestion_Proyectos.md
+```
+
+---
+
+## Criterios de actualización
+
+Al modificar los apuntes se recomienda:
+
+- Priorizar siempre fuentes oficiales y textos consolidados.
+- Comprobar la edición concreta de cada estándar o marco.
+- Indicar cuándo una publicación completa requiere compra, licencia o suscripción.
+- Evitar mezclar estructuras pertenecientes a ediciones diferentes.
+- Revisar la normativa antes del examen.
+- Mantener las preguntas y soluciones alineadas con el contenido actualizado.
+- Registrar mediante commits los cambios relevantes y la fuente que los motiva.
+
+---
+
+## Aviso
+
+Este repositorio es un material personal de preparación y síntesis. Aunque se procura mantener la máxima precisión, pueden existir errores, interpretaciones discutibles o cambios posteriores en normas, estándares y convocatorias. Para cualquier cuestión jurídica o requisito oficial debe prevalecer siempre la publicación oficial vigente.
