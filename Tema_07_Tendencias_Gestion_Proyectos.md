@@ -658,6 +658,8 @@ Parte de esta información puede ser confidencial.
 
 ## 7.3.6. Matriz poder-interés
 
+También conocida como **matriz de Mendelow**, es la herramienta de clasificación de interesados más citada en los test.
+
 | | Interés bajo | Interés alto |
 |---|---|---|
 | Poder alto | Mantener satisfecho | Gestionar de cerca |
@@ -982,18 +984,18 @@ Ejemplos:
 
 Según el proyecto pueden resultar aplicables:
 
-- Reglamento General de Protección de Datos.
-- Normativa nacional de protección de datos.
-- NIS2 y su transposición.
-- Cyber Resilience Act.
-- Reglamento de Inteligencia Artificial.
+- Reglamento General de Protección de Datos (**Reglamento (UE) 2016/679**).
+- Normativa nacional de protección de datos (**Ley Orgánica 3/2018, LOPDGDD**).
+- NIS2 (**Directiva (UE) 2022/2555**) y su transposición.
+- Cyber Resilience Act (**Reglamento (UE) 2024/2847**).
+- Reglamento de Inteligencia Artificial (**Reglamento (UE) 2024/1689**).
 - Accesibilidad.
 - Propiedad intelectual.
 - Contratación pública.
 - Archivo y transparencia.
 - Normas sectoriales.
-- Esquema Nacional de Seguridad.
-- Esquema Nacional de Interoperabilidad.
+- Esquema Nacional de Seguridad (**Real Decreto 311/2022**).
+- Esquema Nacional de Interoperabilidad (Real Decreto 4/2010).
 
 La aplicabilidad debe determinarse con especialistas. No debe asumirse que todos los proyectos están sujetos a todas las normas.
 
@@ -1087,6 +1089,18 @@ Del mismo modo:
 Se necesita visión integrada.
 
 ---
+
+## 7.4.18. Adenda: identificación normativa para test
+
+Para un examen tipo test conviene memorizar los identificadores y datos concretos de las normas citadas en este bloque:
+
+- **Esquema Nacional de Seguridad (ENS): Real Decreto 311/2022, de 3 de mayo** (deroga el RD 3/2010). Ámbito: todo el **sector público** y los **proveedores tecnológicos** que le prestan servicios. Clasifica los sistemas en **tres categorías: BÁSICA, MEDIA y ALTA**, según el impacto de un incidente en las dimensiones de seguridad (confidencialidad, integridad, disponibilidad, autenticidad y trazabilidad). Exige **declaración o certificación de conformidad**. Para un proyecto de una Administración pública, cumplir el ENS es un **requisito**, no una opción. Las guías de referencia son las **CCN-STIC** del Centro Criptológico Nacional.
+- **RGPD: Reglamento (UE) 2016/679.** Principios de **privacidad desde el diseño y por defecto (art. 25)** y **evaluaciones de impacto (EIPD/DPIA, art. 35)** para tratamientos de alto riesgo. Sanciones de hasta **20 millones de euros o el 4 % de la facturación global anual** (la cifra que va a test). En España se complementa con la **LOPDGDD (LO 3/2018)**.
+- **NIS2: Directiva (UE) 2022/2555**, sobre ciberseguridad de entidades esenciales e importantes (sustituye a la primera Directiva NIS).
+- **Reglamento de IA: Reglamento (UE) 2024/1689**, primer marco integral de IA, con enfoque **basado en el riesgo**: prácticas **prohibidas**, sistemas de **alto riesgo**, riesgo **limitado** (obligaciones de transparencia) y riesgo **mínimo**. Aplicación escalonada desde 2025-2026.
+- **ISO/IEC 27001:** norma **certificable** de sistemas de gestión de seguridad de la información (SGSI); la ISO/IEC 27002 recoge el catálogo de controles.
+
+
 
 # 7.5. Proyectos de inteligencia artificial y gestión basada en datos
 
@@ -1868,6 +1882,8 @@ Debe ser:
 
 ## 7.7.8. Inteligencia emocional
 
+El modelo de referencia es el de **Daniel Goleman**, con los componentes de **autoconciencia, autorregulación, motivación, empatía y habilidades sociales** (agrupados a menudo en conciencia y gestión de uno mismo y de las relaciones).
+
 Comprende:
 
 - Autoconocimiento.
@@ -1954,6 +1970,8 @@ Puede surgir por:
 El conflicto no siempre es negativo; puede mejorar decisiones si se gestiona de forma constructiva.
 
 ## 7.7.14. Estrategias de conflicto
+
+Los cinco modos siguientes corresponden al modelo de **Thomas-Kilmann (TKI)**, la referencia habitual en los exámenes. La estrategia mejor valorada es **colaborar o resolver el problema**, por producir resultados gana-gana y acuerdos duraderos; **forzar** produce gana-pierde y **evitar** pierde-pierde.
 
 ### Colaborar o resolver
 
@@ -2088,6 +2106,18 @@ Puede utilizar:
 - Simulación.
 
 ---
+
+## 7.7.24. Adenda: modelos con nombre propio para test
+
+Los test suelen preguntar por el autor o el nombre del modelo. Los imprescindibles de este bloque:
+
+- **Etapas de desarrollo de equipos de Tuckman:** **formación (forming) → turbulencia (storming) → normalización (norming) → desempeño (performing) → disolución (adjourning)**. La secuencia puede retroceder si cambia la composición del equipo.
+- **Triángulo de Talentos del PMI**, renombrado en 2022: **formas de trabajar** (Ways of Working, antes gestión técnica), **habilidades interpersonales o power skills** (antes liderazgo) y **perspicacia para los negocios** (Business Acumen). Cifra clásica asociada: el director de proyecto dedica en torno al **90 % de su tiempo a comunicar**.
+- **Teorías de la motivación:** **Maslow** (jerarquía de necesidades), **Herzberg** (factores higiénicos frente a motivadores: el salario es higiénico, su ausencia desmotiva pero su presencia no motiva) y **McGregor** (Teoría X: control y desconfianza; Teoría Y: autonomía y confianza).
+- **Gestión del cambio organizacional:** **ADKAR** (Awareness, Desire, Knowledge, Ability, Reinforcement) y los **8 pasos de Kotter**.
+- Conflictos: modelo de **Thomas-Kilmann** (véase 7.7.14). Interesados: matriz de **Mendelow** y modelo de prominencia de **Mitchell, Agle y Wood** (poder, legitimidad y urgencia).
+
+
 
 # 7.8. Integración de tendencias
 

@@ -206,6 +206,7 @@ Empleo (por cuenta ajena y propia), trabajo autónomo, organizaciones (sindicato
 | **Graves** | **10.001 a 40.000 €** |
 | **Muy graves** | **40.001 a 500.000 €** |
 
+- **Grados dentro de cada tramo (art. 48.2, en el ámbito de la AGE):** cada tramo se subdivide en grados **mínimo, medio y máximo**: leves 300-3.000 / 3.001-6.000 / 6.001-10.000 €; graves 10.001-20.000 / 20.001-30.000 / 30.001-40.000 €; muy graves 40.001-100.000 / 100.001-200.000 / 200.001-500.000 €. Si la infracción la comete un funcionario público en el ejercicio de su cargo, la sanción se aplica en su **grado máximo** (art. 49.3).
 - **Prescripción de infracciones:** leves **1 año**, graves **3 años**, muy graves **4 años**.
 - **Prescripción de sanciones:** leves 1 año, graves **4 años**, muy graves **5 años**.
 - Graduación en grados **mínimo, medio y máximo** (art. 49); posibilidad de **sanciones accesorias y sustitución de sanciones** (art. 50).

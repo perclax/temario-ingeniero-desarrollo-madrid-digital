@@ -323,6 +323,7 @@ Estas reglas no se aplican de la misma forma a los procesos penales, donde rige 
 - Publicación: BOE de 23 de marzo de 2007.
 - Entrada en vigor: 24 de marzo de 2007.
 - Última actualización del texto consolidado del BOE utilizada en estos apuntes: 2 de agosto de 2024.
+- **Revisión y adenda de julio de 2026:** estos apuntes se han completado con las novedades posteriores, en particular la Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria (véase 1.8.4) y el IV Plan para la igualdad de género en la AGE de octubre de 2025 (véase 1.7.6).
 
 ## 1.3.2. Objeto
 
@@ -691,6 +692,8 @@ Deben elaborar plan de igualdad:
 - Empresas obligadas por convenio colectivo.
 - Empresas a las que lo imponga la autoridad laboral como sustitución de sanciones accesorias.
 
+El umbral general de cincuenta personas trabajadoras fue establecido por el **Real Decreto-ley 6/2019, de 1 de marzo** (antes de esa reforma, la obligación general afectaba a empresas de más de 250). Su aplicación gradual culminó el 7 de marzo de 2022. El registro de los planes está desarrollado por el **RD 901/2020** y la igualdad retributiva por el **RD 902/2020**.
+
 Para las demás es voluntario, previa consulta a la representación legal.
 
 ## 1.6.6. Diagnóstico
@@ -808,6 +811,8 @@ Las administraciones negociarán un protocolo que incluya al menos:
 
 El Gobierno aprobará, al inicio de cada legislatura, un plan para la igualdad en la Administración General del Estado y organismos vinculados.
 
+> **Actualización (julio de 2026):** el plan vigente es el **IV Plan para la igualdad de género en la Administración General del Estado**, aprobado por Acuerdo del Consejo de Ministros de **7 de octubre de 2025** (publicado por Resolución de 20 de octubre de 2025). Dato preguntable por su actualidad.
+
 ## 1.7.7. Unidades de igualdad
 
 En todos los ministerios, un órgano directivo desarrollará funciones de igualdad.
@@ -855,6 +860,22 @@ Composición equilibrada no exige necesariamente 50/50.
 Permite una horquilla 40/60.
 
 ---
+
+## 1.8.4. Actualización: Ley Orgánica 2/2024, de representación paritaria
+
+La **Ley Orgánica 2/2024, de 1 de agosto**, de representación paritaria y presencia equilibrada de mujeres y hombres, modifica la Ley Orgánica 3/2007 y otras normas. Es la novedad legislativa más relevante en esta materia y, por su actualidad, tiene alta probabilidad de aparecer en el examen.
+
+Puntos clave:
+
+- Transpone la **Directiva (UE) 2022/2381**, relativa al equilibrio de género en los consejos de administración de las sociedades cotizadas.
+- Introduce las **listas electorales «cremallera»**: candidaturas integradas por personas de uno y otro sexo **ordenadas de forma alternativa** (modifica la LOREG), superando el anterior mínimo del 40 %.
+- Extiende el principio de **representación paritaria** a los órganos constitucionales y de relevancia constitucional, al Gobierno y al sector público estatal.
+- En los **consejos de administración de sociedades cotizadas**, el sexo menos representado deberá alcanzar al menos el **40 %** de los puestos.
+- Añade como **prohibición de contratar** con el sector público (Ley 9/2017) el incumplimiento de la obligación de **inscribir el plan de igualdad en el registro** por las empresas de cincuenta o más personas trabajadoras.
+
+> **Trampa frecuente:** no confundir la regla general de composición equilibrada de la disposición adicional primera de la LO 3/2007 (horquilla 40/60) con la paridad reforzada y las listas cremallera introducidas por la LO 2/2024.
+
+
 
 # 1.9. Ley 15/2022: objeto y ámbito
 
