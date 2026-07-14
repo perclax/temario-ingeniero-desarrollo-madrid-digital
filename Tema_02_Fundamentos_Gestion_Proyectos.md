@@ -2,7 +2,7 @@
 
 La gestión de proyectos proporciona el marco conceptual necesario para transformar una necesidad, problema u oportunidad en un resultado organizado y controlado. Este tema establece el vocabulario básico que se utilizará en el resto de los apuntes: qué caracteriza a un proyecto, cómo se diferencia de las operaciones, qué principios orientan su dirección, qué beneficios aporta una gestión sistemática y cómo se relacionan los ciclos de vida, las fases, los entregables y las oficinas de dirección de proyectos.
 
----
+
 
 ## Contenido exigido por el temario
 
@@ -18,7 +18,7 @@ Este tema desarrolla los siguientes epígrafes:
 
 > **Orientación de estudio:** este tema aporta el vocabulario básico que se reutilizará en evaluación y selección, ejecución, estándares, planificación, riesgos, control y metodologías ágiles. Conviene dominar las diferencias entre conceptos próximos: proyecto/operación, salida/resultado/beneficio, fase/proceso, ciclo de vida del proyecto/ciclo de vida del producto y proyecto/programa/portafolio.
 
----
+
 
 ## Objetivos de aprendizaje
 
@@ -38,7 +38,7 @@ Al finalizar el tema se debe ser capaz de:
 - Explicar qué es una PMO y distinguir sus posibles funciones y niveles de autoridad.
 - Resolver preguntas conceptuales y situacionales sobre la naturaleza y organización de los proyectos.
 
----
+
 
 # 2.1. Concepto de proyecto
 
@@ -65,7 +65,7 @@ El final del proyecto puede producirse porque:
 
 La construcción y puesta en servicio de una plataforma de tramitación electrónica es un **proyecto**. La explotación diaria de la plataforma, la atención de incidencias y la administración rutinaria de usuarios son **operaciones**.
 
----
+
 
 ## 2.1.2. Dirección o gestión de proyectos
 
@@ -88,14 +88,14 @@ No se limita a confeccionar un cronograma. Incluye, entre otras actividades:
 ### Dirección, gobernanza y realización del trabajo
 
 | Concepto | Pregunta principal | Ejemplo |
-|---|---|---|
+||||
 | **Gobernanza del proyecto** | ¿Quién decide, con qué autoridad y bajo qué reglas? | Comité que autoriza el inicio, aprueba cambios mayores y decide sobre excepciones. |
 | **Dirección o gestión del proyecto** | ¿Cómo se organiza y controla el proyecto para cumplir sus objetivos? | Planificación, coordinación, seguimiento, gestión de riesgos y comunicación. |
 | **Realización o entrega técnica** | ¿Cómo se construye el producto o servicio? | Análisis, diseño, programación, pruebas, despliegue y migración de datos. |
 
 La gobernanza y la gestión están relacionadas, pero no son sinónimos. La gobernanza fija el marco de autoridad, supervisión y rendición de cuentas; la dirección trabaja dentro de ese marco.
 
----
+
 
 ## 2.1.3. Elementos básicos de un proyecto
 
@@ -118,14 +118,14 @@ Un proyecto suele incluir los siguientes elementos:
 ### Restricción, supuesto y riesgo
 
 | Concepto | Significado | Ejemplo |
-|---|---|---|
+||||
 | **Restricción** | Límite conocido que reduce las opciones. | El sistema debe estar operativo antes del 1 de enero por una obligación normativa. |
 | **Supuesto** | Hipótesis utilizada para poder planificar. | Se supone que el proveedor entregará la API estable en octubre. |
 | **Riesgo** | Incertidumbre que puede tener efecto en los objetivos. | La API podría retrasarse y afectar a las pruebas de integración. |
 
 > **Clave de test:** un supuesto no es necesariamente un riesgo, aunque la incertidumbre asociada a un supuesto puede originar uno o varios riesgos.
 
----
+
 
 ## 2.1.4. Características de los proyectos
 
@@ -180,7 +180,7 @@ Ningún proyecto funciona de manera aislada. Está influido por:
 - sostenibilidad;
 - otros proyectos, programas y operaciones.
 
----
+
 
 # 2.2. De los entregables al valor
 
@@ -189,7 +189,7 @@ Ningún proyecto funciona de manera aislada. Está influido por:
 Estos conceptos suelen confundirse y son muy preguntables.
 
 | Concepto | Definición | Ejemplo en un proyecto de cita previa |
-|---|---|---|
+||||
 | **Salida o entregable (output)** | Producto, servicio o resultado verificable generado por el proyecto. | Aplicación web de cita previa desplegada y aceptada. |
 | **Resultado o efecto (outcome)** | Cambio que se produce al utilizar las salidas. | Los ciudadanos pueden solicitar cita sin desplazarse. |
 | **Beneficio** | Mejora medible derivada de uno o varios resultados y percibida como positiva por interesados. | Reducción del 35 % de llamadas y del tiempo medio de espera. |
@@ -204,7 +204,7 @@ El proyecto controla directamente la creación y aceptación de los entregables.
 
 > **Clave de test:** finalizar todos los entregables dentro de plazo y presupuesto no garantiza por sí solo que se alcancen los beneficios esperados.
 
----
+
 
 ## 2.2.2. Objetivos y criterios de éxito
 
@@ -247,7 +247,7 @@ En la práctica también se consideran:
 
 Modificar una dimensión puede afectar a las demás. Por ejemplo, reducir el plazo puede aumentar el coste, el riesgo o la necesidad de reducir alcance.
 
----
+
 
 # 2.3. Principios generales de la dirección de proyectos
 
@@ -257,7 +257,7 @@ Un **principio** es una orientación fundamental que guía comportamientos y dec
 
 Los estándares actuales tienden a complementar los procesos con principios, resultados y dominios de desempeño. Aunque cada marco utiliza una terminología propia, existe un núcleo común.
 
----
+
 
 ## 2.3.2. Principios generales comunes
 
@@ -396,7 +396,7 @@ Las decisiones deben considerar no solo la entrega inmediata, sino los efectos d
 - dependencia de proveedores;
 - costes de operación y retirada.
 
----
+
 
 ## 2.3.3. Relación con PMBOK 7.ª y 8.ª edición
 
@@ -432,7 +432,7 @@ La octava edición, publicada por PMI en noviembre de 2025, conserva la base ori
 
 > **Clave de test:** PMBOK 8 no supone una vuelta pura a un enfoque rígido basado en procesos. Mantiene una base de principios y dominios, y reincorpora orientación de procesos de forma evolucionada y no prescriptiva.
 
----
+
 
 # 2.4. Beneficios de la gestión de proyectos
 
@@ -507,7 +507,7 @@ La gestión puede ser contraproducente cuando:
 
 La solución es adaptar la gestión y mantener una gobernanza mínima suficiente.
 
----
+
 
 # 2.5. Tipología de proyectos
 
@@ -609,7 +609,7 @@ El tamaño no equivale automáticamente a complejidad. Un proyecto de bajo presu
 
 La modalidad condiciona riesgos, incentivos, control y flexibilidad.
 
----
+
 
 # 2.6. Ciclo de vida del proyecto
 
@@ -621,7 +621,7 @@ Una **fase** es un conjunto de actividades relacionadas que culmina con uno o va
 
 No existe un ciclo de vida único para todos los proyectos.
 
----
+
 
 ## 2.6.2. Modelo genérico de fases
 
@@ -750,7 +750,7 @@ Entregables posibles:
 
 > **Clave de test:** cerrar el proyecto no significa necesariamente que todos los beneficios ya se hayan materializado. Algunos se evalúan durante la operación posterior.
 
----
+
 
 ## 2.6.3. Relaciones entre fases
 
@@ -781,7 +781,7 @@ Al final de una fase se revisa la información y se decide:
 
 Las puertas de decisión son mecanismos de gobernanza, no simples reuniones informativas.
 
----
+
 
 ## 2.6.4. Fase frente a grupo de procesos
 
@@ -791,12 +791,12 @@ Ejemplo: en un proyecto con fases de análisis, desarrollo y despliegue pueden r
 
 > **Clave de test:** «inicio, planificación, ejecución, seguimiento y control, y cierre» pueden presentarse como grupos de procesos de gestión; no deben confundirse automáticamente con las fases específicas del ciclo de vida de un proyecto concreto.
 
----
+
 
 ## 2.6.5. Ciclo de vida del proyecto y ciclo de vida del producto
 
 | Aspecto | Ciclo de vida del proyecto | Ciclo de vida del producto |
-|---|---|---|
+||||
 | **Objeto** | Trabajo temporal para crear o cambiar algo. | Evolución total del producto desde la idea hasta su retirada. |
 | **Duración** | Termina con el cierre del proyecto. | Puede incluir numerosos proyectos y años de operación. |
 | **Contenido** | Inicio, planificación, entrega, control y cierre. | Concepción, desarrollo, lanzamiento, crecimiento, mantenimiento y retirada. |
@@ -804,7 +804,7 @@ Ejemplo: en un proyecto con fases de análisis, desarrollo y despliegue pueden r
 
 Un producto puede originar varios proyectos: creación inicial, ampliación, migración, modernización y retirada.
 
----
+
 
 ## 2.6.6. Entregables
 
@@ -831,7 +831,7 @@ Ejemplos:
 ### Entregable, hito y actividad
 
 | Concepto | Qué representa | Ejemplo |
-|---|---|---|
+||||
 | **Actividad** | Trabajo que consume tiempo y recursos. | Ejecutar pruebas de carga. |
 | **Entregable** | Resultado verificable del trabajo. | Informe de pruebas de carga aceptado. |
 | **Hito** | Punto significativo, normalmente de duración cero. | Aprobación para pasar a producción. |
@@ -844,7 +844,7 @@ Ejemplo poco útil: «la aplicación será rápida».
 
 Ejemplo verificable: «el percentil 95 del tiempo de respuesta será inferior a dos segundos para 2.000 usuarios concurrentes bajo el escenario de carga definido».
 
----
+
 
 # 2.7. Oficina de dirección de proyectos (PMO)
 
@@ -854,7 +854,7 @@ Una **PMO** (*Project Management Office*) es una unidad, función o estructura o
 
 Su diseño depende de las necesidades de la organización. No existe una única PMO válida para todos los casos.
 
----
+
 
 ## 2.7.2. Posibles funciones
 
@@ -875,7 +875,7 @@ Su diseño depende de las necesidades de la organización. No existe una única 
 
 Una PMO no debe limitarse a recopilar informes. Debe aportar una capacidad o decisión que mejore resultados.
 
----
+
 
 ## 2.7.3. Clasificación habitual según grado de control
 
@@ -899,7 +899,7 @@ Una PMO no debe limitarse a recopilar informes. Debe aportar una capacidad o dec
 
 > **Clave de test:** apoyo, control y dirección describen grados de autoridad, no necesariamente tres departamentos diferentes. Una misma PMO puede combinar funciones.
 
----
+
 
 ## 2.7.4. Otras clases de PMO
 
@@ -910,7 +910,7 @@ Una PMO no debe limitarse a recopilar informes. Debe aportar una capacidad o dec
 - **Centro de excelencia:** desarrolla capacidades, métodos y conocimiento.
 - **Agile PMO o Value Management Office:** orienta gobernanza y apoyo hacia flujos de valor y enfoques adaptativos.
 
----
+
 
 ## 2.7.5. PMO, programa y portafolio
 
@@ -923,13 +923,13 @@ Conjunto de proyectos y actividades relacionadas que se gestionan coordinadament
 Conjunto de proyectos, programas y otros trabajos agrupados para cumplir objetivos estratégicos. Sus componentes no tienen que estar directamente relacionados entre sí.
 
 | Elemento | Finalidad principal | Pregunta típica |
-|---|---|---|
+||||
 | **Proyecto** | Crear un resultado singular. | ¿Estamos entregando correctamente el resultado acordado? |
 | **Programa** | Coordinar componentes relacionados para lograr beneficios. | ¿Estamos obteniendo beneficios conjuntos y gestionando interdependencias? |
 | **Portafolio** | Seleccionar y equilibrar inversiones estratégicas. | ¿Estamos haciendo las iniciativas correctas con los recursos disponibles? |
 | **PMO** | Proporcionar estructura, apoyo, control o dirección. | ¿Cómo mejoramos y coordinamos la gestión organizativa de las iniciativas? |
 
----
+
 
 ## 2.7.6. Valor y riesgos de una PMO
 
@@ -953,7 +953,7 @@ Conjunto de proyectos, programas y otros trabajos agrupados para cumplir objetiv
 - ausencia de autoridad real;
 - convertirse en una oficina de reporte sin capacidad de ayuda o decisión.
 
----
+
 
 # 2.8. Proyectos y operaciones
 
@@ -970,12 +970,12 @@ Ejemplos TIC:
 - mantenimiento preventivo;
 - prestación habitual de un servicio digital.
 
----
+
 
 ## 2.8.2. Diferencias principales
 
 | Criterio | Proyecto | Operación |
-|---|---|---|
+||||
 | **Duración** | Temporal. | Continua o recurrente. |
 | **Finalidad** | Crear un resultado o cambio singular. | Mantener y prestar servicios habituales. |
 | **Fin** | Se cierra al alcanzar o abandonar sus objetivos. | Continúa mientras exista la función. |
@@ -988,7 +988,7 @@ Ejemplos TIC:
 
 Estas diferencias son tendencias, no reglas absolutas. Las operaciones también cambian y los proyectos pueden incluir actividades repetitivas.
 
----
+
 
 ## 2.8.3. Relación entre ambos
 
@@ -1010,7 +1010,7 @@ Proyectos y operaciones se conectan en distintos momentos:
 - **Operación:** monitorización, soporte y mantenimiento continuo.
 - **Beneficio:** reducción de interrupciones y costes.
 
----
+
 
 ## 2.8.4. Trabajo operativo dentro de un proyecto
 
@@ -1018,7 +1018,7 @@ Un proyecto puede contener tareas repetitivas, por ejemplo reuniones semanales, 
 
 De forma inversa, una unidad operativa puede ejecutar un proyecto sin dejar de realizar sus funciones ordinarias.
 
----
+
 
 # 2.9. Conceptos relacionados y diferencias esenciales
 
@@ -1053,7 +1053,7 @@ Un proyecto crea un resultado singular. Un programa coordina proyectos relaciona
 
 Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estrategia. Sus componentes no necesitan perseguir un único resultado común.
 
----
+
 
 # 2.10. Aplicación a proyectos TIC
 
@@ -1104,7 +1104,7 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 - consulta en línea;
 - eliminación de tareas manuales.
 
----
+
 
 # 2.11. Errores y confusiones frecuentes
 
@@ -1127,7 +1127,7 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 17. **Los beneficios pueden aparecer después del cierre.**
 18. **El producto puede sobrevivir al proyecto.**
 
----
+
 
 # 2.12. Resumen de repaso rápido
 
@@ -1157,7 +1157,7 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 ## 2.12.3. Diferencias clave
 
 | Pareja | Diferencia esencial |
-|---|---|
+|||
 | Proyecto / operación | Temporal y singular / continua y recurrente. |
 | Fase / proceso | Parte temporal del ciclo / conjunto de actividades de gestión o trabajo. |
 | Entregable / hito | Resultado verificable / punto significativo. |
@@ -1167,7 +1167,7 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 | Grado / calidad | Nivel de prestaciones / cumplimiento de requisitos. |
 | Proyecto / producto | Iniciativa temporal / activo o servicio con vida más larga. |
 
----
+
 
 # Preguntas tipo test
 
@@ -1325,7 +1325,7 @@ D. Al cerrar se eliminan todos los registros del proyecto.
 ## Soluciones razonadas
 
 | Pregunta | Respuesta | Explicación |
-|---:|:---:|---|
+|:|::||
 | 1 | C | Temporalidad y singularidad son características esenciales. |
 | 2 | B | El beneficio es una mejora medible derivada de los resultados. |
 | 3 | C | La aplicación aceptada es un resultado verificable producido por el proyecto. |
@@ -1352,7 +1352,7 @@ D. Al cerrar se eliminan todos los registros del proyecto.
 | 24 | B | El nombre cambia según el marco, pero expresa autorización formal. |
 | 25 | C | Todo proyecto debe cerrarse de forma ordenada, incluso si se cancela. |
 
----
+
 
 # Tarjetas de memorización
 
@@ -1389,7 +1389,7 @@ D. Al cerrar se eliminan todos los registros del proyecto.
 **P:** ¿Qué ocurre con los beneficios al cerrar el proyecto?  
 **R:** Algunos ya se habrán logrado y otros se materializarán y medirán posteriormente en operación.
 
----
+
 
 # Bibliografía y recursos
 
@@ -1449,7 +1449,7 @@ D. Al cerrar se eliminan todos los registros del proyecto.
 - Evitar memorizar resúmenes no oficiales cuando contradigan una edición vigente.
 - Comprobar siempre la edición: materiales antiguos pueden referirse a estructuras diferentes de PMBOK o PRINCE2.
 
----
+
 
 # Lista de control de dominio del tema
 
