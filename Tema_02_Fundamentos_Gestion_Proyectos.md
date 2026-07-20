@@ -2,8 +2,6 @@
 
 La gestión de proyectos proporciona el marco conceptual necesario para transformar una necesidad, problema u oportunidad en un resultado organizado y controlado. Este tema establece el vocabulario básico que se utilizará en el resto de los apuntes: qué caracteriza a un proyecto, cómo se diferencia de las operaciones, qué principios orientan su dirección, qué beneficios aporta una gestión sistemática y cómo se relacionan los ciclos de vida, las fases, los entregables y las oficinas de dirección de proyectos.
 
-
-
 ## Contenido exigido por el temario
 
 Este tema desarrolla los siguientes epígrafes:
@@ -18,18 +16,16 @@ Este tema desarrolla los siguientes epígrafes:
 
 > **Orientación de estudio:** este tema aporta el vocabulario básico que se reutilizará en evaluación y selección, ejecución, estándares, planificación, riesgos, control y metodologías ágiles. Conviene dominar las diferencias entre conceptos próximos: proyecto/operación, salida/resultado/beneficio, fase/proceso, ciclo de vida del proyecto/ciclo de vida del producto y proyecto/programa/portafolio.
 
-
-
 ## Objetivos de aprendizaje
 
 Al finalizar el tema se debe ser capaz de:
 
 - Definir qué es un proyecto e identificar sus características esenciales.
 - Diferenciar temporalidad de corta duración y singularidad de ausencia total de repetición.
-- Distinguir proyecto, operación, programa, portafolio y producto.
+- Distinguir proyecto, operación, programa, portafolio y producto
 - Diferenciar gobernanza, dirección del proyecto y realización del trabajo técnico.
 - Identificar los elementos básicos de un proyecto: objetivos, alcance, entregables, interesados, recursos, restricciones, supuestos y riesgos.
-- Diferenciar salida, entregable, resultado, capacidad, beneficio y valor.
+- Diferenciar salida, entregable, resultado, capacidad, beneficio y valor
 - Explicar los principios generales que orientan una dirección de proyectos eficaz.
 - Identificar los beneficios que la gestión de proyectos aporta a una organización.
 - Clasificar proyectos según diferentes criterios y reconocer enfoques predictivos, iterativos, incrementales, adaptativos e híbridos.
@@ -37,8 +33,6 @@ Al finalizar el tema se debe ser capaz de:
 - Comprender la relación entre fases, procesos, hitos y entregables.
 - Explicar qué es una PMO y distinguir sus posibles funciones y niveles de autoridad.
 - Resolver preguntas conceptuales y situacionales sobre la naturaleza y organización de los proyectos.
-
-
 
 # 2.1. Concepto de proyecto
 
@@ -53,19 +47,17 @@ De esta definición se extraen dos ideas esenciales:
 
 El final del proyecto puede producirse porque:
 
-- se han alcanzado sus objetivos;
-- se ha comprobado que no pueden alcanzarse;
-- ha desaparecido la necesidad que lo justificaba;
-- se han agotado o retirado los recursos;
-- el patrocinador o el órgano de gobierno decide cancelarlo;
-- una modificación legal, estratégica o tecnológica lo vuelve inviable;
-- se completa la transición de sus entregables a la operación.
+- Se han alcanzado sus objetivos
+- Se ha comprobado que no pueden alcanzarse
+- Ha desaparecido la necesidad que lo justificaba
+- Se han agotado o retirado los recursos
+- El patrocinador o el órgano de gobierno decide cancelarlo
+- Una modificación legal, estratégica o tecnológica lo vuelve inviable
+- Se completa la transición de sus entregables a la operación
 
 ### Ejemplo TIC
 
 La construcción y puesta en servicio de una plataforma de tramitación electrónica es un **proyecto**. La explotación diaria de la plataforma, la atención de incidencias y la administración rutinaria de usuarios son **operaciones**.
-
-
 
 ## 2.1.2. Dirección o gestión de proyectos
 
@@ -73,59 +65,49 @@ La **dirección de proyectos** consiste en aplicar conocimientos, capacidades, m
 
 No se limita a confeccionar un cronograma. Incluye, entre otras actividades:
 
-- justificar el proyecto y alinearlo con la estrategia;
-- determinar objetivos, alcance y criterios de éxito;
-- establecer la gobernanza y las responsabilidades;
-- planificar entregas, recursos, costes, calidad y comunicaciones;
-- organizar y liderar al equipo;
-- involucrar a los interesados;
-- gestionar incertidumbre, riesgos, incidencias y cambios;
-- medir el desempeño;
-- aceptar y transferir los entregables;
-- facilitar la obtención de beneficios y valor;
-- cerrar el proyecto y extraer lecciones aprendidas.
+- Justificar el proyecto y alinearlo con la estrategia
+- Determinar objetivos, alcance y criterios de éxito
+- Establecer la gobernanza y las responsabilidades
+- Planificar entregas, recursos, costes, calidad y comunicaciones
+- Organizar y liderar al equipo
+- Involucrar a los interesados
+- Gestionar incertidumbre, riesgos, incidencias y cambios
+- Medir el desempeño
+- Aceptar y transferir los entregables
+- Facilitar la obtención de beneficios y valor
+- Cerrar el proyecto y extraer lecciones aprendidas
 
 ### Dirección, gobernanza y realización del trabajo
 
 | Concepto | Pregunta principal | Ejemplo |
-||||
+| --- | --- | --- |
 | **Gobernanza del proyecto** | ¿Quién decide, con qué autoridad y bajo qué reglas? | Comité que autoriza el inicio, aprueba cambios mayores y decide sobre excepciones. |
 | **Dirección o gestión del proyecto** | ¿Cómo se organiza y controla el proyecto para cumplir sus objetivos? | Planificación, coordinación, seguimiento, gestión de riesgos y comunicación. |
 | **Realización o entrega técnica** | ¿Cómo se construye el producto o servicio? | Análisis, diseño, programación, pruebas, despliegue y migración de datos. |
 
 La gobernanza y la gestión están relacionadas, pero no son sinónimos. La gobernanza fija el marco de autoridad, supervisión y rendición de cuentas; la dirección trabaja dentro de ese marco.
 
-
-
 ## 2.1.3. Elementos básicos de un proyecto
 
-Un proyecto suele incluir los siguientes elementos:
+Todo proyecto nace porque existe una **necesidad**, un **problema** que debe resolverse o una **oportunidad** que merece ser aprovechada. Esa razón inicial debe traducirse en una **justificación** o caso de negocio que explique por qué conviene invertir recursos y qué valor se espera obtener. A partir de ahí se formulan los **objetivos**, que concretan qué resultados se pretende alcanzar y permiten evaluar si el proyecto sigue teniendo sentido.
 
-- **Necesidad, problema u oportunidad:** razón inicial para actuar.
-- **Justificación o caso de negocio:** explica por qué merece la pena invertir.
-- **Objetivos:** resultados concretos que se pretenden lograr.
-- **Alcance:** trabajo y resultados incluidos, así como exclusiones relevantes.
-- **Entregables:** productos verificables generados por el proyecto.
-- **Interesados:** personas u organizaciones que afectan al proyecto, son afectadas por él o perciben que pueden verse afectadas.
-- **Recursos:** personas, financiación, información, infraestructura, equipos y servicios.
-- **Restricciones:** límites que condicionan las decisiones.
-- **Supuestos:** circunstancias consideradas verdaderas para planificar, aunque no estén completamente demostradas.
-- **Dependencias:** relaciones con otras tareas, proyectos, sistemas, proveedores o decisiones.
-- **Riesgos:** eventos o condiciones inciertos que pueden afectar a los objetivos.
-- **Criterios de éxito y aceptación:** condiciones utilizadas para juzgar el resultado.
-- **Gobernanza:** autoridades, decisiones, controles y escalados.
+El **alcance** delimita qué trabajo y qué resultados forman parte del proyecto, así como las exclusiones relevantes. Dentro de ese alcance se producen los **entregables**, es decir, productos, servicios o resultados verificables que deben ser aceptados por la autoridad correspondiente. Para producirlos se necesitan **recursos** —personas, financiación, información, infraestructura, equipos o servicios— y una organización capaz de coordinar el trabajo.
+
+El proyecto se desarrolla, además, bajo una serie de condiciones que limitan o condicionan las decisiones. Las **restricciones** son límites conocidos, como un presupuesto máximo o una fecha obligatoria. Los **supuestos** son circunstancias que se consideran verdaderas para poder planificar, aunque todavía no estén plenamente demostradas. Las **dependencias** relacionan el proyecto con tareas, sistemas, proveedores, decisiones u otras iniciativas. Los **riesgos**, por su parte, representan eventos o condiciones inciertas que pueden afectar positiva o negativamente a los objetivos.
+
+También deben identificarse los **interesados**, es decir, las personas u organizaciones que pueden influir en el proyecto, verse afectadas por él o percibir que pueden verse afectadas. Sus expectativas no siempre coinciden, por lo que resulta necesario establecer una **gobernanza** clara que determine quién decide, con qué autoridad, bajo qué controles y cuándo debe escalarse una situación.
+
+Finalmente, todo proyecto necesita **criterios de éxito y de aceptación**. Los primeros permiten valorar si el proyecto ha logrado sus objetivos y generado valor; los segundos establecen las condiciones concretas que deben cumplir los entregables para considerarse aceptados.
 
 ### Restricción, supuesto y riesgo
 
 | Concepto | Significado | Ejemplo |
-||||
+| --- | --- | --- |
 | **Restricción** | Límite conocido que reduce las opciones. | El sistema debe estar operativo antes del 1 de enero por una obligación normativa. |
 | **Supuesto** | Hipótesis utilizada para poder planificar. | Se supone que el proveedor entregará la API estable en octubre. |
 | **Riesgo** | Incertidumbre que puede tener efecto en los objetivos. | La API podría retrasarse y afectar a las pruebas de integración. |
 
 > **Clave de test:** un supuesto no es necesariamente un riesgo, aunque la incertidumbre asociada a un supuesto puede originar uno o varios riesgos.
-
-
 
 ## 2.1.4. Características de los proyectos
 
@@ -171,16 +153,14 @@ Los proyectos suelen introducir cambios en procesos, tecnologías, estructuras, 
 
 Ningún proyecto funciona de manera aislada. Está influido por:
 
-- estrategia y cultura organizativa;
-- legislación y políticas públicas;
-- contratos y proveedores;
-- tecnologías disponibles;
-- economía y mercado;
-- seguridad y protección de datos;
-- sostenibilidad;
-- otros proyectos, programas y operaciones.
-
-
+- Estrategia y cultura organizativa
+- Legislación y políticas públicas
+- Contratos y proveedores
+- Tecnologías disponibles
+- Economía y mercado
+- Seguridad y protección de datos
+- Sostenibilidad
+- Otros proyectos, programas y operaciones
 
 # 2.2. De los entregables al valor
 
@@ -189,7 +169,7 @@ Ningún proyecto funciona de manera aislada. Está influido por:
 Estos conceptos suelen confundirse y son muy preguntables.
 
 | Concepto | Definición | Ejemplo en un proyecto de cita previa |
-||||
+| --- | --- | --- |
 | **Salida o entregable (output)** | Producto, servicio o resultado verificable generado por el proyecto. | Aplicación web de cita previa desplegada y aceptada. |
 | **Resultado o efecto (outcome)** | Cambio que se produce al utilizar las salidas. | Los ciudadanos pueden solicitar cita sin desplazarse. |
 | **Beneficio** | Mejora medible derivada de uno o varios resultados y percibida como positiva por interesados. | Reducción del 35 % de llamadas y del tiempo medio de espera. |
@@ -204,17 +184,15 @@ El proyecto controla directamente la creación y aceptación de los entregables.
 
 > **Clave de test:** finalizar todos los entregables dentro de plazo y presupuesto no garantiza por sí solo que se alcancen los beneficios esperados.
 
-
-
 ## 2.2.2. Objetivos y criterios de éxito
 
 Los objetivos deben ser comprensibles, verificables y coherentes con la estrategia. La conocida regla **SMART** es útil como guía:
 
-- **S**pecific: específicos.
-- **M**easurable: medibles.
-- **A**chievable: alcanzables.
-- **R**elevant: relevantes.
-- **T**ime-bound: delimitados en el tiempo.
+- **S**pecific: específicos
+- **M**easurable: medibles
+- **A**chievable: alcanzables
+- **R**elevant: relevantes
+- **T**ime-bound: delimitados en el tiempo
 
 ### Dimensiones del éxito
 
@@ -232,22 +210,20 @@ La evaluación moderna del éxito no debe limitarse a la llamada triple restricc
 
 La representación clásica relaciona:
 
-- alcance;
-- tiempo;
-- coste.
+- Alcance
+- Tiempo
+- Coste
 
 En la práctica también se consideran:
 
-- calidad;
-- recursos;
-- riesgos;
-- beneficios;
-- sostenibilidad;
-- satisfacción de interesados.
+- Calidad
+- Recursos
+- Riesgos
+- Beneficios
+- Sostenibilidad
+- Satisfacción de interesados
 
 Modificar una dimensión puede afectar a las demás. Por ejemplo, reducir el plazo puede aumentar el coste, el riesgo o la necesidad de reducir alcance.
-
-
 
 # 2.3. Principios generales de la dirección de proyectos
 
@@ -257,13 +233,13 @@ Un **principio** es una orientación fundamental que guía comportamientos y dec
 
 Los estándares actuales tienden a complementar los procesos con principios, resultados y dominios de desempeño. Aunque cada marco utiliza una terminología propia, existe un núcleo común.
 
-
-
 ## 2.3.2. Principios generales comunes
+
+Aunque los distintos estándares utilizan terminologías diferentes, la dirección de proyectos moderna comparte un conjunto de ideas recurrentes. Estos principios no deben estudiarse como una lista aislada, sino como criterios que orientan decisiones reales. En conjunto, buscan asegurar que el proyecto mantenga una **justificación válida**, produzca **valor**, se gobierne con claridad, involucre a las personas adecuadas, gestione la incertidumbre y se adapte al contexto sin perder control.
 
 ### Alineación estratégica y enfoque en el valor
 
-El proyecto debe mantener una razón válida para existir y contribuir a objetivos organizativos, públicos o sociales. La justificación se revisa durante todo el ciclo de vida, no solo al inicio.
+Un proyecto no debe continuar únicamente porque ya se haya iniciado o porque exista un plan aprobado. Debe mantener una **razón válida para existir** y demostrar que sigue contribuyendo a objetivos organizativos, públicos o sociales. Por ello, la justificación no se revisa solo al comienzo: debe comprobarse durante todo el ciclo de vida, especialmente cuando cambian los costes, los riesgos, las prioridades o los beneficios esperados.
 
 Preguntas que deben responderse:
 
@@ -277,31 +253,31 @@ Si el proyecto deja de ser justificable, la decisión correcta puede ser modific
 
 ### Responsabilidad, ética y custodia de recursos
 
-Quienes participan en el proyecto deben actuar con integridad, diligencia, transparencia y respeto a la normativa, utilizando responsablemente los recursos confiados.
+La dirección de proyectos implica una responsabilidad que va más allá de cumplir fechas y presupuestos. Quienes participan deben actuar con **integridad**, **diligencia**, **transparencia** y respeto a la normativa, utilizando de forma responsable los recursos económicos, humanos, tecnológicos y ambientales que se les han confiado.
 
 Incluye:
 
-- rendición de cuentas;
-- prevención de conflictos de interés;
-- protección de información;
-- cumplimiento normativo;
-- decisiones documentadas;
-- consideración de efectos sociales y ambientales.
+- Rendición de cuentas
+- Prevención de conflictos de interés
+- Protección de información
+- Cumplimiento normativo
+- Decisiones documentadas
+- Consideración de efectos sociales y ambientales
 
 ### Gobernanza clara y rendición de cuentas
 
-Deben definirse autoridad, responsabilidades, tolerancias, controles, criterios de escalado y órganos de decisión.
+La **gobernanza** establece el marco dentro del cual se toman decisiones y se rinden cuentas. Deben quedar definidos la autoridad, las responsabilidades, las tolerancias, los controles, los criterios de escalado y los órganos de decisión. Cuando estas reglas no están claras, aparecen retrasos, decisiones contradictorias y conflictos sobre quién puede aprobar cambios o asumir riesgos.
 
 Una gobernanza eficaz evita dos extremos:
 
-- **ausencia de control**, que provoca decisiones informales o tardías;
-- **burocracia desproporcionada**, que ralentiza sin aportar valor.
+- **ausencia de control**, que provoca decisiones informales o tardías.
+- **burocracia desproporcionada**, que ralentiza sin aportar valor
 
 ### Liderazgo y equipo eficaz
 
 La dirección de proyectos requiere combinar gestión y liderazgo.
 
-- **Gestionar:** planificar, organizar, medir y controlar.
+- **Gestionar:** planificar, organizar, medir y controlar
 - **Liderar:** dar sentido, influir, resolver conflictos, facilitar decisiones y desarrollar al equipo.
 
 Un equipo eficaz necesita objetivos compartidos, seguridad psicológica, competencias adecuadas, comunicación y autonomía coherente con su responsabilidad.
@@ -312,11 +288,11 @@ La participación no equivale a informar a todos de todo. Consiste en identifica
 
 La estrategia puede incluir:
 
-- informar;
-- consultar;
-- involucrar;
-- colaborar;
-- facultar para decidir.
+- Informar
+- Consultar
+- Involucrar
+- Colaborar
+- Facultar para decidir
 
 ### Pensamiento sistémico
 
@@ -328,16 +304,16 @@ Ejemplo: acelerar el desarrollo omitiendo documentación puede cumplir un hito, 
 
 No existe un método universal que deba aplicarse con idéntica intensidad a todos los proyectos. Los controles, documentos, roles y prácticas se adaptan considerando:
 
-- tamaño y complejidad;
-- incertidumbre;
-- criticidad;
-- regulación;
-- experiencia del equipo;
-- tecnología;
-- ritmo de cambio;
-- modalidad contractual;
-- distribución geográfica;
-- cultura organizativa.
+- Tamaño y complejidad
+- Incertidumbre
+- Criticidad
+- Regulación
+- Experiencia del equipo
+- Tecnología
+- Ritmo de cambio
+- Modalidad contractual
+- Distribución geográfica
+- Cultura organizativa
 
 Adaptar no significa eliminar controles sin análisis, sino elegir un nivel de gestión proporcionado.
 
@@ -347,7 +323,7 @@ La calidad no debe depender únicamente de una inspección final. Debe integrars
 
 Diferencia fundamental:
 
-- **Grado:** categoría o nivel de prestaciones.
+- **Grado:** categoría o nivel de prestaciones
 - **Calidad:** grado de cumplimiento de requisitos y adecuación al uso.
 
 Un producto de grado básico puede tener alta calidad si cumple plenamente sus requisitos. Un producto con muchas prestaciones puede tener baja calidad si falla o no satisface las necesidades.
@@ -358,20 +334,20 @@ La incertidumbre debe identificarse, analizarse y tratarse de manera continua. N
 
 La complejidad puede surgir de:
 
-- numerosas interdependencias;
-- comportamiento humano;
-- ambigüedad;
-- innovación tecnológica;
-- múltiples organizaciones;
-- ritmo de cambio;
-- efectos no lineales.
+- Numerosas interdependencias
+- Comportamiento humano
+- Ambigüedad
+- Innovación tecnológica
+- Múltiples organizaciones
+- Ritmo de cambio
+- Efectos no lineales
 
 ### Adaptabilidad, resiliencia y aprendizaje
 
 Los planes son hipótesis sobre el futuro. El proyecto debe aprender de la evidencia y responder a cambios sin perder el control.
 
 - **Adaptabilidad:** capacidad para modificar el enfoque ante nuevas condiciones.
-- **Resiliencia:** capacidad para absorber perturbaciones y recuperarse.
+- **Resiliencia:** capacidad para absorber perturbaciones y recuperarse
 
 ### Medición y decisiones basadas en evidencia
 
@@ -379,24 +355,22 @@ Se debe medir aquello que ayude a decidir. Una métrica útil debe ser relevante
 
 Riesgos de una mala medición:
 
-- medir actividad en lugar de valor;
-- premiar comportamientos contraproducentes;
-- generar informes que nadie utiliza;
-- ocultar incertidumbre mediante cifras aparentemente precisas.
+- Medir actividad en lugar de valor
+- Premiar comportamientos contraproducentes
+- Generar informes que nadie utiliza
+- Ocultar incertidumbre mediante cifras aparentemente precisas
 
 ### Sostenibilidad y visión de largo plazo
 
 Las decisiones deben considerar no solo la entrega inmediata, sino los efectos durante la vida útil del producto o servicio:
 
-- consumo de recursos;
-- mantenibilidad;
-- accesibilidad;
-- impacto ambiental y social;
-- deuda técnica;
-- dependencia de proveedores;
-- costes de operación y retirada.
-
-
+- Consumo de recursos
+- Mantenibilidad
+- Accesibilidad
+- Impacto ambiental y social
+- Deuda técnica
+- Dependencia de proveedores
+- Costes de operación y retirada
 
 ## 2.3.3. Relación con PMBOK 7.ª y 8.ª edición
 
@@ -432,124 +406,116 @@ La octava edición, publicada por PMI en noviembre de 2025, conserva la base ori
 
 > **Clave de test:** PMBOK 8 no supone una vuelta pura a un enfoque rígido basado en procesos. Mantiene una base de principios y dominios, y reincorpora orientación de procesos de forma evolucionada y no prescriptiva.
 
-
-
 # 2.4. Beneficios de la gestión de proyectos
 
-La gestión de proyectos no garantiza el éxito, pero aumenta la capacidad de la organización para tomar decisiones informadas, detectar desviaciones y entregar resultados de manera controlada.
+La gestión de proyectos **no garantiza el éxito**, porque ningún método puede eliminar por completo la incertidumbre, los conflictos o los cambios de contexto. Sin embargo, sí aumenta de forma significativa la capacidad de una organización para tomar decisiones informadas, anticipar problemas, coordinar recursos, controlar desviaciones y entregar resultados de manera ordenada. Su principal aportación consiste en hacer visible aquello que, sin una gestión estructurada, permanecería disperso: objetivos, responsabilidades, dependencias, riesgos, costes, prioridades y criterios de éxito.
 
 ## 2.4.1. Beneficios estratégicos
 
-- Alinea iniciativas con objetivos y prioridades.
-- Permite comparar proyectos y decidir dónde invertir.
-- Facilita cancelar iniciativas que han perdido su justificación.
-- Mejora la realización de beneficios y valor.
-- Conecta la ejecución con la estrategia.
+Desde una perspectiva estratégica, la gestión de proyectos permite conectar las iniciativas con los objetivos de la organización. Esto ayuda a decidir **qué proyectos deben iniciarse**, cuáles deben priorizarse y cuáles conviene aplazar o cancelar. También facilita comparar inversiones, revisar si la justificación sigue vigente y orientar el trabajo hacia la obtención de beneficios y valor, en lugar de limitarse a completar tareas.
+
+Una organización que gestiona bien sus proyectos puede detectar antes cuándo una iniciativa ha dejado de ser útil, cuándo existen alternativas mejores o cuándo los recursos deberían reasignarse. De este modo, la dirección de proyectos se convierte en un instrumento para ejecutar la estrategia y no solo en una técnica de planificación.
 
 ## 2.4.2. Beneficios de planificación y control
 
-- Clarifica objetivos, alcance y entregables.
-- Hace visibles dependencias, restricciones y supuestos.
-- Mejora la estimación de plazos, costes y recursos.
-- Proporciona líneas base y criterios para medir desviaciones.
-- Permite anticipar necesidades de capacidad.
+La planificación obliga a concretar los **objetivos**, el **alcance**, los **entregables** y las condiciones de aceptación. También permite identificar dependencias, restricciones y supuestos antes de que se conviertan en problemas. A partir de esa información pueden estimarse plazos, costes y recursos con mayor fundamento y establecerse referencias frente a las que medir el desempeño.
+
+El control no consiste únicamente en comprobar si el proyecto va retrasado. Su función es comparar lo previsto con lo que realmente está ocurriendo, analizar causas, actualizar previsiones y decidir acciones. Gracias a ello, la organización puede anticipar necesidades de capacidad y reaccionar antes de que las desviaciones sean irreversibles.
 
 ## 2.4.3. Beneficios organizativos
 
-- Define roles y responsabilidades.
-- Mejora la coordinación entre unidades.
-- Facilita decisiones y escalados.
-- Reduce duplicidades y trabajos contradictorios.
-- Conserva conocimiento mediante documentación y lecciones aprendidas.
+Una gestión estructurada define con claridad **quién hace qué**, quién decide y quién debe ser informado. Esta claridad reduce duplicidades, evita trabajos contradictorios y facilita la coordinación entre unidades con intereses o prioridades diferentes.
+
+Además, la documentación de decisiones, incidencias y lecciones aprendidas permite conservar conocimiento que de otro modo se perdería al finalizar el proyecto o cambiar las personas del equipo. Así, cada iniciativa puede contribuir no solo a entregar un resultado, sino también a mejorar la madurez de la organización.
 
 ## 2.4.4. Beneficios para los interesados
 
-- Gestiona expectativas de forma explícita.
-- Aumenta transparencia y confianza.
-- Favorece la aceptación de entregables.
-- Permite incorporar necesidades reales de usuarios.
-- Facilita la gestión del cambio y la adopción.
+- Gestiona expectativas de forma explícita
+- Aumenta transparencia y confianza
+- Favorece la aceptación de entregables
+- Permite incorporar necesidades reales de usuarios
+- Facilita la gestión del cambio y la adopción
 
 ## 2.4.5. Beneficios frente a riesgo y cambio
 
-- Identifica amenazas y oportunidades con antelación.
-- Prepara respuestas y reservas.
+- Identifica amenazas y oportunidades con antelación
+- Prepara respuestas y reservas
 - Establece control sobre cambios de alcance, coste o calendario.
-- Reduce el impacto de incidencias.
-- Favorece el aprendizaje y la adaptación.
+- Reduce el impacto de incidencias
+- Favorece el aprendizaje y la adaptación
 
 ## 2.4.6. Beneficios técnicos y de calidad
 
-- Define criterios de aceptación y calidad.
-- Integra revisiones y pruebas.
-- Mejora trazabilidad de requisitos y decisiones.
-- Coordina arquitectura, seguridad, datos, integración y operación.
-- Reduce retrabajo y defectos evitables.
+- Define criterios de aceptación y calidad
+- Integra revisiones y pruebas
+- Mejora trazabilidad de requisitos y decisiones
+- Coordina arquitectura, seguridad, datos, integración y operación
+- Reduce retrabajo y defectos evitables
 
 ## 2.4.7. Beneficios en contratación y proveedores
 
-- Clarifica prestaciones y responsabilidades.
-- Define hitos, entregables y aceptación.
-- Mejora seguimiento contractual.
-- Facilita la gestión de dependencias y cambios.
-- Aporta evidencia para resolver discrepancias.
+- Clarifica prestaciones y responsabilidades
+- Define hitos, entregables y aceptación
+- Mejora seguimiento contractual
+- Facilita la gestión de dependencias y cambios
+- Aporta evidencia para resolver discrepancias
 
 ## 2.4.8. Limitaciones: gestionar no es burocratizar
 
 La gestión puede ser contraproducente cuando:
 
-- los controles no son proporcionales al riesgo;
-- la documentación se convierte en un fin;
-- se informa sobre métricas sin utilidad;
-- las decisiones se retrasan por exceso de niveles;
-- el plan se trata como inmutable pese a nueva evidencia;
-- el cumplimiento formal sustituye a la entrega de valor.
+- Los controles no son proporcionales al riesgo
+- La documentación se convierte en un fin
+- Se informa sobre métricas sin utilidad
+- Las decisiones se retrasan por exceso de niveles
+- El plan se trata como inmutable pese a nueva evidencia
+- El cumplimiento formal sustituye a la entrega de valor
 
 La solución es adaptar la gestión y mantener una gobernanza mínima suficiente.
 
-
-
 # 2.5. Tipología de proyectos
 
-No existe una única clasificación universal. Un mismo proyecto puede pertenecer simultáneamente a varias categorías.
+No existe una única clasificación universal de los proyectos. La tipología depende del criterio utilizado: finalidad, sector, cliente, incertidumbre, enfoque de entrega, tamaño, obligatoriedad o forma de financiación. Por ello, un mismo proyecto puede pertenecer simultáneamente a varias categorías. Por ejemplo, una nueva plataforma sanitaria puede ser al mismo tiempo un proyecto **TIC**, **regulatorio**, **transformador**, **externo**, **complejo** e **híbrido**.
+
+Estas clasificaciones no son meramente descriptivas. Ayudan a elegir el tipo de gobernanza, el nivel de control, el enfoque de planificación, la modalidad contractual y las capacidades necesarias.
 
 ## 2.5.1. Según su finalidad
 
 - **Transformación:** modifica profundamente procesos, capacidades o modelos de servicio.
-- **Innovación e investigación:** explora soluciones con alta incertidumbre.
+- **Innovación e investigación:** explora soluciones con alta incertidumbre
 - **Desarrollo de producto o servicio:** crea o mejora una oferta.
 - **Cumplimiento normativo:** responde a una obligación legal o regulatoria.
-- **Infraestructura:** crea activos físicos o tecnológicos.
-- **Mejora y eficiencia:** reduce costes, tiempos o errores.
+- **Infraestructura:** crea activos físicos o tecnológicos
+- **Mejora y eficiencia:** reduce costes, tiempos o errores
 - **Mantenimiento evolutivo:** incorpora cambios relevantes y acotados sobre un sistema existente.
-- **Organizativo:** cambia estructuras, funciones o formas de trabajo.
+- **Organizativo:** cambia estructuras, funciones o formas de trabajo
 
 > **Matiz:** no todo mantenimiento es una operación. Una actualización singular con alcance, presupuesto, equipo y fecha de fin puede gestionarse como proyecto.
 
 ## 2.5.2. Según el sector o dominio
 
-- tecnologías de la información;
-- construcción e ingeniería;
-- investigación científica;
-- salud;
-- educación;
-- administración pública;
-- energía;
-- cultura y eventos;
-- desarrollo organizativo;
-- defensa y seguridad.
+- Tecnologías de la información
+- Construcción e ingeniería
+- Investigación científica
+- Salud
+- Educación
+- Administración pública
+- Energía
+- Cultura y eventos
+- Desarrollo organizativo
+- Defensa y seguridad
 
 ## 2.5.3. Según el cliente o destinatario
 
-- **Internos:** el destinatario pertenece a la propia organización.
+- **Internos:** el destinatario pertenece a la propia organización
 - **Externos:** se realizan para clientes, ciudadanos u otras organizaciones.
-- **Interorganizativos:** intervienen varias entidades con gobernanza compartida.
+- **Interorganizativos:** intervienen varias entidades con gobernanza compartida
 
 ## 2.5.4. Según el grado de conocimiento e incertidumbre
 
-- **Bien definidos:** requisitos y solución relativamente estables.
-- **Complejos:** numerosas interdependencias, actores o restricciones.
-- **Innovadores:** alta incertidumbre tecnológica o de necesidad.
+- **Bien definidos:** requisitos y solución relativamente estables
+- **Complejos:** numerosas interdependencias, actores o restricciones
+- **Innovadores:** alta incertidumbre tecnológica o de necesidad
 - **Exploratorios:** buscan validar hipótesis antes de comprometer una inversión mayor.
 
 ## 2.5.5. Según el enfoque de desarrollo o entrega
@@ -580,36 +546,34 @@ Combina elementos predictivos y adaptativos. Puede aplicarse un enfoque predicti
 
 Pueden clasificarse como pequeños, medianos, grandes o megaproyectos. La clasificación depende de criterios organizativos, por ejemplo:
 
-- presupuesto;
-- duración;
-- número de personas;
-- criticidad;
-- número de unidades afectadas;
-- complejidad contractual;
-- impacto público;
-- dependencia tecnológica.
+- Presupuesto
+- Duración
+- Número de personas
+- Criticidad
+- Número de unidades afectadas
+- Complejidad contractual
+- Impacto público
+- Dependencia tecnológica
 
 El tamaño no equivale automáticamente a complejidad. Un proyecto de bajo presupuesto puede ser muy complejo por incertidumbre, criticidad o diversidad de interesados.
 
 ## 2.5.7. Según obligatoriedad
 
-- **Obligatorios:** impulsados por ley, seguridad o continuidad crítica.
-- **Discrecionales:** compiten por inversión según valor esperado.
+- **Obligatorios:** impulsados por ley, seguridad o continuidad crítica
+- **Discrecionales:** compiten por inversión según valor esperado
 - **De emergencia:** responden a una necesidad urgente y requieren controles adaptados, no ausencia de control.
 
 ## 2.5.8. Según forma de financiación o contratación
 
-- financiados con presupuesto interno;
-- subvencionados o cofinanciados;
-- contratados a precio fijo;
-- contratados por tiempo y materiales;
-- gestionados mediante acuerdos marco;
-- colaboración público-privada;
-- desarrollo interno, externalizado o mixto.
+- Financiados con presupuesto interno
+- Subvencionados o cofinanciados
+- Contratados a precio fijo
+- Contratados por tiempo y materiales
+- Gestionados mediante acuerdos marco
+- Colaboración público-privada
+- Desarrollo interno, externalizado o mixto
 
 La modalidad condiciona riesgos, incentivos, control y flexibilidad.
-
-
 
 # 2.6. Ciclo de vida del proyecto
 
@@ -621,9 +585,9 @@ Una **fase** es un conjunto de actividades relacionadas que culmina con uno o va
 
 No existe un ciclo de vida único para todos los proyectos.
 
-
-
 ## 2.6.2. Modelo genérico de fases
+
+Aunque los nombres concretos varían entre organizaciones y metodologías, la mayoría de los proyectos atraviesan una secuencia reconocible: primero se analiza si merece la pena actuar, después se planifica cómo hacerlo, se ejecuta el trabajo, se controla el desempeño y finalmente se cierra y transfiere el resultado. Estas fases no deben interpretarse como compartimentos totalmente aislados, ya que muchas actividades se solapan y el seguimiento se realiza durante todo el proyecto.
 
 ### Inicio o viabilidad
 
@@ -631,23 +595,23 @@ Objetivo: determinar qué se pretende conseguir, por qué y bajo qué autoridad 
 
 Actividades habituales:
 
-- identificar necesidad y objetivos;
-- analizar viabilidad y opciones;
-- preparar la justificación inicial;
-- identificar interesados principales;
-- nombrar patrocinador y dirección del proyecto;
-- definir alcance de alto nivel;
-- estimar inicialmente plazo, coste y riesgo;
-- autorizar el proyecto.
+- Identificar necesidad y objetivos
+- Analizar viabilidad y opciones
+- Preparar la justificación inicial
+- Identificar interesados principales
+- Nombrar patrocinador y dirección del proyecto
+- Definir alcance de alto nivel
+- Estimar inicialmente plazo, coste y riesgo
+- Autorizar el proyecto
 
 Entregables posibles:
 
-- caso de negocio inicial;
-- acta o mandato de proyecto;
-- estudio de viabilidad;
-- mapa inicial de interesados;
-- descripción de alcance de alto nivel;
-- decisión de autorización.
+- Caso de negocio inicial
+- Acta o mandato de proyecto
+- Estudio de viabilidad
+- Mapa inicial de interesados
+- Descripción de alcance de alto nivel
+- Decisión de autorización
 
 ### Planificación
 
@@ -655,24 +619,24 @@ Objetivo: definir cómo se alcanzarán los objetivos y cómo se gobernará y con
 
 Actividades habituales:
 
-- desarrollar alcance y estructura de trabajo;
-- definir entregables y criterios de aceptación;
-- secuenciar actividades;
-- estimar duración, recursos y costes;
-- crear cronograma y presupuesto;
-- planificar calidad, riesgos, comunicaciones, adquisiciones y cambios;
-- fijar líneas base cuando proceda;
-- acordar el enfoque de desarrollo y entrega.
+- Desarrollar alcance y estructura de trabajo
+- Definir entregables y criterios de aceptación
+- Secuenciar actividades
+- Estimar duración, recursos y costes
+- Crear cronograma y presupuesto
+- Planificar calidad, riesgos, comunicaciones, adquisiciones y cambios
+- Fijar líneas base cuando proceda
+- Acordar el enfoque de desarrollo y entrega
 
 Entregables posibles:
 
-- plan para la dirección del proyecto;
-- estructura de descomposición del trabajo;
-- cronograma;
-- presupuesto;
-- registro de riesgos;
-- planes de calidad, comunicación, recursos y contratación;
-- estrategia de transición y adopción.
+- Plan para la dirección del proyecto
+- Estructura de descomposición del trabajo
+- Cronograma
+- Presupuesto
+- Registro de riesgos
+- Planes de calidad, comunicación, recursos y contratación
+- Estrategia de transición y adopción
 
 ### Ejecución o entrega
 
@@ -680,24 +644,24 @@ Objetivo: realizar el trabajo y producir los entregables.
 
 Actividades habituales:
 
-- dirigir al equipo;
-- construir productos y servicios;
-- gestionar proveedores;
-- asegurar calidad;
-- comunicar y colaborar con interesados;
-- resolver incidencias;
-- gestionar conocimiento;
-- preparar la transición a operaciones.
+- Dirigir al equipo
+- Construir productos y servicios
+- Gestionar proveedores
+- Asegurar calidad
+- Comunicar y colaborar con interesados
+- Resolver incidencias
+- Gestionar conocimiento
+- Preparar la transición a operaciones
 
 Entregables posibles:
 
-- productos intermedios y finales;
-- versiones de software;
-- documentación técnica y de usuario;
-- resultados de pruebas;
-- formación;
-- informes de avance;
-- solicitudes de cambio.
+- Productos intermedios y finales
+- Versiones de software
+- Documentación técnica y de usuario
+- Resultados de pruebas
+- Formación
+- Informes de avance
+- Solicitudes de cambio
 
 ### Seguimiento y control
 
@@ -707,22 +671,22 @@ No tiene por qué ser una fase aislada; normalmente se realiza durante todo el p
 
 Actividades habituales:
 
-- medir avance, costes, calidad y riesgos;
-- controlar alcance y cambios;
-- actualizar previsiones;
-- gestionar incidencias y dependencias;
-- informar a órganos de gobierno;
-- escalar excepciones;
-- tomar acciones correctivas o preventivas.
+- Medir avance, costes, calidad y riesgos
+- Controlar alcance y cambios
+- Actualizar previsiones
+- Gestionar incidencias y dependencias
+- Informar a órganos de gobierno
+- Escalar excepciones
+- Tomar acciones correctivas o preventivas
 
 Entregables posibles:
 
-- informes de estado;
-- previsiones actualizadas;
-- decisiones y acciones;
-- cambios aprobados o rechazados;
-- registros actualizados;
-- informes de excepción.
+- Informes de estado
+- Previsiones actualizadas
+- Decisiones y acciones
+- Cambios aprobados o rechazados
+- Registros actualizados
+- Informes de excepción
 
 ### Cierre y transición
 
@@ -730,27 +694,25 @@ Objetivo: confirmar la finalización ordenada, aceptar resultados y transferir r
 
 Actividades habituales:
 
-- verificar aceptación de entregables;
-- cerrar contratos;
-- transferir producto, conocimiento y soporte;
-- liberar recursos;
-- archivar información;
-- documentar lecciones;
-- confirmar responsabilidades sobre beneficios pendientes;
-- elaborar informe final.
+- Verificar aceptación de entregables
+- Cerrar contratos
+- Transferir producto, conocimiento y soporte
+- Liberar recursos
+- Archivar información
+- Documentar lecciones
+- Confirmar responsabilidades sobre beneficios pendientes
+- Elaborar informe final
 
 Entregables posibles:
 
-- acta o informe de cierre;
-- aceptación formal;
-- documentación de transición;
-- lecciones aprendidas;
-- cierre contractual y financiero;
-- plan de revisión de beneficios.
+- Acta o informe de cierre
+- Aceptación formal
+- Documentación de transición
+- Lecciones aprendidas
+- Cierre contractual y financiero
+- Plan de revisión de beneficios
 
 > **Clave de test:** cerrar el proyecto no significa necesariamente que todos los beneficios ya se hayan materializado. Algunos se evalúan durante la operación posterior.
-
-
 
 ## 2.6.3. Relaciones entre fases
 
@@ -772,16 +734,14 @@ Las fases o ciclos se repiten para desarrollar progresivamente el producto y apr
 
 Al final de una fase se revisa la información y se decide:
 
-- continuar;
-- continuar con condiciones;
-- volver a trabajar algún elemento;
-- pausar;
-- reorientar;
-- cancelar.
+- Continuar
+- Continuar con condiciones
+- Volver a trabajar algún elemento
+- Pausar
+- Reorientar
+- Cancelar
 
 Las puertas de decisión son mecanismos de gobernanza, no simples reuniones informativas.
-
-
 
 ## 2.6.4. Fase frente a grupo de procesos
 
@@ -791,12 +751,10 @@ Ejemplo: en un proyecto con fases de análisis, desarrollo y despliegue pueden r
 
 > **Clave de test:** «inicio, planificación, ejecución, seguimiento y control, y cierre» pueden presentarse como grupos de procesos de gestión; no deben confundirse automáticamente con las fases específicas del ciclo de vida de un proyecto concreto.
 
-
-
 ## 2.6.5. Ciclo de vida del proyecto y ciclo de vida del producto
 
 | Aspecto | Ciclo de vida del proyecto | Ciclo de vida del producto |
-||||
+| --- | --- | --- |
 | **Objeto** | Trabajo temporal para crear o cambiar algo. | Evolución total del producto desde la idea hasta su retirada. |
 | **Duración** | Termina con el cierre del proyecto. | Puede incluir numerosos proyectos y años de operación. |
 | **Contenido** | Inicio, planificación, entrega, control y cierre. | Concepción, desarrollo, lanzamiento, crecimiento, mantenimiento y retirada. |
@@ -804,34 +762,32 @@ Ejemplo: en un proyecto con fases de análisis, desarrollo y despliegue pueden r
 
 Un producto puede originar varios proyectos: creación inicial, ampliación, migración, modernización y retirada.
 
-
-
 ## 2.6.6. Entregables
 
 Un **entregable** es un resultado verificable que debe producirse para completar una fase, proceso o proyecto.
 
 Puede ser:
 
-- tangible o intangible;
-- interno o externo;
-- intermedio o final;
-- técnico, de gestión o contractual.
+- Tangible o intangible
+- Interno o externo
+- Intermedio o final
+- Técnico, de gestión o contractual
 
 Ejemplos:
 
-- prototipo;
-- especificación aprobada;
-- código desplegado;
-- informe de auditoría;
-- plan de pruebas;
-- servicio operativo;
-- formación impartida;
-- acta de aceptación.
+- Prototipo
+- Especificación aprobada
+- Código desplegado
+- Informe de auditoría
+- Plan de pruebas
+- Servicio operativo
+- Formación impartida
+- Acta de aceptación
 
 ### Entregable, hito y actividad
 
 | Concepto | Qué representa | Ejemplo |
-||||
+| --- | --- | --- |
 | **Actividad** | Trabajo que consume tiempo y recursos. | Ejecutar pruebas de carga. |
 | **Entregable** | Resultado verificable del trabajo. | Informe de pruebas de carga aceptado. |
 | **Hito** | Punto significativo, normalmente de duración cero. | Aprobación para pasar a producción. |
@@ -844,8 +800,6 @@ Ejemplo poco útil: «la aplicación será rápida».
 
 Ejemplo verificable: «el percentil 95 del tiempo de respuesta será inferior a dos segundos para 2.000 usuarios concurrentes bajo el escenario de carga definido».
 
-
-
 # 2.7. Oficina de dirección de proyectos (PMO)
 
 ## 2.7.1. Concepto
@@ -854,63 +808,44 @@ Una **PMO** (*Project Management Office*) es una unidad, función o estructura o
 
 Su diseño depende de las necesidades de la organización. No existe una única PMO válida para todos los casos.
 
-
-
 ## 2.7.2. Posibles funciones
 
-- definir métodos, plantillas y estándares;
-- formar y asesorar a responsables de proyecto;
-- proporcionar herramientas y repositorios;
-- consolidar información y cuadros de mando;
-- apoyar planificación y control;
-- gestionar recursos compartidos;
-- facilitar gestión de riesgos y dependencias;
-- realizar revisiones y aseguramiento;
-- apoyar selección y priorización;
-- mantener conocimiento y lecciones aprendidas;
-- coordinar programas y portafolios;
-- dirigir proyectos estratégicos;
-- impulsar madurez organizativa;
-- vigilar realización de beneficios y valor.
+Las funciones de una PMO dependen del problema organizativo que se pretende resolver. En algunas organizaciones actúa principalmente como una unidad de **apoyo**, proporcionando plantillas, formación, asesoramiento, herramientas y repositorios. En otras desempeña una función de **control**, exigiendo el cumplimiento de métodos, consolidando información, revisando riesgos y verificando determinadas puertas de decisión.
 
-Una PMO no debe limitarse a recopilar informes. Debe aportar una capacidad o decisión que mejore resultados.
+Una PMO también puede intervenir en la asignación de recursos compartidos, la gestión de dependencias, la selección y priorización de iniciativas o la realización de revisiones de aseguramiento. En los modelos con mayor autoridad puede llegar a dirigir proyectos estratégicos, coordinar programas y portafolios, supervisar beneficios y promover la mejora de la madurez organizativa.
 
-
+Su valor no se mide por el número de informes que produce, sino por su capacidad para mejorar decisiones, reducir duplicidades, resolver problemas comunes y facilitar que los proyectos entreguen resultados coherentes con la estrategia.
 
 ## 2.7.3. Clasificación habitual según grado de control
 
 ### PMO de apoyo
 
-- Proporciona plantillas, formación, asesoramiento y buenas prácticas.
-- Ejerce control reducido.
+- Proporciona plantillas, formación, asesoramiento y buenas prácticas
+- Ejerce control reducido
 - Adecuada cuando los equipos tienen autonomía y existe madurez suficiente.
 
 ### PMO de control
 
-- Exige cumplimiento de métodos, herramientas, controles o revisiones.
-- Ejerce control moderado.
+- Exige cumplimiento de métodos, herramientas, controles o revisiones
+- Ejerce control moderado
 - Puede auditar o autorizar determinados artefactos y puertas de decisión.
 
 ### PMO directiva
 
 - Asume directamente la dirección de proyectos o asigna responsables.
-- Ejerce control elevado.
-- Adecuada para iniciativas estratégicas, críticas o centralizadas.
+- Ejerce control elevado
+- Adecuada para iniciativas estratégicas, críticas o centralizadas
 
 > **Clave de test:** apoyo, control y dirección describen grados de autoridad, no necesariamente tres departamentos diferentes. Una misma PMO puede combinar funciones.
 
-
-
 ## 2.7.4. Otras clases de PMO
 
-- **Oficina de proyecto:** dedicada a un proyecto concreto.
-- **PMO departamental:** atiende proyectos de una unidad.
+- **Oficina de proyecto:** dedicada a un proyecto concreto
+- **PMO departamental:** atiende proyectos de una unidad
 - **PMO empresarial o EPMO:** alinea iniciativas con la estrategia de toda la organización.
 - **Oficina de programa:** coordina proyectos relacionados dentro de un programa.
-- **Centro de excelencia:** desarrolla capacidades, métodos y conocimiento.
+- **Centro de excelencia:** desarrolla capacidades, métodos y conocimiento
 - **Agile PMO o Value Management Office:** orienta gobernanza y apoyo hacia flujos de valor y enfoques adaptativos.
-
-
 
 ## 2.7.5. PMO, programa y portafolio
 
@@ -923,37 +858,33 @@ Conjunto de proyectos y actividades relacionadas que se gestionan coordinadament
 Conjunto de proyectos, programas y otros trabajos agrupados para cumplir objetivos estratégicos. Sus componentes no tienen que estar directamente relacionados entre sí.
 
 | Elemento | Finalidad principal | Pregunta típica |
-||||
+| --- | --- | --- |
 | **Proyecto** | Crear un resultado singular. | ¿Estamos entregando correctamente el resultado acordado? |
 | **Programa** | Coordinar componentes relacionados para lograr beneficios. | ¿Estamos obteniendo beneficios conjuntos y gestionando interdependencias? |
 | **Portafolio** | Seleccionar y equilibrar inversiones estratégicas. | ¿Estamos haciendo las iniciativas correctas con los recursos disponibles? |
 | **PMO** | Proporcionar estructura, apoyo, control o dirección. | ¿Cómo mejoramos y coordinamos la gestión organizativa de las iniciativas? |
 
-
-
 ## 2.7.6. Valor y riesgos de una PMO
 
 ### Valor potencial
 
-- coherencia y comparabilidad;
-- mejor visibilidad ejecutiva;
-- aprendizaje compartido;
-- optimización de recursos;
-- decisiones más rápidas y fundamentadas;
-- reducción de duplicidades;
-- mejor alineación estratégica.
+- Coherencia y comparabilidad
+- Mejor visibilidad ejecutiva
+- Aprendizaje compartido
+- Optimización de recursos
+- Decisiones más rápidas y fundamentadas
+- Reducción de duplicidades
+- Mejor alineación estratégica
 
 ### Riesgos de diseño
 
-- burocracia excesiva;
-- métricas orientadas a actividad y no a resultados;
-- distancia respecto de los equipos;
-- imposición de un único método;
-- duplicidad con órganos existentes;
-- ausencia de autoridad real;
-- convertirse en una oficina de reporte sin capacidad de ayuda o decisión.
-
-
+- Burocracia excesiva
+- Métricas orientadas a actividad y no a resultados
+- Distancia respecto de los equipos
+- Imposición de un único método
+- Duplicidad con órganos existentes
+- Ausencia de autoridad real
+- Convertirse en una oficina de reporte sin capacidad de ayuda o decisión
 
 # 2.8. Proyectos y operaciones
 
@@ -963,19 +894,17 @@ Las **operaciones** son actividades continuas o recurrentes que sostienen el fun
 
 Ejemplos TIC:
 
-- monitorización diaria de sistemas;
-- gestión ordinaria de copias de seguridad;
-- resolución de incidencias;
-- administración de cuentas;
-- mantenimiento preventivo;
-- prestación habitual de un servicio digital.
-
-
+- Monitorización diaria de sistemas
+- Gestión ordinaria de copias de seguridad
+- Resolución de incidencias
+- Administración de cuentas
+- Mantenimiento preventivo
+- Prestación habitual de un servicio digital
 
 ## 2.8.2. Diferencias principales
 
 | Criterio | Proyecto | Operación |
-||||
+| --- | --- | --- |
 | **Duración** | Temporal. | Continua o recurrente. |
 | **Finalidad** | Crear un resultado o cambio singular. | Mantener y prestar servicios habituales. |
 | **Fin** | Se cierra al alcanzar o abandonar sus objetivos. | Continúa mientras exista la función. |
@@ -987,8 +916,6 @@ Ejemplos TIC:
 | **Cambio** | Introduce cambios. | Sostiene y optimiza el estado operativo. |
 
 Estas diferencias son tendencias, no reglas absolutas. Las operaciones también cambian y los proyectos pueden incluir actividades repetitivas.
-
-
 
 ## 2.8.3. Relación entre ambos
 
@@ -1003,14 +930,12 @@ Proyectos y operaciones se conectan en distintos momentos:
 
 ### Ejemplo completo
 
-- **Problema operativo:** demasiadas incidencias por infraestructura obsoleta.
-- **Proyecto:** migrar sistemas a una nueva plataforma.
-- **Entregables:** infraestructura, aplicaciones migradas, documentación y formación.
-- **Transición:** aceptación y traspaso al equipo de explotación.
-- **Operación:** monitorización, soporte y mantenimiento continuo.
-- **Beneficio:** reducción de interrupciones y costes.
-
-
+- **Problema operativo:** demasiadas incidencias por infraestructura obsoleta
+- **Proyecto:** migrar sistemas a una nueva plataforma
+- **Entregables:** infraestructura, aplicaciones migradas, documentación y formación
+- **Transición:** aceptación y traspaso al equipo de explotación
+- **Operación:** monitorización, soporte y mantenimiento continuo
+- **Beneficio:** reducción de interrupciones y costes
 
 ## 2.8.4. Trabajo operativo dentro de un proyecto
 
@@ -1018,22 +943,20 @@ Un proyecto puede contener tareas repetitivas, por ejemplo reuniones semanales, 
 
 De forma inversa, una unidad operativa puede ejecutar un proyecto sin dejar de realizar sus funciones ordinarias.
 
-
-
 # 2.9. Conceptos relacionados y diferencias esenciales
 
 ## 2.9.1. Proyecto frente a proceso
 
 Un **proceso** es un conjunto de actividades relacionadas que transforma entradas en salidas. Puede utilizarse tanto en proyectos como en operaciones.
 
-- El proyecto es una iniciativa temporal.
-- El proceso es una forma de realizar trabajo.
+- El proyecto es una iniciativa temporal
+- El proceso es una forma de realizar trabajo
 
 Ejemplo: el proceso de gestión de cambios puede aplicarse durante un proyecto y durante la operación de un servicio.
 
 ## 2.9.2. Proyecto frente a producto
 
-- El proyecto es temporal.
+- El proyecto es temporal
 - El producto puede mantenerse y evolucionar durante mucho más tiempo.
 
 Un producto puede gestionarse mediante múltiples proyectos y trabajo operativo continuo.
@@ -1053,22 +976,20 @@ Un proyecto crea un resultado singular. Un programa coordina proyectos relaciona
 
 Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estrategia. Sus componentes no necesitan perseguir un único resultado común.
 
-
-
 # 2.10. Aplicación a proyectos TIC
 
 ## 2.10.1. Particularidades frecuentes
 
-- alta velocidad de cambio tecnológico;
-- dificultad para expresar necesidades como requisitos completos al inicio;
-- dependencia de datos, integraciones y sistemas heredados;
-- riesgos de ciberseguridad y privacidad;
-- deuda técnica y mantenibilidad;
-- dependencia de proveedores y licencias;
-- facilidad aparente para cambiar software, que puede ocultar impactos importantes;
-- necesidad de transición a explotación y soporte;
-- importancia de experiencia de usuario y accesibilidad;
-- posibilidad de entrega incremental.
+- Alta velocidad de cambio tecnológico
+- Dificultad para expresar necesidades como requisitos completos al inicio
+- Dependencia de datos, integraciones y sistemas heredados
+- Riesgos de ciberseguridad y privacidad
+- Deuda técnica y mantenibilidad
+- Dependencia de proveedores y licencias
+- Facilidad aparente para cambiar software, que puede ocultar impactos importantes
+- Necesidad de transición a explotación y soporte
+- Importancia de experiencia de usuario y accesibilidad
+- Posibilidad de entrega incremental
 
 ## 2.10.2. Ejemplo de delimitación de proyecto
 
@@ -1078,33 +999,31 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 
 ### Entregables
 
-- sistema configurado;
-- integraciones;
-- datos migrados;
-- pruebas superadas;
-- manuales;
-- formación;
-- plan de soporte;
-- aceptación y puesta en producción.
+- Sistema configurado
+- Integraciones
+- Datos migrados
+- Pruebas superadas
+- Manuales
+- Formación
+- Plan de soporte
+- Aceptación y puesta en producción
 
 ### Operación posterior
 
-- altas de usuarios;
-- atención de incidencias;
-- monitorización;
-- copias de seguridad;
-- mantenimiento ordinario;
-- medición de niveles de servicio.
+- Altas de usuarios
+- Atención de incidencias
+- Monitorización
+- Copias de seguridad
+- Mantenimiento ordinario
+- Medición de niveles de servicio
 
 ### Beneficios esperados
 
-- menor tiempo de tramitación;
-- mayor trazabilidad;
-- reducción de errores;
-- consulta en línea;
-- eliminación de tareas manuales.
-
-
+- Menor tiempo de tramitación
+- Mayor trazabilidad
+- Reducción de errores
+- Consulta en línea
+- Eliminación de tareas manuales
 
 # 2.11. Errores y confusiones frecuentes
 
@@ -1127,8 +1046,6 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 17. **Los beneficios pueden aparecer después del cierre.**
 18. **El producto puede sobrevivir al proyecto.**
 
-
-
 # 2.12. Resumen de repaso rápido
 
 ## 2.12.1. Definiciones en una línea
@@ -1137,10 +1054,10 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 - **Dirección de proyectos:** aplicación coordinada de conocimientos, prácticas y capacidades para lograr los resultados del proyecto.
 - **Entregable:** resultado verificable producido por una actividad, fase o proyecto.
 - **Resultado:** efecto producido por el uso de los entregables.
-- **Beneficio:** mejora medible derivada de resultados.
+- **Beneficio:** mejora medible derivada de resultados
 - **Valor:** utilidad o ventaja global obtenida para los interesados.
 - **Fase:** parte del ciclo de vida que agrupa trabajo relacionado y culmina en entregables o decisiones.
-- **Hito:** punto significativo del proyecto, normalmente sin duración.
+- **Hito:** punto significativo del proyecto, normalmente sin duración
 - **PMO:** estructura que apoya, normaliza, controla o dirige la gestión de iniciativas.
 - **Programa:** coordinación de proyectos relacionados para obtener beneficios conjuntos.
 - **Portafolio:** agrupación de iniciativas para ejecutar la estrategia y equilibrar la inversión.
@@ -1167,192 +1084,212 @@ Un portafolio selecciona, prioriza y equilibra iniciativas para ejecutar la estr
 | Grado / calidad | Nivel de prestaciones / cumplimiento de requisitos. |
 | Proyecto / producto | Iniciativa temporal / activo o servicio con vida más larga. |
 
-
-
 # Preguntas tipo test
 
 **Pregunta 1. ¿Cuál de las siguientes características es esencial en un proyecto?**
-A. Debe durar menos de un año.  
-B. Debe producir exclusivamente un producto tangible.  
-C. Tiene carácter temporal y persigue un resultado singular.  
-D. Se ejecuta siempre fuera de la estructura permanente.
+
+a) Debe durar menos de un año.  
+b) Debe producir exclusivamente un producto tangible.  
+c) Tiene carácter temporal y persigue un resultado singular.  
+d) Se ejecuta siempre fuera de la estructura permanente.
 
 **Pregunta 2. ¿Cuál de los siguientes elementos representa una mejora medible derivada del uso de un entregable?**
-A. Actividad.  
-B. Beneficio.  
-C. Hito.  
-D. Restricción.
+
+a) Actividad.  
+b) Beneficio.  
+c) Hito.  
+d) Restricción.
 
 **Pregunta 3. Una aplicación desplegada y aceptada es, principalmente:**
-A. Un beneficio.  
-B. Un supuesto.  
-C. Un entregable.  
-D. Una operación.
+
+a) Un beneficio.  
+b) Un supuesto.  
+c) Un entregable.  
+d) Una operación.
 
 **Pregunta 4. ¿Qué afirmación sobre la temporalidad es correcta?**
-A. El producto creado debe ser temporal.  
-B. Un proyecto temporal no puede durar varios años.  
-C. Temporal significa que el proyecto tiene inicio y final.  
-D. Los beneficios deben finalizar al cerrar el proyecto.
+
+a) El producto creado debe ser temporal.  
+b) Un proyecto temporal no puede durar varios años.  
+c) Temporal significa que el proyecto tiene inicio y final.  
+d) Los beneficios deben finalizar al cerrar el proyecto.
 
 **Pregunta 5. ¿Cuál es la mejor descripción de la elaboración progresiva?**
-A. Modificar el alcance sin autorización conforme surjan ideas.  
-B. Aumentar el detalle de la información a medida que se aprende.  
-C. Ejecutar siempre el proyecto mediante incrementos.  
-D. Sustituir la planificación por decisiones improvisadas.
+
+a) Modificar el alcance sin autorización conforme surjan ideas.  
+b) Aumentar el detalle de la información a medida que se aprende.  
+c) Ejecutar siempre el proyecto mediante incrementos.  
+d) Sustituir la planificación por decisiones improvisadas.
 
 **Pregunta 6. ¿Qué concepto describe un límite conocido que condiciona la planificación?**
-A. Restricción.  
-B. Supuesto.  
-C. Oportunidad.  
-D. Entregable.
+
+a) Restricción.  
+b) Supuesto.  
+c) Oportunidad.  
+d) Entregable.
 
 **Pregunta 7. ¿Cuál es un ejemplo de supuesto?**
-A. El presupuesto máximo aprobado es de 500.000 euros.  
-B. La fecha legal de entrada en servicio es el 1 de enero.  
-C. Se considera que la API externa estará disponible en octubre.  
-D. Se ha producido una interrupción del proveedor.
+
+a) El presupuesto máximo aprobado es de 500.000 euros.  
+b) La fecha legal de entrada en servicio es el 1 de enero.  
+c) Se considera que la API externa estará disponible en octubre.  
+d) Se ha producido una interrupción del proveedor.
 
 **Pregunta 8. ¿Qué diferencia correctamente calidad y grado?**
-A. Son términos equivalentes.  
-B. El grado mide conformidad y la calidad, prestaciones.  
-C. Un producto de grado básico puede tener alta calidad.  
-D. Un producto de grado alto siempre tiene alta calidad.
+
+a) Son términos equivalentes.  
+b) El grado mide conformidad y la calidad, prestaciones.  
+c) Un producto de grado básico puede tener alta calidad.  
+d) Un producto de grado alto siempre tiene alta calidad.
 
 **Pregunta 9. ¿Cuál es la finalidad principal de una puerta de decisión entre fases?**
-A. Sustituir el seguimiento continuo.  
-B. Decidir si se continúa, modifica, pausa o cancela.  
-C. Registrar únicamente las horas trabajadas.  
-D. Evitar la participación del patrocinador.
+
+a) Sustituir el seguimiento continuo.  
+b) Decidir si se continúa, modifica, pausa o cancela.  
+c) Registrar únicamente las horas trabajadas.  
+d) Evitar la participación del patrocinador.
 
 **Pregunta 10. ¿Qué afirmación distingue una fase de un grupo de procesos?**
-A. Una fase estructura temporalmente el proyecto; los procesos pueden repetirse en varias fases.  
-B. Son conceptos completamente idénticos.  
-C. Los grupos de procesos solo existen en operaciones.  
-D. Una fase nunca genera entregables.
+
+a) Una fase estructura temporalmente el proyecto; los procesos pueden repetirse en varias fases.  
+b) Son conceptos completamente idénticos.  
+c) Los grupos de procesos solo existen en operaciones.  
+d) Una fase nunca genera entregables.
 
 **Pregunta 11. ¿Cuál de los siguientes es normalmente un hito?**
-A. Ejecutar pruebas durante tres semanas.  
-B. Programar una integración.  
-C. Aprobación para la puesta en producción.  
-D. Elaborar la documentación técnica.
+
+a) Ejecutar pruebas durante tres semanas.  
+b) Programar una integración.  
+c) Aprobación para la puesta en producción.  
+d) Elaborar la documentación técnica.
 
 **Pregunta 12. ¿Qué enfoque entrega el producto mediante partes funcionales utilizables?**
-A. Incremental.  
-B. Exclusivamente iterativo.  
-C. Operativo.  
-D. Funcional permanente.
+
+a) Incremental.  
+b) Exclusivamente iterativo.  
+c) Operativo.  
+d) Funcional permanente.
 
 **Pregunta 13. ¿Cuál es una característica de un enfoque híbrido?**
-A. Elimina cualquier planificación inicial.  
-B. Combina prácticas predictivas y adaptativas según el contexto.  
-C. Impide utilizar contratos.  
-D. Exige que todo el producto se entregue al final.
+
+a) Elimina cualquier planificación inicial.  
+b) Combina prácticas predictivas y adaptativas según el contexto.  
+c) Impide utilizar contratos.  
+d) Exige que todo el producto se entregue al final.
 
 **Pregunta 14. ¿Qué PMO suele ejercer el menor grado de control directo?**
-A. Directiva.  
-B. De apoyo.  
-C. De auditoría obligatoria.  
-D. Ejecutiva con dirección de proyectos.
+
+a) Directiva.  
+b) De apoyo.  
+c) De auditoría obligatoria.  
+d) Ejecutiva con dirección de proyectos.
 
 **Pregunta 15. ¿Qué PMO asume habitualmente la dirección directa de proyectos?**
-A. De apoyo.  
-B. Directiva.  
-C. Informal.  
-D. De consulta sin autoridad.
+
+a) De apoyo.  
+b) Directiva.  
+c) Informal.  
+d) De consulta sin autoridad.
 
 **Pregunta 16. ¿Qué elemento agrupa proyectos relacionados para obtener beneficios coordinados?**
-A. Operación.  
-B. Programa.  
-C. Entregable.  
-D. Fase.
+
+a) Operación.  
+b) Programa.  
+c) Entregable.  
+d) Fase.
 
 **Pregunta 17. ¿Qué afirmación sobre un portafolio es correcta?**
-A. Todos sus componentes deben producir el mismo entregable.  
-B. Solo puede contener proyectos, nunca programas.  
-C. Agrupa iniciativas para apoyar objetivos estratégicos y equilibrar inversiones.  
-D. Es sinónimo de proyecto de gran tamaño.
+
+a) Todos sus componentes deben producir el mismo entregable.  
+b) Solo puede contener proyectos, nunca programas.  
+c) Agrupa iniciativas para apoyar objetivos estratégicos y equilibrar inversiones.  
+d) Es sinónimo de proyecto de gran tamaño.
 
 **Pregunta 18. ¿Cuál es una diferencia típica entre proyectos y operaciones?**
-A. Solo las operaciones utilizan recursos.  
-B. Los proyectos son temporales y las operaciones continuas o recurrentes.  
-C. Las operaciones no tienen objetivos.  
-D. Los proyectos no contienen tareas repetitivas.
+
+a) Solo las operaciones utilizan recursos.  
+b) Los proyectos son temporales y las operaciones continuas o recurrentes.  
+c) Las operaciones no tienen objetivos.  
+d) Los proyectos no contienen tareas repetitivas.
 
 **Pregunta 19. ¿Cuándo se materializan necesariamente todos los beneficios de un proyecto?**
-A. Antes de aprobar el caso de negocio.  
-B. Exactamente al finalizar el cronograma.  
-C. Pueden materializarse durante el proyecto o después de su cierre.  
-D. Únicamente durante la fase de planificación.
+
+a) Antes de aprobar el caso de negocio.  
+b) Exactamente al finalizar el cronograma.  
+c) Pueden materializarse durante el proyecto o después de su cierre.  
+d) Únicamente durante la fase de planificación.
 
 **Pregunta 20. ¿Cuál de los siguientes es un beneficio de la dirección de proyectos?**
-A. Eliminar completamente la incertidumbre.  
-B. Garantizar el éxito con independencia del contexto.  
-C. Mejorar la coordinación, la transparencia y la capacidad de decisión.  
-D. Evitar cualquier cambio una vez aprobado el plan.
+
+a) Eliminar completamente la incertidumbre.  
+b) Garantizar el éxito con independencia del contexto.  
+c) Mejorar la coordinación, la transparencia y la capacidad de decisión.  
+d) Evitar cualquier cambio una vez aprobado el plan.
 
 **Pregunta 21. ¿Qué principio exige ajustar métodos y controles al tamaño, riesgo y contexto?**
-A. Adaptación o *tailoring*.  
-B. Operación continua.  
-C. Descomposición funcional.  
-D. Financiación recurrente.
+
+a) Adaptación o *tailoring*.  
+b) Operación continua.  
+c) Descomposición funcional.  
+d) Financiación recurrente.
 
 **Pregunta 22. ¿Cuál de estas afirmaciones refleja pensamiento sistémico?**
-A. Optimizar cada equipo por separado siempre optimiza el proyecto.  
-B. Las decisiones deben considerar interdependencias y efectos globales.  
-C. El proyecto debe ignorar las operaciones hasta el cierre.  
-D. Los interesados externos no forman parte del sistema.
+
+a) Optimizar cada equipo por separado siempre optimiza el proyecto.  
+b) Las decisiones deben considerar interdependencias y efectos globales.  
+c) El proyecto debe ignorar las operaciones hasta el cierre.  
+d) Los interesados externos no forman parte del sistema.
 
 **Pregunta 23. ¿Cuál es el mejor criterio de aceptación?**
-A. «La aplicación será intuitiva».  
-B. «El sistema funcionará muy bien».  
-C. «El 95 % de las respuestas se completará en menos de dos segundos bajo el escenario de carga definido».  
-D. «Los usuarios deberían quedar satisfechos».
+
+a) «La aplicación será intuitiva».  
+b) «El sistema funcionará muy bien».  
+c) «El 95 % de las respuestas se completará en menos de dos segundos bajo el escenario de carga definido».  
+d) «Los usuarios deberían quedar satisfechos».
 
 **Pregunta 24. ¿Qué documento o decisión suele autorizar formalmente el inicio de un proyecto?**
-A. Un registro de incidencias operativas.  
-B. Un acta, mandato o autorización de proyecto.  
-C. El cierre contractual.  
-D. Una lección aprendida.
+
+a) Un registro de incidencias operativas.  
+b) Un acta, mandato o autorización de proyecto.  
+c) El cierre contractual.  
+d) Una lección aprendida.
 
 **Pregunta 25. ¿Qué afirmación sobre el cierre es correcta?**
-A. Solo se cierra un proyecto que ha tenido éxito.  
-B. Un proyecto cancelado no necesita cierre.  
-C. El cierre incluye aceptación, transición, liberación de recursos y lecciones aprendidas.  
-D. Al cerrar se eliminan todos los registros del proyecto.
 
+a) Solo se cierra un proyecto que ha tenido éxito.  
+b) Un proyecto cancelado no necesita cierre.  
+c) El cierre incluye aceptación, transición, liberación de recursos y lecciones aprendidas.  
+d) Al cerrar se eliminan todos los registros del proyecto.
 
 ## Soluciones razonadas
 
 | Pregunta | Respuesta | Explicación |
-|:|::||
-| 1 | C | Temporalidad y singularidad son características esenciales. |
-| 2 | B | El beneficio es una mejora medible derivada de los resultados. |
-| 3 | C | La aplicación aceptada es un resultado verificable producido por el proyecto. |
-| 4 | C | Temporal significa que existe un comienzo y un final, no que el resultado dure poco. |
-| 5 | B | La elaboración progresiva aumenta el detalle conforme crece el conocimiento. |
-| 6 | A | Una restricción es un límite conocido, como presupuesto o fecha obligatoria. |
-| 7 | C | La disponibilidad futura se toma como hipótesis de planificación. |
-| 8 | C | El grado es el nivel de prestaciones; la calidad es el cumplimiento de requisitos. |
-| 9 | B | La puerta permite una decisión de gobernanza basada en la información de la fase. |
-| 10 | A | Las fases estructuran el ciclo; los procesos de gestión pueden repetirse. |
-| 11 | C | Una aprobación es un punto significativo, normalmente sin duración. |
-| 12 | A | Incremental significa entregar capacidad utilizable por partes. |
-| 13 | B | El enfoque híbrido combina prácticas según las necesidades del proyecto. |
-| 14 | B | La PMO de apoyo asesora y facilita con control reducido. |
-| 15 | B | La PMO directiva gestiona directamente proyectos o asigna sus responsables. |
-| 16 | B | Un programa coordina componentes relacionados para beneficios conjuntos. |
-| 17 | C | El portafolio se orienta a estrategia, priorización y equilibrio de recursos. |
-| 18 | B | Es la distinción general más característica. |
-| 19 | C | El valor y los beneficios pueden aparecer durante o después de la iniciativa. |
-| 20 | C | La gestión mejora la probabilidad y la calidad de las decisiones, pero no elimina la incertidumbre ni garantiza éxito. |
-| 21 | A | *Tailoring* es adaptar el enfoque al contexto. |
-| 22 | B | El pensamiento sistémico evita optimizaciones locales que dañen el conjunto. |
-| 23 | C | Es específico, medible y verificable bajo condiciones definidas. |
-| 24 | B | El nombre cambia según el marco, pero expresa autorización formal. |
-| 25 | C | Todo proyecto debe cerrarse de forma ordenada, incluso si se cancela. |
-
-
+| --- | --- | --- |
+| 1 | c | Temporalidad y singularidad son características esenciales. |
+| 2 | b | El beneficio es una mejora medible derivada de los resultados. |
+| 3 | c | La aplicación aceptada es un resultado verificable producido por el proyecto. |
+| 4 | c | Temporal significa que existe un comienzo y un final, no que el resultado dure poco. |
+| 5 | b | La elaboración progresiva aumenta el detalle conforme crece el conocimiento. |
+| 6 | a | Una restricción es un límite conocido, como presupuesto o fecha obligatoria. |
+| 7 | c | La disponibilidad futura se toma como hipótesis de planificación. |
+| 8 | c | El grado es el nivel de prestaciones; la calidad es el cumplimiento de requisitos. |
+| 9 | b | La puerta permite una decisión de gobernanza basada en la información de la fase. |
+| 10 | a | Las fases estructuran el ciclo; los procesos de gestión pueden repetirse. |
+| 11 | c | Una aprobación es un punto significativo, normalmente sin duración. |
+| 12 | a | Incremental significa entregar capacidad utilizable por partes. |
+| 13 | b | El enfoque híbrido combina prácticas según las necesidades del proyecto. |
+| 14 | b | La PMO de apoyo asesora y facilita con control reducido. |
+| 15 | b | La PMO directiva gestiona directamente proyectos o asigna sus responsables. |
+| 16 | b | Un programa coordina componentes relacionados para beneficios conjuntos. |
+| 17 | c | El portafolio se orienta a estrategia, priorización y equilibrio de recursos. |
+| 18 | b | Es la distinción general más característica. |
+| 19 | c | El valor y los beneficios pueden aparecer durante o después de la iniciativa. |
+| 20 | c | La gestión mejora la probabilidad y la calidad de las decisiones, pero no elimina la incertidumbre ni garantiza éxito. |
+| 21 | a | *Tailoring* es adaptar el enfoque al contexto. |
+| 22 | b | El pensamiento sistémico evita optimizaciones locales que dañen el conjunto. |
+| 23 | c | Es específico, medible y verificable bajo condiciones definidas. |
+| 24 | b | El nombre cambia según el marco, pero expresa autorización formal. |
+| 25 | c | Todo proyecto debe cerrarse de forma ordenada, incluso si se cancela. |
 
 # Tarjetas de memorización
 
@@ -1389,86 +1326,82 @@ D. Al cerrar se eliminan todos los registros del proyecto.
 **P:** ¿Qué ocurre con los beneficios al cerrar el proyecto?  
 **R:** Algunos ya se habrán logrado y otros se materializarán y medirán posteriormente en operación.
 
-
-
 # Bibliografía y recursos
 
 ## Fuentes oficiales principales
 
 1. **Project Management Institute — PMBOK® Guide, Eighth Edition.**  
    Página oficial con descripción, fecha de publicación y estructura general de la 8.ª edición. La guía completa puede requerir compra o membresía.  
-   https://www.pmi.org/standards/pmbok
+   <https://www.pmi.org/standards/pmbok>
 
 2. **Project Management Institute — PMBOK® Guide, Eighth Edition, tabla de contenidos oficial.**  
    Recurso público útil para comprobar principios, dominios y estructura.  
-   https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf
+   <https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf>
 
 3. **Project Management Institute — 12 Principles of Project Management.**  
    Resumen oficial público de los doce principios de la 7.ª edición.  
-   https://www.pmi.org/-/media/pmi/documents/public/pdf/pmbok-standards/12-project-management-principles.pdf
+   <https://www.pmi.org/-/media/pmi/documents/public/pdf/pmbok-standards/12-project-management-principles.pdf>
 
 4. **ISO 21502:2020 — Project, programme and portfolio management — Guidance on project management.**  
    Ficha oficial. Confirma su aplicabilidad a distintos tipos de organización, proyecto, ciclo de vida y enfoque de entrega. La norma completa es de pago.  
-   https://www.iso.org/standard/74947.html
+   <https://www.iso.org/standard/74947.html>
 
 5. **ISO — Improving project management.**  
    Presentación pública de ISO 21502 y de las prácticas cubiertas durante el ciclo de vida.  
-   https://www.iso.org/news/ref2645.html
+   <https://www.iso.org/news/ref2645.html>
 
 6. **ISO — Project Management Methodology in the ISO and IEC environment.**  
    Metodología descargable basada en ISO 21502; aporta ejemplos prácticos y terminología accesible.  
-   https://www.iso.org/publication/PUB100482.html
+   <https://www.iso.org/publication/PUB100482.html>
 
 7. **PeopleCert — PRINCE2 Project Management, Version 7.**  
    Página oficial sobre el método, su aplicabilidad y sus elementos generales. El manual completo está sujeto a licencia.  
-   https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-foundation-3579
+   <https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-foundation-3579>
 
 8. **Comisión Europea — PM² Project Management Methodology Guide v3.1.**  
    Guía oficial, gratuita y descargable. Es especialmente útil como referencia práctica para fases, gobernanza, roles, artefactos y proyectos en entornos públicos.  
-   https://op.europa.eu/en/publication-detail/-/publication/97cc2f12-c648-11ee-95d9-01aa75ed71a1/language-en
+   <https://op.europa.eu/en/publication-detail/-/publication/97cc2f12-c648-11ee-95d9-01aa75ed71a1/language-en>
 
 ## Recursos complementarios oficiales
 
-9. **PMI — Standards and Publications.**  
+1. **PMI — Standards and Publications.**  
    Catálogo oficial de estándares de proyectos, programas, portafolios, estimación, valor ganado, sostenibilidad e inteligencia artificial.  
-   https://www.pmi.org/standards
+   <https://www.pmi.org/standards>
 
-10. **ISO 21500:2021 — Context and concepts.**  
+2. **ISO 21500:2021 — Context and concepts.**  
     Norma de contexto y conceptos subyacentes para proyectos, programas y portafolios. Ficha pública; texto completo de pago.  
-    https://www.iso.org/standard/75704.html
+    <https://www.iso.org/standard/75704.html>
 
-11. **Comisión Europea — PM²-Agile Guide.**  
+3. **Comisión Europea — PM²-Agile Guide.**  
     Extensión oficial de PM² para introducir prácticas ágiles conservando gobernanza y coherencia organizativa.  
-    https://op.europa.eu/en/publication-detail/-/publication/ed85debf-decc-11eb-895a-01aa75ed71a1/language-en
+    <https://op.europa.eu/en/publication-detail/-/publication/ed85debf-decc-11eb-895a-01aa75ed71a1/language-en>
 
 ## Recomendación de uso de las fuentes
 
-- Para **definiciones y principios**, priorizar PMI e ISO.
+- Para **definiciones y principios**, priorizar PMI e ISO
 - Para **fases, documentos, roles y ejemplos aplicados al sector público**, utilizar PM² como guía abierta.
 - Para **PRINCE2**, estudiar la información pública y, si se dispone de acceso, el manual oficial de la versión 7.
 - Evitar memorizar resúmenes no oficiales cuando contradigan una edición vigente.
 - Comprobar siempre la edición: materiales antiguos pueden referirse a estructuras diferentes de PMBOK o PRINCE2.
 
-
-
 # Lista de control de dominio del tema
 
 Marca cada punto cuando puedas explicarlo sin consultar los apuntes:
 
-- [ ] Defino proyecto y dirección de proyectos.
-- [ ] Explico temporalidad, singularidad y elaboración progresiva.
-- [ ] Distingo restricción, supuesto, dependencia y riesgo.
-- [ ] Distingo entregable, resultado, beneficio y valor.
+- [ ] Defino proyecto y dirección de proyectos
+- [ ] Explico temporalidad, singularidad y elaboración progresiva
+- [ ] Distingo restricción, supuesto, dependencia y riesgo
+- [ ] Distingo entregable, resultado, beneficio y valor
 - [ ] Explico por qué plazo, coste y alcance no bastan para definir el éxito.
 - [ ] Enumero los principios generales y doy un ejemplo de cada uno.
 - [ ] Reconozco los doce principios de PMBOK 7 y los seis de PMBOK 8.
 - [ ] Explico los beneficios estratégicos y operativos de gestionar proyectos.
-- [ ] Clasifico proyectos mediante distintos criterios.
+- [ ] Clasifico proyectos mediante distintos criterios
 - [ ] Distingo predictivo, iterativo, incremental, adaptativo e híbrido.
 - [ ] Explico el ciclo de vida genérico y los entregables de cada fase.
 - [ ] Distingo fase, proceso, actividad, hito y entregable.
 - [ ] Distingo ciclo de vida del proyecto y del producto.
 - [ ] Defino PMO y diferencio apoyo, control y dirección.
-- [ ] Distingo proyecto, programa, portafolio y operación.
+- [ ] Distingo proyecto, programa, portafolio y operación
 - [ ] Explico la transición de un proyecto TIC a operaciones.
 - [ ] Resuelvo al menos 22 de las 25 preguntas de este tema sin consultar.
