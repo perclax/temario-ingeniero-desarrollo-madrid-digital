@@ -1,0 +1,26 @@
+---
+title: "Temario Ingeniero de Desarrollo"
+subtitle: "Madrid Digital"
+author: "Roberto Sánchez López"
+date: "\\today"
+lang: es-ES
+documentclass: book
+classoption:
+  - oneside
+  - openany
+papersize: a4
+fontsize: 11pt
+mainfont: "DejaVu Serif"
+sansfont: "DejaVu Sans"
+monofont: "DejaVu Sans Mono"
+mathfont: "TeX Gyre DejaVu Math"
+geometry:
+  - margin=2.5cm
+toc: true
+toc-depth: 2
+numbersections: true
+secnumdepth: 3
+colorlinks: true
+linkcolor: black
+urlcolor: blue
+---

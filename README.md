@@ -4,7 +4,7 @@ Material de estudio para la preparación del proceso selectivo de la categoría 
 
 ## Resumen
 
-Este repositorio reúne unos apuntes estructurados para facilitar el estudio, la consulta y la actualización continua del temario. Los contenidos combinan explicación teórica, definiciones, comparaciones, ejemplos aplicados a proyectos TIC, fórmulas, errores frecuentes, tarjetas de memorización y preguntas tipo test con soluciones razonadas.
+Este repositorio reúne unos apuntes estructurados para facilitar el estudio, la consulta y la actualización continua del temario. Los contenidos combinan explicación teórica, definiciones, comparaciones, ejemplos aplicados a proyectos TIC, fórmulas y errores frecuentes. Las herramientas de práctica, como tarjetas de memorización, preguntas tipo test, soluciones razonadas y listas de comprobación, se mantienen en una carpeta separada.
 
 La referencia de alcance es el [temario base](TEMARIO-BASE.md). Para ordenar los solapamientos entre capítulos se mantiene un [mapa de redundancias](MAPA_REDUNDANCIAS.md) con la propiedad de cada contenido y el estado de consolidación.
 
@@ -26,7 +26,7 @@ La documentación toma como referencia principal fuentes oficiales como el **BOE
 
 Antes de comenzar los temas, se recomienda leer la introducción, donde se explican la estructura de los apuntes, las características de la prueba, la estrategia de estudio y los criterios utilizados para seleccionar y actualizar las fuentes.
 
-- [Introducción y guía de preparación](Introduccion_Guia_Preparacion_Oposicion_P04.md)
+- [Introducción y guía de preparación](contenido/Introduccion_Guia_Preparacion_Oposicion_P04.md)
 
 ---
 
@@ -36,43 +36,57 @@ Antes de comenzar los temas, se recomienda leer la introducción, donde se expli
 
 Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres, y Ley 15/2022, de 12 de julio, integral para la igualdad de trato y la no discriminación.
 
-- [Tema 1 — Políticas de igualdad de género](Tema_01_Politicas_Igualdad_Genero.md)
+- [Tema 1 — Políticas de igualdad de género](contenido/Tema_01_Politicas_Igualdad_Genero.md)
 
 ### Tema 2. Fundamentos y principios de la gestión de proyectos
 
 Concepto y características de los proyectos, principios generales, beneficios, tipologías, ciclos de vida, fases, entregables, PMO y diferencias entre proyectos y operaciones.
 
-- [Tema 2 — Fundamentos y principios de la gestión de proyectos](Tema_02_Fundamentos_Gestion_Proyectos.md)
+- [Tema 2 — Fundamentos y principios de la gestión de proyectos](contenido/Tema_02_Fundamentos_Gestion_Proyectos.md)
 
 ### Tema 3. Evaluación y selección de proyectos
 
 Criterios financieros y no financieros, métodos cualitativos y cuantitativos, análisis multicriterio, factores de decisión, selección y equilibrio de carteras.
 
-- [Tema 3 — Evaluación y selección de proyectos](Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
+- [Tema 3 — Evaluación y selección de proyectos](contenido/Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
 
 ### Tema 4. Ejecución de proyectos
 
 Formas de organización, gobierno y gestión, dominios y procesos, gestión por excepción, roles y responsabilidades, enfoque en productos y adaptación al entorno.
 
-- [Tema 4 — Ejecución de proyectos](Tema_04_Ejecucion_de_Proyectos.md)
+- [Tema 4 — Ejecución de proyectos](contenido/Tema_04_Ejecucion_de_Proyectos.md)
 
 ### Tema 5. Estándares y marcos de referencia
 
 PRINCE2 7, PMBOK 7 y 8, Scrum, Kanban e ISO 21502, con comparaciones entre sus principios, dominios, prácticas, procesos, roles y elementos fundamentales.
 
-- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
+- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](contenido/Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
 
 ### Tema 6. Herramientas y técnicas
 
 WBS, cronogramas, estimación, gestión de riesgos, control de cambios, gestión de configuración, valor ganado, herramientas colaborativas, informes y seguimiento.
 
-- [Tema 6 — Herramientas y técnicas](Tema_06_Herramientas_y_Tecnicas.md)
+- [Tema 6 — Herramientas y técnicas](contenido/Tema_06_Herramientas_y_Tecnicas.md)
 
 ### Tema 7. Tendencias en gestión de proyectos
 
 Enfoques híbridos, automatización, herramientas digitales, gestión de interesados, ciberseguridad, cumplimiento, inteligencia artificial, gestión basada en datos, sostenibilidad y habilidades interpersonales.
 
-- [Tema 7 — Tendencias en gestión de proyectos](Tema_07_Tendencias_Gestion_Proyectos.md)
+- [Tema 7 — Tendencias en gestión de proyectos](contenido/Tema_07_Tendencias_Gestion_Proyectos.md)
+
+---
+
+## Herramientas de estudio
+
+Cada tema dispone de un archivo de práctica independiente. En este índice se lista solo el capítulo principal, sin desglosar tests, tarjetas, soluciones ni listas internas.
+
+- [Tema 1 — Políticas de igualdad de género](herramientas-de-estudio/Tema_01_Politicas_Igualdad_Genero.md)
+- [Tema 2 — Fundamentos y principios de la gestión de proyectos](herramientas-de-estudio/Tema_02_Fundamentos_Gestion_Proyectos.md)
+- [Tema 3 — Evaluación y selección de proyectos](herramientas-de-estudio/Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
+- [Tema 4 — Ejecución de proyectos](herramientas-de-estudio/Tema_04_Ejecucion_de_Proyectos.md)
+- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](herramientas-de-estudio/Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
+- [Tema 6 — Herramientas y técnicas](herramientas-de-estudio/Tema_06_Herramientas_y_Tecnicas.md)
+- [Tema 7 — Tendencias en gestión de proyectos](herramientas-de-estudio/Tema_07_Tendencias_Gestion_Proyectos.md)
 
 ---
 
@@ -87,12 +101,15 @@ Aunque cada tema se adapta a su contenido, se mantiene una estructura común:
 5. Desarrollo teórico.
 6. Tablas comparativas y ejemplos.
 7. Errores y confusiones frecuentes.
-8. Resumen de repaso rápido.
-9. Tarjetas de memorización.
-10. Preguntas tipo test.
-11. Soluciones razonadas.
-12. Lista de comprobación de dominio.
-13. Bibliografía y recursos oficiales.
+8. Bibliografía y recursos oficiales.
+
+Las herramientas de estudio se mantienen fuera del tema principal para poder practicar sin mezclar teoría y autoevaluación:
+
+- Resumen de repaso rápido.
+- Tarjetas de memorización.
+- Preguntas tipo test.
+- Soluciones razonadas.
+- Lista de comprobación de dominio.
 
 La numeración de los apartados incorpora siempre el número del tema. Por ejemplo:
 
@@ -110,17 +127,32 @@ Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejempl
 ├── README.md
 ├── TEMARIO-BASE.md
 ├── MAPA_REDUNDANCIAS.md
-├── Introduccion_Guia_Preparacion_Oposicion_P04.md
-├── Tema_01_Politicas_Igualdad_Genero.md
-├── Tema_02_Fundamentos_Gestion_Proyectos.md
-├── Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
-├── Tema_04_Ejecucion_de_Proyectos.md
-├── Tema_05_Estandares_Marcos_Gestion_Proyectos.md
-├── Tema_06_Herramientas_y_Tecnicas.md
-└── Tema_07_Tendencias_Gestion_Proyectos.md
+├── contenido/
+│   ├── Introduccion_Guia_Preparacion_Oposicion_P04.md
+│   ├── Tema_01_Politicas_Igualdad_Genero.md
+│   ├── Tema_02_Fundamentos_Gestion_Proyectos.md
+│   ├── Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
+│   ├── Tema_04_Ejecucion_de_Proyectos.md
+│   ├── Tema_05_Estandares_Marcos_Gestion_Proyectos.md
+│   ├── Tema_06_Herramientas_y_Tecnicas.md
+│   └── Tema_07_Tendencias_Gestion_Proyectos.md
+├── herramientas-de-estudio/
+│   ├── Tema_01_Politicas_Igualdad_Genero.md
+│   ├── Tema_02_Fundamentos_Gestion_Proyectos.md
+│   ├── Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
+│   ├── Tema_04_Ejecucion_de_Proyectos.md
+│   ├── Tema_05_Estandares_Marcos_Gestion_Proyectos.md
+│   ├── Tema_06_Herramientas_y_Tecnicas.md
+│   └── Tema_07_Tendencias_Gestion_Proyectos.md
+├── legacy/
+│   ├── duplicados/
+│   └── resumenes-claude/
+├── book/
+├── scripts/
+└── pdf/
 ```
 
-El temario activo se mantiene en la raíz del repositorio. Las carpetas `legacy/`, `legacy/duplicados/`, `resumenes-claude/` y `pdf/` conservan versiones anteriores, borradores, resúmenes o exportaciones, pero no deben considerarse la fuente principal de estudio.
+El temario activo se mantiene en `contenido/`. Las herramientas de práctica se mantienen en `herramientas-de-estudio/`. Las carpetas `legacy/`, `legacy/duplicados/`, `legacy/resumenes-claude/` y `pdf/` conservan versiones anteriores, borradores, resúmenes o exportaciones, pero no deben considerarse la fuente principal de estudio.
 
 ---
 
