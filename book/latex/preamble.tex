@@ -1,0 +1,25 @@
+\usepackage{fancyhdr}
+\usepackage{microtype}
+\usepackage{bookmark}
+\usepackage{enumitem}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\small\nouppercase{\leftmark}}
+\fancyfoot[L]{\small Temario Ingeniero de Desarrollo}
+\fancyfoot[R]{\thepage}
+\setlength{\headheight}{14pt}
+
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyfoot[L]{\small Temario Ingeniero de Desarrollo}
+  \fancyfoot[R]{\thepage}
+  \renewcommand{\headrulewidth}{0pt}
+}
+
+\setlist[itemize]{topsep=4pt,itemsep=2pt}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt}
+
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
