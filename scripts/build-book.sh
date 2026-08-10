@@ -18,13 +18,13 @@ BOOK_FILES=(
 )
 
 STUDY_FILES=(
-  "herramientas-de-estudio/Tema_01_Politicas_Igualdad_Genero.md"
-  "herramientas-de-estudio/Tema_02_Fundamentos_Gestion_Proyectos.md"
-  "herramientas-de-estudio/Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md"
-  "herramientas-de-estudio/Tema_04_Ejecucion_de_Proyectos.md"
-  "herramientas-de-estudio/Tema_05_Estandares_Marcos_Gestion_Proyectos.md"
-  "herramientas-de-estudio/Tema_06_Herramientas_y_Tecnicas.md"
-  "herramientas-de-estudio/Tema_07_Tendencias_Gestion_Proyectos.md"
+  "herramientas-de-estudio/Practica_Tema_01_Politicas_Igualdad_Genero.md"
+  "herramientas-de-estudio/Practica_Tema_02_Fundamentos_Gestion_Proyectos.md"
+  "herramientas-de-estudio/Practica_Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md"
+  "herramientas-de-estudio/Practica_Tema_04_Ejecucion_de_Proyectos.md"
+  "herramientas-de-estudio/Practica_Tema_05_Estandares_Marcos_Gestion_Proyectos.md"
+  "herramientas-de-estudio/Practica_Tema_06_Herramientas_y_Tecnicas.md"
+  "herramientas-de-estudio/Practica_Tema_07_Tendencias_Gestion_Proyectos.md"
 )
 
 if ! command -v pandoc >/dev/null 2>&1; then

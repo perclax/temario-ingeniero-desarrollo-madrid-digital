@@ -1,6 +1,6 @@
 # Tema 1. Políticas de igualdad de género — Práctica y repaso
 
-Material de recuperación y autoevaluación del Tema 1: repaso rápido, tarjetas de memorización, batería de preguntas tipo test con soluciones razonadas y lista de comprobación de dominio. La exposición teórica está en el archivo de teoría: `Tema_01_Politicas_Igualdad_Genero.md`.
+Material de recuperación y autoevaluación del Tema 1: repaso rápido, tarjetas de memorización, batería de preguntas tipo test con soluciones razonadas y lista de comprobación de dominio. La exposición teórica está en el archivo de teoría: `../contenido/Tema_01_Politicas_Igualdad_Genero.md`.
 
 ---
 

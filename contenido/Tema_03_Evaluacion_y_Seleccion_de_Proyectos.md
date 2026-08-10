@@ -953,7 +953,7 @@ Este ejemplo demuestra:
 2. Priorizar sin verificar capacidad.
 3. Elegir proyectos solo por puntuación individual.
 4. Ignorar dependencias.
-5. Considerar costes hundidos.
+5. Dejar que los costes hundidos condicionen decisiones futuras.
 6. Omitir costes de operación.
 7. Confundir beneficio contable y flujo.
 8. Mezclar tasa real con flujos nominales.
@@ -1016,7 +1016,7 @@ Este ejemplo demuestra:
 
 ## Observaciones sobre las fuentes
 
-- La edición 2026 del Green Book es la guía vigente del Gobierno británico sobre evaluación de costes, beneficios y riesgos de opciones públicas
+- La edición 2026 del Green Book (publicada por HM Treasury en febrero de 2026, tras el *Green Book Review 2025*) es la guía vigente del Gobierno británico para la evaluación previa (*appraisal*) de costes, beneficios y riesgos de opciones públicas. Es una versión más breve y reenfocada: la evaluación posterior (*evaluation*) se remite ahora al *Magenta Book*, la gestión de riesgos al *Orange Book* y la ejecución de proyectos al *Teal Book*. Conserva el ciclo ROAMEF, el descuento y la corrección del sesgo de optimismo
 - La Comisión Europea incluye en su Better Regulation Toolbox herramientas específicas sobre análisis multicriterio, coste-beneficio, descuento, sensibilidad e incertidumbre
 - Los artículos de PMI enlazados son recursos oficiales del instituto, aunque algunos corresponden a publicaciones o conferencias anteriores y deben utilizarse para técnicas y conceptos, no para memorizar estructuras de ediciones actuales del PMBOK
 - Los métodos financieros deben aplicarse con definiciones coherentes y supuestos documentados; los valores de tasas utilizados en guías públicas concretas no deben extrapolarse automáticamente a cualquier organización

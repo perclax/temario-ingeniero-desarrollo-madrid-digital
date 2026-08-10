@@ -1,6 +1,55 @@
-# Tema 3. Evaluación y selección de proyectos - herramientas de estudio
+# Tema 3. Evaluación y selección de proyectos — Práctica y repaso
 
-Material de repaso, tarjetas, preguntas tipo test, soluciones y listas de comprobación extraído del tema principal.
+Material de recuperación y autoevaluación del Tema 3: resumen esencial, repaso rápido, tarjetas de memorización, batería de preguntas tipo test con soluciones razonadas y lista de comprobación de dominio. La exposición teórica está en el archivo de teoría: `Tema_03_Evaluacion_y_Seleccion_de_Proyectos_revisado.md`.
+
+---
+
+## Resumen esencial
+
+> Síntesis de máxima prioridad para el repaso final: si vas con el tiempo justo, esto es lo que no puede fallarte. Para una revisión algo más amplia, usa el «Repaso rápido» que viene después. A diferencia de los temas jurídicos, aquí casi nada se memoriza de forma literal salvo un puñado de fórmulas; lo demás se juega distinguiendo conceptos próximos e interpretando bien cada indicador.
+
+### Fórmulas que debes poder escribir de memoria
+
+| Indicador | Fórmula | Para qué sirve |
+|---|---|---|
+| Valor actual | VA = VF / (1+r)ⁿ | Traer un importe futuro al presente |
+| Valor futuro | VF = VA (1+r)ⁿ | Capitalizar un importe actual |
+| VAN | Σ FCₜ / (1+r)ᵗ (t = 0…n) | Valor absoluto creado; el FC₀ es la inversión (negativa) |
+| TIR | Tasa que hace VAN = 0 | Rentabilidad implícita del proyecto |
+| ROI | (Beneficio neto / Inversión) × 100 | Retorno relativo, sin descuento en su forma simple |
+| Payback | Años hasta recuperar la inversión con flujos acumulados | Liquidez y exposición temporal |
+| BCR | VA beneficios / VA costes | Beneficio por unidad de coste; > 1 crea valor |
+| Punto de equilibrio | Q = CF / (P − V) | Volumen donde ingresos = costes |
+| Puntuación ponderada | Σ Pesoᵢ × Valorᵢⱼ | Agregar criterios heterogéneos con pesos |
+| Comparaciones por pares | n(n − 1) / 2 | Nº de comparaciones con n alternativas |
+| EMV | Σ Probabilidadᵢ × Resultadoᵢ | Media ponderada de resultados inciertos |
+| CER (coste-efectividad) | Coste / Unidad de resultado | Comparar sin monetizar el beneficio |
+| Restricción de dependencia | x_B ≤ x_A | B solo si A (programación binaria) |
+| Restricción de exclusión | x_A + x_B ≤ 1 | Como mucho uno de los dos |
+
+### Reglas de interpretación que deciden preguntas
+
+- **VAN > 0** crea valor respecto a la tasa; **= 0** indiferencia teórica; **< 0** destruye valor bajo esos supuestos.
+- **TIR** aceptable si supera la rentabilidad mínima exigida; puede tener **varias soluciones** si los flujos cambian de signo y favorece proyectos pequeños.
+- En proyectos **mutuamente excluyentes con rankings en conflicto, se prefiere el VAN** (refleja valor absoluto y escala).
+- **BCR máximo ≠ mayor valor absoluto**: un BCR alto no garantiza la cartera óptima si hay indivisibilidad o dependencias.
+- **Payback** ignora los flujos posteriores a la recuperación y, en su versión simple, el valor temporal del dinero.
+- **ROI** tiene definiciones variables y, en su forma simple, no considera el momento de los flujos.
+- Coherencia obligatoria: **flujos nominales con tasa nominal; flujos reales con tasa real**.
+- Un proyecto **obligatorio puede tener VAN financiero negativo** y aun así ejecutarse: se elige la alternativa de mejor valor-coste-riesgo, no se decide «si» cumplir.
+- **EMV** es un promedio teórico: dos alternativas con el mismo EMV pueden tener perfiles de riesgo muy distintos.
+
+### Distinciones que deciden preguntas
+
+- **Evaluación** (mérito) / **selección** (incorporar) / **priorización** (orden) / **autorización** (mandato y recursos) / **balanceo** (combinación de cartera).
+- **Coste hundido** (pasado, irrecuperable, irrelevante) / **coste de oportunidad** (valor de la mejor alternativa sacrificada, sí relevante).
+- **Evaluación financiera** (perspectiva del inversor) / **evaluación económica o social** (incorpora externalidades y efectos sobre terceros).
+- **Análisis de sensibilidad** (una variable) / **análisis de escenarios** (conjunto coherente de variables).
+- **Sinergia** (juntos valen más) / **canibalización** (uno reduce los beneficios del otro).
+- **Prueba de concepto** (viabilidad técnica) / **piloto** (entorno limitado y representativo) / **despliegue** (implantación completa).
+- **Evaluación y selección de cartera** (decidir invertir, priorizar, continuar) / **seguimiento operativo del proyecto** (controlar la ejecución con cronograma, EVM, cambios).
+- **Costes directos** (atribuibles) / **indirectos** (compartidos); y siempre **coste del ciclo de vida**, no solo el precio de adquisición.
+- **Obligatorio** (debe cumplirse, puede tener VAN negativo) / **rentable** (genera retorno, puede ser discrecional).
 
 ---
 
@@ -390,130 +439,104 @@ b) Mantener trazabilidad de criterios, datos y decisiones.
 c) Permitir que cada promotor defina su escala.  
 d) Evitar revisiones posteriores.
 
+**Pregunta 41. El análisis coste-efectividad (CER) resulta especialmente útil cuando:**
+
+a) El beneficio puede monetizarse con total fiabilidad.  
+b) El resultado es medible pero no conviene o no es fiable convertirlo en dinero.  
+c) Solo interesa el plazo de recuperación.  
+d) No existe ningún resultado medible.
+
+**Pregunta 42. En un enfoque stage-gate, en cada puerta de decisión se puede:**
+
+a) Únicamente continuar, sin otras opciones.  
+b) Continuar, detener, mantener, reciclar o acelerar según la evidencia.  
+c) Cambiar los criterios para favorecer al promotor.  
+d) Autorizar el proyecto completo sin evidencia adicional.
+
+**Pregunta 43. Atribuir el mismo ahorro de una plataforma a cada aplicación que la usa es un ejemplo de:**
+
+a) Coste de oportunidad.  
+b) Doble contabilización de beneficios.  
+c) Análisis de sensibilidad.  
+d) Valor residual.
+
+**Pregunta 44. Cuando dos proyectos ejecutados juntos generan más valor que por separado, existe:**
+
+a) Canibalización.  
+b) Una sinergia.  
+c) Un coste hundido.  
+d) Una externalidad negativa.
+
+**Pregunta 45. La frontera eficiente de una cartera identifica:**
+
+a) La combinación con mayor puntuación individual.  
+b) Combinaciones donde no se puede mejorar un objetivo sin empeorar otro.  
+c) El proyecto obligatorio más barato.  
+d) El proyecto con mayor TIR.
+
 ---
 
 ## Soluciones razonadas
 
-**Pregunta 1. Respuesta correcta: b)**  
-La evaluación analiza; la selección decide si se incorpora.
+| Pregunta | Correcta | Motivo (por qué) |
+|:--:|:--:|---|
+| 1 | b | La evaluación analiza el mérito; la selección decide si se incorpora. |
+| 2 | a | Priorizar es ordenar las iniciativas conforme a criterios. |
+| 3 | b | Un proyecto priorizado puede requerir todavía autorización formal y recursos. |
+| 4 | b | La cartera equilibra valor, riesgo y recursos, no un solo indicador. |
+| 5 | a | La opción de no hacer nada es la referencia para medir lo incremental. |
+| 6 | b | Lo ya gastado es irrecuperable y no debe condicionar los flujos futuros. |
+| 7 | b | El coste de oportunidad es el valor de la mejor alternativa sacrificada. |
+| 8 | b | Solo interesan los flujos causados por la decisión (incrementales). |
+| 9 | b | VA = VF / (1+r)ⁿ: se divide por el factor de capitalización. |
+| 10 | a | Un VAN positivo supera el rendimiento exigido y crea valor. |
+| 11 | a | La TIR es la tasa de descuento que hace VAN = 0. |
+| 12 | b | El VAN refleja creación absoluta de valor; se prefiere en excluyentes. |
+| 13 | b | El ROI tiene definiciones variables y puede ignorar el valor temporal. |
+| 14 | b | El payback simple ignora el valor temporal y los flujos posteriores a la recuperación. |
+| 15 | a | BCR = 1,30 significa que el VA de beneficios supera al de costes. |
+| 16 | a | Coherencia obligatoria: los flujos nominales se descuentan con tasa nominal. |
+| 17 | b | La evaluación económica o social incorpora externalidades y efectos sobre terceros. |
+| 18 | b | La obligatoriedad no elimina la evaluación: se busca la alternativa de mejor valor. |
+| 19 | a | La alineación estratégica es un criterio no financiero central. |
+| 20 | b | Se suman los productos de peso por valoración de cada criterio. |
+| 21 | a | Un criterio de exclusión impide seleccionar aunque la puntuación total sea alta. |
+| 22 | b | Sin anclajes, cada evaluador interpreta la escala de forma distinta. |
+| 23 | a | El método Delphi consulta a expertos de forma anónima e iterativa. |
+| 24 | a | La «vaca sagrada» es una selección por autoridad, sin análisis suficiente. |
+| 25 | c | El número de comparaciones por pares es n(n−1)/2. |
+| 26 | a | El AHP deriva prioridades mediante comparaciones por pares. |
+| 27 | b | En programación binaria, x_i = 1 significa proyecto seleccionado. |
+| 28 | a | Si B requiere A, la restricción válida es x_B ≤ x_A. |
+| 29 | a | Si A y B son excluyentes, x_A + x_B ≤ 1 (como mucho uno). |
+| 30 | a | El EMV es la suma de probabilidades por resultados. |
+| 31 | b | El EMV puede ocultar resultados extremos y la tolerancia al riesgo. |
+| 32 | a | El análisis de sensibilidad cambia una variable cada vez. |
+| 33 | b | El análisis de escenarios cambia un conjunto coherente de variables. |
+| 34 | a | El diagrama de tornado ordena las variables por impacto sobre el resultado. |
+| 35 | a | El gráfico de burbujas representa valor, riesgo, coste y categoría. |
+| 36 | b | Sobrecargar la cartera provoca multitarea, retrasos y pérdida de calidad. |
+| 37 | a | El coste de retraso es el valor que se pierde al aplazar la iniciativa. |
+| 38 | a | La concentración en un proveedor o recurso común eleva el riesgo agregado. |
+| 39 | a | Continuar por lo ya gastado es la falacia del coste hundido. |
+| 40 | b | Mantener la trazabilidad de criterios, datos y decisiones es buen gobierno. |
+| 41 | b | El CER se usa cuando el resultado es medible pero no conviene o no es fiable monetizarlo. |
+| 42 | b | En cada puerta cabe continuar, detener, mantener, reciclar o acelerar según la evidencia. |
+| 43 | b | Contar el mismo ahorro en cada aplicación que usa la plataforma es doble contabilización. |
+| 44 | b | Que dos proyectos juntos valgan más que por separado es una sinergia. |
+| 45 | b | La frontera eficiente reúne combinaciones no mejorables en un objetivo sin empeorar otro. |
 
-**Pregunta 2. Respuesta correcta: a)**  
-Priorizar es ordenar conforme a criterios.
+> **Claves para no fallar.** 
+> 
+>> (1) Ante un ranking en conflicto entre proyectos excluyentes, gana el **VAN**, no la TIR ni el BCR.
 
-**Pregunta 3. Respuesta correcta: b)**  
-La autorización formal puede producirse después.
+>> (2) Nunca dejes que un **coste hundido** ni un beneficio ya existente entren en la decisión: solo cuentan los **flujos incrementales** futuros.
 
-**Pregunta 4. Respuesta correcta: b)**  
-Una cartera debe equilibrar múltiples dimensiones.
+>> (3) **Obligatorio ≠ sin evaluar**: se evalúa para elegir la mejor forma de cumplir. 
 
-**Pregunta 5. Respuesta correcta: a)**  
-La referencia permite estimar el cambio incremental.
+>> (4) Un **criterio de exclusión** (legal, ético, de riesgo o capacidad mínima) no se compensa con puntos en otras dimensiones. 
 
-**Pregunta 6. Respuesta correcta: b)**  
-Lo ya gastado no debe condicionar flujos futuros.
-
-**Pregunta 7. Respuesta correcta: b)**  
-Representa la alternativa a la que se renuncia.
-
-**Pregunta 8. Respuesta correcta: b)**  
-Solo interesan flujos causados por la decisión.
-
-**Pregunta 9. Respuesta correcta: b)**  
-El valor futuro se divide por el factor de capitalización.
-
-**Pregunta 10. Respuesta correcta: a)**  
-Un VAN positivo supera el rendimiento exigido.
-
-**Pregunta 11. Respuesta correcta: a)**  
-Es la raíz de la ecuación VAN = 0.
-
-**Pregunta 12. Respuesta correcta: b)**  
-El VAN refleja creación absoluta de valor.
-
-**Pregunta 13. Respuesta correcta: b)**  
-Debe definirse y puede no considerar tiempo.
-
-**Pregunta 14. Respuesta correcta: b)**  
-Estas son sus dos limitaciones principales.
-
-**Pregunta 15. Respuesta correcta: a)**  
-El cociente de beneficios sobre costes es superior a uno.
-
-**Pregunta 16. Respuesta correcta: a)**  
-Debe existir coherencia nominal-real.
-
-**Pregunta 17. Respuesta correcta: b)**  
-Adopta una perspectiva más amplia que la financiera.
-
-**Pregunta 18. Respuesta correcta: b)**  
-La obligatoriedad cambia la decisión, pero no elimina la evaluación de opciones.
-
-**Pregunta 19. Respuesta correcta: a)**  
-La alineación es un criterio no financiero central.
-
-**Pregunta 20. Respuesta correcta: b)**  
-Se agregan productos de pesos y valoraciones.
-
-**Pregunta 21. Respuesta correcta: a)**  
-Algunas condiciones no deben compensarse.
-
-**Pregunta 22. Respuesta correcta: b)**  
-Los evaluadores pueden asignar significado distinto a cada número.
-
-**Pregunta 23. Respuesta correcta: a)**  
-Busca convergencia reduciendo presión social.
-
-**Pregunta 24. Respuesta correcta: a)**  
-Es una categoría tradicional de selección basada en poder.
-
-**Pregunta 25. Respuesta correcta: c)**  
-Es el número de combinaciones de dos elementos.
-
-**Pregunta 26. Respuesta correcta: a)**  
-AHP deriva prioridades mediante comparaciones.
-
-**Pregunta 27. Respuesta correcta: b)**  
-La variable representa decisión de inclusión.
-
-**Pregunta 28. Respuesta correcta: a)**  
-B solo puede ser uno si A también es uno.
-
-**Pregunta 29. Respuesta correcta: a)**  
-Como máximo uno puede seleccionarse.
-
-**Pregunta 30. Respuesta correcta: a)**  
-Es una media ponderada por probabilidades.
-
-**Pregunta 31. Respuesta correcta: b)**  
-Dos alternativas con igual media pueden tener riesgos muy distintos.
-
-**Pregunta 32. Respuesta correcta: a)**  
-Aísla el efecto de una variable.
-
-**Pregunta 33. Respuesta correcta: b)**  
-Representa combinaciones plausibles de condiciones.
-
-**Pregunta 34. Respuesta correcta: a)**  
-Ordena variables por impacto sobre el resultado.
-
-**Pregunta 35. Respuesta correcta: a)**  
-Permite visualizar varias dimensiones simultáneas.
-
-**Pregunta 36. Respuesta correcta: b)**  
-La sobrecarga de cartera aumenta multitarea y retrasos.
-
-**Pregunta 37. Respuesta correcta: a)**  
-Mide el valor que se deja de obtener.
-
-**Pregunta 38. Respuesta correcta: a)**  
-La concentración genera exposición común.
-
-**Pregunta 39. Respuesta correcta: a)**  
-Es la falacia de continuar por inversión pasada.
-
-**Pregunta 40. Respuesta correcta: b)**  
-La trazabilidad permite transparencia y revisión.
-
+>> (5) No confundas **evaluación/selección de cartera** con el **seguimiento operativo** del proyecto: EMV, árboles, VAN y BCR aquí sirven para decidir *antes* de autorizar, no para controlar la ejecución.
 ---
 
 # Lista de comprobación de dominio
@@ -548,6 +571,6 @@ La trazabilidad permite transparencia y revisión.
 - [ ] Distingo evaluación de cartera y seguimiento operativo del proyecto
 - [ ] Reconozco sesgos
 - [ ] Explico gobierno y trazabilidad
-- [ ] Resuelvo al menos 35 de las 40 preguntas sin consultar
+- [ ] Resuelvo al menos 40 de las 45 preguntas sin consultar
 
 ---

@@ -80,13 +80,13 @@ Enfoques híbridos, automatización, herramientas digitales, gestión de interes
 
 Cada tema dispone de un archivo de práctica independiente. En este índice se lista solo el capítulo principal, sin desglosar tests, tarjetas, soluciones ni listas internas.
 
-- [Tema 1 — Políticas de igualdad de género](herramientas-de-estudio/Tema_01_Politicas_Igualdad_Genero.md)
-- [Tema 2 — Fundamentos y principios de la gestión de proyectos](herramientas-de-estudio/Tema_02_Fundamentos_Gestion_Proyectos.md)
-- [Tema 3 — Evaluación y selección de proyectos](herramientas-de-estudio/Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
-- [Tema 4 — Ejecución de proyectos](herramientas-de-estudio/Tema_04_Ejecucion_de_Proyectos.md)
-- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](herramientas-de-estudio/Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
-- [Tema 6 — Herramientas y técnicas](herramientas-de-estudio/Tema_06_Herramientas_y_Tecnicas.md)
-- [Tema 7 — Tendencias en gestión de proyectos](herramientas-de-estudio/Tema_07_Tendencias_Gestion_Proyectos.md)
+- [Tema 1 — Políticas de igualdad de género](herramientas-de-estudio/Practica_Tema_01_Politicas_Igualdad_Genero.md)
+- [Tema 2 — Fundamentos y principios de la gestión de proyectos](herramientas-de-estudio/Practica_Tema_02_Fundamentos_Gestion_Proyectos.md)
+- [Tema 3 — Evaluación y selección de proyectos](herramientas-de-estudio/Practica_Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md)
+- [Tema 4 — Ejecución de proyectos](herramientas-de-estudio/Practica_Tema_04_Ejecucion_de_Proyectos.md)
+- [Tema 5 — Estándares y marcos de referencia para la gestión de proyectos](herramientas-de-estudio/Practica_Tema_05_Estandares_Marcos_Gestion_Proyectos.md)
+- [Tema 6 — Herramientas y técnicas](herramientas-de-estudio/Practica_Tema_06_Herramientas_y_Tecnicas.md)
+- [Tema 7 — Tendencias en gestión de proyectos](herramientas-de-estudio/Practica_Tema_07_Tendencias_Gestion_Proyectos.md)
 
 ---
 
@@ -137,13 +137,13 @@ Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejempl
 │   ├── Tema_06_Herramientas_y_Tecnicas.md
 │   └── Tema_07_Tendencias_Gestion_Proyectos.md
 ├── herramientas-de-estudio/
-│   ├── Tema_01_Politicas_Igualdad_Genero.md
-│   ├── Tema_02_Fundamentos_Gestion_Proyectos.md
-│   ├── Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
-│   ├── Tema_04_Ejecucion_de_Proyectos.md
-│   ├── Tema_05_Estandares_Marcos_Gestion_Proyectos.md
-│   ├── Tema_06_Herramientas_y_Tecnicas.md
-│   └── Tema_07_Tendencias_Gestion_Proyectos.md
+│   ├── Practica_Tema_01_Politicas_Igualdad_Genero.md
+│   ├── Practica_Tema_02_Fundamentos_Gestion_Proyectos.md
+│   ├── Practica_Tema_03_Evaluacion_y_Seleccion_de_Proyectos.md
+│   ├── Practica_Tema_04_Ejecucion_de_Proyectos.md
+│   ├── Practica_Tema_05_Estandares_Marcos_Gestion_Proyectos.md
+│   ├── Practica_Tema_06_Herramientas_y_Tecnicas.md
+│   └── Practica_Tema_07_Tendencias_Gestion_Proyectos.md
 ├── legacy/
 │   ├── duplicados/
 │   └── resumenes-claude/
@@ -153,6 +153,35 @@ Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejempl
 ```
 
 El temario activo se mantiene en `contenido/`. Las herramientas de práctica se mantienen en `herramientas-de-estudio/`. Las carpetas `legacy/`, `legacy/duplicados/`, `legacy/resumenes-claude/` y `pdf/` conservan versiones anteriores, borradores, resúmenes o exportaciones, pero no deben considerarse la fuente principal de estudio.
+
+---
+
+## Generación del PDF
+
+Para generar el libro completo en PDF se necesitan:
+
+- `pandoc`
+- `xelatex`
+
+En Debian/Ubuntu pueden instalarse con:
+
+```bash
+sudo apt install pandoc texlive-xetex
+```
+
+Desde la raíz del repositorio:
+
+```bash
+bash scripts/build-book.sh
+```
+
+El resultado se genera en:
+
+```text
+pdf/temario-completo.pdf
+```
+
+La configuración detallada está en [book/README.md](book/README.md).
 
 ---
 

@@ -2,7 +2,7 @@
 
 Las políticas de igualdad tienen como finalidad convertir la igualdad formal reconocida por el ordenamiento en una igualdad real y efectiva. Para ello, el sistema jurídico no se limita a prohibir la discriminación directa, sino que contempla la discriminación indirecta, el acoso, las represalias, las acciones positivas, la transversalidad de la perspectiva de género, la tutela judicial, la reparación y las sanciones. Este tema se centra en la Ley Orgánica 3/2007, de 22 de marzo, y en la Ley 15/2022, de 12 de julio, dos normas relacionadas pero con objetos y ámbitos distintos.
 
-> *Este archivo contiene la teoría del tema y su material de referencia (mapa de artículos y bibliografía). El test, las tarjetas, el repaso rápido y la lista de comprobación están en [herramientas de estudio del tema 1](../herramientas-de-estudio/Tema_01_Politicas_Igualdad_Genero.md).*
+> *Este archivo contiene la teoría del tema y su material de referencia (mapa de artículos y bibliografía). El test, las tarjetas, el repaso rápido y la lista de comprobación están en [herramientas de estudio del tema 1](../herramientas-de-estudio/Practica_Tema_01_Politicas_Igualdad_Genero.md).*
 
 ---
 

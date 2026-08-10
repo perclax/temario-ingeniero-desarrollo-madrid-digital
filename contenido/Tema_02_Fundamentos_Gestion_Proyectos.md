@@ -207,7 +207,7 @@ Conviene distinguir **grado** y **calidad**. El grado representa el nivel de pre
 
 ## 2.3.9. Incertidumbre, adaptación y aprendizaje
 
-La incertidumbre debe gestionarse de forma continua. Los riesgos pueden evitarse, reducirse, transferirse, aceptarse o explotarse según su naturaleza.
+La incertidumbre debe gestionarse de forma continua. Conviene distinguir según el tipo de riesgo: ante una **amenaza**, la respuesta puede consistir en evitarla, mitigarla, transferirla, aceptarla o escalarla; ante una **oportunidad**, en explotarla, compartirla, mejorarla, aceptarla o escalarla. La elección depende de la naturaleza del riesgo y de su relación coste-beneficio.
 
 Los planes son hipótesis sobre el futuro. El proyecto debe aprender de la evidencia y modificar su enfoque sin perder el control. La **adaptabilidad** permite responder a nuevas condiciones; la **resiliencia** permite absorber perturbaciones y recuperarse.
 
@@ -221,11 +221,11 @@ La sostenibilidad exige considerar mantenibilidad, accesibilidad, consumo de rec
 
 ## 2.3.11. Relación con PMBOK 7 y PMBOK 8
 
-PMBOK 7 organiza su orientación alrededor de doce principios relacionados con custodia, equipo, interesados, valor, pensamiento sistémico, liderazgo, adaptación, calidad, complejidad, riesgo, resiliencia y cambio.
+PMBOK 7 organiza su orientación alrededor de doce principios relacionados con custodia, equipo, interesados, valor, pensamiento sistémico, liderazgo, adaptación, calidad, complejidad, riesgo, adaptabilidad y resiliencia, y cambio. Conviene recordar que la adaptabilidad y la resiliencia constituyen un único principio, aunque describan capacidades distintas.
 
-PMBOK 8 conserva la orientación por principios y dominios, pero la sintetiza en seis principios nucleares: visión holística, valor, calidad integrada, liderazgo responsable, sostenibilidad y equipos empoderados.
+PMBOK 8, publicado en noviembre de 2025, mantiene el enfoque por principios pero introduce un cambio estructural relevante. Por un lado, reduce los doce principios de la 7.ª edición a seis principios nucleares: visión holística, foco en el valor, calidad integrada, liderazgo responsable, integración de la sostenibilidad y cultura empoderada. Por otro, y esto es lo más característico de la edición, recupera los procesos, que habían desaparecido como tales en la 7.ª edición y que ahora se organizan en siete dominios de desempeño y cinco «Focus Areas» con cuarenta procesos no prescriptivos. La cifra que conviene retener es, por tanto, 6 principios, 7 dominios, 5 Focus Areas y 40 procesos.
 
-> **Clave de test:** PMBOK 8 no representa una vuelta pura a un modelo rígido y prescriptivo basado exclusivamente en procesos.
+> **Clave de test:** PMBOK 8 no vuelve a un modelo rígido basado exclusivamente en procesos, pero sí reintroduce los procesos —ausentes como tales en la 7.ª edición—, presentándolos de forma no prescriptiva junto a los principios y los dominios. El sexto principio se denomina «cultura empoderada» (*Build an Empowered Culture*), no «equipos empoderados».
 
 La arquitectura completa de PMBOK 7 y 8 corresponde al Tema 5. Aquí solo se usan como referencia para identificar principios generales compartidos por la dirección de proyectos moderna.
 
@@ -590,4 +590,3 @@ Este ejemplo muestra que **entregables**, **operaciones** y **beneficios** forma
 - Para **PRINCE2**, estudiar la información pública y, si se dispone de acceso, el manual oficial de la versión 7.
 - Evitar memorizar resúmenes no oficiales cuando contradigan una edición vigente.
 - Comprobar siempre la edición: materiales antiguos pueden referirse a estructuras diferentes de PMBOK o PRINCE2.
-
