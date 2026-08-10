@@ -42,6 +42,8 @@ Las dos características más importantes son la **temporalidad** y la **singula
 
 ## 2.1.1. Inicio y final del proyecto
 
+La existencia de una idea no implica por sí sola el nacimiento de un proyecto. Para que exista un proyecto debe producirse una decisión formal que autorice el empleo de recursos y asigne responsabilidades.
+
 El proyecto comienza cuando una necesidad, un problema o una oportunidad justifican una intervención organizada. Sin embargo, la existencia de una idea no basta: debe existir una decisión que autorice el uso de recursos y establezca una responsabilidad clara.
 
 El final puede producirse porque los objetivos se han alcanzado, porque se demuestra que ya no pueden lograrse o porque desaparece la necesidad que justificaba la iniciativa. También puede finalizar por falta de recursos, por una decisión del patrocinador, por un cambio legal o tecnológico o por la transferencia de los entregables a la operación.
