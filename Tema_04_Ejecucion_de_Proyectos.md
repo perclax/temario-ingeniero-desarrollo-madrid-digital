@@ -525,28 +525,9 @@ Un cambio de alcance puede afectar:
 
 **4.4.2. Dominios de desempeño en PMBOK 7 y PMBOK 8.**
 
-La séptima edición de PMBOK organiza la guía alrededor de ocho dominios de desempeño:
+PMBOK utiliza el concepto de dominio de desempeño para agrupar responsabilidades relevantes de la dirección del proyecto. Las ediciones 7 y 8 organizan esos dominios de forma distinta, por lo que sus listas no deben mezclarse.
 
-1. Interesados.
-2. Equipo.
-3. Enfoque de desarrollo y ciclo de vida.
-4. Planificación.
-5. Trabajo del proyecto.
-6. Entrega.
-7. Medición.
-8. Incertidumbre.
-
-La octava edición utiliza siete dominios:
-
-1. Gobierno.
-2. Alcance.
-3. Cronograma.
-4. Finanzas.
-5. Interesados.
-6. Recursos.
-7. Riesgo.
-
-Estas clasificaciones pertenecen a ediciones diferentes. No deben mezclarse en una misma enumeración.
+El detalle de las ediciones de PMBOK se estudia en el Tema 5. En este tema interesa la idea operativa: durante la ejecución, los ámbitos de gobierno, alcance, cronograma, costes, calidad, recursos, riesgos, interesados, comunicaciones, cambios y beneficios interactúan continuamente.
 
 > **Trampa de examen:** los dominios de desempeño no son fases del ciclo de vida y no se ejecutan una sola vez en secuencia.
 
@@ -580,45 +561,19 @@ No deben confundirse.
 
 ### Fase
 
-Parte del ciclo de vida del proyecto relacionada con la evolución del producto o con una etapa de gestión.
-
-Ejemplos:
-
-- Análisis.
-- Diseño.
-- Construcción.
-- Despliegue.
+Parte del ciclo de vida del proyecto relacionada con la evolución del producto o con una etapa de gestión. Ejemplos: análisis, diseño, construcción o despliegue.
 
 ### Proceso
 
-Conjunto de actividades de gestión que puede repetirse en diferentes fases.
-
-Ejemplos:
-
-- Identificar riesgos.
-- Gestionar interesados.
-- Controlar cambios.
-- Informar del desempeño.
+Conjunto de actividades de gestión que puede repetirse en diferentes fases. Ejemplos: identificar riesgos, gestionar interesados, controlar cambios o informar del desempeño.
 
 Una fase de construcción puede contener procesos de planificación, ejecución, control y cierre. Del mismo modo, un proceso de gestión de riesgos puede aplicarse en todas las fases.
 
+El Tema 2 desarrolla la diferencia general entre fases, procesos y ciclo de vida. Aquí se utiliza para entender cómo se ejecuta y controla el trabajo.
+
 **4.4.5. Grupos de procesos.**
 
-En el enfoque clásico basado en procesos, estos pueden agruparse en:
-
-1. Iniciación.
-2. Planificación.
-3. Ejecución.
-4. Seguimiento y control.
-5. Cierre.
-
-Estos grupos:
-
-- No tienen que coincidir con fases.
-- Pueden solaparse.
-- Pueden repetirse en cada fase.
-- Se adaptan al enfoque utilizado.
-- Representan clases de actividad de gestión.
+En el enfoque clásico basado en procesos, estos suelen agruparse en iniciación, planificación, ejecución, seguimiento y control, y cierre. No equivalen automáticamente a fases cronológicas: pueden solaparse, repetirse en cada fase y adaptarse al enfoque utilizado.
 
 ### Ejemplo
 
@@ -832,17 +787,7 @@ Para cada nivel se establecen:
 - Mecanismos de información.
 - Criterios de escalado.
 
-Las tolerancias pueden referirse a los aspectos de desempeño del proyecto.
-
-En PRINCE2 7 se consideran:
-
-1. Tiempo.
-2. Coste.
-3. Calidad.
-4. Alcance.
-5. Beneficios.
-6. Riesgo.
-7. Sostenibilidad.
+Las tolerancias pueden referirse a tiempo, coste, calidad, alcance, beneficios, riesgo, sostenibilidad u otros aspectos de desempeño definidos por la organización. PRINCE2 desarrolla esta lógica con detalle; en este tema se estudia su uso práctico durante la ejecución.
 
 ### Ejemplos de tolerancia
 
@@ -896,9 +841,7 @@ Escalar no equivale a trasladar el problema sin análisis.
 
 **4.5.5. Dirección por etapas.**
 
-La gestión por excepción se refuerza mediante la gestión por etapas.
-
-El proyecto se divide en etapas de gestión que permiten:
+La gestión por excepción suele reforzarse mediante decisiones por etapas. Cada etapa permite:
 
 - Revisar la justificación.
 - Evaluar resultados.
@@ -1008,38 +951,15 @@ Un comité eficaz no debe convertirse en una reunión operativa centrada en tare
 
 **4.6.5. Roles de la Junta de Proyecto en PRINCE2.**
 
-PRINCE2 representa tres intereses esenciales:
+PRINCE2 representa tres intereses esenciales en la Junta de Proyecto:
 
-### Ejecutivo
+| Rol | Interés principal | Pregunta que protege |
+|---|---|---|
+| **Ejecutivo** | Negocio | ¿El proyecto sigue siendo justificable y conveniente? |
+| **Usuario principal** | Uso, necesidades y beneficios | ¿Los productos servirán para lograr los resultados esperados? |
+| **Proveedor principal** | Viabilidad y capacidad de entrega | ¿Puede construirse y entregarse con la calidad necesaria? |
 
-Representa el interés del negocio.
-
-- Preside la Junta de Proyecto.
-- Es responsable último del éxito del proyecto.
-- Garantiza que exista una justificación viable.
-- Busca equilibrio entre negocio, usuarios y proveedores.
-- Es propietario de la justificación de negocio.
-
-### Usuario principal
-
-Representa a quienes utilizarán los productos o se verán afectados por ellos.
-
-- Define necesidades y expectativas.
-- Especifica beneficios.
-- Asegura la participación de usuarios.
-- Confirma que los productos resultan aptos para su uso.
-- Participa en criterios de aceptación.
-- Facilita la adopción y realización de beneficios.
-
-### Proveedor principal
-
-Representa a quienes diseñan, desarrollan o suministran los productos.
-
-- Asegura viabilidad técnica.
-- Proporciona recursos especializados.
-- Representa a los proveedores.
-- Garantiza calidad técnica.
-- Asesora sobre enfoques y capacidad de entrega.
+El detalle completo de la organización PRINCE2 se estudia en el Tema 5. Aquí interesa que la ejecución no responda solo al equipo técnico: debe equilibrar negocio, usuarios y proveedores.
 
 > **Trampa frecuente:** el Ejecutivo representa el negocio, no exclusivamente al proveedor ni a los usuarios.
 
@@ -1252,58 +1172,22 @@ Este enfoque evita planificar actividad sin una definición suficiente del resul
 
 **4.7.2. Producto, entregable, resultado y beneficio.**
 
-### Producto
+El Tema 2 desarrolla con carácter general la cadena entregable, resultado, beneficio y valor. En ejecución conviene recordarla para no confundir producto terminado con beneficio conseguido.
 
-Resultado tangible o intangible producido por el proyecto.
-
-Ejemplos:
-
-- Aplicación configurada.
-- Manual.
-- Modelo de datos.
-- Entorno desplegado.
-- Procedimiento aprobado.
-- Curso impartido.
-
-### Entregable
-
-Producto verificable que se entrega formalmente.
-
-En muchos contextos, producto y entregable se utilizan de forma próxima, aunque «entregable» enfatiza su entrega y verificación.
-
-### Resultado
-
-Consecuencia de utilizar los productos.
-
-Ejemplo: los empleados pueden tramitar solicitudes digitalmente.
-
-### Capacidad
-
-Habilidad nueva o mejorada proporcionada por los productos.
-
-Ejemplo: capacidad para firmar electrónicamente expedientes.
-
-### Beneficio
-
-Mejora medible percibida como positiva por uno o más interesados.
-
-Ejemplo: reducción del tiempo medio de tramitación en un 30 %.
-
-### Efecto negativo o desbeneficio
-
-Consecuencia medible percibida como negativa.
-
-Ejemplo: aumento inicial de carga de trabajo durante la migración.
+| Concepto | Enfoque durante la ejecución |
+|---|---|
+| **Producto** | Algo que debe existir y cumplir unas características. |
+| **Entregable** | Producto verificable que se entrega o acepta formalmente. |
+| **Resultado** | Cambio producido cuando el producto se utiliza. |
+| **Capacidad** | Habilidad nueva o mejorada que permite operar de otra forma. |
+| **Beneficio** | Mejora medible derivada del resultado. |
+| **Desbeneficio** | Efecto negativo aceptado o gestionado. |
 
 **4.7.3. Cadena de valor.**
 
-Puede representarse así:
+La relación entre trabajo, productos, resultados, beneficios y valor no es automática. Durante la ejecución deben mantenerse visibles las condiciones necesarias para que los productos puedan usarse y generar el valor esperado.
 
-$$
-\text{Trabajo} \rightarrow \text{Productos} \rightarrow \text{Resultados} \rightarrow \text{Beneficios} \rightarrow \text{Valor}
-$$
-
-La relación no es automática. Entregar un producto no garantiza:
+Entregar un producto no garantiza:
 
 - Que se utilice.
 - Que se adopte correctamente.
@@ -1844,7 +1728,7 @@ Se adapta el método:
 - Los grupos de procesos no equivalen al ciclo de vida.
 - La gestión por excepción delega autoridad dentro de tolerancias.
 - Una desviación solo es excepción si se prevé superar una tolerancia.
-- PRINCE2 7 contempla tiempo, coste, calidad, alcance, beneficios, riesgo y sostenibilidad.
+- La gestión por excepción trabaja con tolerancias sobre aspectos de desempeño.
 - El Ejecutivo representa al negocio.
 - El Usuario Principal representa necesidades y beneficios de usuarios.
 - El Proveedor Principal representa capacidad técnica y suministro.
@@ -1976,12 +1860,12 @@ b) Agrupa actividades y responsabilidades relacionadas.
 c) Es sinónimo de departamento.  
 d) Solo se aplica una vez.
 
-**Pregunta 10. ¿Cuál de las siguientes enumeraciones corresponde a los dominios de PMBOK 8?**
+**Pregunta 10. ¿Qué afirmación sobre dominios de desempeño es correcta en este tema?**
 
-a) Equipo, entrega, medición e incertidumbre.  
-b) Gobierno, alcance, cronograma, finanzas, interesados, recursos y riesgo.  
-c) Iniciación, planificación, ejecución, control y cierre.  
-d) Calidad, integración, comunicación y adquisiciones exclusivamente.
+a) Son fases cronológicas que se ejecutan una sola vez.  
+b) Agrupan responsabilidades relacionadas que interactúan durante el proyecto.  
+c) Sustituyen a los roles del proyecto.  
+d) Son siempre departamentos de la organización.
 
 **Pregunta 11. Los grupos de procesos:**
 
@@ -2025,7 +1909,7 @@ b) Debe cancelarse el proyecto.
 c) El director puede gestionarlo dentro de su autoridad.  
 d) Debe aprobarlo el proveedor principal.
 
-**Pregunta 17. ¿Cuál de los siguientes es un aspecto de desempeño incorporado expresamente en PRINCE2 7?**
+**Pregunta 17. En gestión por excepción, una tolerancia puede referirse a:**
 
 a) Sostenibilidad.  
 b) Marketing.  
@@ -2190,7 +2074,7 @@ El aseguramiento proporciona confianza independiente. No sustituye al control co
 Un dominio agrupa materias relacionadas y se gestiona de forma continua e interdependiente.
 
 **Pregunta 10. Respuesta correcta: b)**  
-PMBOK 8 utiliza los dominios gobierno, alcance, cronograma, finanzas, interesados, recursos y riesgo.
+Un dominio agrupa responsabilidades relacionadas que interactúan durante la ejecución. No es una fase, un departamento ni un rol.
 
 **Pregunta 11. Respuesta correcta: c)**  
 Los grupos de procesos no son fases. Pueden solaparse y repetirse dentro de cada fase.
@@ -2211,7 +2095,7 @@ No toda desviación es una excepción. Debe preverse la superación de una toler
 El retraso permanece dentro del margen de cinco días y puede gestionarse en el nivel delegado.
 
 **Pregunta 17. Respuesta correcta: a)**  
-PRINCE2 7 incorpora la sostenibilidad como aspecto central del desempeño.
+Las tolerancias pueden definirse sobre distintos aspectos de desempeño, incluida la sostenibilidad cuando sea relevante para el proyecto.
 
 **Pregunta 18. Respuesta correcta: b)**  
 El Ejecutivo representa al negocio, preside la Junta y mantiene la responsabilidad última sobre el éxito.
@@ -2278,10 +2162,10 @@ Antes de considerar estudiado el tema, debería poder responderse sin consultar:
 - [ ] Relación entre estructura y autoridad del director.
 - [ ] Diferencia entre gobierno, dirección, gestión, entrega y aseguramiento.
 - [ ] Diferencia entre dominio, proceso, grupo de procesos y fase.
-- [ ] Dominios de PMBOK 7 y PMBOK 8 sin mezclarlos.
+- [ ] Saber que PMBOK 7 y PMBOK 8 organizan dominios de forma distinta, sin convertirlos en fases.
 - [ ] Diferencia entre riesgo e incidencia.
 - [ ] Diferencia entre desviación y excepción.
-- [ ] Los siete aspectos de desempeño de PRINCE2 7.
+- [ ] Funcionamiento de objetivos, tolerancias, excepciones y escalado.
 - [ ] Funciones del Ejecutivo, Usuario Principal y Proveedor Principal.
 - [ ] Responsabilidades del director, responsable de equipo y apoyo.
 - [ ] Significado de R, A, C e I.

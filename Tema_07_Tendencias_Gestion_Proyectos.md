@@ -70,40 +70,9 @@ No existe una única metodología híbrida universal.
 
 **7.1.2. Continuo de enfoques.**
 
-Los enfoques pueden representarse como un continuo:
+El Tema 5 desarrolla la diferencia entre enfoques predictivos, iterativos, incrementales, adaptativos y ágiles. En este tema interesa su combinación como tendencia: muchas organizaciones ya no aplican un enfoque puro, sino un continuo de opciones ajustadas al riesgo, regulación, incertidumbre, contratación y capacidad de entrega.
 
-1. Predictivo.
-2. Iterativo.
-3. Incremental.
-4. Adaptativo.
-5. Combinaciones híbridas.
-
-### Predictivo
-
-- Alcance definido tempranamente.
-- Plan detallado.
-- Control mediante líneas base.
-- Cambios formalmente evaluados.
-- Entrega frecuente al final o por grandes fases.
-
-### Iterativo
-
-- El producto se refina mediante ciclos.
-- Cada iteración aumenta comprensión o calidad.
-- Puede no producir una versión plenamente utilizable en cada ciclo.
-
-### Incremental
-
-- La capacidad se entrega por partes utilizables.
-- Cada incremento añade funcionalidad.
-
-### Adaptativo o ágil
-
-- Ciclos cortos.
-- Priorización continua.
-- Retroalimentación frecuente.
-- Equipos multidisciplinares.
-- Respuesta rápida al cambio.
+La pregunta ya no es solo «predictivo o ágil», sino qué partes del proyecto necesitan estabilidad, cuáles requieren aprendizaje y cómo se conectan ambos modos sin crear doble gobierno.
 
 **7.1.3. Razones para hibridar.**
 
@@ -507,38 +476,19 @@ Requiere datos y modelos fiables.
 
 **7.2.12. Herramientas de gestión.**
 
-Categorías:
+El Tema 6 estudia las herramientas colaborativas y de seguimiento desde un punto de vista operativo. En tendencias interesa observar su evolución:
 
-- Gestión de cartera.
-- Cronogramas.
-- Tableros.
-- Requisitos.
-- Documentación.
-- Comunicación.
-- Riesgos.
-- Calidad.
-- Código.
-- CI/CD.
-- Pruebas.
-- Dashboards.
-- Automatización.
-- Analítica.
+- De repositorios aislados a plataformas integradas.
+- De registro manual a actualización automática.
+- De informes descriptivos a analítica predictiva.
+- De tableros estáticos a asistencia contextual.
+- De herramientas locales a ecosistemas conectados mediante API, conectores y automatizaciones.
 
-La selección debe considerar:
-
-- Adecuación.
-- Integración.
-- Seguridad.
-- Coste.
-- Exportación.
-- Accesibilidad.
-- Auditoría.
-- Residencia de datos.
-- Dependencia del proveedor.
+La selección ya no depende solo de funcionalidad y coste. También pesan seguridad, privacidad, residencia de datos, interoperabilidad, auditabilidad, exportación, dependencia del proveedor y capacidad de gobierno.
 
 **7.2.13. Gobierno de herramientas.**
 
-Debe definirse:
+El gobierno de herramientas evita que la digitalización cree fragmentación o pérdida de control. Debe definirse:
 
 - Propietario.
 - Administradores.
@@ -2208,9 +2158,9 @@ Se mantiene supervisión humana.
 
 # 7.9. Comparaciones esenciales
 
-**7.9.1. Predictivo, ágil e híbrido.**
+**7.9.1. Uso predictivo, ágil e híbrido.**
 
-| Predictivo | Ágil | Híbrido |
+| Uso predictivo | Uso ágil | Uso híbrido |
 |---|---|---|
 | Plan temprano | Planificación continua | Combina según contexto |
 | Alcance estable | Prioridad adaptable | Partes estables y variables |
@@ -2887,11 +2837,11 @@ La distribución exige normas claras, asincronía y trazabilidad.
 - [ ] Defino enfoque híbrido.
 - [ ] Identifico patrones de hibridación.
 - [ ] Diseño una gobernanza híbrida coherente.
-- [ ] Distingo predictivo, iterativo, incremental y adaptativo.
+- [ ] Justifico qué partes del proyecto necesitan estabilidad y cuáles aprendizaje.
 - [ ] Distingo automatización basada en reglas, analítica e IA.
 - [ ] Identifico riesgos de automatización.
 - [ ] Explico niveles de supervisión humana.
-- [ ] Selecciono herramientas según seguridad, integración y trazabilidad.
+- [ ] Evalúo gobierno, integración, seguridad y dependencia de herramientas digitales.
 - [ ] Identifico y analizo interesados.
 - [ ] Aplico matrices de poder, interés, impacto y actitud.
 - [ ] Explico niveles de participación.

@@ -129,6 +129,8 @@ No es un documento que se redacta al inicio y se archiva. Debe mantenerse actual
 
 El caso de negocio tampoco debe confundirse con el plan del proyecto. El primero explica **por qué merece la pena invertir**; el segundo describe **cómo se organizará y ejecutará el trabajo**. Puede existir un plan técnicamente excelente para una iniciativa que ya no está justificada.
 
+El Tema 2 introduce la justificación como concepto general y el Tema 5 desarrolla cómo la tratan marcos como PRINCE2. Aquí interesa su función en la evaluación: aportar evidencia para seleccionar, priorizar, autorizar, continuar o cancelar una iniciativa.
+
 **3.2.2. Preguntas esenciales.**
 
 Un buen caso de negocio debe responder al menos a las siguientes preguntas:
@@ -186,7 +188,7 @@ Una secuencia habitual es:
 9. Formular una recomendación.
 10. Seleccionar y priorizar.
 11. Autorizar.
-12. Revisar durante la ejecución.
+12. Revisar la justificación durante la ejecución.
 
 Aunque se presenta como una secuencia, el proceso suele ser iterativo. La estimación de costes puede revelar que una alternativa no es asequible y obligar a reformular el alcance o identificar nuevas opciones.
 
@@ -353,6 +355,8 @@ En una entidad pública, el valor puede manifestarse como mejora de la **accesib
 Estos resultados no siempre deben monetizarse. Forzar una valoración económica puede introducir supuestos poco fiables. Sin embargo, sí deben definirse indicadores que permitan comprobar si el beneficio social se produce realmente.
 
 Por ejemplo, un proyecto de simplificación administrativa puede medirse mediante reducción del tiempo medio de tramitación, disminución de desplazamientos, aumento de accesibilidad o reducción de reclamaciones.
+
+La cadena necesidad, entregable, resultado, beneficio y valor se desarrolla como vocabulario general en el Tema 2. En este tema se utiliza para valorar propuestas y decidir qué iniciativas merecen recursos.
 
 **3.4.4. Evaluación financiera y evaluación económica.**
 
@@ -560,6 +564,8 @@ El resultado no significa que el proyecto vaya a generar exactamente esa cantida
 
 Los árboles de decisión representan decisiones, eventos inciertos, probabilidades y resultados. Se resuelven normalmente de derecha a izquierda, calculando valores esperados en los nodos de azar y seleccionando la mejor alternativa en los nodos de decisión.
 
+En este tema, EMV y árboles de decisión se usan para comparar propuestas, alternativas o combinaciones antes de autorizar o priorizar. Durante la ejecución, el Tema 6 los trata como técnicas para cuantificar riesgos, contingencias y respuestas del proyecto.
+
 ---
 
 # 3.7. Factores clave en la decisión
@@ -672,6 +678,8 @@ El enfoque **stage-gate** divide el desarrollo en etapas separadas por puertas d
 
 Las evidencias exigidas deben ser proporcionales a la madurez. Una idea inicial no puede presentar la misma precisión que una solución lista para contratar, pero sí debe demostrar suficiente valor para justificar la siguiente inversión.
 
+En este tema las puertas se estudian como mecanismos de evaluación y autorización progresiva. Su operación detallada dentro del proyecto corresponde a la ejecución y a los marcos de gestión.
+
 El análisis de alternativas compara opciones como construir, comprar, alquilar, externalizar, reutilizar, compartir o no actuar. Debe considerar costes de ciclo de vida, riesgo, flexibilidad, capacidad interna y dependencia del proveedor.
 
 **3.8.7. Prueba de concepto, piloto y valor de la información.**
@@ -679,6 +687,8 @@ El análisis de alternativas compara opciones como construir, comprar, alquilar,
 Una **prueba de concepto** comprueba si una idea es técnicamente viable. Un **piloto** prueba la solución en un entorno limitado pero representativo, incluyendo aspectos operativos y de adopción.
 
 Ambos permiten reducir incertidumbre antes de comprometer toda la inversión. No deben confundirse con un despliegue completo ni utilizarse para evitar indefinidamente una decisión.
+
+Su interés aquí es aportar información para seleccionar, reformular o descartar una opción. La planificación y control del trabajo concreto se estudian en los temas de ejecución y herramientas.
 
 El **valor de la información** analiza cuánto merece la pena invertir en estudios, prototipos, pruebas o datos adicionales. Si una información puede cambiar una decisión de gran impacto, puede justificar un coste significativo.
 
@@ -927,6 +937,14 @@ Este ejemplo demuestra:
 | Puede tener VAN negativo | Puede ser discrecional |
 | Se optimiza la opción | Se compara valor |
 
+## 3.12.9. Evaluación y seguimiento operativo
+
+| Evaluación y selección | Seguimiento operativo |
+|---|---|
+| Decide si invertir, priorizar o continuar | Controla ejecución frente a plan |
+| Usa VAN, TIR, ROI, BCR, MCDA, EMV de alternativas | Usa cronograma, riesgos, cambios, EVM e informes |
+| Mira valor, viabilidad, capacidad y cartera | Mira desempeño, desviaciones y acciones correctivas |
+
 ---
 
 # 3.13. Errores y confusiones frecuentes
@@ -961,6 +979,7 @@ Este ejemplo demuestra:
 28. Presentar estimaciones como cifras ciertas.
 29. No revisar el caso de negocio.
 30. Considerar que «estratégico» evita demostrar beneficios.
+31. Confundir evaluación de cartera con seguimiento operativo del proyecto.
 
 ---
 
@@ -988,7 +1007,7 @@ Este ejemplo demuestra:
 - La puntuación ponderada suma peso por valoración
 - Deben existir criterios de exclusión
 - MCDA estructura juicio, no lo elimina
-- EMV = probabilidad por resultado
+- EMV = probabilidad por resultado; aquí apoya la selección, no el seguimiento operativo
 - Programación binaria modela proyectos seleccionados o no
 - Dependencias deben incluirse
 - Sensibilidad cambia una variable
@@ -1000,6 +1019,7 @@ Este ejemplo demuestra:
 - Coste de retraso puede cambiar prioridad
 - Debe existir gobierno y trazabilidad
 - Los proyectos deben reevaluarse y poder cancelarse
+- Evaluación decide inversión y continuidad; seguimiento operativo controla ejecución
 
 ---
 
@@ -1054,7 +1074,7 @@ Cambiar una variable para observar el efecto.
 Cambiar conjuntamente varias variables coherentes.
 
 **¿Qué es EMV?**  
-Suma de probabilidades por resultados.
+Suma de probabilidades por resultados; en este tema sirve para comparar alternativas de selección.
 
 **¿Qué es coste de retraso?**  
 Valor perdido por aplazar.
@@ -1498,12 +1518,13 @@ La trazabilidad permite transparencia y revisión.
 - [ ] Identifico criterios de exclusión
 - [ ] Explico AHP y MCDA
 - [ ] Modelo dependencias y exclusiones
-- [ ] Calculo EMV
+- [ ] Calculo EMV y explico su uso en evaluación previa, sin confundirlo con gestión operativa de riesgos
 - [ ] Distingo sensibilidad y escenarios
 - [ ] Explico simulación y tornado
 - [ ] Analizo capacidad y recursos
 - [ ] Identifico riesgo agregado
 - [ ] Explico coste de retraso
+- [ ] Distingo evaluación de cartera y seguimiento operativo del proyecto
 - [ ] Reconozco sesgos
 - [ ] Explico gobierno y trazabilidad
 - [ ] Resuelvo al menos 35 de las 40 preguntas sin consultar

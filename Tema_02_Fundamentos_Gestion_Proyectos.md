@@ -42,7 +42,7 @@ Las dos características más importantes son la **temporalidad** y la **singula
 
 ## 2.1.1. Inicio y final del proyecto
 
-El proyecto comienza cuando una necesidad, un problema o una oportunidad justifican una intervención organizada. Sin embargo, la existencia de una idea no basta: debe existir una decisión que autorice el uso de recursos y establezca una responsabilidad clara.
+El proyecto comienza cuando una necesidad, un problema o una oportunidad justifican una intervención organizada y existe una decisión formal que autoriza el empleo de recursos y asigna responsabilidades.
 
 El final puede producirse porque los objetivos se han alcanzado, porque se demuestra que ya no pueden lograrse o porque desaparece la necesidad que justificaba la iniciativa. También puede finalizar por falta de recursos, por una decisión del patrocinador, por un cambio legal o tecnológico o por la transferencia de los entregables a la operación.
 
@@ -59,6 +59,8 @@ La **dirección de proyectos** consiste en aplicar conocimientos, capacidades, m
 Dirigir un proyecto implica justificarlo, alinearlo con la estrategia, definir objetivos, alcance y criterios de éxito, establecer la gobernanza, organizar al equipo, involucrar a los interesados y gestionar riesgos, incidencias y cambios. También supone medir el desempeño, aceptar los entregables, preparar la transición a operaciones y facilitar la obtención de beneficios.
 
 La dirección debe adaptarse al contexto. Un proyecto pequeño y de bajo riesgo no necesita el mismo nivel de documentación y control que una iniciativa estratégica, regulada y de varios años. Sin embargo, adaptar no significa eliminar controles arbitrariamente, sino seleccionar los mecanismos que aportan valor y reducen riesgo.
+
+Este tema fija el concepto general. Los marcos de referencia se desarrollan en el Tema 5 y las herramientas concretas de planificación, riesgos, cambios, métricas e informes en el Tema 6.
 
 **Dirección, gobernanza y trabajo técnico.**
 
@@ -118,17 +120,18 @@ Ningún proyecto funciona de forma aislada. Está condicionado por la estrategia
 
 Uno de los errores más habituales consiste en considerar que entregar el producto acordado equivale automáticamente a generar beneficios. En realidad, existe una cadena que conecta la necesidad inicial con el valor final:
 
-**Necesidad → proyecto → entregables → resultados → beneficios → valor**
+**Necesidad → proyecto → entregables/capacidades → resultados → beneficios → valor**
 
 El proyecto controla principalmente la creación y aceptación de los entregables. Los resultados y beneficios dependen además de que esos entregables sean utilizados, adoptados e integrados en la operación.
 
 ## 2.2.1. Salida, resultado, beneficio y valor
 
-Una **salida** o **entregable** es un producto, servicio o resultado verificable creado por el proyecto. Un **resultado** es el cambio que se produce cuando ese entregable comienza a utilizarse. Un **beneficio** es una mejora medible derivada de ese resultado. El **valor** representa la utilidad global obtenida, considerando beneficios, costes, riesgos y efectos sobre los interesados.
+Una **salida** o **entregable** es un producto, servicio o resultado verificable creado por el proyecto. Una **capacidad** es una habilidad nueva o mejorada que permite operar de otra forma. Un **resultado** es el cambio que se produce cuando ese entregable o capacidad comienza a utilizarse. Un **beneficio** es una mejora medible derivada de ese resultado. El **valor** representa la utilidad global obtenida, considerando beneficios, costes, riesgos y efectos sobre los interesados.
 
 | Concepto | Definición | Ejemplo |
 |---|---|---|
 | **Entregable** | Resultado verificable producido por el proyecto. | Aplicación de cita previa desplegada. |
+| **Capacidad** | Habilidad nueva o mejorada que permite operar de otra forma. | Posibilidad de gestionar citas en línea. |
 | **Resultado** | Cambio producido por el uso del entregable. | La ciudadanía puede pedir cita sin desplazarse. |
 | **Beneficio** | Mejora medible derivada del resultado. | Reducción del 35 % de llamadas. |
 | **Desbeneficio** | Consecuencia negativa medible aceptada. | Mayor carga inicial de soporte digital. |
@@ -224,6 +227,8 @@ PMBOK 8 conserva la orientación por principios y dominios, pero la sintetiza en
 
 > **Clave de test:** PMBOK 8 no representa una vuelta pura a un modelo rígido y prescriptivo basado exclusivamente en procesos.
 
+La arquitectura completa de PMBOK 7 y 8 corresponde al Tema 5. Aquí solo se usan como referencia para identificar principios generales compartidos por la dirección de proyectos moderna.
+
 ---
 
 # 2.4. Beneficios de la gestión de proyectos
@@ -294,6 +299,8 @@ El enfoque **iterativo** refina la solución mediante ciclos. El enfoque **incre
 
 El enfoque **adaptativo o ágil** trabaja en ciclos cortos, con priorización frecuente y retroalimentación continua. El enfoque **híbrido** combina prácticas predictivas y adaptativas según las características de cada componente.
 
+Scrum, Kanban y la comparación básica entre enfoques se estudian en el Tema 5. La hibridación como tendencia organizativa se desarrolla en el Tema 7.
+
 ## 2.5.4. Según tamaño, obligatoriedad y contratación
 
 El tamaño puede medirse por presupuesto, duración, personas, criticidad, número de unidades afectadas o complejidad contractual. Sin embargo, tamaño y complejidad no son equivalentes.
@@ -356,6 +363,8 @@ Una fase pertenece a la estructura temporal del proyecto. Un proceso describe un
 
 Por ejemplo, en las fases de análisis, desarrollo y despliegue pueden realizarse actividades de planificación, ejecución y control.
 
+La aplicación operativa durante la ejecución se desarrolla en el Tema 4. Las técnicas concretas de planificación, estimación, cronograma y seguimiento se estudian en el Tema 6.
+
 ## 2.6.8. Ciclo del proyecto y ciclo del producto
 
 El ciclo de vida del proyecto termina con el cierre de la iniciativa. El ciclo de vida del producto puede extenderse durante años e incluir varios proyectos y periodos de operación.
@@ -403,6 +412,8 @@ Una PMO **directiva** asume la dirección de proyectos o asigna responsables. Su
 Puede existir una oficina dedicada a un único proyecto, una PMO departamental, una PMO empresarial, una oficina de programa o un centro de excelencia.
 
 En entornos adaptativos también aparecen oficinas orientadas al flujo de valor, que ayudan a coordinar inversión, capacidad y resultados sin imponer necesariamente un método único.
+
+PMBOK 8 y otros marcos tratan la PMO con más detalle en el Tema 5. Aquí interesa su concepto general y sus niveles de autoridad.
 
 ## 2.7.3. Proyecto, programa, portafolio y PMO
 
@@ -529,11 +540,12 @@ Este ejemplo muestra que **entregables**, **operaciones** y **beneficios** forma
 - **Proyecto:** esfuerzo temporal y organizado para crear un resultado singular y contribuir a unos objetivos.
 - **Dirección de proyectos:** aplicación coordinada de conocimientos, prácticas y capacidades para lograr los resultados del proyecto.
 - **Entregable:** resultado verificable producido por una actividad, fase o proyecto.
+- **Capacidad:** habilidad nueva o mejorada que permite operar de otra forma.
 - **Resultado:** efecto producido por el uso de los entregables.
-- **Beneficio:** mejora medible derivada de resultados
+- **Beneficio:** mejora medible derivada de resultados.
 - **Valor:** utilidad o ventaja global obtenida para los interesados.
 - **Fase:** parte del ciclo de vida que agrupa trabajo relacionado y culmina en entregables o decisiones.
-- **Hito:** punto significativo del proyecto, normalmente sin duración
+- **Hito:** punto significativo del proyecto, normalmente sin duración.
 - **PMO:** estructura que apoya, normaliza, controla o dirige la gestión de iniciativas.
 - **Programa:** coordinación de proyectos relacionados para obtener beneficios conjuntos.
 - **Portafolio:** agrupación de iniciativas para ejecutar la estrategia y equilibrar la inversión.
@@ -541,16 +553,16 @@ Este ejemplo muestra que **entregables**, **operaciones** y **beneficios** forma
 
 ## 2.12.2. Cadenas para memorizar
 
-**Necesidad → justificación → proyecto → entregables → resultados → beneficios → valor**
+**Necesidad → justificación → proyecto → entregables/capacidades → resultados → beneficios → valor**
 
 **Inicio → planificación → entrega → seguimiento y control → cierre y transición**
 
-**Actividad produce entregable; entregable permite resultado; resultado genera beneficio; beneficio contribuye a valor.**
+**Actividad produce entregable; entregable o capacidad permite resultado; resultado genera beneficio; beneficio contribuye a valor.**
 
 ## 2.12.3. Diferencias clave
 
 | Pareja | Diferencia esencial |
-|||
+|---|---|
 | Proyecto / operación | Temporal y singular / continua y recurrente. |
 | Fase / proceso | Parte temporal del ciclo / conjunto de actividades de gestión o trabajo. |
 | Entregable / hito | Resultado verificable / punto significativo. |
@@ -867,14 +879,16 @@ Marca cada punto cuando puedas explicarlo sin consultar los apuntes:
 - [ ] Defino proyecto y dirección de proyectos
 - [ ] Explico temporalidad, singularidad y elaboración progresiva
 - [ ] Distingo restricción, supuesto, dependencia y riesgo
-- [ ] Distingo entregable, resultado, beneficio y valor
+- [ ] Distingo entregable, capacidad, resultado, beneficio y valor
 - [ ] Explico por qué plazo, coste y alcance no bastan para definir el éxito.
 - [ ] Enumero los principios generales y doy un ejemplo de cada uno.
 - [ ] Reconozco los doce principios de PMBOK 7 y los seis de PMBOK 8.
+- [ ] Sé que la arquitectura completa de PMBOK, PRINCE2, Scrum, Kanban e ISO 21502 se estudia en Tema 5.
 - [ ] Explico los beneficios estratégicos y operativos de gestionar proyectos.
 - [ ] Clasifico proyectos mediante distintos criterios
 - [ ] Distingo predictivo, iterativo, incremental, adaptativo e híbrido.
 - [ ] Explico el ciclo de vida genérico y los entregables de cada fase.
+- [ ] Distingo ciclo de vida general de su ejecución operativa y sus técnicas detalladas.
 - [ ] Distingo fase, proceso, actividad, hito y entregable.
 - [ ] Distingo ciclo de vida del proyecto y del producto.
 - [ ] Defino PMO y diferencio apoyo, control y dirección.

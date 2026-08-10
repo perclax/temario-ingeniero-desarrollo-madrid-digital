@@ -171,7 +171,7 @@ No se exige a la víctima una prueba imposible de la intención interna.
 - Publicación: BOE de 23 de marzo de 2007.
 - Entrada en vigor: 24 de marzo de 2007.
 - Última actualización del texto consolidado del BOE utilizada en estos apuntes: 2 de agosto de 2024.
-- **Revisión y adenda de julio de 2026:** estos apuntes se han completado con las novedades posteriores, en particular la Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria (véase 1.8.4) y el IV Plan para la igualdad de género en la AGE de octubre de 2025 (véase 1.7.6).
+- **Revisión de agosto de 2026:** estos apuntes se han contrastado con el texto consolidado del BOE y se han completado con las novedades posteriores, en particular la Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria (véase 1.8.4) y el IV Plan para la igualdad de género en la AGE de 2025 (véase 1.7.6).
 
 **1.3.2. Objeto.** La ley pretende hacer efectivo el derecho de igualdad de trato y oportunidades entre mujeres y hombres.
 
@@ -392,7 +392,7 @@ Puede establecer acciones especiales para centros concretos.
 
 **1.6.9. Registro.** Los planes de igualdad deben inscribirse en el Registro de Planes de Igualdad de las Empresas.
 
-**1.6.10. Transparencia.** La representación legal o, en su defecto, las personas trabajadoras deben acceder a información sobre contenido y consecuión de objetivos.
+**1.6.10. Transparencia.** La representación legal o, en su defecto, las personas trabajadoras deben acceder a información sobre contenido y consecución de objetivos.
 
 **1.6.11. Prevención del acoso.** Las empresas deben promover condiciones que eviten acoso sexual y acoso por razón de sexo.
 
@@ -430,7 +430,7 @@ La Administración impartirá cursos sobre igualdad y prevención de violencia d
 
 **1.7.6. Plan de igualdad de la Administración General del Estado.** El Gobierno aprobará, al inicio de cada legislatura, un plan para la igualdad en la Administración General del Estado y organismos vinculados.
 
-> **Actualización (julio de 2026):** el plan vigente es el **IV Plan para la igualdad de género en la Administración General del Estado**, aprobado por Acuerdo del Consejo de Ministros de **7 de octubre de 2025** (publicado por Resolución de 20 de octubre de 2025). Dato preguntable por su actualidad.
+> **Actualización (agosto de 2026):** el plan vigente es el **IV Plan para la igualdad de género en la Administración General del Estado**, aprobado por Acuerdo del Consejo de Ministros de **7 de octubre de 2025** y publicado en el BOE de **4 de noviembre de 2025** mediante Resolución de 20 de octubre de 2025. Dato preguntable por su actualidad.
 
 **1.7.7. Unidades de igualdad.** En todos los ministerios, un órgano directivo desarrollará funciones de igualdad.
 
@@ -465,6 +465,8 @@ Permite una horquilla 40/60.
 
 **1.8.4. Actualización: Ley Orgánica 2/2024, de representación paritaria.** La **Ley Orgánica 2/2024, de 1 de agosto**, de representación paritaria y presencia equilibrada de mujeres y hombres, modifica la Ley Orgánica 3/2007 y otras normas. Es la novedad legislativa más relevante en esta materia y, por su actualidad, tiene alta probabilidad de aparecer en el examen.
 
+Fue publicada en el BOE de **2 de agosto de 2024** y entró en vigor a los veinte días de su publicación.
+
 Puntos clave:
 
 - Transpone la **Directiva (UE) 2022/2381**, relativa al equilibrio de género en los consejos de administración de las sociedades cotizadas.
@@ -482,7 +484,7 @@ Puntos clave:
 
 - Publicación: BOE de 13 de julio de 2022.
 - Entrada en vigor: 14 de julio de 2022.
-- El texto consolidado del BOE no refleja modificaciones posteriores a su publicación en la fecha de consulta.
+- Última actualización del texto consolidado del BOE utilizada en estos apuntes: 13 de julio de 2022.
 
 También se conoce socialmente como **Ley Zerolo**, aunque esta denominación no forma parte de su título oficial.
 
@@ -727,6 +729,10 @@ No se concederán ayudas a determinadas personas sancionadas por infracciones mu
 **1.14.1. Naturaleza.** La Ley 15/2022 crea una autoridad administrativa independiente.
 
 Debe actuar con independencia, autonomía funcional, personalidad jurídica propia y plena capacidad pública y privada.
+
+**Actualización 2026.** El **Real Decreto 606/2026, de 22 de julio**, aprueba el Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación. Fue publicado en el BOE de **25 de julio de 2026** y entró en vigor al día siguiente.
+
+El Estatuto concreta su organización, sede en Madrid, régimen jurídico, órganos directivos, Consejo Consultivo, personal, financiación, contratación, transparencia y colaboración con otras administraciones y entidades.
 
 **1.14.2. Finalidad.**
 
@@ -1050,6 +1056,9 @@ La Ley 15/2022 presume daño moral una vez acreditada la discriminación.
 - Interseccional: causas que interactúan.
 - Denegación de ajustes razonables: discriminación directa.
 - Artículo 23: IA y algoritmos.
+- LO 2/2024: representación paritaria, listas cremallera y transposición de la Directiva (UE) 2022/2381.
+- IV Plan AGE: aprobado el 7 de octubre de 2025 y publicado en el BOE de 4 de noviembre de 2025.
+- RD 606/2026: Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación.
 - Nulidad de pleno derecho: artículo 26.
 - Daño moral presumido: artículo 27.
 - Carga de prueba: artículo 30.
@@ -1620,6 +1629,8 @@ Exigen consentimiento y quedan excluidas las infracciones muy graves.
 - [ ] Explico planes de igualdad y umbral de 50.
 - [ ] Enumero las nueve materias del diagnóstico.
 - [ ] Recuerdo la regla 40/60.
+- [ ] Identifico la LO 2/2024, listas cremallera y representación paritaria.
+- [ ] Recuerdo el IV Plan para la igualdad de género en la AGE de 2025.
 - [ ] Identifico criterios de igualdad en empleo público.
 - [ ] Identifico fecha, objeto y ámbito de la Ley 15/2022.
 - [ ] Enumero sus causas protegidas.
@@ -1629,6 +1640,7 @@ Exigen consentimiento y quedan excluidas las infracciones muy graves.
 - [ ] Explico el artículo 23 sobre IA.
 - [ ] Explico nulidad, reparación y daño moral.
 - [ ] Identifico funciones de la Autoridad Independiente.
+- [ ] Recuerdo que el RD 606/2026 aprueba el Estatuto de la Autoridad Independiente.
 - [ ] Clasifico infracciones.
 - [ ] Memorizo los tramos 300–10.000; 10.001–40.000; 40.001–500.000.
 - [ ] Memorizo prescripción de infracciones 1/3/4.
@@ -1644,14 +1656,17 @@ Exigen consentimiento y quedan excluidas las infracciones muy graves.
 
 - [BOE — Constitución Española, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229)
 - [BOE — Ley Orgánica 3/2007, de 22 de marzo, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115)
+- [BOE — Ley Orgánica 2/2024, de representación paritaria y presencia equilibrada](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936)
 - [BOE — Ley 15/2022, de 12 de julio, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2022-11589)
 - [BOE — Ley Orgánica 6/2022, complementaria de la Ley 15/2022](https://www.boe.es/buscar/act.php?id=BOE-A-2022-11588)
+- [BOE — Real Decreto 606/2026, Estatuto de la Autoridad Independiente para la Igualdad de Trato y la No Discriminación](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-16172)
 
 **1.24.2. Planes e igualdad retributiva.**
 
 - [BOE — Real Decreto 901/2020, planes de igualdad y registro](https://www.boe.es/buscar/act.php?id=BOE-A-2020-12214)
 - [BOE — Real Decreto 902/2020, igualdad retributiva](https://www.boe.es/buscar/act.php?id=BOE-A-2020-12215)
 - [BOE — Orden PCM/1047/2022, valoración de puestos con perspectiva de género](https://www.boe.es/buscar/act.php?id=BOE-A-2022-18040)
+- [BOE — IV Plan para la igualdad de género en la AGE, 2025](https://www.boe.es/buscar/act.php?id=BOE-A-2025-22252)
 
 **1.24.3. Recursos institucionales.**
 
@@ -1663,6 +1678,7 @@ Exigen consentimiento y quedan excluidas las infracciones muy graves.
 
 - [EUR-Lex — Directiva 2006/54/CE sobre igualdad en empleo y ocupación](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32006L0054)
 - [EUR-Lex — Directiva 2004/113/CE sobre acceso a bienes y servicios](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32004L0113)
+- [EUR-Lex — Directiva (UE) 2024/1499 sobre organismos de igualdad](https://eur-lex.europa.eu/eli/dir/2024/1499/oj)
 - [EUR-Lex — Directiva (UE) 2024/1500 sobre organismos de igualdad](https://eur-lex.europa.eu/eli/dir/2024/1500/oj)
 
 **1.24.5. Recomendaciones de uso.**
