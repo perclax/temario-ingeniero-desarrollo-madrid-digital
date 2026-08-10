@@ -1082,6 +1082,8 @@ Técnicas:
 
 No todos los proyectos requieren un análisis cuantitativo completo.
 
+En este tema se utiliza para gestionar exposición, reservas, fechas, costes y respuestas durante el proyecto. La comparación de alternativas para autorizar o priorizar proyectos corresponde al Tema 3.
+
 **6.5.12. Valor monetario esperado.**
 
 $$
@@ -1099,6 +1101,8 @@ $$
 
 Para varias ramas se suman los valores ponderados.
 
+En selección de proyectos puede apoyar la comparación de alternativas; aquí interesa sobre todo para cuantificar riesgos concretos, contingencias y exposición agregada.
+
 **6.5.13. Árbol de decisión.**
 
 Representa:
@@ -1107,10 +1111,10 @@ Representa:
 - Eventos inciertos.
 - Probabilidades.
 - Costes.
-- Beneficios.
+- Impactos.
 - Valores esperados.
 
-Permite comparar alternativas, pero el valor esperado no representa necesariamente el resultado que ocurrirá; es una media ponderada.
+Permite comparar respuestas o caminos de actuación dentro del proyecto, pero no debe convertirse en una selección de cartera. El valor esperado no representa necesariamente el resultado que ocurrirá; es una media ponderada.
 
 **6.5.14. Simulación Monte Carlo.**
 
@@ -1538,6 +1542,8 @@ Compara el valor presupuestado del trabajo realizado con:
 
 Permite evaluar desempeño y elaborar previsiones.
 
+Mide ejecución frente a una línea base aprobada. No mide por sí sola rentabilidad, valor público, satisfacción de usuarios ni conveniencia estratégica del proyecto.
+
 **6.7.2. Requisitos previos.**
 
 EVM requiere:
@@ -1830,6 +1836,7 @@ Sirve para calcular PV y EV.
 - Los datos dependen de una línea base realista.
 - Un cambio no controlado invalida comparaciones.
 - EVM no sustituye análisis de riesgos ni previsión de fechas.
+- EVM no demuestra que el proyecto siga siendo conveniente o valioso; esa evaluación exige criterios de negocio, servicio público y beneficios.
 
 **6.7.17. Earned Schedule.**
 
@@ -1886,7 +1893,13 @@ No toda información debe estar en una única aplicación, pero sí deben estar 
 - Ubicación oficial.
 - Reglas de actualización.
 
-**6.8.3. Criterios de selección.**
+**6.8.3. Plataformas integradas e interoperabilidad.**
+
+En proyectos TIC es habitual pasar de herramientas aisladas a ecosistemas conectados: repositorios, sistemas de incidencias, tableros, documentación, CI/CD, pruebas, riesgos, informes y gestión documental pueden intercambiar información mediante API, conectores o automatizaciones.
+
+La integración reduce doble registro y mejora trazabilidad, pero también introduce dependencias. Deben quedar claros la fuente oficial, el flujo entre sistemas, la autoridad de cada dato, la sincronización, los errores, la exportación y la salida del proveedor.
+
+**6.8.4. Criterios de selección.**
 
 - Adecuación al proceso.
 - Facilidad de uso.
@@ -1906,7 +1919,7 @@ No toda información debe estar en una única aplicación, pero sí deben estar 
 - Dependencia del proveedor.
 - Automatización.
 
-**6.8.4. Permisos.**
+**6.8.5. Permisos.**
 
 Debe aplicarse el principio de mínimo privilegio.
 
@@ -1921,7 +1934,7 @@ Se deben controlar:
 - Acceso externo.
 - Información confidencial.
 
-**6.8.5. Repositorios y control de versiones.**
+**6.8.6. Repositorios y control de versiones.**
 
 En proyectos TIC pueden relacionarse:
 
@@ -1936,7 +1949,9 @@ En proyectos TIC pueden relacionarse:
 
 Las relaciones permiten trazabilidad desde requisito hasta versión y prueba.
 
-**6.8.6. Automatización.**
+**6.8.7. Automatización.**
+
+Aquí se trata la automatización operativa de herramientas y flujos de trabajo. La automatización basada en IA, analítica avanzada o dirección predictiva de proyectos se estudia como tendencia en el Tema 7.
 
 Ejemplos:
 
@@ -1958,7 +1973,7 @@ Riesgos:
 - Permisos excesivos.
 - Métricas sin contexto.
 
-**6.8.7. Comunicación síncrona y asíncrona.**
+**6.8.8. Comunicación síncrona y asíncrona.**
 
 ### Síncrona
 
@@ -1989,7 +2004,7 @@ Riesgos:
 
 La decisión importante debe registrarse aunque se haya tomado en una conversación síncrona.
 
-**6.8.8. Información radiada.**
+**6.8.9. Información radiada.**
 
 Un tablero visible permite conocer rápidamente:
 
@@ -2007,7 +2022,7 @@ Debe presentar información:
 - Relevante.
 - Accionable.
 
-**6.8.9. Riesgos de las herramientas.**
+**6.8.10. Riesgos de las herramientas.**
 
 - Fragmentación.
 - Sobrecarga.
@@ -2458,6 +2473,15 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Puede ocultar cambio de alcance | Muestra alcance total |
 | Desciende | Asciende |
 
+**6.11.10. Herramienta aislada y plataforma integrada.**
+
+| Herramienta aislada | Plataforma integrada |
+|---|---|
+| Requiere más transferencia manual | Reduce doble registro |
+| Menos dependencias técnicas | Exige gobierno de integraciones |
+| Puede crear silos | Mejora trazabilidad si los datos son fiables |
+| Salida más sencilla | Puede aumentar dependencia del proveedor |
+
 ---
 
 # 6.12. Errores y confusiones frecuentes
@@ -2494,6 +2518,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 30. Utilizar semáforos sin criterios.
 31. Crear informes extensos sin decisiones accionables.
 32. Mantener datos en múltiples sistemas sin fuente oficial.
+33. Integrar herramientas sin definir autoridad del dato, errores, exportación o salida del proveedor.
 
 ---
 
@@ -2519,6 +2544,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 - Gestión: incertidumbre no identificada.
 - El riesgo puede ser amenaza u oportunidad.
 - EMV = probabilidad × impacto.
+- En el Tema 6, EMV y árboles de decisión se aplican a riesgos y respuestas durante el proyecto; la selección de proyectos queda en el Tema 3.
 - Amenazas: evitar, mitigar, transferir, aceptar o escalar.
 - Oportunidades: explotar, mejorar, compartir, aceptar o escalar.
 - Un cambio debe registrarse, analizarse, decidirse, implementarse y verificarse.
@@ -2533,7 +2559,10 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 - EAC depende de la hipótesis.
 - VAC = BAC − EAC.
 - SV no se expresa en días.
+- EVM mide desempeño de ejecución; no sustituye la evaluación de valor o beneficios.
 - Las herramientas colaborativas no sustituyen procesos ni autoridad.
+- La integración de herramientas mejora trazabilidad, pero exige gobierno de datos e interoperabilidad.
+- La automatización de herramientas es operativa; IA y analítica avanzada se tratan en el Tema 7.
 - Los informes deben incluir previsiones y decisiones, no solo pasado.
 - Velocidad no debe usarse para comparar equipos.
 - Los criterios RAG deben estar definidos.
@@ -3037,7 +3066,7 @@ Se actualizan datos reales y previsión sin borrar la referencia aprobada.
 - [ ] Redacto un riesgo con causa, evento y efecto.
 - [ ] Distingo amenazas y oportunidades.
 - [ ] Enumero respuestas a ambos tipos.
-- [ ] Calculo EMV.
+- [ ] Calculo EMV y explico su uso en riesgos del proyecto, sin confundirlo con selección de cartera.
 - [ ] Distingo residual y secundario.
 - [ ] Explico el flujo de un cambio.
 - [ ] Distingo cambio, configuración y versión.
@@ -3045,7 +3074,7 @@ Se actualizan datos reales y previsión sin borrar la referencia aprobada.
 - [ ] Calculo PV, EV, AC, CV, SV, CPI y SPI.
 - [ ] Selecciono fórmulas EAC según hipótesis.
 - [ ] Calculo ETC, VAC y TCPI.
-- [ ] Explico por qué SV no equivale a días.
+- [ ] Explico por qué SV no equivale a días y por qué EVM no mide valor estratégico.
 - [ ] Distingo burndown, burnup y flujo acumulado.
 - [ ] Explico limitaciones de velocidad.
 - [ ] Diseño un informe de estado útil.

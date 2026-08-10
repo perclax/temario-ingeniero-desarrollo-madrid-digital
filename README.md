@@ -6,6 +6,10 @@ Material de estudio para la preparación del proceso selectivo de la categoría 
 
 Este repositorio reúne unos apuntes estructurados para facilitar el estudio, la consulta y la actualización continua del temario. Los contenidos combinan explicación teórica, definiciones, comparaciones, ejemplos aplicados a proyectos TIC, fórmulas, errores frecuentes, tarjetas de memorización y preguntas tipo test con soluciones razonadas.
 
+La referencia de alcance es el [temario base](TEMARIO-BASE.md). Para ordenar los solapamientos entre capítulos se mantiene un [mapa de redundancias](MAPA_REDUNDANCIAS.md) con la propiedad de cada contenido y el estado de consolidación.
+
+El temario activo queda consolidado en cuanto a redundancias internas. El bloque de gestión de proyectos, temas 2 a 7, se ha revisado de forma cruzada; el Tema 1 se ha revisado de forma separada por su naturaleza normativa. El estado de cierre y las reglas para futuras ediciones se recogen en el mapa de redundancias.
+
 Los temas se han redactado en **Markdown** para poder:
 
 - Consultarlos cómodamente desde GitHub.
@@ -104,6 +108,8 @@ Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejempl
 ```text
 .
 ├── README.md
+├── TEMARIO-BASE.md
+├── MAPA_REDUNDANCIAS.md
 ├── Introduccion_Guia_Preparacion_Oposicion_P04.md
 ├── Tema_01_Politicas_Igualdad_Genero.md
 ├── Tema_02_Fundamentos_Gestion_Proyectos.md
@@ -113,6 +119,8 @@ Los subencabezados auxiliares, como **Características**, **Ventajas**, **Ejempl
 ├── Tema_06_Herramientas_y_Tecnicas.md
 └── Tema_07_Tendencias_Gestion_Proyectos.md
 ```
+
+El temario activo se mantiene en la raíz del repositorio. Las carpetas `legacy/`, `legacy/duplicados/`, `resumenes-claude/` y `pdf/` conservan versiones anteriores, borradores, resúmenes o exportaciones, pero no deben considerarse la fuente principal de estudio.
 
 ---
 

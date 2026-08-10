@@ -129,6 +129,8 @@ PRINCE2 significa **Projects IN Controlled Environments**. Es un método de dire
 
 PRINCE2 se centra principalmente en la **dirección y gobernanza del proyecto**. No prescribe las técnicas especializadas para diseñar, programar, construir o probar el producto técnico.
 
+El uso práctico de roles, escalado, tolerancias y ejecución diaria se estudia en el Tema 4. Aquí interesa la arquitectura del método: principios, prácticas, procesos, roles y productos de gestión.
+
 La versión 7 mantiene una arquitectura basada en:
 
 1. principios;
@@ -489,9 +491,9 @@ Incluye:
 
 | Rol | Interés representado | Responsabilidad esencial |
 |---|---|---|
-| **Ejecutivo (*Executive*)** | Negocio | Responsable último del éxito del proyecto y del equilibrio entre intereses. Preside la junta. |
-| **Usuario senior (*Senior User*)** | Usuarios | Representa necesidades, beneficios, uso y aceptación de los productos. |
-| **Proveedor senior (*Senior Supplier*)** | Proveedores | Representa los recursos y conocimientos necesarios para diseñar y construir los productos. |
+| **Ejecutivo (*Executive*)** | Negocio | Responsable último del éxito, de la justificación de negocio y del equilibrio entre intereses. Preside la junta. |
+| **Usuario senior (*Senior User*)** | Usuarios | Representa necesidades, beneficios, uso, aceptación de productos y adopción por los usuarios. |
+| **Proveedor senior (*Senior Supplier*)** | Proveedores | Representa viabilidad técnica, recursos, conocimientos especializados y calidad de los productos. |
 
 Una misma persona puede desempeñar más de un rol en proyectos pequeños, siempre que no se produzcan conflictos de interés y la adaptación sea sensata.
 
@@ -571,6 +573,8 @@ Elementos habituales:
 - **Actividad:** trabajo necesario, por ejemplo, «programar el módulo de autenticación».
 
 El enfoque en productos facilita criterios de calidad y aceptación más claros.
+
+La diferencia conceptual entre entregable, resultado, beneficio y valor se desarrolla en el Tema 2. Las técnicas detalladas de descomposición, estimación y cronograma se estudian en el Tema 6.
 
 ---
 
@@ -669,6 +673,8 @@ La entrega de un proyecto genera salidas que pueden producir resultados, benefic
 **Estrategia → portafolios y programas → proyectos → entregables → resultados → beneficios → valor**
 
 La gobernanza permite evaluar, orientar y supervisar el sistema.
+
+Esta cadena se estudia aquí como parte del sistema de valor de PMI. El vocabulario general de entregable, resultado, beneficio y valor corresponde al Tema 2, y la evaluación de cartera al Tema 3.
 
 ---
 
@@ -830,6 +836,8 @@ Documentos, resultados o elementos creados y utilizados durante la gestión, por
 
 > **Clave de test:** el PMBOK no obliga a utilizar todos los modelos, métodos y artefactos. Se seleccionan mediante adaptación.
 
+En este tema basta con reconocer que PMBOK ofrece un catálogo adaptable. El cálculo y uso operativo de técnicas como estimación, riesgos, EVM, informes o tableros se desarrolla en el Tema 6.
+
 ---
 
 # 5.4. PMBOK 8.ª edición
@@ -946,6 +954,8 @@ La edición amplía o hace más visible contenido sobre:
 
 La presencia de apéndices o contenidos específicos no convierte cada tecnología en obligatoria. Su uso debe seguir evaluándose según necesidad, riesgo, ética, privacidad y contexto.
 
+La presencia de inteligencia artificial en PMBOK 8 debe distinguirse de las tendencias tecnológicas del Tema 7: aquí se estudia como elemento incorporado al estándar; allí se analizan automatización, datos, IA y riesgos emergentes.
+
 ---
 
 **5.4.6. Comparación PMBOK 7 y PMBOK 8.**
@@ -1017,6 +1027,8 @@ Aunque el manifiesto nació en el desarrollo de software, sus ideas han influido
 | Control | Variaciones frente al plan | Valor, flujo, objetivos de iteración y aprendizaje | Métricas combinadas |
 
 > **Clave de test:** predictivo y ágil no son sinónimos de «correcto» e «incorrecto». La elección depende de incertidumbre, regulación, tecnología, necesidad de aprendizaje y naturaleza de las entregas.
+
+La comparación básica de enfoques pertenece a este tema porque contextualiza Scrum y Kanban. La hibridación como tendencia organizativa, sus patrones y riesgos se desarrolla en el Tema 7.
 
 ---
 
@@ -1397,6 +1409,8 @@ Tiempo transcurrido desde que un elemento comenzó hasta que terminó.
 En otras formulaciones de Kanban, mide desde un punto de compromiso o solicitud hasta la entrega. Su diferencia respecto al tiempo de ciclo depende de dónde se definan los puntos de inicio y fin.
 
 > **Clave de test:** la edad se mide sobre trabajo todavía no terminado; el tiempo de ciclo se conoce definitivamente cuando el elemento termina.
+
+En este tema las métricas de Kanban se estudian como parte del marco. Su uso operativo junto con burndown, burnup, informes, RAG y métricas de seguimiento se desarrolla en el Tema 6.
 
 ---
 
@@ -1843,6 +1857,8 @@ No es necesario duplicar documentos o controles. La adaptación debe integrar lo
 
 19. **PMBOK 8 no elimina la agilidad al recuperar procesos.** Mantiene enfoques adaptables e híbridos.
 20. **ISO 21502 es orientación de alto nivel**, no una receta única ni una norma de requisitos de sistema de gestión.
+21. **Tema 5 no desarrolla técnicas operativas completas.** Presenta dónde encajan en cada marco; los cálculos, herramientas e informes se estudian en Tema 6.
+22. **Híbrido en Tema 5 no equivale a tendencia.** Aquí sirve para comparar marcos; en Tema 7 se estudia como evolución de la gestión.
 
 ---
 
@@ -1944,6 +1960,7 @@ No es necesario duplicar documentos o controles. La adaptación debe integrar lo
 - **Scrum:** hacer transparente, inspeccionar y adaptar mediante Sprints.
 - **Kanban:** visualizar, limitar WIP y optimizar el flujo.
 - **ISO 21502:** orientación internacional de alto nivel aplicable a cualquier proyecto y enfoque.
+- **Frontera del tema:** aquí se comparan marcos; los conceptos base están en Tema 2, la ejecución en Tema 4, las técnicas en Tema 6 y las tendencias en Tema 7.
 
 ---
 
@@ -2354,9 +2371,11 @@ Marca cada punto cuando puedas explicarlo sin consultar los apuntes:
 - [ ] Explico gestión por excepción y tolerancias.
 - [ ] Distingo ejecutivo, usuario senior, proveedor senior y director del proyecto.
 - [ ] Explico la planificación basada en productos.
+- [ ] Distingo arquitectura PRINCE2 de su aplicación operativa en ejecución.
 - [ ] Enumero los doce principios y ocho dominios de PMBOK 7.
 - [ ] Enumero los seis principios y siete dominios de PMBOK 8.
 - [ ] Explico las diferencias principales entre PMBOK 7 y 8.
+- [ ] Distingo catálogo PMBOK de técnicas operativas desarrolladas en Tema 6.
 - [ ] Enumero pilares, valores, responsabilidades, eventos, artefactos y compromisos de Scrum.
 - [ ] Distingo Product Backlog, Sprint Backlog e Incremento.
 - [ ] Distingo Sprint Review y Sprint Retrospective.
@@ -2364,6 +2383,7 @@ Marca cada punto cuando puedas explicarlo sin consultar los apuntes:
 - [ ] Defino WIP, throughput, edad y tiempo de ciclo.
 - [ ] Aplico la Ley de Little en ejercicios básicos.
 - [ ] Distingo Scrum y Kanban.
+- [ ] Distingo comparación ágil/híbrida de Tema 5 y tendencias híbridas de Tema 7.
 - [ ] Explico el alcance y naturaleza orientativa de ISO 21502.
 - [ ] Enumero las prácticas integradas y las áreas de gestión de ISO 21502.
 - [ ] Soy capaz de elegir una combinación coherente de referencias para un proyecto TIC.
