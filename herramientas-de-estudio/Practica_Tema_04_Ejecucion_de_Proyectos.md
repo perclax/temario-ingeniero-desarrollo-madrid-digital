@@ -1,57 +1,115 @@
-# Tema 4. Ejecución de proyectos - herramientas de estudio
+# Tema 4. Ejecución de proyectos — herramientas de estudio
 
-Material de repaso, tarjetas, preguntas tipo test, soluciones y listas de comprobación extraído del tema principal.
+> **Documento de práctica.** La exposición completa se encuentra en el archivo independiente `Tema_04_Ejecucion_de_Proyectos_teoria.md`. Este material reúne el resumen esencial, el repaso rápido, las tarjetas de memorización, la batería de preguntas tipo test, las soluciones razonadas y la lista de comprobación de dominio.
 
 ---
 
-# 4.12. Resumen de repaso rápido
+# 1. Resumen esencial
+
+Este tema es conceptual: casi ninguna pregunta se decide por una fecha o un número, sino por saber **distinguir figuras próximas** (gobierno frente a gestión, desviación frente a excepción, producto frente a beneficio). El resumen se organiza, por tanto, en tres bloques: las pocas cifras y estructuras que conviene ubicar, las distinciones que deciden preguntas, y los umbrales del caso práctico de referencia.
+
+## Cifras y estructuras que hay que ubicar
+
+| Elemento | Dato que hay que recordar |
+|---|---|
+| Estructuras organizativas clásicas | Funcional · Matriz (débil / equilibrada / fuerte) · Proyectizada · Compuesta |
+| Gradiente de autoridad del director | Mínima en funcional → máxima en proyectizada; la equilibrada es el punto medio |
+| Niveles de responsabilidad | Organización · Dirección · Gestión · Entrega (+ Aseguramiento transversal) |
+| Grupos de procesos clásicos | Iniciación · Planificación · Ejecución · Seguimiento y control · Cierre (5) |
+| Dominios de desempeño PMBOK 7 | 8 dominios (edición 2021) |
+| Estructura PMBOK 8 (nov 2025 / ene 2026) | 6 principios · 7 dominios · 5 áreas de enfoque (40 procesos); examen PMP alineado en julio de 2026 |
+| Aspectos de desempeño con tolerancia en PRINCE2 7 | 7: beneficios, coste, tiempo, calidad, alcance, **sostenibilidad**, riesgo |
+| Intereses de la Junta de Proyecto (PRINCE2) | 3: Ejecutivo (negocio) · Usuario Principal (uso/beneficios) · Proveedor Principal (entrega) |
+| Roles del equipo de gestión (PRINCE2 7) | 7: Ejecutivo · Usuario Principal · Proveedor Principal · Director · Responsable de Equipo · Aseguramiento · Apoyo |
+| Letras RACI | R responsable de ejecutar · A responsable último (aprueba) · C consultado · I informado |
+
+## Distinciones que deciden preguntas
+
+- **Ejecutar / supervisar / controlar / gobernar / asegurar:** producir · observar · comparar y corregir · fijar reglas y autoridad · dar confianza independiente.
+- **Gobierno / dirección / gestión / entrega:** quién decide y con qué reglas · decisiones de alto nivel · coordinación cotidiana · producción de los productos.
+- **Control / aseguramiento:** el control es parte de la gestión diaria; el aseguramiento es independiente de quien gestiona y produce.
+- **Dominio / proceso / grupo de procesos / fase:** materia relacionada · transformación de entradas en salidas · agrupación de procesos que se repite · tramo del ciclo de vida.
+- **Riesgo / incidencia:** incierto (puede ocurrir) frente a ya ocurrido.
+- **Desviación / excepción:** diferencia respecto al plan frente a *previsión* de superar una tolerancia (esta última se escala).
+- **Producto / entregable / capacidad / resultado / beneficio:** existe y cumple criterios · se acepta formalmente · permite operar distinto · cambio al usarse · mejora medible.
+- **PBS / WBS:** qué productos deben existir frente a qué trabajo hay que hacer.
+- **Scope creep / cambio controlado:** ampliación sin autorización frente a cambio evaluado y aprobado.
+- **Adaptación / incumplimiento:** ajustar la forma conservando la función frente a suprimir la función esencial por comodidad.
+- **Patrocinador / director:** defiende el valor y desbloquea a alto nivel frente a gestiona el día a día; el patrocinador no sustituye la gestión cotidiana.
+- **Cliente / usuario / beneficiario / interesado:** encarga o financia · utiliza · recibe la mejora · puede afectar o verse afectado.
+
+## Umbrales del caso práctico de referencia (plataforma de expedientes)
+
+| Tolerancia de etapa | Valor |
+|---|---|
+| Plazo | ±10 días |
+| Coste | +5 % |
+| Alcance | No pueden aplazarse requisitos legales |
+| Calidad | Cero vulnerabilidades críticas |
+| Riesgo | Ningún riesgo residual por encima del umbral corporativo |
+
+---
+
+# 2. Repaso rápido
 
 - La ejecución transforma planes en productos, resultados y capacidades.
-- Ejecutar y controlar ocurren de forma simultánea.
-- La estructura organizativa condiciona autoridad, recursos y comunicación.
-- En la estructura funcional domina el responsable funcional.
-- En la proyectizada domina el director del proyecto.
-- La matriz combina autoridad funcional y de proyecto.
-- Una matriz débil se aproxima a la funcional.
-- Una matriz fuerte se aproxima a la proyectizada.
-- Gobierno establece autoridad, decisiones y supervisión.
-- Dirección decide a alto nivel.
-- Gestión coordina el día a día.
-- Entrega produce los productos.
-- Aseguramiento proporciona confianza independiente.
-- Un dominio agrupa aspectos relacionados; no es una fase.
-- Un proceso transforma entradas en salidas.
-- Los grupos de procesos no equivalen al ciclo de vida.
-- La gestión por excepción delega autoridad dentro de tolerancias.
-- Una desviación solo es excepción si se prevé superar una tolerancia.
-- La gestión por excepción trabaja con tolerancias sobre aspectos de desempeño.
-- El Ejecutivo representa al negocio.
-- El Usuario Principal representa necesidades y beneficios de usuarios.
-- El Proveedor Principal representa capacidad técnica y suministro.
-- El director gestiona dentro de la autoridad delegada.
-- El responsable de equipo entrega paquetes de trabajo.
-- RACI distingue ejecutar, responder, consultar e informar.
-- El enfoque en productos define primero qué debe existir.
-- Producto no es lo mismo que beneficio.
+- Ejecutar y controlar ocurren de forma simultánea, no en fases sucesivas.
+- La estructura organizativa condiciona autoridad, recursos, comunicación y velocidad de decisión.
+- En la estructura funcional domina el responsable funcional; en la proyectizada, el director del proyecto.
+- La matriz combina autoridad funcional y de proyecto: la débil se aproxima a la funcional y la fuerte a la proyectizada.
+- La virtualidad describe cómo colabora el equipo, no una estructura de autoridad.
+- Gobierno establece autoridad, decisiones y supervisión; dirección decide a alto nivel; gestión coordina el día a día; entrega produce los productos.
+- El aseguramiento proporciona confianza independiente y debe separarse de quien gestiona y produce.
+- La decisión debe tomarse en el nivel más bajo con autoridad suficiente, escalando solo lo que exceda sus límites.
+- Un dominio agrupa aspectos relacionados; no es una fase, un departamento ni un entregable.
+- Un proceso transforma entradas en salidas; los grupos de procesos no equivalen al ciclo de vida y pueden solaparse.
+- PMBOK 7 organiza 8 dominios de desempeño; PMBOK 8 (2025-2026) los reordena en 7 dominios con 6 principios y 5 áreas de enfoque; sus listas no se mezclan.
+- La gestión por excepción delega autoridad dentro de tolerancias y escala cuando se prevé superarlas.
+- Una desviación solo es excepción si se prevé superar una tolerancia; no hay que esperar al incumplimiento real.
+- PRINCE2 7 fija tolerancias sobre siete aspectos de desempeño, incluida la sostenibilidad.
+- El Ejecutivo representa al negocio y responde del éxito; el Usuario Principal, las necesidades y beneficios; el Proveedor Principal, la capacidad técnica de entrega.
+- El director gestiona dentro de la autoridad delegada; no aprueba cambios fuera de ella ni sustituye al patrocinador.
+- El responsable de equipo acepta y entrega paquetes de trabajo dentro de sus tolerancias.
+- RACI distingue ejecutar (R), responder y aprobar (A), consultar (C) e informar (I); conviene un único A por actividad.
+- El enfoque en productos define primero qué debe existir y con qué criterios se acepta.
+- Entregar un producto no garantiza el beneficio: depende del uso y de los resultados.
 - La PBS descompone productos; la WBS descompone trabajo.
-- Adaptar significa ajustar de forma razonada y proporcional.
-- La adaptación nunca debe eliminar justificación, responsabilidades, control, calidad o cumplimiento.
+- Adaptar significa ajustar de forma razonada y proporcional, nunca eliminar justificación, responsabilidades, control, calidad o cumplimiento.
+- Un marco de gobierno predictivo (PRINCE2) puede combinarse con entrega ágil (Scrum, Kanban) si se aclaran autoridad, aceptación y tolerancias.
 
 ---
 
-# Tarjetas de memorización
+# 3. Tarjetas de memorización
 
 **¿Qué estructura proporciona normalmente menos autoridad al director del proyecto?**  
 La estructura funcional.
 
 **¿Qué estructura proporciona normalmente mayor autoridad?**  
-La estructura orientada a proyectos.
+La estructura orientada a proyectos (proyectizada).
 
-**¿Qué caracteriza una matriz?**  
-La coexistencia de autoridad funcional y de proyecto.
+**¿Qué caracteriza a una matriz?**  
+La coexistencia de autoridad funcional y de proyecto (doble dependencia).
 
 **¿Qué diferencia una matriz débil de una fuerte?**  
 El equilibrio de autoridad: en la débil domina el responsable funcional; en la fuerte, el director del proyecto.
+
+**¿Es la virtualidad una estructura de autoridad?**  
+No. Describe cómo colabora el equipo y puede darse en cualquier estructura.
+
+**¿Qué distingue gobierno, dirección, gestión y entrega?**  
+Gobierno fija reglas y autoridad; dirección decide a alto nivel; gestión coordina el día a día; entrega produce los productos.
+
+**¿Por qué el aseguramiento debe ser independiente?**  
+Para conservar objetividad: no puede asegurarse quien gestiona o produce el trabajo.
+
+**¿En qué nivel debe tomarse una decisión?**  
+En el más bajo que tenga autoridad y capacidad suficiente, escalando solo lo que exceda sus límites.
+
+**¿Un dominio de desempeño es una fase?**  
+No. Agrupa responsabilidades relacionadas que interactúan durante todo el proyecto.
+
+**¿Cuántos dominios tiene PMBOK 7 y cómo se reorganiza en PMBOK 8?**  
+PMBOK 7 tiene 8 dominios; PMBOK 8 los reordena en 7 dominios, con 6 principios y 5 áreas de enfoque (40 procesos).
 
 **¿Los grupos de procesos son fases?**  
 No. Pueden repetirse y solaparse dentro de diferentes fases.
@@ -60,10 +118,16 @@ No. Pueden repetirse y solaparse dentro de diferentes fases.
 La previsión de que una tolerancia autorizada será superada.
 
 **¿Debe esperarse al incumplimiento real para escalar?**  
-No.
+No: basta con prever que la tolerancia se superará.
+
+**¿Sobre qué siete aspectos fija tolerancias PRINCE2 7?**  
+Beneficios, coste, tiempo, calidad, alcance, sostenibilidad y riesgo.
+
+**¿Qué debe contener un escalado de excepción?**  
+Situación, causa, consecuencias, impactos, opciones, recomendación, urgencia y decisión requerida.
 
 **¿Quién representa el interés del negocio en la Junta PRINCE2?**  
-El Ejecutivo.
+El Ejecutivo, que además preside la Junta y responde del éxito.
 
 **¿Quién representa a quienes usarán los productos?**  
 El Usuario Principal.
@@ -71,27 +135,27 @@ El Usuario Principal.
 **¿Quién representa la capacidad técnica de entrega?**  
 El Proveedor Principal.
 
-**¿Qué significa R en RACI?**  
-Quien realiza el trabajo.
+**¿Puede el patrocinador gestionar el día a día del proyecto?**  
+No. Defiende el valor y desbloquea a alto nivel, pero no sustituye al director.
 
-**¿Qué significa A en RACI?**  
-Quien responde en última instancia y aprueba.
+**¿Qué significan las letras de RACI?**  
+R realiza el trabajo; A responde en última instancia y aprueba; C es consultado antes de decidir; I es informado.
 
-**¿Qué pregunta responde una PBS?**  
-Qué productos deben existir.
-
-**¿Qué pregunta responde una WBS?**  
-Qué trabajo debe realizarse.
+**¿Qué pregunta responde una PBS y qué pregunta responde una WBS?**  
+La PBS, qué productos deben existir; la WBS, qué trabajo debe realizarse.
 
 **¿Entregar un producto garantiza un beneficio?**  
 No. El producto debe utilizarse y producir el resultado previsto.
 
-**¿Qué es adaptar?**  
-Ajustar el enfoque al contexto conservando las funciones esenciales de gestión.
+**¿Qué caracteriza a un buen criterio de aceptación?**  
+Ser claro, medible o verificable, acordado, relevante, trazable y alcanzable.
+
+**¿Qué es adaptar un método?**  
+Ajustar el enfoque al contexto conservando las funciones esenciales de gestión, no eliminarlas.
 
 ---
 
-# Preguntas tipo test
+# 4. Preguntas tipo test
 
 **Pregunta 1. ¿En qué estructura organizativa suele tener el director del proyecto menor autoridad?**
 
@@ -338,118 +402,143 @@ b) A cronograma, coste, calidad, riesgos, recursos e interesados.
 c) Únicamente al equipo técnico.  
 d) Exclusivamente al cierre.
 
----
+**Pregunta 36. ¿Qué verbo describe «observar y recopilar información sobre el desempeño», frente a compararlo con el plan y corregir?**
 
-## Soluciones razonadas
+a) Controlar.  
+b) Gobernar.  
+c) Supervisar.  
+d) Asegurar.
 
-**Pregunta 1. Respuesta correcta: c)**  
-En una organización funcional, la autoridad permanece principalmente en los responsables funcionales y el director puede actuar como coordinador.
+**Pregunta 37. Según el principio de niveles de gestión, una decisión debe adoptarse:**
 
-**Pregunta 2. Respuesta correcta: b)**  
-La matriz débil conserva un predominio funcional. La autoridad del director es limitada.
+a) Siempre en el nivel más alto disponible.  
+b) En el nivel más bajo que tenga autoridad y capacidad suficiente.  
+c) Únicamente por el patrocinador.  
+d) Por votación de todo el equipo.
 
-**Pregunta 3. Respuesta correcta: c)**  
-La matriz equilibrada distribuye la autoridad entre las dimensiones funcional y de proyecto.
+**Pregunta 38. En la delegación encadenada de tolerancias, el orden habitual es:**
 
-**Pregunta 4. Respuesta correcta: b)**  
-La estructura funcional favorece la especialización, continuidad y desarrollo técnico. No elimina los conflictos de prioridad.
+a) Equipo → director → Junta → organización.  
+b) Organización → Junta de Proyecto → director → responsables de equipo.  
+c) Director → organización → equipo → Junta.  
+d) Todas las tolerancias las fija el proveedor.
 
-**Pregunta 5. Respuesta correcta: c)**  
-Los equipos dedicados pueden provocar duplicación de especialistas y menor aprovechamiento de recursos compartidos.
+**Pregunta 39. ¿Cuál de estos elementos corresponde a una descripción de producto?**
 
-**Pregunta 6. Respuesta correcta: b)**  
-La virtualidad se refiere a la colaboración y ubicación. Puede darse en estructuras funcionales, matriciales o proyectizadas.
+a) La estrategia comercial de la organización.  
+b) Los criterios de calidad y la autoridad de aceptación.  
+c) La nómina del equipo.  
+d) El organigrama corporativo completo.
 
-**Pregunta 7. Respuesta correcta: b)**  
-El gobierno establece cómo se toman decisiones, quién tiene autoridad y cómo se supervisa el proyecto.
+**Pregunta 40. Un diagrama de flujo de productos representa principalmente:**
 
-**Pregunta 8. Respuesta correcta: b)**  
-El aseguramiento proporciona confianza independiente. No sustituye al control cotidiano ni a la dirección.
+a) El calendario detallado con todas las tareas.  
+b) La secuencia y las dependencias entre productos.  
+c) La estructura jerárquica de la organización.  
+d) El presupuesto por partidas.
 
-**Pregunta 9. Respuesta correcta: b)**  
-Un dominio agrupa materias relacionadas y se gestiona de forma continua e interdependiente.
+**Pregunta 41. Un paquete de trabajo debe ser aceptado, con carácter general, por:**
 
-**Pregunta 10. Respuesta correcta: b)**  
-Un dominio agrupa responsabilidades relacionadas que interactúan durante la ejecución. No es una fase, un departamento ni un rol.
+a) El patrocinador de la organización.  
+b) Quien vaya a ejecutarlo.  
+c) La auditoría externa.  
+d) Todos los interesados del proyecto.
 
-**Pregunta 11. Respuesta correcta: c)**  
-Los grupos de procesos no son fases. Pueden solaparse y repetirse dentro de cada fase.
+**Pregunta 42. Respecto al patrocinador y al director del proyecto:**
 
-**Pregunta 12. Respuesta correcta: b)**  
-El riesgo es incierto; la incidencia ya se ha producido.
+a) El patrocinador gestiona el proyecto día a día.  
+b) El patrocinador defiende el valor y el apoyo de alto nivel, sin sustituir la gestión cotidiana.  
+c) Son siempre la misma persona.  
+d) El director aprueba la financiación corporativa.
 
-**Pregunta 13. Respuesta correcta: c)**  
-El *scope creep* es crecimiento no controlado del alcance. Un cambio formal aprobado no es necesariamente *scope creep*.
+**Pregunta 43. Sobre la oficina de dirección de proyectos (PMO):**
 
-**Pregunta 14. Respuesta correcta: b)**  
-La gestión por excepción delega autoridad dentro de tolerancias y exige escalar previsiones que las excedan.
+a) Siempre dirige directamente todos los proyectos.  
+b) Su autoridad depende del tipo de PMO y del modelo organizativo.  
+c) Sustituye siempre al director del proyecto.  
+d) Solo elabora nóminas.
 
-**Pregunta 15. Respuesta correcta: b)**  
-No toda desviación es una excepción. Debe preverse la superación de una tolerancia.
+**Pregunta 44. Una consejería financia una aplicación, los empleados públicos la usan y los ciudadanos reciben la mejora. La consejería es:**
 
-**Pregunta 16. Respuesta correcta: c)**  
-El retraso permanece dentro del margen de cinco días y puede gestionarse en el nivel delegado.
+a) El usuario.  
+b) El beneficiario.  
+c) El cliente.  
+d) Un interesado sin relación con el proyecto.
 
-**Pregunta 17. Respuesta correcta: a)**  
-Las tolerancias pueden definirse sobre distintos aspectos de desempeño, incluida la sostenibilidad cuando sea relevante para el proyecto.
+**Pregunta 45. Sobre la organización de los dominios en PMBOK:**
 
-**Pregunta 18. Respuesta correcta: b)**  
-El Ejecutivo representa al negocio, preside la Junta y mantiene la responsabilidad última sobre el éxito.
-
-**Pregunta 19. Respuesta correcta: b)**  
-El Usuario Principal representa a usuarios, necesidades, aceptación, uso y beneficios.
-
-**Pregunta 20. Respuesta correcta: a)**  
-El Proveedor Principal representa a quienes aportan capacidad técnica y productos especializados.
-
-**Pregunta 21. Respuesta correcta: a)**  
-El director coordina el proyecto dentro de los límites delegados. No puede aprobar decisiones fuera de autoridad.
-
-**Pregunta 22. Respuesta correcta: b)**  
-El Responsable de Equipo acepta y gestiona paquetes de trabajo y entrega productos.
-
-**Pregunta 23. Respuesta correcta: c)**  
-A corresponde a *Accountable*: quien responde por el resultado y aprueba.
-
-**Pregunta 24. Respuesta correcta: c)**  
-Un responsable último claro reduce ambigüedad. Demasiados A pueden dificultar la rendición de cuentas.
-
-**Pregunta 25. Respuesta correcta: b)**  
-El producto es una salida; el beneficio es una mejora medible que depende del uso y de los resultados.
-
-**Pregunta 26. Respuesta correcta: c)**  
-La PBS descompone el producto final en productos y componentes.
-
-**Pregunta 27. Respuesta correcta: a)**  
-La WBS descompone el alcance del trabajo en componentes gestionables.
-
-**Pregunta 28. Respuesta correcta: b)**  
-Primero se define qué debe existir; después se derivan dependencias, actividades, recursos y cronograma.
-
-**Pregunta 29. Respuesta correcta: b)**  
-Los criterios deben permitir verificar objetivamente si el producto es aceptable.
-
-**Pregunta 30. Respuesta correcta: a)**  
-El paquete debe definir qué se entrega y bajo qué condiciones, restricciones y mecanismos de información.
-
-**Pregunta 31. Respuesta correcta: b)**  
-Adaptar busca proporcionalidad y ajuste al contexto, no ausencia de gestión.
-
-**Pregunta 32. Respuesta correcta: a)**  
-La criticidad condiciona controles, pruebas, aseguramiento y rigor.
-
-**Pregunta 33. Respuesta correcta: c)**  
-La adaptación no puede eliminar una obligación legal o normativa.
-
-**Pregunta 34. Respuesta correcta: a)**  
-Un marco de gobierno puede combinarse con un enfoque iterativo de entrega si se definen claramente interfaces y autoridad.
-
-**Pregunta 35. Respuesta correcta: b)**  
-Los cambios deben analizarse de forma integrada porque afectan a múltiples dimensiones del proyecto.
+a) PMBOK 7 y PMBOK 8 comparten exactamente la misma lista de dominios.  
+b) PMBOK 7 define 8 dominios de desempeño y PMBOK 8 los reordena en 7, con áreas de enfoque.  
+c) Los dominios equivalen a las fases del ciclo de vida.  
+d) PMBOK 8 elimina por completo los dominios de desempeño.
 
 ---
 
-# Lista de comprobación de dominio
+## 5. Soluciones razonadas
+
+| Pregunta | Correcta | Motivo |
+|---|:---:|---|
+| 1 | c | En la organización funcional la autoridad permanece en los responsables funcionales; el director actúa como coordinador. |
+| 2 | b | La matriz débil conserva un predominio funcional y la autoridad del director es limitada. |
+| 3 | c | La matriz equilibrada reparte la autoridad entre las dimensiones funcional y de proyecto. |
+| 4 | b | La estructura funcional favorece especialización, continuidad y desarrollo técnico; no elimina los conflictos de prioridad. |
+| 5 | c | Los equipos dedicados pueden duplicar especialistas y aprovechar peor los recursos compartidos. |
+| 6 | b | La virtualidad se refiere a la colaboración; puede darse en estructuras funcionales, matriciales o proyectizadas. |
+| 7 | b | El gobierno establece cómo se decide, quién tiene autoridad y cómo se supervisa el proyecto. |
+| 8 | b | El aseguramiento proporciona confianza independiente; no sustituye al control cotidiano ni a la dirección. |
+| 9 | b | Un dominio agrupa materias relacionadas y se gestiona de forma continua e interdependiente. |
+| 10 | b | Los dominios de desempeño agrupan responsabilidades que interactúan; no son fase, departamento ni rol. |
+| 11 | c | Los grupos de procesos no son fases: pueden solaparse y repetirse dentro de cada fase. |
+| 12 | b | El riesgo es incierto; la incidencia ya se ha producido. |
+| 13 | c | El *scope creep* es el crecimiento no controlado del alcance; un cambio formal aprobado no lo es. |
+| 14 | b | La gestión por excepción delega autoridad dentro de tolerancias y exige escalar las previsiones que las excedan. |
+| 15 | b | No toda desviación es excepción: debe preverse la superación de una tolerancia. |
+| 16 | c | El retraso permanece dentro del margen de cinco días y puede gestionarse en el nivel delegado. |
+| 17 | a | Las tolerancias pueden definirse sobre distintos aspectos de desempeño; PRINCE2 7 incluye la sostenibilidad. |
+| 18 | b | El Ejecutivo representa al negocio, preside la Junta y mantiene la responsabilidad última sobre el éxito. |
+| 19 | b | El Usuario Principal representa a usuarios, necesidades, aceptación, uso y beneficios. |
+| 20 | a | El Proveedor Principal representa a quienes aportan capacidad técnica y productos especializados. |
+| 21 | a | El director coordina el proyecto dentro de los límites delegados; no aprueba decisiones fuera de su autoridad. |
+| 22 | b | El Responsable de Equipo acepta y gestiona paquetes de trabajo y entrega productos. |
+| 23 | c | A corresponde a *Accountable*: quien responde por el resultado y aprueba. |
+| 24 | c | Un responsable último claro reduce ambigüedad; varios A dificultan la rendición de cuentas. |
+| 25 | b | El producto es una salida; el beneficio es una mejora medible que depende del uso y de los resultados. |
+| 26 | c | La PBS descompone el producto final en productos y componentes. |
+| 27 | a | La WBS descompone el alcance del trabajo en componentes gestionables. |
+| 28 | b | Primero se define qué debe existir; después se derivan dependencias, actividades, recursos y cronograma. |
+| 29 | b | Los criterios deben permitir verificar objetivamente si el producto es aceptable. |
+| 30 | a | El paquete define qué se entrega y bajo qué condiciones, restricciones, criterios y tolerancias. |
+| 31 | b | Adaptar busca proporcionalidad y ajuste al contexto, no ausencia de gestión. |
+| 32 | a | La criticidad condiciona controles, pruebas, aseguramiento y rigor. |
+| 33 | c | La adaptación no puede eliminar una obligación legal o normativa. |
+| 34 | a | Un marco de gobierno puede combinarse con entrega iterativa si se definen interfaces y autoridad. |
+| 35 | b | Los cambios se analizan de forma integrada porque afectan a múltiples dimensiones del proyecto. |
+| 36 | c | Supervisar es observar y recopilar información; controlar es comparar con el plan y corregir. |
+| 37 | b | La decisión se toma en el nivel más bajo con autoridad y capacidad suficiente, escalando solo lo que exceda sus límites. |
+| 38 | b | La delegación desciende: organización → Junta → director → responsables de equipo, escalando en sentido inverso. |
+| 39 | b | Una descripción de producto incluye propósito, composición, criterios de calidad, verificación y autoridad de aceptación. |
+| 40 | b | El diagrama de flujo de productos muestra secuencia y dependencias entre productos, no el calendario completo. |
+| 41 | b | El paquete de trabajo debe ser aceptado por quien lo ejecutará, que asume su producción dentro de las condiciones fijadas. |
+| 42 | b | El patrocinador defiende el valor y desbloquea a alto nivel, pero no sustituye la gestión cotidiana del director. |
+| 43 | b | La autoridad de una PMO depende de su tipo y del modelo organizativo; no toda PMO dirige proyectos. |
+| 44 | c | Quien encarga o financia es el cliente; los empleados son usuarios y los ciudadanos, beneficiarios. |
+| 45 | b | PMBOK 7 define 8 dominios; PMBOK 8 los reordena en 7, con 6 principios y 5 áreas de enfoque. |
+
+> **Claves para no fallar**
+>
+> - **Autoridad del director:** crece de funcional (mínima) a proyectizada (máxima); la matriz equilibrada reparte, no concentra.
+> - **Desviación ≠ excepción:** solo hay excepción cuando se *prevé* superar una tolerancia; y se escala por previsión, sin esperar al incumplimiento.
+> - **Producto ≠ beneficio:** el producto es una salida; el beneficio depende del uso y del resultado. La aceptación técnica no garantiza el beneficio.
+> - **PBS ≠ WBS:** productos que deben existir frente a trabajo que hay que hacer.
+> - **Gobierno / gestión / entrega / aseguramiento:** reglas y autoridad · coordinación diaria · producción · confianza independiente (y separada).
+> - **Ejecutivo = negocio**, nunca representación exclusiva de usuarios o proveedores.
+> - **Adaptar ≠ incumplir:** puede reducirse la forma documental, nunca la función esencial (justificación, control, calidad, cumplimiento, independencia del aseguramiento).
+> - **Sostenibilidad** es el séptimo aspecto de desempeño con tolerancia en PRINCE2 7: fácil de olvidar entre los seis clásicos.
+> - **Dominios PMBOK:** 8 en la 7ª edición, 7 en la 8ª; no mezclar listas ni confundirlos con fases.
+
+---
+
+## 6. Lista de comprobación de dominio
 
 Antes de considerar estudiado el tema, debería poder responderse sin consultar:
 
@@ -457,20 +546,21 @@ Antes de considerar estudiado el tema, debería poder responderse sin consultar:
 - [ ] Diferencias entre matriz débil, equilibrada y fuerte.
 - [ ] Relación entre estructura y autoridad del director.
 - [ ] Diferencia entre gobierno, dirección, gestión, entrega y aseguramiento.
+- [ ] Principio de decisión en el nivel más bajo con autoridad suficiente.
 - [ ] Diferencia entre dominio, proceso, grupo de procesos y fase.
-- [ ] Saber que PMBOK 7 y PMBOK 8 organizan dominios de forma distinta, sin convertirlos en fases.
+- [ ] Saber que PMBOK 7 (8 dominios) y PMBOK 8 (7 dominios + áreas de enfoque) organizan los dominios de forma distinta, sin convertirlos en fases.
 - [ ] Diferencia entre riesgo e incidencia.
 - [ ] Diferencia entre desviación y excepción.
-- [ ] Funcionamiento de objetivos, tolerancias, excepciones y escalado.
+- [ ] Funcionamiento de objetivos, tolerancias, excepciones y escalado, y delegación encadenada de tolerancias.
+- [ ] Los siete aspectos de desempeño con tolerancia en PRINCE2 7, incluida la sostenibilidad.
 - [ ] Funciones del Ejecutivo, Usuario Principal y Proveedor Principal.
-- [ ] Responsabilidades del director, responsable de equipo y apoyo.
-- [ ] Significado de R, A, C e I.
-- [ ] Diferencias entre producto, resultado, capacidad y beneficio.
+- [ ] Responsabilidades del director, responsable de equipo, aseguramiento y apoyo.
+- [ ] Papel del patrocinador y de la PMO, y sus límites.
+- [ ] Significado de R, A, C e I y regla del A único.
+- [ ] Diferencias entre producto, entregable, resultado, capacidad y beneficio.
 - [ ] Diferencia entre PBS y WBS.
-- [ ] Contenido de una descripción de producto.
-- [ ] Finalidad de los criterios de aceptación.
-- [ ] Factores de adaptación.
-- [ ] Límites de una adaptación legítima.
+- [ ] Contenido de una descripción de producto y finalidad de los criterios de aceptación.
+- [ ] Factores de adaptación y límites de una adaptación legítima.
 - [ ] Integración entre gobierno predictivo y entrega ágil.
 - [ ] Impactos cruzados de una modificación de alcance.
 
