@@ -1,1240 +1,228 @@
 # Tema 5. Estándares y marcos de referencia para la gestión de proyectos
 
-La dirección de proyectos se apoya en estándares, guías, métodos y marcos de trabajo que ofrecen perspectivas distintas pero complementarias. Este tema estudia las referencias citadas expresamente en el temario —PRINCE2 7, PMBOK 7 y 8, Scrum, Kanban e ISO 21502— con especial atención a su estructura, terminología, finalidad y ámbito de aplicación. El objetivo no es considerarlas alternativas incompatibles, sino comprender qué aporta cada una y cómo pueden combinarse y adaptarse en un proyecto real.
+La dirección de proyectos no se apoya en una única receta universal, sino en un conjunto de estándares, guías, métodos y marcos de trabajo que ofrecen perspectivas distintas pero complementarias. Este tema estudia las referencias citadas expresamente en el temario —PRINCE2 7, PMBOK 7 y 8, Scrum, Kanban e ISO 21502— prestando atención a su estructura, su terminología, su finalidad y su ámbito de aplicación. El objetivo no es decidir cuál es «la mejor», como si fueran alternativas incompatibles, sino comprender qué aporta cada una y de qué modo pueden combinarse y adaptarse en un proyecto real.
 
----
+> **Orientación de estudio:** es uno de los bloques con mayor densidad de conceptos y comparaciones de todo el temario. Conviene memorizar la arquitectura de cada referencia —principios, dominios, prácticas, procesos, roles, eventos o artefactos— y, sobre todo, saber qué prescribe cada una y qué deja deliberadamente abierto. La pregunta típica presenta un elemento aislado y pide asociarlo con PRINCE2, PMBOK, Scrum, Kanban o ISO 21502.
 
-## Contenido exigido por el temario
-
-Este tema desarrolla los siguientes epígrafes:
-
-1. PRINCE2® (*Projects IN Controlled Environments*).
-2. PMBOK® (*Project Management Body of Knowledge*): ediciones 7.ª y 8.ª.
-3. Metodologías ágiles: Scrum y Kanban.
-4. ISO 21502: gestión de proyectos, programas y portafolios — guía sobre la gestión de proyectos.
-
-> **Orientación de estudio:** es uno de los bloques con mayor densidad de conceptos y comparaciones. Conviene memorizar la arquitectura de cada referencia —principios, dominios, prácticas, procesos, roles, eventos o artefactos— y, sobre todo, saber qué prescribe cada una y qué no. Una pregunta típica presenta un elemento y pide asociarlo con PRINCE2, PMBOK, Scrum, Kanban o ISO 21502.
-
----
-
-## Objetivos de aprendizaje
-
-Al finalizar el tema se debe ser capaz de:
-
-- Diferenciar estándar, norma, guía, cuerpo de conocimiento, método, metodología y marco de trabajo.
-- Explicar la finalidad y la arquitectura general de PRINCE2 7.
-- Enumerar y comprender los principios, prácticas y procesos de PRINCE2 7.
-- Identificar los principales roles, productos de gestión y mecanismos de control de PRINCE2.
-- Explicar la gestión por etapas, la gestión por excepción y la planificación basada en productos.
-- Enumerar los principios y dominios de desempeño de PMBOK 7.
-- Identificar la estructura de PMBOK 8 y diferenciarla de la séptima edición.
-- Comprender el sistema de entrega de valor y el principio de adaptación en PMI.
-- Explicar la teoría empírica, los valores, las responsabilidades, los eventos, los artefactos y los compromisos de Scrum.
-- Diferenciar Product Goal, Sprint Goal y Definition of Done.
-- Explicar los principios de flujo de Kanban, el sistema pull, los límites WIP y sus métricas principales.
-- Diferenciar Scrum y Kanban sin presentarlos como marcos necesariamente incompatibles.
-- Explicar el alcance y las principales prácticas de ISO 21502:2020.
-- Asociar correctamente conceptos, roles y elementos con la referencia a la que pertenecen.
-- Seleccionar y combinar de forma razonada distintas referencias en un entorno predictivo, ágil o híbrido.
+Al terminar el tema deberías ser capaz de diferenciar estándar, norma, guía, método, metodología y marco de trabajo; explicar la arquitectura de PRINCE2 7 (principios, personas, prácticas, procesos y adaptación) y sus mecanismos de control por etapas y por excepción; enumerar los principios y dominios de PMBOK 7 y diferenciarlos de la estructura de PMBOK 8; explicar el empirismo, los valores, las responsabilidades, los eventos, los artefactos y los compromisos de Scrum; describir los principios de flujo de Kanban, el sistema *pull*, los límites WIP y sus métricas obligatorias; explicar el alcance orientativo de ISO 21502:2020; y, en conjunto, asociar correctamente cada concepto con la referencia a la que pertenece y razonar cómo combinarlas en un entorno predictivo, ágil o híbrido.
 
 ---
 
 # 5.1. Estándar, guía, método y marco de trabajo
 
-**5.1.1. Por qué existen referencias diferentes.**
-
-La dirección de proyectos se aplica en organizaciones, sectores y entornos muy distintos. Por ello no existe una única forma universal de gestionar todos los proyectos. Las referencias del temario ofrecen perspectivas complementarias:
+La dirección de proyectos se aplica en organizaciones, sectores y entornos muy distintos, y por esa razón conviven referencias de naturaleza diferente. Entender esa naturaleza es lo primero que suele preguntarse, porque cada tipo de documento obliga a cosas distintas: un estándar de requisitos se cumple o se incumple, mientras que una guía orientativa se adapta. El siguiente cuadro sintetiza qué es cada referencia del temario y qué aporta especialmente.
 
 | Referencia | Naturaleza principal | Aporta especialmente |
 |---|---|---|
 | **PRINCE2 7** | Método estructurado de dirección de proyectos | Gobernanza, roles, gestión por etapas, tolerancias, productos de gestión y procesos. |
 | **PMBOK 7** | Estándar y guía de cuerpo de conocimiento | Principios, entrega de valor, dominios de desempeño, adaptación, modelos, métodos y artefactos. |
-| **PMBOK 8** | Estándar y guía de cuerpo de conocimiento | Principios refinados, dominios de desempeño reorganizados y orientación de procesos más explícita sin convertirse en una receta única. |
+| **PMBOK 8** | Estándar y guía de cuerpo de conocimiento | Principios refinados, dominios reorganizados y orientación de procesos más explícita, sin convertirse en una receta única. |
 | **Scrum** | Marco de trabajo ligero | Gestión empírica de productos y problemas complejos mediante equipos autoorganizados y ciclos cortos. |
-| **Kanban** | Estrategia y método evolutivo de gestión del flujo | Visualización, control del trabajo en curso, sistema pull, métricas de flujo y mejora continua. |
+| **Kanban** | Estrategia y método evolutivo de gestión del flujo | Visualización, control del trabajo en curso, sistema *pull*, métricas de flujo y mejora continua. |
 | **ISO 21502** | Norma internacional de orientación | Lenguaje y prácticas de alto nivel aplicables a cualquier tipo de proyecto y enfoque de entrega. |
 
-Estas referencias no son necesariamente excluyentes. Por ejemplo, una organización puede:
+Estas referencias no son excluyentes. Nada impide que una misma organización gobierne el proyecto con PRINCE2, emplee principios y técnicas del PMBOK, desarrolle el producto con Scrum, gestione el flujo de incidencias con Kanban y alinee su metodología corporativa con ISO 21502. La clave está en integrarlas de forma coherente, no en duplicar controles ni en aplicar mecánicamente todos los elementos de cada una.
 
-- gobernar el proyecto con PRINCE2;
-- emplear principios y técnicas de PMBOK;
-- desarrollar el producto mediante Scrum;
-- gestionar el flujo de incidencias con Kanban;
-- alinear su metodología corporativa con ISO 21502.
+Conviene fijar el vocabulario básico, porque los enunciados juegan con él. Un **estándar o norma** es un documento aprobado por un organismo reconocido, elaborado normalmente por consenso, que proporciona reglas, directrices, características o un lenguaje común; puede ser *prescriptivo* cuando contiene requisitos verificables, u *orientativo* cuando ofrece recomendaciones y buenas prácticas. ISO 21502 pertenece a esta segunda categoría: es una norma de orientación de alto nivel, no un sistema de requisitos certificables equivalente a una norma de sistemas de gestión. Una **guía o cuerpo de conocimiento** recopila los conocimientos, principios, prácticas, modelos, métodos y técnicas reconocidos en una disciplina; el PMBOK es el ejemplo, y no debe leerse como una metodología cerrada que obligue a usar todos sus elementos. Un **método o metodología** proporciona una forma organizada de actuar, con elementos conectados que orientan cómo dirigir el proyecto, y PRINCE2 se presenta precisamente como un método adaptable. Un **marco de trabajo** o *framework* define solo una estructura mínima de elementos y reglas dentro de la cual los equipos determinan sus prácticas concretas: Scrum es deliberadamente incompleto, pues fija responsabilidades, eventos, artefactos y reglas esenciales, pero no describe todas las técnicas necesarias para construir el producto.
 
----
+A ese vocabulario se añaden tres términos transversales. Una **práctica** es una actividad o conjunto de acciones que suele producir buenos resultados en un contexto —tanto PRINCE2 como ISO 21502 emplean el término, aunque con estructuras distintas—. Un **proceso** es un conjunto relacionado de actividades que transforma entradas en resultados; PRINCE2 organiza la dirección mediante siete procesos y PMBOK 8 reincorpora orientación de procesos agrupada en áreas de enfoque. Y la **adaptación** o *tailoring* es el ajuste deliberado del enfoque a las características del proyecto, la organización y el entorno. Adaptar no significa eliminar controles sin justificación, quedarse solo con las prácticas cómodas, ignorar los principios esenciales ni producir siempre menos documentación; significa decidir, justificar y comunicar qué se aplica, con qué intensidad y de qué forma.
 
-**5.1.2. Conceptos básicos.**
-
-### Estándar o norma
-
-Documento aprobado por un organismo reconocido y elaborado generalmente mediante consenso, que proporciona reglas, directrices, características o un lenguaje común.
-
-Un estándar puede ser:
-
-- **prescriptivo**, si contiene requisitos verificables;
-- **orientativo**, si ofrece recomendaciones o buenas prácticas.
-
-ISO 21502 es una **norma de orientación**: utiliza recomendaciones de alto nivel, no constituye por sí misma un sistema de requisitos certificables equivalente, por ejemplo, a una norma de sistemas de gestión.
-
-### Guía o cuerpo de conocimiento
-
-Recopila conocimientos, principios, prácticas, modelos, métodos y técnicas reconocidos en una disciplina. El PMBOK no debe interpretarse como una metodología cerrada que obligue a utilizar todos sus elementos.
-
-### Método o metodología
-
-Proporciona una forma organizada de actuar, con elementos conectados que orientan cómo dirigir el proyecto. PRINCE2 se presenta como un método adaptable a diferentes contextos.
-
-### Marco de trabajo o *framework*
-
-Define una estructura mínima de elementos y reglas dentro de la cual los equipos pueden determinar sus prácticas concretas. Scrum es deliberadamente incompleto: establece responsabilidades, eventos, artefactos y reglas esenciales, pero no describe todas las técnicas necesarias para construir el producto.
-
-### Práctica
-
-Actividad, enfoque o conjunto de acciones que suele producir buenos resultados en un contexto. Tanto PRINCE2 como ISO 21502 emplean el término, aunque con estructuras diferentes.
-
-### Proceso
-
-Conjunto relacionado de actividades que transforma entradas en resultados. PRINCE2 organiza la dirección del proyecto mediante siete procesos; PMBOK 8 reincorpora orientación de procesos agrupada en áreas de enfoque.
-
-### Adaptación o *tailoring*
-
-Ajuste deliberado del enfoque de dirección a las características del proyecto, la organización y el entorno.
-
-Adaptar no significa:
-
-- eliminar controles sin justificación;
-- seleccionar únicamente las prácticas cómodas;
-- ignorar los principios esenciales;
-- producir siempre menos documentación.
-
-Adaptar significa decidir, justificar y comunicar qué se aplica, con qué intensidad y de qué forma.
-
-> **Clave de test:** aplicar literalmente todos los elementos de una guía, sin considerar tamaño, riesgo, complejidad o contexto, suele ser contrario al principio de adaptación.
+> **Clave de test:** aplicar literalmente todos los elementos de una guía, sin considerar tamaño, riesgo, complejidad o contexto, es contrario al principio de adaptación. La adaptación es una decisión razonada, no una excusa para suprimir gobernanza.
 
 ---
 
-# 5.2. PRINCE2 Project Management, versión 7
+# 5.2. PRINCE2, versión 7
 
-**5.2.1. Concepto y finalidad.**
+## 5.2.1. Concepto, finalidad y arquitectura
 
-PRINCE2 significa **Projects IN Controlled Environments**. Es un método de dirección de proyectos orientado a mantener:
+PRINCE2 son las siglas de **Projects IN Controlled Environments**. Es un método de dirección de proyectos orientado a mantener una justificación de negocio continua, una organización clara, el control por etapas, la delegación mediante tolerancias, el enfoque en los productos y el aprendizaje adaptado al contexto. Su foco está en la **dirección y la gobernanza** del proyecto: no prescribe las técnicas especializadas para diseñar, programar, construir o probar el producto técnico, sino que ofrece la estructura de decisión que rodea a ese trabajo. El uso operativo de roles, escalado, tolerancias y ejecución diaria se estudia en el Tema 4; aquí interesa la arquitectura del método.
 
-- una justificación de negocio continua;
-- una organización clara;
-- control por etapas;
-- delegación mediante tolerancias;
-- enfoque en los productos;
-- aprendizaje y adaptación al contexto.
+La versión 7 —publicada por PeopleCert en 2023— organiza esa arquitectura en cinco componentes integrados: los **principios**, que son obligaciones orientadoras; las **personas**, que la séptima edición refuerza expresamente; las **prácticas**, que son aspectos a tratar de forma continua; los **procesos**, que describen el flujo de dirección; y el **contexto del proyecto y su adaptación**. Un rasgo mnemotécnico muy útil es que principios, prácticas y procesos son **siete en cada caso**.
 
-PRINCE2 se centra principalmente en la **dirección y gobernanza del proyecto**. No prescribe las técnicas especializadas para diseñar, programar, construir o probar el producto técnico.
+## 5.2.2. Los siete principios
 
-El uso práctico de roles, escalado, tolerancias y ejecución diaria se estudia en el Tema 4. Aquí interesa la arquitectura del método: principios, prácticas, procesos, roles y productos de gestión.
+Los principios son obligaciones que deben cumplirse para poder afirmar que un proyecto se dirige conforme a PRINCE2. El primero es **asegurar la justificación comercial continua**: el proyecto necesita una razón válida documentada para iniciarse y para seguir, que debe revisarse cuando cambian costes, riesgos, beneficios o circunstancias, y que permite detener la iniciativa si deja de merecer la inversión; su documento central es el caso de negocio, aunque la justificación pueda arrancar de forma preliminar. El segundo, **aprender de la experiencia**, obliga a buscar lecciones al comienzo, registrarlas y aplicarlas durante el proyecto, y transferirlas al cierre; no basta con redactar un informe final que nadie utiliza. El tercero, **definir roles, responsabilidades y relaciones**, exige una estructura organizativa que represente los intereses del negocio, de los usuarios y de los proveedores, de modo que cada persona conozca su autoridad, su responsabilidad, su rendición de cuentas y sus vías de comunicación.
 
-La versión 7 mantiene una arquitectura basada en:
+El cuarto principio es **gestionar por etapas**: el proyecto se planifica, supervisa y controla etapa a etapa, y al final de cada una el órgano de dirección decide si autoriza la siguiente, pide ajustes, cambia el enfoque o detiene el proyecto; la planificación detallada se hace con un horizonte razonable, sin fingir precisión sobre un futuro lejano. El quinto, **gestionar por excepción**, articula la delegación: cada nivel de dirección concede autoridad al inferior dentro de unas **tolerancias**, y mientras las previsiones se mantengan dentro de ellas el nivel inferior gestiona sin escalar cada decisión. Cuando se prevé rebasar una tolerancia, aparece una **excepción** y debe escalarse. En PRINCE2 7 pueden establecerse tolerancias sobre siete objetivos de desempeño: **beneficios, costes, tiempo, calidad, alcance, riesgo y sostenibilidad**. La sostenibilidad es la incorporación más característica de la séptima edición y una fuente habitual de error en los test.
 
-1. principios;
-2. personas;
-3. prácticas;
-4. procesos;
-5. contexto del proyecto y adaptación.
+> **Clave de test:** la gestión por excepción no consiste en esperar a que la desviación ya se haya producido. Se escala cuando se **pronostica** que se excederá la tolerancia. Y el séptimo objetivo de desempeño de PRINCE2 7 es la **sostenibilidad**: si un enunciado lista beneficios, costes, tiempo, calidad, alcance y riesgo, el que falta es sostenibilidad.
 
-Los principios, las prácticas y los procesos son siete en cada caso.
+El sexto principio, **enfocarse en los productos**, exige aclarar qué productos se necesitan, con qué calidad y bajo qué criterios de aceptación antes de planificar actividades, lo que produce un alcance comprensible y una planificación basada en resultados y no solo en tareas. El séptimo, **adaptar a las características del proyecto**, obliga a ajustar el método a su propósito, tamaño, complejidad, importancia, capacidad del equipo, riesgo, método de entrega, cultura y entorno comercial o contractual; la adaptación puede afectar a roles, documentos, controles, reuniones y terminología, pero debe conservar siempre la intención de los principios.
 
----
+## 5.2.3. Las personas
 
-**5.2.2. Los siete principios de PRINCE2.**
-
-Los principios son obligaciones orientadoras cuya aplicación permite considerar que un proyecto está siendo dirigido conforme a PRINCE2.
-
-### Asegurar la justificación comercial continua
-
-El proyecto debe disponer de una razón válida para iniciarse y continuar. Esa justificación debe:
-
-- estar documentada;
-- mantenerse válida durante todo el proyecto;
-- revisarse cuando cambien costes, riesgos, beneficios o circunstancias;
-- permitir detener el proyecto si deja de merecer la inversión.
-
-El documento central es el **caso de negocio** (*business case*), aunque la justificación puede comenzar de forma preliminar antes de desarrollarse completamente.
-
-> **Clave de test:** la justificación no se aprueba una sola vez al inicio; debe seguir siendo válida durante todo el proyecto.
-
-### Aprender de la experiencia
-
-El equipo debe buscar, registrar y aplicar lecciones:
-
-- al comienzo, revisando proyectos anteriores;
-- durante el proyecto, registrando y aplicando aprendizaje;
-- al cierre, facilitando que otros proyectos puedan beneficiarse.
-
-No basta con crear un informe final que nadie utiliza.
-
-### Definir roles, responsabilidades y relaciones
-
-El proyecto debe contar con una estructura organizativa clara que represente los intereses:
-
-- del negocio;
-- de los usuarios;
-- de los proveedores.
-
-Cada persona debe conocer su autoridad, responsabilidad, rendición de cuentas y relaciones de comunicación.
-
-### Gestionar por etapas
-
-El proyecto se planifica, supervisa y controla etapa a etapa. Al final de cada etapa de gestión, el órgano de dirección decide si:
-
-- autoriza la siguiente;
-- solicita ajustes;
-- cambia el enfoque;
-- detiene el proyecto.
-
-La planificación detallada se realiza con un horizonte razonable, evitando fingir precisión sobre un futuro muy lejano.
-
-### Gestionar por excepción
-
-Cada nivel de dirección delega autoridad al nivel inferior dentro de unas **tolerancias**. Mientras las previsiones permanezcan dentro de ellas, el nivel inferior puede gestionar sin escalar cada decisión.
-
-Cuando se prevé superar una tolerancia, existe una **excepción** y debe escalarse al nivel superior.
-
-En PRINCE2 7 se consideran siete objetivos de desempeño sobre los que pueden establecerse tolerancias:
-
-1. beneficios;
-2. costes;
-3. tiempo;
-4. calidad;
-5. alcance;
-6. riesgo;
-7. sostenibilidad.
-
-> **Clave de test:** la gestión por excepción no implica esperar a que la desviación ya se haya producido. Se escala cuando se **pronostica** que se excederá la tolerancia.
-
-### Enfocarse en los productos
-
-Antes de planificar actividades debe aclararse qué productos se necesitan, qué calidad deben alcanzar y cómo serán aceptados.
-
-Este principio favorece:
-
-- un alcance comprensible;
-- criterios de aceptación verificables;
-- menor riesgo de omisiones;
-- planificación basada en resultados, no solo en tareas.
-
-### Adaptar a las características del proyecto
-
-PRINCE2 debe ajustarse a:
-
-- propósito;
-- tamaño;
-- complejidad;
-- importancia;
-- capacidad del equipo;
-- riesgo;
-- método de entrega;
-- cultura de la organización;
-- entorno comercial o contractual.
-
-La adaptación puede afectar a roles, documentos, controles, reuniones, terminología y forma de aplicar las prácticas, pero debe conservar la intención de los principios.
-
----
-
-**5.2.3. Las personas en PRINCE2 7.**
-
-La versión 7 refuerza expresamente el componente humano. Los proyectos introducen cambios que deben ser aceptados y utilizados por personas y organizaciones.
-
-PRINCE2 distingue entre:
-
-- las personas que trabajan dentro del proyecto;
-- las personas afectadas por el proyecto;
-- las relaciones entre proyecto, organización, proveedores y usuarios;
-- la gestión del cambio organizativo necesario para adoptar los resultados.
-
-### Ecosistema del proyecto
-
-El proyecto se desarrolla dentro de una red de relaciones, intereses, culturas y estructuras. La eficacia no depende únicamente de organigramas formales, sino también de:
-
-- confianza;
-- liderazgo;
-- capacidad de influencia;
-- colaboración;
-- comunicación;
-- diversidad;
-- seguridad psicológica;
-- gestión de conflictos.
-
-### Gestión del cambio organizativo
-
-La entrega de un producto no garantiza que el cambio se adopte. Puede ser necesario:
-
-- preparar a los usuarios;
-- formar al personal;
-- modificar procesos;
-- revisar responsabilidades;
-- gestionar resistencias;
-- medir la adopción y los resultados.
+La séptima edición eleva el componente humano a elemento estructural, y no por retórica: los proyectos introducen cambios que solo generan valor si personas y organizaciones los aceptan y los usan. PRINCE2 7 distingue entre quienes trabajan dentro del proyecto, quienes se ven afectados por él, las relaciones entre proyecto, organización, proveedores y usuarios, y la gestión del cambio organizativo necesario para adoptar los resultados. El proyecto se entiende como un ecosistema de relaciones, intereses y culturas donde la eficacia no depende solo de los organigramas, sino de la confianza, el liderazgo, la capacidad de influencia, la colaboración, la comunicación, la diversidad, la seguridad psicológica y la gestión de conflictos. De ahí que la entrega de un producto no garantice por sí sola la adopción: puede ser necesario preparar y formar a los usuarios, modificar procesos, revisar responsabilidades, gestionar resistencias y medir tanto la adopción como los resultados.
 
 > **Clave de test:** la gestión de personas y del cambio no se limita al equipo que produce los entregables; incluye a quienes deberán adoptar, operar o sufrir los efectos del cambio.
 
----
+## 5.2.4. Las siete prácticas
 
-**5.2.4. Las siete prácticas de PRINCE2.**
+Las prácticas son aspectos que deben atenderse de manera continua a lo largo del proyecto, y en la séptima edición son siete. El **caso de negocio** responde a por qué debe hacerse o continuar el proyecto, y reúne razones, opciones consideradas, beneficios y desbeneficios, costes, calendario, riesgos principales, evaluación de la inversión y mecanismos para revisar los beneficios; es propiedad del interés de negocio y debe mantenerse actualizado. La práctica de **organización** responde a quién participa, quién decide y quién es responsable, definiendo la estructura de dirección, la representación de negocio, usuario y proveedor, la delegación y la comunicación. La práctica de **planes** responde a qué se entregará, cómo, cuándo, por quién y con qué recursos, y opera en varios niveles —plan de proyecto, plan de etapa, plan de equipo cuando procede y plan de excepción cuando una excepción autorizada exige sustituir al plan incumplido—, siempre con planificación basada en productos.
 
-Las prácticas son aspectos que deben tratarse de manera continua durante el proyecto.
+La práctica de **calidad** responde a qué significa que los productos sean adecuados para su propósito y cómo se comprobará, e incluye requisitos de usuario, criterios de aceptación, especificaciones de cada producto y los métodos, responsabilidades y registros de revisión; la séptima edición insiste en que la calidad es actividad continua y no una comprobación final. La práctica de **riesgo** responde a qué incertidumbres pueden afectar a los objetivos —amenazas u oportunidades— y cómo se gestionarán, mediante identificación, evaluación, planificación de respuestas, asignación de responsables, ejecución, comunicación y revisión.
 
-### Caso de negocio (*Business Case*)
+Merece atención la práctica de **incidencias**, que en PRINCE2 7 sustituye al antiguo tema de «cambio». Responde a cómo se capturan, evalúan y resuelven los acontecimientos y cambios que exigen actuación, y reconoce cuatro categorías: la **solicitud de cambio** sobre una línea base, la **desviación respecto a una especificación** (*off-specification*), el **problema o preocupación** general y, como novedad de la versión 7, la **oportunidad de negocio** no planificada que podría beneficiar al proyecto. El renombrado no es cosmético: separa la «incidencia» como aspecto de gestión del «cambio» entendido como transformación organizativa, que ahora vive en el elemento de personas. Conviene recordar que no toda incidencia se convierte en excepción; primero se analiza su impacto y se decide dentro de la autoridad delegada o se escala. Por último, la práctica de **progreso** responde a dónde estamos, hacia dónde vamos y si es viable continuar, comparando desempeño real y previsto con planes y tolerancias mediante informes, revisiones, puntos de decisión, previsiones, lecciones y escalado de excepciones.
 
-Responde a la pregunta: **¿por qué debe realizarse o continuar el proyecto?**
+## 5.2.5. Los siete procesos
 
-Incluye normalmente:
+Los procesos describen el flujo de dirección desde antes del inicio formal hasta el cierre. La **puesta en marcha de un proyecto** (*Starting Up a Project*) comprueba si existe una iniciativa viable y merecedora de arrancar: designa al ejecutivo y al director del proyecto, recopila lecciones previas, nombra el equipo de dirección, prepara una justificación preliminar, elige el enfoque y elabora el expediente inicial, sin realizar aún toda la planificación detallada. La **dirección de un proyecto** (*Directing a Project*) es el proceso mediante el cual la junta de proyecto toma las grandes decisiones —autorizar el inicio, autorizar el proyecto, autorizar etapas o planes de excepción, proporcionar dirección puntual y autorizar el cierre— y opera por encima de la gestión diaria durante toda la vida del proyecto. El **inicio de un proyecto** (*Initiating a Project*) establece las bases sólidas antes de comprometer recursos significativos, desarrollando la documentación de inicio: caso de negocio detallado, plan del proyecto, controles, enfoques de riesgo, calidad, incidencias, cambios y comunicación, adaptación del método y gobernanza.
 
-- razones para el proyecto;
-- opciones consideradas;
-- beneficios esperados;
-- desbeneficios;
-- costes;
-- calendario;
-- riesgos principales;
-- evaluación de inversión;
-- criterios y mecanismos para revisar beneficios.
+> **Clave de test:** *Starting Up a Project* decide si merece la pena iniciar; *Initiating a Project* define cómo se gestionará el proyecto una vez autorizado el inicio. No son el mismo proceso ni son intercambiables.
 
-El caso de negocio es propiedad del interés de negocio y debe mantenerse actualizado.
+El **control de una etapa** (*Controlling a Stage*) es la gestión cotidiana del director del proyecto dentro de una etapa: autoriza paquetes de trabajo, supervisa su estado, revisa la situación, informa a la junta, captura incidencias y riesgos, adopta acciones correctivas y escala las excepciones previstas. La **gestión de la entrega de productos** (*Managing Product Delivery*) regula la relación entre el director del proyecto y los equipos especializados: acepta paquetes de trabajo, ejecuta y controla el trabajo, asegura la calidad, entrega los productos terminados e informa del progreso. La **gestión del límite de una etapa** (*Managing a Stage Boundary*) prepara la información para que la junta decida sobre la continuación, revisando la etapa que finaliza, actualizando el plan del proyecto y el caso de negocio, preparando el plan de la siguiente etapa, actualizando riesgos y beneficios y preparando un plan de excepción cuando corresponde. Finalmente, el **cierre de un proyecto** (*Closing a Project*) proporciona un cierre controlado —tanto si termina con normalidad como si se cancela— comprobando la aceptación de los productos, confirmando la transferencia a operación, evaluando el desempeño, registrando asuntos pendientes, recomendando el cierre, preparando la revisión posterior de beneficios y capturando lecciones.
 
-### Organización (*Organizing*)
+## 5.2.6. Organización, roles y niveles de gestión
 
-Responde a: **¿quién participa, quién decide y quién es responsable?**
+La estructura de dirección de PRINCE2 se apoya en cuatro niveles que delegan autoridad de arriba abajo mediante tolerancias: la **dirección corporativa, de programa o del cliente**, que encarga el proyecto y fija el mandato; la **junta de proyecto**, que dirige dentro de ese mandato; el **director del proyecto**, que gestiona las etapas en el día a día; y los **equipos**, que entregan los paquetes de trabajo. Las tolerancias pueden establecerse para el proyecto completo, para cada etapa o para cada paquete de trabajo.
 
-Define:
-
-- estructura de dirección;
-- funciones y responsabilidades;
-- representación del negocio, usuario y proveedor;
-- delegación;
-- comunicación;
-- relaciones con la organización permanente.
-
-### Planes (*Plans*)
-
-Responde a: **¿qué se entregará, cómo, cuándo, por quién y con qué recursos?**
-
-Los niveles habituales son:
-
-- plan de proyecto;
-- plan de etapa;
-- plan de equipo, cuando sea necesario;
-- plan de excepción, que sustituye al plan incumplido tras una excepción autorizada.
-
-PRINCE2 emplea planificación basada en productos.
-
-### Calidad (*Quality*)
-
-Responde a: **¿qué significa que los productos sean adecuados para su propósito y cómo se comprobará?**
-
-Incluye:
-
-- requisitos de usuario;
-- criterios de aceptación del producto final;
-- especificaciones de calidad de cada producto;
-- métodos, responsabilidades y registros de revisión;
-- aseguramiento y control de calidad.
-
-PRINCE2 7 refuerza la calidad como actividad continua y no únicamente como comprobación al final.
-
-### Riesgo (*Risk*)
-
-Responde a: **¿qué incertidumbres pueden afectar a los objetivos y cómo se gestionarán?**
-
-El riesgo puede representar:
-
-- una amenaza;
-- una oportunidad.
-
-La práctica incluye identificar, evaluar, planificar respuestas, asignar responsables, ejecutar respuestas, comunicar y revisar.
-
-### Incidencias (*Issues*)
-
-Responde a: **¿cómo se capturan, evalúan y resuelven los acontecimientos y cambios que requieren actuación?**
-
-Una incidencia puede incluir:
-
-- solicitud de cambio;
-- desviación respecto a una especificación;
-- problema o preocupación;
-- oportunidad que requiere decisión.
-
-No toda incidencia se convierte en excepción. Primero se analiza su impacto y se decide dentro de la autoridad delegada o se escala.
-
-### Progreso (*Progress*)
-
-Responde a: **¿dónde estamos, hacia dónde vamos y es viable continuar?**
-
-Compara el desempeño real y previsto con los planes y tolerancias. Utiliza:
-
-- informes;
-- revisiones;
-- puntos de decisión;
-- previsiones;
-- lecciones;
-- escalado de excepciones.
-
----
-
-**5.2.5. Los siete procesos de PRINCE2.**
-
-Los procesos describen el flujo de dirección desde antes del inicio formal hasta el cierre.
-
-### Puesta en marcha de un proyecto (*Starting Up a Project*)
-
-Finalidad: comprobar si existe una iniciativa viable y merecedora de ser iniciada formalmente.
-
-Actividades típicas:
-
-- designar al ejecutivo y al director del proyecto;
-- recopilar lecciones previas;
-- diseñar y nombrar el equipo de dirección;
-- preparar una justificación preliminar;
-- elegir el enfoque del proyecto;
-- elaborar el expediente o resumen inicial del proyecto;
-- planificar la etapa de inicio.
-
-Todavía no se realiza toda la planificación detallada del proyecto.
-
-### Dirección de un proyecto (*Directing a Project*)
-
-Es el proceso mediante el cual la junta de proyecto toma las decisiones principales:
-
-- autorizar el inicio;
-- autorizar el proyecto;
-- autorizar etapas o planes de excepción;
-- proporcionar dirección ad hoc;
-- autorizar el cierre.
-
-Este proceso opera desde la puesta en marcha hasta el cierre y se sitúa por encima de la gestión diaria.
-
-### Inicio de un proyecto (*Initiating a Project*)
-
-Finalidad: establecer bases sólidas antes de comprometer recursos significativos.
-
-Se desarrolla la documentación de inicio del proyecto, que suele incluir:
-
-- caso de negocio detallado;
-- plan del proyecto;
-- controles;
-- enfoque de gestión de riesgos;
-- enfoque de calidad;
-- enfoque de incidencias y cambios;
-- enfoque de comunicación;
-- adaptación del método;
-- responsabilidades y gobernanza.
-
-> **Clave de test:** *Starting Up a Project* decide si merece la pena iniciar; *Initiating a Project* define cómo se gestionará el proyecto una vez autorizado el inicio.
-
-### Control de una etapa (*Controlling a Stage*)
-
-Es la gestión cotidiana realizada por el director del proyecto dentro de una etapa de gestión.
-
-Incluye:
-
-- autorizar paquetes de trabajo;
-- supervisar su estado;
-- revisar la situación de la etapa;
-- informar al órgano de dirección;
-- capturar y analizar incidencias y riesgos;
-- adoptar acciones correctivas;
-- escalar excepciones previstas.
-
-### Gestión de la entrega de productos (*Managing Product Delivery*)
-
-Regula la relación entre el director del proyecto y los equipos que realizan el trabajo especializado.
-
-Incluye:
-
-- aceptar paquetes de trabajo;
-- ejecutar y controlar el trabajo del equipo;
-- asegurar calidad;
-- entregar los productos terminados;
-- informar del progreso.
-
-### Gestión del límite de una etapa (*Managing a Stage Boundary*)
-
-Prepara la información para que la junta de proyecto decida sobre la continuación.
-
-Incluye:
-
-- revisar la etapa que finaliza;
-- actualizar el plan del proyecto y el caso de negocio;
-- preparar el plan de la siguiente etapa;
-- actualizar riesgos y beneficios;
-- informar de lecciones;
-- preparar un plan de excepción cuando corresponda.
-
-### Cierre de un proyecto (*Closing a Project*)
-
-Finalidad: proporcionar un cierre controlado, tanto si el proyecto termina normalmente como si se cancela de forma prematura.
-
-Incluye:
-
-- comprobar aceptación de productos;
-- confirmar transferencia a operación;
-- evaluar el desempeño;
-- registrar asuntos pendientes;
-- recomendar el cierre;
-- preparar la revisión posterior de beneficios;
-- capturar lecciones.
-
----
-
-**5.2.6. Organización y roles principales.**
-
-### Junta de proyecto (*Project Board*)
-
-Órgano responsable de la dirección global del proyecto dentro de la autoridad delegada por la organización. Está formada por tres intereses:
+La **junta de proyecto** (*Project Board*) es el órgano responsable de la dirección global dentro de la autoridad delegada, y representa tres intereses complementarios.
 
 | Rol | Interés representado | Responsabilidad esencial |
 |---|---|---|
-| **Ejecutivo (*Executive*)** | Negocio | Responsable último del éxito, de la justificación de negocio y del equilibrio entre intereses. Preside la junta. |
-| **Usuario senior (*Senior User*)** | Usuarios | Representa necesidades, beneficios, uso, aceptación de productos y adopción por los usuarios. |
-| **Proveedor senior (*Senior Supplier*)** | Proveedores | Representa viabilidad técnica, recursos, conocimientos especializados y calidad de los productos. |
+| **Ejecutivo** (*Executive*) | Negocio | Responsable último del éxito, de la justificación de negocio y del equilibrio entre intereses. Preside la junta. |
+| **Usuario senior** (*Senior User*) | Usuarios | Representa necesidades, beneficios, uso, aceptación de productos y adopción por los usuarios. |
+| **Proveedor senior** (*Senior Supplier*) | Proveedores | Representa viabilidad técnica, recursos, conocimiento especializado y calidad de los productos. |
 
-Una misma persona puede desempeñar más de un rol en proyectos pequeños, siempre que no se produzcan conflictos de interés y la adaptación sea sensata.
+En proyectos pequeños una misma persona puede asumir más de un rol, siempre que no surjan conflictos de interés y la adaptación sea sensata. Por debajo de la junta, el **director del proyecto** (*Project Manager*) gestiona la ejecución cotidiana dentro de las tolerancias fijadas: no debe confundirse con el ejecutivo, que responde por la inversión y el éxito global. El **director de equipo** (*Team Manager*) es responsable de producir los productos asignados en un paquete de trabajo y puede no existir como rol separado en proyectos pequeños. El **aseguramiento del proyecto** (*Project Assurance*) aporta a la junta una confianza independiente de que el proyecto se conduce correctamente desde las perspectivas de negocio, usuario y proveedor, y debe distinguirse del control de calidad —que comprueba productos concretos—, de la auditoría corporativa —que puede ser externa a la estructura PRINCE2— y del apoyo al proyecto. Este último, el **apoyo al proyecto** (*Project Support*), presta asistencia en planificación, registros, herramientas, configuración, documentación e informes.
 
-### Director del proyecto (*Project Manager*)
+Cuando se prevé exceder una tolerancia, el mecanismo de escalado es preciso: se emite un **informe de excepción**, el nivel superior evalúa las opciones, puede solicitar un **plan de excepción** y, si lo aprueba, ese plan sustituye al plan que ha dejado de ser viable.
 
-Gestiona el proyecto en el día a día, dentro de las tolerancias establecidas por la junta.
+> **Clave de test:** un plan de excepción no complementa simplemente al plan anterior; lo **sustituye** para el ámbito afectado.
 
-No debe confundirse con el ejecutivo:
+## 5.2.7. Planificación basada en productos y productos de gestión
 
-- el ejecutivo responde por la inversión y el éxito global;
-- el director del proyecto gestiona la ejecución cotidiana.
+La planificación basada en productos es un rasgo distintivo del método: en lugar de empezar por las actividades, empieza por definir **qué debe obtenerse**. Su secuencia habitual describe primero el producto del proyecto, después la estructura de desglose de productos, las descripciones de cada producto, el diagrama de flujo de productos y, solo entonces, las actividades, dependencias, estimaciones y cronograma. La distinción operativa es sencilla: un **producto** es un resultado verificable —«módulo de autenticación aceptado»—, mientras que una **actividad** es el trabajo necesario para obtenerlo —«programar el módulo de autenticación»—. Pensar primero en productos facilita criterios de calidad y aceptación más claros. La diferencia conceptual entre entregable, resultado, beneficio y valor se desarrolla en el Tema 2, y las técnicas detalladas de descomposición, estimación y cronograma en el Tema 6.
 
-### Director de equipo (*Team Manager*)
-
-Responsable de producir los productos asignados en un paquete de trabajo. Puede no ser necesario como rol separado en proyectos pequeños.
-
-### Aseguramiento del proyecto (*Project Assurance*)
-
-Proporciona confianza independiente a la junta respecto a que el proyecto se conduce correctamente desde las perspectivas de negocio, usuario y proveedor.
-
-Debe diferenciarse de:
-
-- **control de calidad**, que comprueba productos concretos;
-- **auditoría corporativa**, que puede ser externa a la estructura PRINCE2;
-- **apoyo al proyecto**, que presta asistencia administrativa o técnica.
-
-### Apoyo al proyecto (*Project Support*)
-
-Puede ocuparse de planificación, registros, herramientas, configuración, documentación, informes y apoyo administrativo.
-
----
-
-**5.2.7. Niveles de gestión y tolerancias.**
-
-La estructura básica contiene:
-
-1. **dirección corporativa, de programa o del cliente**, que encarga el proyecto;
-2. **junta de proyecto**, que dirige dentro del mandato recibido;
-3. **director del proyecto**, que gestiona las etapas;
-4. **equipos**, que entregan paquetes de trabajo.
-
-Cada nivel delega autoridad al inferior mediante tolerancias. Las tolerancias pueden establecerse para:
-
-- proyecto completo;
-- etapa;
-- paquete de trabajo.
-
-### Informe de excepción y plan de excepción
-
-Cuando se prevé exceder una tolerancia:
-
-1. se emite un informe de excepción;
-2. el nivel superior evalúa opciones;
-3. puede solicitarse un plan de excepción;
-4. si se aprueba, el plan de excepción sustituye al plan que deja de ser viable.
-
-> **Clave de test:** un plan de excepción no complementa simplemente al anterior; lo sustituye para el ámbito afectado.
-
----
-
-**5.2.8. Planificación basada en productos.**
-
-La planificación basada en productos comienza por definir **qué debe obtenerse** antes de detallar actividades.
-
-Elementos habituales:
-
-1. descripción del producto del proyecto;
-2. estructura de desglose de productos;
-3. descripciones de producto;
-4. diagrama de flujo de productos;
-5. actividades y dependencias necesarias;
-6. estimaciones y cronograma.
-
-### Producto frente a actividad
-
-- **Producto:** resultado verificable, por ejemplo, «módulo de autenticación aceptado».
-- **Actividad:** trabajo necesario, por ejemplo, «programar el módulo de autenticación».
-
-El enfoque en productos facilita criterios de calidad y aceptación más claros.
-
-La diferencia conceptual entre entregable, resultado, beneficio y valor se desarrolla en el Tema 2. Las técnicas detalladas de descomposición, estimación y cronograma se estudian en el Tema 6.
-
----
-
-**5.2.9. Productos de gestión más relevantes.**
-
-PRINCE2 utiliza productos de gestión para apoyar decisiones y controles. No todos tienen que ser documentos independientes; pueden integrarse o mantenerse en herramientas digitales.
+Para apoyar decisiones y controles, PRINCE2 emplea **productos de gestión**, que no tienen por qué ser documentos independientes ni extensos: pueden integrarse o mantenerse en herramientas digitales siempre que cumplan su finalidad. Se agrupan en cinco familias.
 
 | Grupo | Ejemplos |
 |---|---|
 | **Justificación y definición** | Mandato del proyecto, expediente inicial, caso de negocio, documentación de inicio. |
 | **Planes** | Plan de proyecto, plan de etapa, plan de equipo, plan de excepción. |
-| **Registros** | Registro de riesgos, registro de incidencias, registro de calidad, registro de productos, diario del proyecto, registro de lecciones. |
-| **Informes** | Informe de punto de control, informe de situación destacada, informe de fin de etapa, informe de excepción, informe de fin de proyecto, informe de lecciones. |
+| **Registros** | Registro de riesgos, de incidencias, de calidad y de productos; diario del proyecto; registro de lecciones. |
+| **Informes** | Informe de punto de control, de situación destacada, de fin de etapa, de excepción, de fin de proyecto y de lecciones. |
 | **Descripción y aceptación** | Descripción del producto del proyecto y descripciones de productos. |
 
-> **Clave de test:** PRINCE2 7 no exige necesariamente papel ni documentos extensos. El contenido de gestión puede mantenerse en herramientas colaborativas siempre que cumpla su finalidad.
+> **Clave de test:** PRINCE2 7 no exige papel ni documentos voluminosos. El contenido de gestión puede mantenerse en herramientas colaborativas siempre que preserve su propósito.
+
+## 5.2.8. Fortalezas, límites y confusiones frecuentes
+
+Las fortalezas de PRINCE2 son su reparto claro de responsabilidades, el control ejecutivo sin microgestión, las decisiones de continuidad por etapas, el foco en la justificación y en los productos, la gestión explícita de excepciones, su gran capacidad de adaptación y su compatibilidad con enfoques predictivos, ágiles e híbridos. Sus límites son igual de nítidos: por sí solo no aporta técnicas completas de estimación, ni un método de desarrollo de software, ni diseño de arquitectura, ni prácticas de ingeniería, ni todas las capacidades de liderazgo necesarias. De ahí que se combine con otras referencias. En cuanto a las confusiones que más se penalizan, conviene distinguir la **etapa de gestión** —que sirve para control y autorización— de la **etapa técnica** —que responde a la forma de crear el producto—; recordar que la junta **dirige** pero normalmente no gestiona las tareas diarias; que el caso de negocio no es propiedad exclusiva del director del proyecto; que gestionar por excepción no equivale a suprimir informes; y que enfocarse en productos no significa ignorar las actividades, sino definir primero los resultados.
 
 ---
 
-**5.2.10. Fortalezas, límites y errores frecuentes.**
+# 5.3. PMBOK, 7.ª edición
 
-### Fortalezas
+## 5.3.1. Qué es el PMBOK y el sistema de entrega de valor
 
-- responsabilidades claras;
-- control ejecutivo sin microgestión;
-- decisiones de continuidad por etapas;
-- foco en justificación y productos;
-- gestión explícita de excepciones;
-- gran capacidad de adaptación;
-- compatibilidad con enfoques predictivos, ágiles e híbridos.
+PMBOK son las siglas de **Project Management Body of Knowledge**. La *Guía del PMBOK* y el *Estándar para la dirección de proyectos* que la acompaña reúnen conocimientos generalmente reconocidos como útiles para la profesión, pero no constituyen una metodología cerrada: no exigen usar todos sus elementos, no imponen una secuencia universal, deben adaptarse al contexto y son compatibles con enfoques predictivos, adaptativos e híbridos. La séptima edición, publicada en 2021, supuso un giro importante respecto a ediciones anteriores, al pasar de una presentación centrada en grupos de procesos y áreas de conocimiento a otra organizada en torno a la entrega de valor, los principios, los dominios de desempeño, la adaptación y un repertorio de modelos, métodos y artefactos.
 
-### Límites
+El punto de partida conceptual es que los proyectos no son iniciativas aisladas, sino piezas de un **sistema de entrega de valor** que puede incluir estrategia, portafolios, programas, proyectos, productos, operaciones y funciones de soporte. La entrega de un proyecto genera salidas que pueden producir resultados, beneficios y, finalmente, valor —financiero o no financiero, tangible o intangible, y percibido de forma distinta por cada interesado—. Ese encadenamiento suele representarse de forma simplificada como **estrategia → portafolios y programas → proyectos → entregables → resultados → beneficios → valor**, con la gobernanza evaluando, orientando y supervisando el conjunto. El vocabulario general de entregable, resultado, beneficio y valor corresponde al Tema 2, y la evaluación de cartera al Tema 3.
 
-PRINCE2 no proporciona por sí solo:
+## 5.3.2. Los doce principios
 
-- técnicas completas de estimación;
-- método de desarrollo de software;
-- diseño de arquitectura;
-- prácticas de ingeniería;
-- todas las capacidades de liderazgo necesarias.
+Los principios guían comportamientos y decisiones con independencia del enfoque de entrega. Son doce y conviene reconocerlos con su formulación característica. El de **administración diligente** (*stewardship*) pide actuar con integridad, responsabilidad y cuidado sobre recursos, personas, organización y entorno. El de **entorno colaborativo del equipo** subraya que los equipos eficaces comparten normas, confianza, aprendizaje y responsabilidad. El de **involucrar eficazmente a los interesados** exige identificarlos, comprenderlos e implicarlos de forma continua. El de **centrarse en el valor** recuerda que las decisiones deben alinearse con los objetivos y beneficios, y no solo con producir entregables. El de **reconocer y responder a las interacciones del sistema** trata el proyecto como un sistema abierto en el que las decisiones locales tienen efectos en otras partes. El de **demostrar comportamientos de liderazgo** afirma que el liderazgo puede ejercerse desde cualquier posición y no equivale a autoridad formal.
 
-### Confusiones frecuentes
+Los seis restantes completan el cuadro: **adaptar según el contexto**, ajustando enfoque, gobernanza y prácticas a la singularidad del proyecto; **incorporar la calidad** en procesos y entregables desde el diseño y no solo por inspección final; **navegar por la complejidad**, que surge del comportamiento humano, la incertidumbre, la tecnología, las interdependencias y la ambigüedad; **optimizar las respuestas a los riesgos** de forma proporcional y rentable, atendiendo a amenazas y oportunidades; **adoptar adaptabilidad y resiliencia**, para responder al cambio y recuperarse de los impactos; y **facilitar el cambio para lograr el estado futuro**, ayudando a personas y organización a transitar de la situación actual a la deseada.
 
-- Una **etapa de gestión** sirve para control y autorización; una **etapa técnica** responde a la forma de crear el producto.
-- La junta de proyecto **dirige**, pero normalmente no gestiona las tareas diarias.
-- El director del proyecto no es propietario único del caso de negocio.
-- Gestión por excepción no equivale a ausencia de informes.
-- Enfoque en productos no significa ignorar actividades, sino definir primero los resultados.
+## 5.3.3. Los ocho dominios de desempeño
+
+Un dominio de desempeño es un grupo de actividades relacionadas que resulta crítico para entregar resultados con eficacia. La séptima edición reconoce ocho. El de **interesados** busca relaciones productivas y una participación que favorezca los objetivos. El de **equipo** atiende al entorno, la cultura, el liderazgo, el desarrollo y el desempeño de quienes producen los entregables. El de **enfoque de desarrollo y ciclo de vida** selecciona y adapta el enfoque —predictivo, iterativo, incremental, adaptativo o híbrido— y la cadencia de entrega. El de **planificación** organiza y coordina el trabajo de forma continua, evolucionando con la información disponible. El de **trabajo del proyecto** aborda procesos, recursos, comunicaciones, contratación, aprendizaje y coordinación de la ejecución. El de **entrega** se centra en alcance, calidad, productos, resultados y valor, asegurando que lo entregado satisface necesidades. El de **medición** evalúa el desempeño mediante métricas, líneas base, previsiones e información útil para decidir. Y el de **incertidumbre** integra riesgo, ambigüedad, complejidad, volatilidad y las respuestas ante lo incierto.
+
+> **Clave de test:** los dominios no son fases secuenciales. Interactúan y funcionan de forma simultánea durante todo el proyecto.
+
+## 5.3.4. Adaptación, modelos, métodos y artefactos
+
+La adaptación en PMBOK 7 suele describirse como un ciclo: seleccionar un enfoque inicial de desarrollo, adaptarlo para la organización, adaptarlo para el proyecto concreto y aplicar mejora continua. Entre los factores que la condicionan están la urgencia, la innovación, la estabilidad de los requisitos, la gobernanza, el tamaño y la distribución del equipo, la regulación, la criticidad, la contratación, el riesgo, la cultura y la tecnología.
+
+Para sostener esa adaptación, la séptima edición ofrece un catálogo de opciones que el equipo selecciona según necesidad, y que agrupa en tres categorías. Los **modelos** son representaciones que ayudan a comprender comportamientos o situaciones —liderazgo situacional, desarrollo de equipos, motivación, complejidad o cambio organizativo—. Los **métodos** son formas de lograr un resultado —estimación, análisis de interesados, reuniones, análisis de causa raíz, priorización o valor ganado—. Y los **artefactos** son documentos o elementos creados y utilizados durante la gestión —acta de constitución, registro de riesgos, hoja de ruta, línea base, tablero visual, informe de desempeño o *backlog*—.
+
+> **Clave de test:** el PMBOK no obliga a utilizar todos los modelos, métodos y artefactos: se eligen mediante adaptación. En este tema basta con reconocer que existe un catálogo adaptable; el cálculo y el uso operativo de estimación, riesgos, EVM, informes o tableros se desarrollan en el Tema 6.
 
 ---
 
-# 5.3. PMBOK 7.ª edición
+# 5.4. PMBOK, 8.ª edición
 
-**5.3.1. Qué es PMBOK.**
+## 5.4.1. Contexto y evolución
 
-PMBOK significa **Project Management Body of Knowledge**. La guía del PMBOK y el estándar de dirección de proyectos asociado reúnen conocimientos generalmente reconocidos como útiles para la profesión.
+La octava edición fue publicada por PMI en **noviembre de 2025** (con la edición impresa llegando a comienzos de 2026), y sigue integrando el *Estándar para la dirección de proyectos* y la *Guía del PMBOK*. Mantiene la orientación al valor y a la adaptación, pero reorganiza el contenido para conectar mejor los principios, los dominios de desempeño, los ciclos de vida, los procesos, las entradas y salidas, y las herramientas y técnicas. Nace de una amplia consulta a profesionales que pedían recuperar estructura práctica: no supone un retorno al enfoque rígidamente prescriptivo de ediciones antiguas, porque los procesos se presentan de manera evolucionada, no obligatoria y agnóstica respecto al enfoque de entrega. Una novedad conceptual es que enmarca sus principios en una **mentalidad de dirección** con tres dimensiones —proactiva, de apropiación (*ownership*) y orientada al valor—. Su relevancia para quien opositó o se certifica es doble: además del cambio de contenido, el **examen PMP se alinea con la octava edición a partir del 9 de julio de 2026**; hasta esa fecha el examen sigue basándose en la versión anterior.
 
-PMBOK:
+## 5.4.2. Los seis principios
 
-- no es una metodología cerrada;
-- no exige usar todos sus elementos;
-- no determina una secuencia universal;
-- debe adaptarse al contexto;
-- es compatible con enfoques predictivos, adaptativos e híbridos.
+La octava edición condensa los doce principios de la séptima en seis, fusionando algunos y trasladando otros a los dominios. **Adoptar una visión holística** (*Adopt a Holistic View*) considera el proyecto como parte de sistemas organizativos, sociales, tecnológicos y ambientales interdependientes, y absorbe las ideas de pensamiento sistémico y navegación de la complejidad. **Centrarse en el valor** (*Focus on Value*) alinea decisiones, entregas y resultados con el valor esperado y los objetivos organizativos. **Incorporar la calidad en procesos y entregables** (*Embed Quality*) insiste en construir la calidad desde el diseño y no limitarse a inspeccionarla al final. **Ser un líder responsable** (*Be an Accountable Leader*) reclama asumir responsabilidad, actuar con ética y decidir de forma transparente. **Integrar la sostenibilidad en todas las áreas del proyecto** (*Integrate Sustainability*) incorpora de forma transversal los impactos ambientales, sociales, económicos y de largo plazo. Y **construir una cultura empoderada** (*Build an Empowered Culture*) crea las condiciones para que las personas decidan, colaboren, aprendan y aporten su experiencia.
 
-La 7.ª edición supuso un cambio importante frente a ediciones anteriores: pasó de una presentación centrada en grupos de procesos y áreas de conocimiento a otra centrada en:
+## 5.4.3. Los siete dominios de desempeño
 
-- entrega de valor;
-- principios;
-- dominios de desempeño;
-- adaptación;
-- modelos, métodos y artefactos.
+La octava edición reduce de ocho a siete los dominios y les da nombres más funcionales. El de **gobernanza** relaciona la creación de valor con las estructuras de decisión, la supervisión y la rendición de cuentas. El de **alcance** cubre la definición, elaboración, validación y control del trabajo y de los resultados. El de **cronograma** abarca la secuenciación, la duración, las dependencias, las previsiones y el control del calendario. El de **finanzas** trata costes, presupuestos, financiación, reservas y control económico. El de **interesados** se centra en identificar, comprender e implicar a las partes interesadas. El de **recursos** comprende personas, equipos, materiales, instalaciones y tecnología. Y el de **riesgo** gestiona la incertidumbre, las amenazas, las oportunidades y las respuestas.
 
----
+## 5.4.4. Áreas de enfoque y procesos
 
-**5.3.2. Sistema para la entrega de valor.**
+La aportación estructural más visible de la octava edición es que **recupera los cinco grupos de procesos clásicos bajo el nombre de «áreas de enfoque»**: inicio, planificación, ejecución, seguimiento y control, y cierre. No se trata de un elemento nuevo, sino del mismo eje de ciclo de vida que muchos aprendieron como *process groups*, ahora reformulado de forma **agnóstica al enfoque** para no arrastrar la connotación puramente predictiva que tenían. Dentro de esa rejilla, la edición reintroduce alrededor de **40 procesos no prescriptivos**, distribuidos entre los siete dominios y mapeados a las cinco áreas de enfoque. La planificación es el área con más procesos, mientras que inicio y cierre concentran muy pocos, ambos de naturaleza de gobernanza. Estas áreas no deben confundirse automáticamente con las fases del ciclo de vida: los procesos de planificación, ejecución o control pueden aplicarse en varias fases y repetirse de forma iterativa.
 
-Los proyectos no deben considerarse iniciativas aisladas. Forman parte de un sistema organizativo que puede incluir:
+> **Clave de test:** un grupo de procesos —o área de enfoque— describe el *tipo* de actividad de dirección; una fase forma parte del ciclo de vida y suele concluir con uno o varios entregables o decisiones. Recuperar los procesos no convierte a PMBOK 8 en un método predictivo obligatorio.
 
-- estrategia;
-- portafolios;
-- programas;
-- proyectos;
-- productos;
-- operaciones;
-- funciones de soporte.
+La octava edición amplía o hace más visible, además, el contenido sobre inteligencia artificial, oficinas de dirección de proyectos, adquisiciones y contratación, sostenibilidad, gobernanza, gestión de productos y adaptación continua. Que aparezcan apéndices o contenidos específicos —por ejemplo, sobre IA— no convierte esas tecnologías en obligatorias: su uso debe seguir evaluándose según necesidad, riesgo, ética, privacidad y contexto. La presencia de la inteligencia artificial en el estándar debe distinguirse, por cierto, de las tendencias tecnológicas del Tema 7: aquí se estudia como elemento ya incorporado a la norma; allí se analizan la automatización, los datos y los riesgos emergentes.
 
-La entrega de un proyecto genera salidas que pueden producir resultados, beneficios y valor. El valor puede ser:
-
-- financiero o no financiero;
-- tangible o intangible;
-- positivo, negativo o percibido de forma diferente por distintos interesados.
-
-### Flujo simplificado
-
-**Estrategia → portafolios y programas → proyectos → entregables → resultados → beneficios → valor**
-
-La gobernanza permite evaluar, orientar y supervisar el sistema.
-
-Esta cadena se estudia aquí como parte del sistema de valor de PMI. El vocabulario general de entregable, resultado, beneficio y valor corresponde al Tema 2, y la evaluación de cartera al Tema 3.
-
----
-
-**5.3.3. Los doce principios de PMBOK 7.**
-
-Los principios guían comportamientos y decisiones con independencia del enfoque de entrega.
-
-### Ser un administrador diligente, respetuoso y cuidadoso (*Stewardship*)
-
-Implica actuar con integridad, responsabilidad, diligencia y cuidado sobre los recursos, las personas, la organización y el entorno.
-
-### Crear un entorno colaborativo para el equipo
-
-Los equipos eficaces comparten normas, responsabilidades, confianza, aprendizaje y una cultura de colaboración.
-
-### Involucrar eficazmente a los interesados
-
-Los interesados deben identificarse, comprenderse e involucrarse de manera apropiada y continua.
-
-### Centrarse en el valor
-
-Las decisiones deben mantener la alineación con objetivos, beneficios y valor esperado, no únicamente con la producción de entregables.
-
-### Reconocer, evaluar y responder a las interacciones del sistema
-
-El proyecto es un sistema abierto, conectado con otros elementos organizativos y externos. Las decisiones locales pueden producir efectos en otras partes.
-
-### Demostrar comportamientos de liderazgo
-
-El liderazgo puede ejercerse desde cualquier posición y debe adaptarse a la situación. No es sinónimo de autoridad formal.
-
-### Adaptar según el contexto
-
-El enfoque, la gobernanza y las prácticas deben ajustarse a la singularidad del proyecto.
-
-### Incorporar calidad en procesos y entregables
-
-La calidad debe diseñarse y construirse, no depender únicamente de inspecciones finales.
-
-### Navegar por la complejidad
-
-La complejidad puede surgir de comportamiento humano, incertidumbre, tecnología, interdependencias, ambigüedad y dinámica del sistema.
-
-### Optimizar las respuestas a los riesgos
-
-Las amenazas y oportunidades deben gestionarse de forma proporcional, realista, rentable y asignada a responsables.
-
-### Adoptar adaptabilidad y resiliencia
-
-La adaptabilidad permite responder al cambio; la resiliencia permite absorber impactos y recuperarse.
-
-### Facilitar el cambio para lograr el estado futuro
-
-El proyecto debe ayudar a las personas y a la organización a transitar desde la situación actual hasta la futura.
-
----
-
-**5.3.4. Los ocho dominios de desempeño de PMBOK 7.**
-
-Un dominio de desempeño es un grupo de actividades relacionadas que resulta crítico para entregar eficazmente resultados del proyecto.
-
-### Interesados (*Stakeholders*)
-
-Busca relaciones de trabajo productivas y una participación que favorezca los objetivos.
-
-### Equipo (*Team*)
-
-Se ocupa del entorno, cultura, liderazgo, desarrollo y desempeño de las personas responsables de los entregables.
-
-### Enfoque de desarrollo y ciclo de vida
-
-Selecciona y adapta el enfoque predictivo, iterativo, incremental, adaptativo o híbrido y la cadencia de entrega.
-
-### Planificación (*Planning*)
-
-Organiza y coordina el trabajo necesario para entregar resultados. La planificación es continua y evoluciona con la información.
-
-### Trabajo del proyecto (*Project Work*)
-
-Aborda procesos, recursos, comunicaciones, contratación, aprendizaje y coordinación de la ejecución.
-
-### Entrega (*Delivery*)
-
-Se centra en alcance, calidad, productos, resultados y valor, asegurando que las entregas satisfagan necesidades.
-
-### Medición (*Measurement*)
-
-Evalúa desempeño y facilita decisiones mediante métricas, líneas base, previsiones e información útil.
-
-### Incertidumbre (*Uncertainty*)
-
-Integra riesgo, ambigüedad, complejidad, volatilidad y respuestas ante situaciones inciertas.
-
-> **Clave de test:** los dominios no son fases secuenciales. Interactúan y funcionan simultáneamente durante el proyecto.
-
----
-
-**5.3.5. Adaptación en PMBOK 7.**
-
-La adaptación puede seguir un ciclo como:
-
-1. seleccionar el enfoque inicial de desarrollo;
-2. adaptar para la organización;
-3. adaptar para el proyecto;
-4. aplicar mejora continua.
-
-Factores de adaptación:
-
-- urgencia;
-- innovación;
-- estabilidad de requisitos;
-- gobernanza;
-- tamaño y distribución del equipo;
-- regulación;
-- criticidad;
-- contratación;
-- riesgo;
-- cultura;
-- tecnología.
-
----
-
-**5.3.6. Modelos, métodos y artefactos.**
-
-PMBOK 7 incluye una colección de opciones que el equipo puede seleccionar.
-
-### Modelos
-
-Representaciones útiles para comprender comportamientos o situaciones, por ejemplo:
-
-- liderazgo situacional;
-- desarrollo de equipos;
-- motivación;
-- complejidad;
-- cambio organizativo.
-
-### Métodos
-
-Formas de lograr un resultado, por ejemplo:
-
-- estimación;
-- análisis de interesados;
-- reuniones;
-- análisis de causa raíz;
-- priorización;
-- valor ganado.
-
-### Artefactos
-
-Documentos, resultados o elementos creados y utilizados durante la gestión, por ejemplo:
-
-- acta de constitución;
-- registro de riesgos;
-- hoja de ruta;
-- línea base;
-- tablero visual;
-- informe de desempeño;
-- backlog.
-
-> **Clave de test:** el PMBOK no obliga a utilizar todos los modelos, métodos y artefactos. Se seleccionan mediante adaptación.
-
-En este tema basta con reconocer que PMBOK ofrece un catálogo adaptable. El cálculo y uso operativo de técnicas como estimación, riesgos, EVM, informes o tableros se desarrolla en el Tema 6.
-
----
-
-# 5.4. PMBOK 8.ª edición
-
-**5.4.1. Contexto y evolución.**
-
-La 8.ª edición fue publicada por PMI en noviembre de 2025. Incluye:
-
-- **The Standard for Project Management**;
-- **A Guide to the Project Management Body of Knowledge**.
-
-Mantiene la orientación a valor y adaptación, pero reorganiza el contenido para conectar mejor:
-
-- principios;
-- dominios de desempeño;
-- ciclos de vida;
-- procesos;
-- entradas y salidas;
-- herramientas y técnicas.
-
-No supone una vuelta completa al enfoque prescriptivo de ediciones antiguas. Los procesos se presentan de manera evolucionada y adaptable.
-
----
-
-**5.4.2. Los seis principios de PMBOK 8.**
-
-### Adoptar una visión holística (*Adopt a Holistic View*)
-
-Considerar el proyecto como parte de sistemas organizativos, sociales, tecnológicos y ambientales interdependientes.
-
-### Centrarse en el valor (*Focus on Value*)
-
-Alinear decisiones, entregas y resultados con el valor esperado y con los objetivos organizativos.
-
-### Incorporar la calidad en procesos y entregables (*Embed Quality into Processes and Deliverables*)
-
-Construir calidad desde el diseño del trabajo y de los resultados, no limitarse a inspeccionarla al final.
-
-### Ser un líder responsable (*Be an Accountable Leader*)
-
-Asumir responsabilidad, actuar éticamente, tomar decisiones transparentes y responder por los efectos del liderazgo.
-
-### Integrar la sostenibilidad en todas las áreas del proyecto (*Integrate Sustainability Within All Project Areas*)
-
-Considerar de forma transversal impactos ambientales, sociales, económicos y de largo plazo.
-
-### Construir una cultura empoderada (*Build an Empowered Culture*)
-
-Crear condiciones para que las personas puedan decidir, colaborar, aprender, asumir responsabilidad y aportar su experiencia.
-
----
-
-**5.4.3. Los siete dominios de desempeño de PMBOK 8.**
-
-### Gobernanza (*Governance*)
-
-Relaciona creación de valor, estructuras de decisión, supervisión, rendición de cuentas y procesos que sostienen una gobernanza eficaz.
-
-### Alcance (*Scope*)
-
-Incluye definición, elaboración, validación y control del trabajo y de los resultados necesarios.
-
-### Cronograma (*Schedule*)
-
-Abarca secuenciación, duración, planificación temporal, dependencias, previsiones y control del calendario.
-
-### Finanzas (*Finance*)
-
-Trata costes, presupuestos, financiación, reservas, control económico y conexión con el valor.
-
-### Interesados (*Stakeholders*)
-
-Se centra en identificar, comprender, involucrar y mantener relaciones eficaces con las partes interesadas.
-
-### Recursos (*Resources*)
-
-Comprende personas, equipos, materiales, instalaciones, tecnología y demás capacidades necesarias.
-
-### Riesgo (*Risk*)
-
-Gestiona incertidumbre, amenazas, oportunidades, exposición y respuestas.
-
----
-
-**5.4.4. Áreas de enfoque de los grupos de procesos.**
-
-PMBOK 8 recupera cinco grupos de procesos como **áreas de enfoque**:
-
-1. inicio;
-2. planificación;
-3. ejecución;
-4. seguimiento y control;
-5. cierre.
-
-No deben confundirse automáticamente con fases del ciclo de vida. Los procesos de planificación, ejecución o control pueden aplicarse en varias fases y repetirse de forma iterativa.
-
-> **Clave de test:** un grupo de procesos describe el tipo de actividad de dirección; una fase forma parte del ciclo de vida del proyecto y suele concluir con uno o varios entregables o decisiones.
-
----
-
-**5.4.5. Elementos reforzados en PMBOK 8.**
-
-La edición amplía o hace más visible contenido sobre:
-
-- inteligencia artificial;
-- oficinas de dirección de proyectos;
-- adquisiciones y contratación;
-- sostenibilidad;
-- gobernanza;
-- gestión de productos;
-- adaptación continua;
-- entradas y salidas;
-- herramientas y técnicas.
-
-La presencia de apéndices o contenidos específicos no convierte cada tecnología en obligatoria. Su uso debe seguir evaluándose según necesidad, riesgo, ética, privacidad y contexto.
-
-La presencia de inteligencia artificial en PMBOK 8 debe distinguirse de las tendencias tecnológicas del Tema 7: aquí se estudia como elemento incorporado al estándar; allí se analizan automatización, datos, IA y riesgos emergentes.
-
----
-
-**5.4.6. Comparación PMBOK 7 y PMBOK 8.**
+## 5.4.5. Comparación entre PMBOK 7 y PMBOK 8
 
 | Elemento | PMBOK 7 | PMBOK 8 |
 |---|---|---|
-| **Publicación** | 2021 | Noviembre de 2025 |
-| **Principios** | 12 | 6 principios refinados |
-| **Dominios** | 8 dominios amplios | 7 dominios reorganizados |
-| **Procesos** | No constituyen el eje central de la edición | Reaparecen como orientación y cinco áreas de enfoque, sin abandonar la adaptación |
-| **Énfasis** | Valor, principios, dominios, adaptación | Conecta valor y principios con dominios, procesos, entradas/salidas y herramientas |
+| **Publicación** | 2021 | Noviembre de 2025 (examen PMP alineado desde julio de 2026) |
+| **Principios** | 12 | 6 principios refinados, enmarcados en una mentalidad de tres dimensiones |
+| **Dominios** | 8 dominios amplios | 7 dominios reorganizados y más funcionales |
+| **Procesos** | No son el eje central | Reaparecen como orientación: 5 áreas de enfoque y ~40 procesos no prescriptivos |
+| **Énfasis** | Valor, principios, dominios y adaptación | Conecta valor y principios con dominios, procesos, entradas/salidas y herramientas |
 | **Sostenibilidad** | Presente de forma transversal | Principio explícito |
 | **IA, PMO y contratación** | Tratamiento más limitado o distribuido | Cobertura ampliada y apéndices específicos |
 | **Carácter** | No prescriptivo | Sigue siendo adaptable; no es una metodología única |
 
-### Correspondencias aproximadas, no equivalencias exactas
-
-No debe asumirse una traducción uno a uno entre ediciones:
-
-- los doce principios de la 7.ª se sintetizan y reorganizan en seis;
-- los ocho dominios de la 7.ª no se limitan a cambiar de nombre: se redistribuyen;
-- «equipo», «planificación», «entrega» o «medición» siguen siendo relevantes aunque no aparezcan como dominios con el mismo nombre en la 8.ª;
-- los nuevos dominios más funcionales de alcance, cronograma y finanzas no implican volver a una gestión rígidamente predictiva.
+No debe asumirse una traducción uno a uno entre ediciones. Los doce principios de la séptima se sintetizan y reorganizan en seis; los ocho dominios no cambian solo de nombre, sino que se redistribuyen; conceptos como «equipo», «planificación», «entrega» o «medición» siguen siendo relevantes aunque no figuren como dominios homónimos en la octava; y los nuevos dominios más funcionales de alcance, cronograma y finanzas no implican volver a una gestión rígidamente predictiva.
 
 ---
 
 # 5.5. Agilidad y metodologías ágiles
 
-**5.5.1. Qué significa ágil.**
+La agilidad es la capacidad de entregar valor, aprender y responder al cambio mediante ciclos de realimentación cortos, colaboración y adaptación. No debe confundirse con ausencia de planificación, eliminación de documentación, falta de fechas o compromisos, improvisación continua, desarrollo rápido sin calidad ni uso obligatorio de Scrum: Scrum y Kanban son solo dos formas distintas de aplicar ideas compatibles con la agilidad. El origen conceptual está en el **Manifiesto Ágil**, que valora los individuos e interacciones sobre los procesos y herramientas, el software funcionando sobre la documentación exhaustiva, la colaboración con el cliente sobre la negociación contractual, y la respuesta ante el cambio sobre el seguimiento de un plan. Los elementos de la derecha siguen teniendo valor, pero se prioriza la izquierda. Aunque el manifiesto nació en el desarrollo de software, sus ideas se han extendido a muchos ámbitos de gestión de productos y proyectos.
 
-La agilidad es la capacidad de entregar valor, aprender y responder al cambio mediante ciclos de realimentación cortos, colaboración y adaptación.
-
-No debe confundirse con:
-
-- ausencia de planificación;
-- eliminación de documentación;
-- falta de fechas o compromisos;
-- improvisación continua;
-- desarrollo rápido sin calidad;
-- uso obligatorio de Scrum.
-
-Scrum y Kanban son formas diferentes de aplicar ideas compatibles con la agilidad.
-
----
-
-**5.5.2. Los cuatro valores del Manifiesto Ágil.**
-
-El Manifiesto valora:
-
-1. individuos e interacciones sobre procesos y herramientas;
-2. software funcionando sobre documentación exhaustiva;
-3. colaboración con el cliente sobre negociación contractual;
-4. respuesta ante el cambio sobre seguimiento de un plan.
-
-Los elementos de la derecha siguen teniendo valor, pero se valoran más los de la izquierda.
-
-Aunque el manifiesto nació en el desarrollo de software, sus ideas han influido en muchos ámbitos de gestión de productos y proyectos.
-
----
-
-**5.5.3. Predictivo, adaptativo e híbrido.**
+Para situar Scrum y Kanban conviene contrastar los tres grandes enfoques de entrega.
 
 | Aspecto | Predictivo | Adaptativo o ágil | Híbrido |
 |---|---|---|---|
-| Requisitos | Se intentan definir con mayor detalle al inicio | Emergen y se priorizan progresivamente | Parte estable y parte evolutiva |
-| Planificación | Más anticipada y basada en líneas base | Continua y por horizontes cortos | Combina planes globales y ciclos adaptativos |
-| Entrega | Frecuentemente al final o por hitos mayores | Frecuente e incremental | Entregas de distinta cadencia |
-| Cambio | Se evalúa frente a líneas base | Se espera y se incorpora mediante priorización | Depende del componente afectado |
+| Requisitos | Se definen con detalle al inicio | Emergen y se priorizan progresivamente | Parte estable y parte evolutiva |
+| Planificación | Anticipada y basada en líneas base | Continua y por horizontes cortos | Combina planes globales y ciclos adaptativos |
+| Entrega | Al final o por hitos mayores | Frecuente e incremental | Cadencias distintas según componente |
+| Cambio | Se evalúa frente a líneas base | Se espera e incorpora por priorización | Depende del componente afectado |
 | Control | Variaciones frente al plan | Valor, flujo, objetivos de iteración y aprendizaje | Métricas combinadas |
 
-> **Clave de test:** predictivo y ágil no son sinónimos de «correcto» e «incorrecto». La elección depende de incertidumbre, regulación, tecnología, necesidad de aprendizaje y naturaleza de las entregas.
-
-La comparación básica de enfoques pertenece a este tema porque contextualiza Scrum y Kanban. La hibridación como tendencia organizativa, sus patrones y riesgos se desarrolla en el Tema 7.
+> **Clave de test:** predictivo y ágil no equivalen a «correcto» e «incorrecto». La elección depende de la incertidumbre, la regulación, la tecnología, la necesidad de aprendizaje y la naturaleza de las entregas. La hibridación como tendencia organizativa, sus patrones y riesgos se desarrolla en el Tema 7; aquí solo se usa para comparar marcos.
 
 ---
 
 # 5.6. Scrum
 
-**5.6.1. Definición.**
+## 5.6.1. Definición, empirismo y valores
 
-Scrum es un **marco de trabajo ligero** que ayuda a personas, equipos y organizaciones a generar valor mediante soluciones adaptativas para problemas complejos.
+Scrum es un **marco de trabajo ligero** que ayuda a personas, equipos y organizaciones a generar valor mediante soluciones adaptativas para problemas complejos. Se apoya en el empirismo, el pensamiento *lean*, un enfoque iterativo, la entrega incremental y equipos pequeños, multifuncionales y autogestionados. Es deliberadamente incompleto: no prescribe técnicas de ingeniería, herramientas concretas, formatos de requisitos ni procedimientos detallados.
 
-Se basa en:
+El **empirismo** sostiene que el conocimiento procede de la experiencia y que las decisiones se toman a partir de lo observado. Se articula en tres pilares. La **transparencia** hace que el trabajo, los objetivos y el estado de los artefactos sean visibles y comprensibles para quienes deciden. La **inspección** revisa con frecuencia los artefactos y el progreso para detectar desviaciones, problemas y oportunidades. Y la **adaptación** ajusta cuanto antes el proceso, el plan o el producto cuando se observa una desviación o se aprende algo nuevo. La cadena lógica es encadenada —**transparencia → inspección fiable → adaptación útil**—: sin transparencia, la inspección conduce a decisiones erróneas; sin adaptación, la inspección carece de finalidad. Sosteniendo esos pilares están los cinco valores de Scrum —**compromiso, foco, apertura, respeto y coraje**—, que orientan el comportamiento del equipo y hacen posible el trabajo empírico.
 
-- empirismo;
-- pensamiento Lean;
-- enfoque iterativo;
-- entrega incremental;
-- equipos pequeños, multifuncionales y autogestionados.
+## 5.6.2. El Scrum Team y sus tres responsabilidades
 
-Scrum es deliberadamente incompleto: no prescribe técnicas de ingeniería, herramientas concretas, formatos de requisitos ni procedimientos detallados.
+La unidad fundamental es el **Scrum Team**, un equipo pequeño —normalmente de diez personas o menos— sin subequipos ni jerarquías internas, multifuncional, autogestionado, centrado en un único Objetivo de Producto y responsable colectivamente de crear un Incremento valioso y útil en cada Sprint. La Guía Scrum habla de **responsabilidades** (*accountabilities*), no de cargos jerárquicos, y reconoce tres.
 
----
+Los **Developers** son las personas comprometidas con crear cualquier aspecto de un Incremento utilizable durante el Sprint. Responden de crear el Sprint Backlog, incorporar calidad respetando la Definición de Hecho, adaptar diariamente el plan hacia el Objetivo del Sprint y responsabilizarse mutuamente como profesionales. No hay un número fijo de perfiles ni la obligación de que todos sean programadores: el término designa a quienes desarrollan el producto o resultado. El **Product Owner** responde de maximizar el valor del producto y de gestionar eficazmente el Product Backlog: desarrolla y comunica el Objetivo de Producto, crea, ordena y comunica los elementos, y asegura que el Product Backlog sea transparente y comprendido. Puede delegar trabajo, pero no su responsabilidad; es **una persona, no un comité**; representa las necesidades de múltiples interesados; la organización debe respetar sus decisiones; y es la única persona con autoridad para cancelar un Sprint cuando su objetivo queda obsoleto. El **Scrum Master** responde de establecer Scrum tal como lo define la Guía y de mejorar la efectividad del equipo, actuando como líder al servicio del equipo y de la organización: forma y asesora, facilita la autogestión y la multifuncionalidad, ayuda a eliminar impedimentos, asegura que los eventos se celebren y cumplan su propósito, apoya al Product Owner con objetivos y *backlog*, y reduce las barreras entre interesados y equipos. No es el jefe jerárquico del equipo, ni un secretario de reuniones, ni quien asigna tareas a diario, ni el propietario del Product Backlog.
 
-**5.6.2. Empirismo y los tres pilares.**
+> **Clave de test:** el Product Owner **ordena** el Product Backlog; los Developers deciden **cuánto** seleccionar y **cómo** realizar el trabajo. Ni el Scrum Master ordena el *backlog* ni el Product Owner asigna tareas a los Developers.
 
-El empirismo sostiene que el conocimiento procede de la experiencia y que las decisiones se toman basándose en lo observado.
+## 5.6.3. Los eventos
 
-### Transparencia
+El **Sprint** es el latido de Scrum y contiene a todos los demás eventos. Tiene una duración fija de **un mes o menos**, y al terminar uno empieza de inmediato el siguiente. Durante el Sprint no se hacen cambios que pongan en peligro el Objetivo del Sprint, la calidad no disminuye, el Product Backlog puede refinarse y el alcance puede aclararse y renegociarse con el Product Owner a medida que se aprende; un Sprint no se alarga para terminar trabajo pendiente. El **Sprint Planning** abre el Sprint y crea el plan mediante la colaboración de todo el equipo respondiendo a tres preguntas —por qué es valioso este Sprint, qué puede hacerse en él y cómo se realizará el trabajo elegido—, y su resultado es el Sprint Backlog; para un Sprint de un mes dura como máximo **ocho horas**. El **Daily Scrum** es un evento de **quince minutos** para los Developers, destinado a inspeccionar el progreso hacia el Objetivo del Sprint, adaptar el Sprint Backlog y producir un plan accionable para el día siguiente; no es una reunión de reporte al Scrum Master ni exige responder las tres preguntas clásicas de versiones anteriores.
 
-El trabajo, los objetivos y el estado de los artefactos deben ser visibles y comprensibles para quienes toman decisiones.
+El **Sprint Review** inspecciona el resultado del Sprint y determina adaptaciones futuras junto con los interesados clave; es una sesión de trabajo, no una mera demostración ni una aprobación formal aislada, y para un Sprint de un mes dura como máximo **cuatro horas**. El **Sprint Retrospective** cierra el Sprint planificando formas de aumentar la calidad y la efectividad, examinando personas, interacciones, procesos, herramientas y la Definición de Hecho; para un Sprint de un mes dura como máximo **tres horas**. El **refinamiento del Product Backlog**, en cambio, es una actividad continua de descomposición y aclaración de elementos y **no es uno de los cinco eventos formales**.
 
-### Inspección
+## 5.6.4. Artefactos, compromisos e incrementos
 
-Los artefactos y el progreso deben revisarse con frecuencia para detectar desviaciones, problemas y oportunidades.
-
-### Adaptación
-
-Cuando se observa una desviación o se aprende algo nuevo, el proceso, el plan o el producto deben ajustarse cuanto antes.
-
-Cadena lógica:
-
-**Transparencia → inspección fiable → adaptación útil**
-
-Sin transparencia, la inspección puede conducir a decisiones erróneas. Sin adaptación, la inspección carece de finalidad.
-
----
-
-**5.6.3. Los cinco valores de Scrum.**
-
-1. compromiso;
-2. foco;
-3. apertura;
-4. respeto;
-5. coraje.
-
-Los valores orientan el comportamiento del Scrum Team y hacen posibles los pilares empíricos.
-
----
-
-**5.6.4. El Scrum Team.**
-
-La unidad fundamental es un equipo pequeño compuesto por:
-
-- un Product Owner;
-- un Scrum Master;
-- Developers.
-
-Características:
-
-- no existen subequipos ni jerarquías internas prescritas;
-- es multifuncional;
-- es autogestionado;
-- se centra en un Objetivo de Producto;
-- suele estar formado por diez personas o menos;
-- responde colectivamente de crear un Incremento valioso y útil en cada Sprint.
-
-La Guía Scrum habla de **responsabilidades o accountabilities**, no de cargos jerárquicos tradicionales.
-
----
-
-**5.6.5. Developers.**
-
-Son las personas comprometidas con crear cualquier aspecto de un Incremento utilizable durante el Sprint.
-
-Responden de:
-
-- crear el Sprint Backlog;
-- incorporar calidad respetando la Definición de Hecho;
-- adaptar diariamente el plan hacia el Objetivo del Sprint;
-- responsabilizarse mutuamente como profesionales.
-
-No existe un número fijo de perfiles ni una obligación de que todos sean programadores. El término se refiere a quienes desarrollan el producto o resultado.
-
----
-
-**5.6.6. Product Owner.**
-
-Responde de maximizar el valor del producto resultante del trabajo del Scrum Team.
-
-También responde de la gestión eficaz del Product Backlog:
-
-- desarrollar y comunicar el Objetivo de Producto;
-- crear y comunicar los elementos;
-- ordenar los elementos;
-- asegurar que el Product Backlog sea transparente, visible y comprendido.
-
-Puede delegar trabajo, pero no su responsabilidad.
-
-Características clave:
-
-- es una persona, no un comité;
-- representa necesidades de múltiples interesados;
-- la organización debe respetar sus decisiones;
-- es la única persona con autoridad para cancelar un Sprint cuando su objetivo queda obsoleto.
-
-> **Clave de test:** el Product Owner ordena el Product Backlog; los Developers deciden cuánto seleccionar y cómo realizar el trabajo.
-
----
-
-**5.6.7. Scrum Master.**
-
-Responde de establecer Scrum tal como se define en la Guía Scrum y de mejorar la efectividad del Scrum Team.
-
-Actúa como líder al servicio del equipo y de la organización. Entre sus servicios se encuentran:
-
-- formar y asesorar en Scrum;
-- facilitar autogestión y multifuncionalidad;
-- ayudar a eliminar impedimentos;
-- asegurar que los eventos se celebren y cumplan su propósito;
-- ayudar al Product Owner con objetivos y backlog;
-- apoyar la adopción organizativa;
-- reducir barreras entre interesados y equipos.
-
-No es:
-
-- jefe jerárquico obligatorio del equipo;
-- secretario de reuniones;
-- persona que asigna tareas diariamente;
-- propietario del Product Backlog.
-
----
-
-**5.6.8. Los eventos de Scrum.**
-
-El Sprint contiene todos los demás eventos.
-
-### Sprint
-
-Es el latido de Scrum. Tiene una duración fija de **un mes o menos**. Al terminar uno comienza inmediatamente el siguiente.
-
-Durante el Sprint:
-
-- no se realizan cambios que pongan en peligro el Objetivo del Sprint;
-- la calidad no disminuye;
-- el Product Backlog puede refinarse;
-- el alcance puede aclararse y renegociarse con el Product Owner según se aprende.
-
-Un Sprint no se alarga para terminar trabajo pendiente.
-
-### Sprint Planning
-
-Inicia el Sprint y crea el plan mediante colaboración de todo el Scrum Team.
-
-Responde a tres preguntas:
-
-1. ¿por qué es valioso este Sprint?;
-2. ¿qué puede hacerse en este Sprint?;
-3. ¿cómo se realizará el trabajo elegido?
-
-Resultado: Sprint Backlog.
-
-Duración máxima para un Sprint de un mes: **ocho horas**.
-
-### Daily Scrum
-
-Evento de **quince minutos** para los Developers.
-
-Finalidad:
-
-- inspeccionar progreso hacia el Objetivo del Sprint;
-- adaptar el Sprint Backlog;
-- producir un plan accionable para el siguiente día de trabajo.
-
-No es una reunión de reporte al Scrum Master ni exige responder las tres preguntas clásicas de versiones anteriores.
-
-### Sprint Review
-
-Inspecciona el resultado del Sprint y determina adaptaciones futuras con interesados clave.
-
-Es una sesión de trabajo, no una mera demostración ni una aprobación formal aislada.
-
-Duración máxima para un Sprint de un mes: **cuatro horas**.
-
-### Sprint Retrospective
-
-Planifica formas de aumentar calidad y efectividad. Examina personas, interacciones, procesos, herramientas y Definición de Hecho.
-
-Concluye el Sprint.
-
-Duración máxima para un Sprint de un mes: **tres horas**.
-
-### Refinamiento del Product Backlog
-
-Es una actividad continua de descomposición y aclaración de elementos. No es uno de los cinco eventos formales de Scrum.
-
----
-
-**5.6.9. Artefactos y compromisos.**
+Scrum tiene tres artefactos, y cada uno lleva asociado un compromiso que lo hace transparente y medible.
 
 | Artefacto | Contenido | Compromiso asociado |
 |---|---|---|
@@ -1242,623 +230,144 @@ Es una actividad continua de descomposición y aclaración de elementos. No es u
 | **Sprint Backlog** | Objetivo del Sprint, elementos seleccionados y plan de entrega | **Objetivo del Sprint** |
 | **Incremento** | Paso concreto y utilizable hacia el Objetivo de Producto | **Definición de Hecho** |
 
-### Objetivo de Producto
+El **Objetivo de Producto** es el estado futuro del producto que sirve de meta a largo plazo, y el equipo debe cumplirlo o abandonarlo antes de asumir otro. El **Objetivo del Sprint** es el objetivo único que da coherencia al Sprint y permite flexibilidad sobre el trabajo concreto. La **Definición de Hecho** (*Definition of Done*) es la descripción formal del estado que debe alcanzar un Incremento para satisfacer la calidad requerida; un elemento que no la cumple no forma parte del Incremento, no debe liberarse, no debe presentarse como terminado en la Sprint Review y vuelve al Product Backlog. Conviene recordar que puede crearse más de un Incremento durante un Sprint y que puede entregarse valor antes de la Sprint Review, de modo que esta no es una puerta obligatoria para liberar ni la única ocasión de recibir retroalimentación, ni sustituye a la inspección continua.
 
-Estado futuro del producto que sirve de objetivo a largo plazo. El equipo debe cumplir o abandonar un objetivo antes de asumir otro.
-
-### Objetivo del Sprint
-
-Objetivo único del Sprint que aporta coherencia y permite flexibilidad sobre el trabajo concreto.
-
-### Definición de Hecho (*Definition of Done*)
-
-Descripción formal del estado que debe cumplir un Incremento para satisfacer las medidas de calidad requeridas.
-
-Un elemento que no cumple la Definición de Hecho:
-
-- no forma parte del Incremento;
-- no debe liberarse;
-- no debe presentarse como terminado en la Sprint Review;
-- vuelve al Product Backlog para futura consideración.
-
----
-
-**5.6.10. Incrementos y liberaciones.**
-
-Puede crearse más de un Incremento durante un Sprint y puede entregarse valor antes de la Sprint Review.
-
-La Sprint Review:
-
-- no es una puerta obligatoria para liberar;
-- no debe utilizarse como única ocasión para recibir retroalimentación;
-- no sustituye la inspección continua.
-
----
-
-**5.6.11. Errores frecuentes sobre Scrum.**
-
-- El Daily Scrum no es para todo interesado ni una reunión de estado dirigida al jefe.
-- El Scrum Master no ordena el Product Backlog.
-- El Product Owner no asigna tareas a Developers.
-- El Sprint Backlog pertenece a los Developers.
-- El alcance del Sprint puede renegociarse sin poner en peligro el Objetivo del Sprint.
-- Un Sprint dura un mes o menos, no necesariamente dos semanas.
-- Refinamiento no es evento oficial.
-- Puede haber múltiples incrementos en un Sprint.
-- «Hecho» no equivale a «casi terminado».
-- Scrum no prescribe gráficos *burn-down*, historias de usuario, puntos de historia ni velocidad.
+> **Clave de test:** Scrum **no** prescribe historias de usuario, puntos de historia, velocidad ni gráficos *burn-down*; «hecho» no equivale a «casi terminado»; el Sprint dura un mes o menos, no necesariamente dos semanas; y el Sprint Backlog pertenece a los Developers.
 
 ---
 
 # 5.7. Kanban
 
-**5.7.1. Concepto.**
+## 5.7.1. Concepto y prácticas
 
-Kanban es una estrategia para optimizar el **flujo de valor** a través de un proceso. En trabajo del conocimiento, el sistema Kanban hace visible cómo entra, avanza y termina el trabajo.
+Kanban es una estrategia para optimizar el **flujo de valor** a través de un proceso. En el trabajo del conocimiento, un sistema Kanban hace visible cómo entra, avanza y termina el trabajo, con el fin de mejorar la eficacia y la eficiencia, aumentar la predictibilidad, reducir los tiempos de entrega, detectar cuellos de botella, limitar la sobrecarga y mejorar de forma evolutiva. La palabra japonesa *kanban* alude a una señal visual, pero Kanban no se reduce a usar un tablero con columnas.
 
-La palabra japonesa *kanban* se relaciona con una señal visual. Sin embargo, Kanban no se reduce a utilizar un tablero con columnas.
+La **Guía Kanban** vigente (edición de **mayo de 2025**) reduce el sistema a tres prácticas mínimas. La primera, **definir y visualizar el flujo de trabajo**, exige una *Definición del Flujo de Trabajo* que clarifique qué unidades de valor circulan, dónde comienza y termina el flujo, qué estados o actividades lo componen, qué políticas rigen el avance, qué controles de WIP se aplican, qué nivel de servicio se espera y cómo se visualiza todo ello. La segunda, **gestionar activamente los elementos del flujo**, controla el trabajo en curso, evita el envejecimiento innecesario, desbloquea elementos, incorpora nuevo trabajo solo cuando hay capacidad y revisa el estado de forma continua. La tercera, **mejorar el flujo de trabajo**, estudia y ajusta el sistema para equilibrar mejor eficacia, eficiencia y predictibilidad, con mejoras que pueden ser incrementales o importantes según el contexto.
 
-Objetivos habituales:
+Junto a esta guía mínima convive otra formulación muy usada, la del **Método Kanban** de Kanban University, que presenta seis prácticas generales: **visualizar, limitar el trabajo en curso, gestionar el flujo, hacer explícitas las políticas, establecer bucles de retroalimentación y mejorar de forma colaborativa y evolucionar experimentalmente**. No hay contradicción de fondo: la guía mínima agrupa el contenido en tres prácticas y el Método Kanban ofrece una formulación más desarrollada.
 
-- mejorar eficacia;
-- mejorar eficiencia;
-- aumentar predictibilidad;
-- reducir tiempos de entrega;
-- detectar cuellos de botella;
-- limitar sobrecarga;
-- mejorar de forma evolutiva.
+## 5.7.2. Trabajo en curso, sistema *pull* y métricas de flujo
 
----
+El **trabajo en curso** o WIP es el número de elementos iniciados pero no finalizados. Limitarlo ayuda a reducir la multitarea, a terminar antes de empezar más cosas, a exponer bloqueos, a equilibrar demanda y capacidad, a mejorar la colaboración y a reducir los tiempos de ciclo. Ese límite es lo que da sentido al **sistema *pull***: el trabajo se «tira» cuando existe capacidad, en lugar de empujarlo indiscriminadamente hacia personas o etapas ya saturadas.
 
-**5.7.2. Las tres prácticas mínimas de la Guía Kanban 2025.**
+> **Clave de test:** limitar el WIP no busca mantener a cada persona ocupada al 100 %, sino mejorar el flujo global y la entrega de valor.
 
-### Definir y visualizar el flujo de trabajo
+La Guía Kanban de 2025 exige recopilar y analizar **cuatro métricas de flujo obligatorias**. El **WIP** cuenta los elementos iniciados y no terminados. El **throughput** o tasa de entrega es el número exacto de elementos terminados por unidad de tiempo —cuenta elementos, sin compensar por su tamaño ni medir esfuerzo—. La **edad del elemento de trabajo** (*Work Item Age*) es el tiempo transcurrido desde que un elemento comenzó hasta el momento actual, mientras sigue abierto, y funciona como indicador *adelantado*. El **tiempo de ciclo** (*Cycle Time*) es el tiempo transcurrido desde que un elemento comenzó hasta que terminó, y es un indicador *retardado* que solo se conoce cuando el elemento se completa. En otras formulaciones aparece además el **tiempo de entrega** (*Lead Time*), que mide desde un punto de compromiso o solicitud hasta la entrega; su diferencia con el tiempo de ciclo depende de dónde se sitúen los puntos de inicio y fin.
 
-El sistema debe contar con una **Definición del Flujo de Trabajo** que clarifique aspectos como:
+> **Clave de test:** la **edad** se mide sobre trabajo todavía no terminado; el **tiempo de ciclo** se conoce definitivamente cuando el elemento termina. Ambos comparten el punto de inicio, pero difieren en el punto final. El uso operativo de estas métricas junto con *burndown*, *burnup*, informes y semáforos RAG se desarrolla en el Tema 6.
 
-- qué unidades de valor circulan;
-- dónde comienza y termina el flujo;
-- estados o actividades;
-- políticas para avanzar;
-- controles de WIP;
-- expectativa de nivel de servicio;
-- cómo se visualiza el trabajo.
+## 5.7.3. Ley de Little
 
-### Gestionar activamente los elementos del flujo
-
-Puede incluir:
-
-- controlar el trabajo en curso;
-- evitar envejecimiento innecesario;
-- desbloquear elementos;
-- seleccionar nuevo trabajo solo cuando existe capacidad;
-- revisar continuamente el estado.
-
-### Mejorar el flujo de trabajo
-
-Los miembros del sistema deben estudiar y mejorar continuamente el flujo para lograr un mejor equilibrio entre:
-
-- eficacia;
-- eficiencia;
-- predictibilidad.
-
-Las mejoras pueden ser incrementales o importantes según el contexto.
-
----
-
-**5.7.3. Las seis prácticas generales del Método Kanban.**
-
-Otra formulación ampliamente utilizada por Kanban University presenta seis prácticas:
-
-1. **visualizar**;
-2. **limitar el trabajo en curso**;
-3. **gestionar el flujo**;
-4. **hacer explícitas las políticas**;
-5. **establecer bucles de retroalimentación**;
-6. **mejorar colaborativamente y evolucionar experimentalmente**.
-
-No existe contradicción esencial con la Guía Kanban 2025: la guía mínima agrupa el contenido en tres prácticas y el Método Kanban ofrece una formulación más desarrollada.
-
----
-
-**5.7.4. Trabajo en curso y sistema pull.**
-
-### WIP o trabajo en curso
-
-Es el número de elementos iniciados pero no finalizados.
-
-Limitar WIP ayuda a:
-
-- reducir multitarea;
-- terminar antes de comenzar más;
-- exponer bloqueos;
-- equilibrar demanda y capacidad;
-- mejorar colaboración;
-- reducir tiempos de ciclo.
-
-### Sistema pull
-
-El trabajo se «tira» o selecciona cuando existe capacidad, en lugar de empujarlo indiscriminadamente hacia personas o etapas saturadas.
-
-> **Clave de test:** limitar WIP no busca mantener a cada persona ocupada al 100 %, sino mejorar el flujo global y la entrega de valor.
-
----
-
-**5.7.5. Métricas mínimas de flujo.**
-
-La Guía Kanban 2025 exige recopilar y analizar cuatro métricas:
-
-### WIP
-
-Número de elementos iniciados pero no terminados.
-
-### Throughput o tasa de entrega
-
-Número exacto de elementos terminados por unidad de tiempo.
-
-### Edad del elemento de trabajo (*Work Item Age*)
-
-Tiempo transcurrido desde que un elemento comenzó hasta el momento actual, mientras continúa abierto.
-
-### Tiempo de ciclo (*Cycle Time*)
-
-Tiempo transcurrido desde que un elemento comenzó hasta que terminó.
-
-### Tiempo de entrega (*Lead Time*)
-
-En otras formulaciones de Kanban, mide desde un punto de compromiso o solicitud hasta la entrega. Su diferencia respecto al tiempo de ciclo depende de dónde se definan los puntos de inicio y fin.
-
-> **Clave de test:** la edad se mide sobre trabajo todavía no terminado; el tiempo de ciclo se conoce definitivamente cuando el elemento termina.
-
-En este tema las métricas de Kanban se estudian como parte del marco. Su uso operativo junto con burndown, burnup, informes, RAG y métricas de seguimiento se desarrolla en el Tema 6.
-
----
-
-**5.7.6. Ley de Little.**
-
-En un sistema estable, puede expresarse aproximadamente como:
+En un sistema estable, la relación entre las métricas anteriores puede expresarse de forma aproximada mediante la Ley de Little:
 
 $$
-WIP = Throughput \times Cycle\ Time
+WIP = Throughput \times Cycle\ Time \qquad\Longrightarrow\qquad Cycle\ Time = \frac{WIP}{Throughput}
 $$
 
-Y, por tanto:
+La relación exige una estabilidad razonable de entradas, salidas y límites del sistema, y no debe aplicarse mecánicamente cuando el proceso cambia de forma brusca o las unidades no son comparables. A modo de ejemplo, si un equipo mantiene una media de 12 elementos en curso y termina 4 por semana, su tiempo de ciclo medio es 12 ÷ 4 = **3 semanas**; reducir el WIP manteniendo el throughput tiende a reducir el tiempo de ciclo.
 
-$$
-Cycle\ Time = \frac{WIP}{Throughput}
-$$
+## 5.7.4. El sistema Kanban en la práctica
 
-La relación requiere estabilidad razonable de entradas, salidas y límites del sistema. No debe utilizarse mecánicamente cuando el proceso cambia de forma brusca o las unidades no son comparables.
-
-### Ejemplo
-
-Si un equipo mantiene una media de 12 elementos en curso y termina 4 elementos por semana:
-
-$$
-Cycle\ Time = \frac{12}{4}=3\ semanas
-$$
-
-Reducir WIP, manteniendo el throughput, tiende a reducir el tiempo de ciclo.
-
----
-
-**5.7.7. Tablero Kanban.**
-
-Un tablero visual puede mostrar columnas como:
-
-**Pendiente → Análisis → Desarrollo → Revisión → Terminado**
-
-Puede incluir:
-
-- límites WIP;
-- bloqueos;
-- clases de servicio;
-- responsables;
-- fechas;
-- políticas de entrada y salida;
-- carriles para tipos de trabajo.
-
-El tablero es una herramienta del sistema, no el sistema completo.
-
----
-
-**5.7.8. Políticas explícitas.**
-
-Las reglas deben ser comprensibles y visibles. Ejemplos:
-
-- cuándo puede entrar trabajo;
-- qué significa que una actividad esté terminada;
-- cómo se prioriza;
-- qué excepciones son admisibles;
-- cómo se tratan bloqueos;
-- quién puede cambiar prioridades;
-- qué límite WIP se aplica.
-
-Las políticas explícitas reducen decisiones arbitrarias y facilitan mejora basada en evidencia.
-
----
-
-**5.7.9. Kanban como cambio evolutivo.**
-
-El Método Kanban suele comenzar con el proceso actual y promover cambios graduales, respetando inicialmente roles y responsabilidades existentes.
-
-Principios de gestión del cambio asociados:
-
-- comenzar con lo que se hace ahora;
-- acordar perseguir la mejora mediante cambio evolutivo;
-- fomentar liderazgo en todos los niveles.
-
-Esto no significa conservar indefinidamente un proceso ineficiente, sino evitar una transformación brusca sin comprensión del sistema.
+El tablero es la herramienta más reconocible, pero solo una parte del sistema. Un tablero puede mostrar columnas como **Pendiente → Análisis → Desarrollo → Revisión → Terminado**, y sobre ellas límites WIP, bloqueos, clases de servicio, responsables, fechas, políticas de entrada y salida, y carriles para distintos tipos de trabajo. Para que funcione, esas reglas deben hacerse **explícitas y visibles**: cuándo puede entrar trabajo, qué significa que una actividad esté terminada, cómo se prioriza, qué excepciones se admiten, cómo se tratan los bloqueos, quién puede cambiar prioridades y qué límite WIP se aplica. Las políticas explícitas reducen las decisiones arbitrarias y permiten una mejora basada en evidencia. Finalmente, Kanban se concibe como un **cambio evolutivo**: suele comenzar con el proceso actual y promover mejoras graduales, respetando al inicio los roles y responsabilidades existentes; sus principios de gestión del cambio son empezar con lo que se hace ahora, acordar la mejora mediante cambio evolutivo y fomentar el liderazgo en todos los niveles. Esto no significa conservar indefinidamente un proceso ineficiente, sino evitar una transformación brusca sin comprender el sistema.
 
 ---
 
 # 5.8. Scrum y Kanban: comparación
 
+Aunque a menudo se contraponen, Scrum y Kanban responden a preguntas distintas y son perfectamente combinables. El cuadro siguiente resume sus diferencias principales.
+
 | Aspecto | Scrum | Kanban |
 |---|---|---|
 | Naturaleza | Marco ligero | Estrategia y método de gestión del flujo |
 | Unidad temporal | Sprints de un mes o menos | Flujo continuo; puede usar cadencias |
-| Roles o responsabilidades prescritas | Product Owner, Scrum Master y Developers | No exige roles específicos en su guía mínima |
-| Trabajo en curso | Limitado de forma indirecta por selección del Sprint | Límites o controles WIP explícitos |
-| Cambio de prioridades | Se protege el Objetivo del Sprint; el alcance puede renegociarse | Puede cambiar cuando las políticas y capacidad lo permiten |
-| Artefactos | Product Backlog, Sprint Backlog, Incremento | Definición del flujo, elementos visualizados y métricas; no prescribe esos artefactos de Scrum |
-| Eventos | Cinco eventos formales | Cadencias y revisiones según diseño; la guía mínima no impone eventos equivalentes |
-| Métricas obligatorias | Scrum no prescribe métricas concretas | WIP, throughput, edad y tiempo de ciclo en la Guía Kanban 2025 |
+| Roles prescritos | Product Owner, Scrum Master y Developers | No exige roles específicos en su guía mínima |
+| Trabajo en curso | Limitado de forma indirecta por la selección del Sprint | Límites o controles WIP explícitos |
+| Cambio de prioridades | Se protege el Objetivo del Sprint; el alcance puede renegociarse | Puede cambiar cuando las políticas y la capacidad lo permiten |
+| Artefactos | Product Backlog, Sprint Backlog e Incremento | Definición del flujo, elementos visualizados y métricas |
+| Eventos | Cinco eventos formales | Cadencias y revisiones según diseño; sin eventos equivalentes obligatorios |
+| Métricas obligatorias | No prescribe métricas concretas | WIP, throughput, edad y tiempo de ciclo |
 | Entrega | Al menos un Incremento útil por Sprint | Entrega continua cuando los elementos terminan |
-| Objetivo principal | Resolver problemas complejos y crear producto mediante empirismo | Optimizar flujo de valor y predictibilidad |
+| Objetivo principal | Resolver problemas complejos mediante empirismo | Optimizar el flujo de valor y la predictibilidad |
 
-**5.8.1. Compatibilidad.**
-
-Scrum y Kanban pueden combinarse. Un equipo Scrum puede emplear:
-
-- visualización detallada del flujo;
-- límites WIP;
-- métricas de tiempo de ciclo;
-- análisis de envejecimiento;
-- diagramas de flujo acumulado.
-
-La combinación no elimina las reglas esenciales de Scrum si se afirma que se está utilizando Scrum.
-
-**5.8.2. Scrumban.**
-
-*Scrumban* es un término utilizado para combinaciones de prácticas de Scrum y Kanban, pero no existe una única definición normativa universal. En un test debe evitarse asumir que constituye un marco oficial con roles y eventos propios universalmente aceptados.
+Su compatibilidad es real: un equipo Scrum puede incorporar visualización detallada del flujo, límites WIP, métricas de tiempo de ciclo, análisis de envejecimiento y diagramas de flujo acumulado sin dejar de ser Scrum, siempre que conserve las reglas esenciales del marco. El término ***Scrumban*** se emplea para esas combinaciones de prácticas, pero no existe una definición normativa universal, de modo que en un test conviene evitar asumir que sea un marco oficial con roles y eventos propios.
 
 ---
 
 # 5.9. ISO 21502:2020
 
-**5.9.1. Naturaleza y alcance.**
+## 5.9.1. Naturaleza, alcance y finalidad
 
-ISO 21502:2020 se titula:
+ISO 21502:2020 se titula **Project, programme and portfolio management — Guidance on project management** («Gestión de proyectos, programas y portafolios — Orientación sobre la gestión de proyectos»). Es una norma internacional de orientación, no de requisitos certificables: proporciona directrices de alto nivel aplicables a organizaciones públicas, privadas y sin ánimo de lucro; a cualquier tipo de proyecto con independencia de su finalidad, tamaño, complejidad, coste o duración; y a enfoques predictivos, incrementales, iterativos, adaptativos, ágiles e híbridos. Pese a que el título de la serie menciona proyectos, programas y portafolios, esta norma concreta ofrece orientación **específica sobre gestión de proyectos**; otras normas de la misma familia tratan los programas, los portafolios y la gobernanza. Su finalidad es proporcionar una base común de lenguaje y prácticas para la alta dirección, los patrocinadores, los órganos de gobernanza, los directores de proyecto, los equipos, las funciones de aseguramiento y auditoría, las oficinas de proyectos y quienes desarrollan métodos organizativos, sin prescribir una metodología única ni un ciclo de vida obligatorio.
 
-**Project, programme and portfolio management — Guidance on project management**.
+> **Clave de test:** ISO 21502 **no** proporciona orientación detallada sobre la gestión de programas o portafolios; se centra en los proyectos dentro de esa familia de normas.
 
-Proporciona directrices para la gestión de proyectos y es aplicable:
+## 5.9.2. Estructura y conceptos
 
-- a organizaciones públicas, privadas y sin ánimo de lucro;
-- a cualquier tipo de proyecto;
-- con independencia de finalidad, tamaño, complejidad, coste o duración;
-- a enfoques predictivos, incrementales, iterativos, adaptativos, ágiles e híbridos.
+La edición de 2020 sustituyó la estructura basada en procesos de la antigua ISO 21500:2012 por una estructura narrativa basada en prácticas. Sus bloques principales son el alcance, las referencias normativas, los términos y definiciones, los conceptos de gestión de proyectos, los requisitos previos para formalizar la gestión, las prácticas integradas de gestión, las prácticas de gestión para un proyecto y un anexo informativo sobre procesos basados en prácticas. En el plano conceptual, la norma conecta la estrategia y las oportunidades con el caso de negocio, el proyecto, los entregables y salidas, los resultados, los beneficios y el valor, y aborda además el contexto interno y externo, las perspectivas de cliente y proveedor, la gobernanza, el ciclo de vida, las puertas de decisión, los roles y competencias, la organización, el aseguramiento y las oficinas de proyecto. Resulta especialmente útil su tratamiento de la **perspectiva de cliente y proveedor**: en un contrato pueden coexistir dos proyectos relacionados —el del cliente, cuyo alcance incluye el cambio global, y el del proveedor, cuyo alcance puede ser solo una parte de la solución contratada—, y cada organización conserva su propia justificación, gobernanza, riesgos e intereses.
 
-Aunque el título de la serie menciona proyectos, programas y portafolios, ISO 21502 ofrece orientación específica sobre **gestión de proyectos**. Otras normas de la serie tratan programas, portafolios y gobernanza.
+Entre los roles que contempla figuran la organización patrocinadora, el órgano de gobierno, el patrocinador, el director del proyecto, la oficina del proyecto, el aseguramiento, los líderes de paquetes de trabajo, el equipo y los interesados. El **patrocinador** obtiene los recursos y las decisiones ejecutivas necesarias para el éxito y actúa como vínculo entre la gobernanza organizativa y la dirección del proyecto; el **director del proyecto** dirige y controla el cumplimiento de los objetivos dentro de la autoridad asignada; y el **aseguramiento del proyecto** proporciona confianza a la organización patrocinadora y al patrocinador sobre la probabilidad de alcanzar los objetivos.
 
-> **Clave de test:** ISO 21502 no proporciona orientación detallada sobre la gestión de programas o portafolios; se centra en proyectos dentro de esa familia de normas.
+## 5.9.3. Prácticas integradas y prácticas de gestión
 
----
+ISO 21502 organiza su orientación en dos grandes conjuntos de prácticas. Las **prácticas integradas** cubren el proyecto de forma transversal, desde antes de su autorización hasta después de su cierre, y comprenden las actividades previas al proyecto —que analizan oportunidad, viabilidad y justificación—, la supervisión y la dirección —que aportan gobernanza, decisiones y apoyo ejecutivo—, el inicio —que moviliza al equipo y completa la planificación inicial—, el control —que abarca la justificación progresiva, el desempeño, las fases y los paquetes de trabajo—, la gestión de la entrega —que coordina la producción y aceptación de resultados—, el cierre o terminación —que confirma la finalización, la aceptación, la transferencia y el aprendizaje, y contempla también la terminación anticipada— y las actividades posteriores al proyecto, que revisan beneficios, resultados y lecciones una vez concluido.
 
-**5.9.2. Finalidad.**
+Junto a ellas, la norma detalla un conjunto de **prácticas de gestión para un proyecto** que se seleccionan, combinan y adaptan según cada caso, y que no deben interpretarse como fases lineales: planificación, gestión de beneficios, gestión del alcance, gestión de recursos, gestión del cronograma, gestión de costes, gestión de riesgos, gestión de incidencias, control de cambios, gestión de la calidad, participación de interesados, gestión de comunicaciones, gestión del cambio organizativo y social, informes, gestión de la información y la documentación, adquisiciones y lecciones aprendidas.
 
-La norma ofrece descripciones de alto nivel de prácticas que suelen funcionar bien. Busca proporcionar una base común para:
+## 5.9.4. La serie ISO 21500 y los cambios frente a 2012
 
-- alta dirección;
-- patrocinadores;
-- órganos de gobernanza;
-- directores de proyecto;
-- equipos;
-- aseguramiento y auditoría;
-- oficinas de proyectos;
-- desarrolladores de métodos organizativos.
-
-No prescribe una metodología única ni un ciclo de vida obligatorio.
-
----
-
-**5.9.3. Estructura general.**
-
-Sus bloques principales son:
-
-1. alcance;
-2. referencias normativas;
-3. términos y definiciones;
-4. conceptos de gestión de proyectos;
-5. requisitos previos para formalizar la gestión de proyectos;
-6. prácticas integradas de gestión de proyectos;
-7. prácticas de gestión para un proyecto;
-8. anexo informativo sobre procesos basados en prácticas.
-
-La edición de 2020 sustituyó la estructura principalmente basada en procesos de ISO 21500:2012 por una estructura narrativa basada en prácticas.
-
----
-
-**5.9.4. Conceptos relevantes.**
-
-ISO 21502 conecta:
-
-- estrategia y oportunidades;
-- caso de negocio;
-- proyecto;
-- entregables y salidas;
-- resultados;
-- beneficios;
-- valor.
-
-También aborda:
-
-- contexto interno y externo;
-- perspectivas de cliente y proveedor;
-- gobernanza;
-- ciclo de vida;
-- puertas de decisión;
-- roles y competencias;
-- organización del proyecto;
-- aseguramiento;
-- oficinas de proyecto.
-
-### Perspectiva de cliente y proveedor
-
-En un contrato pueden coexistir dos proyectos relacionados:
-
-- el proyecto del cliente, cuyo alcance incluye el cambio global;
-- el proyecto del proveedor, cuyo alcance puede ser solo una parte de la solución contratada.
-
-Cada organización conserva su propia justificación, gobernanza, riesgos e intereses.
-
----
-
-**5.9.5. Roles destacados.**
-
-La norma contempla funciones como:
-
-- organización patrocinadora;
-- órgano de gobierno;
-- patrocinador;
-- director del proyecto;
-- oficina del proyecto;
-- aseguramiento del proyecto;
-- líderes de paquetes de trabajo;
-- equipo del proyecto;
-- interesados.
-
-### Patrocinador
-
-Es responsable de obtener recursos y decisiones ejecutivas que permitan el éxito. Actúa como vínculo entre gobernanza organizativa y dirección del proyecto.
-
-### Director del proyecto
-
-Dirige y controla el cumplimiento de los objetivos dentro de la autoridad asignada.
-
-### Aseguramiento del proyecto
-
-Proporciona confianza a la organización patrocinadora y al patrocinador respecto a la probabilidad de alcanzar los objetivos.
-
----
-
-**5.9.6. Prácticas integradas de gestión.**
-
-Cubren el proyecto de forma transversal desde antes de su autorización hasta después de su cierre:
-
-1. actividades previas al proyecto;
-2. supervisión del proyecto;
-3. dirección del proyecto;
-4. inicio del proyecto;
-5. control del proyecto;
-6. gestión de la entrega;
-7. cierre o terminación;
-8. actividades posteriores al proyecto.
-
-### Actividades previas
-
-Analizan oportunidad, viabilidad y justificación antes de comprometer plenamente recursos.
-
-### Supervisión y dirección
-
-Proporcionan gobernanza, decisiones, autorizaciones, alineación y apoyo ejecutivo.
-
-### Inicio
-
-Moviliza al equipo, desarrolla enfoques de gobernanza y gestión, completa justificación y planificación inicial.
-
-### Control
-
-Incluye justificación progresiva, desempeño, fases y paquetes de trabajo.
-
-### Gestión de la entrega
-
-Coordina la producción y aceptación de resultados.
-
-### Cierre o terminación
-
-Confirma finalización, aceptación, transferencia, aprendizaje y liberación de recursos. También contempla terminación anticipada.
-
-### Actividades posteriores
-
-Pueden revisar beneficios, resultados y lecciones una vez que el proyecto ha finalizado.
-
----
-
-**5.9.7. Prácticas de gestión para un proyecto.**
-
-ISO 21502 contempla prácticas relativas a:
-
-1. planificación;
-2. gestión de beneficios;
-3. gestión del alcance;
-4. gestión de recursos;
-5. gestión del cronograma;
-6. gestión de costes;
-7. gestión de riesgos;
-8. gestión de incidencias;
-9. control de cambios;
-10. gestión de la calidad;
-11. participación de interesados;
-12. gestión de comunicaciones;
-13. gestión del cambio organizativo y social;
-14. informes;
-15. gestión de la información y documentación;
-16. adquisiciones;
-17. lecciones aprendidas.
-
-Estas prácticas no deben interpretarse como fases lineales. Se seleccionan, combinan y adaptan según el proyecto.
-
----
-
-**5.9.8. Cambios principales frente a ISO 21500:2012.**
-
-ISO 21502 amplió el enfoque mediante:
-
-- supervisión y dirección de la organización patrocinadora;
-- resultados y beneficios;
-- contexto organizativo;
-- nuevos roles y responsabilidades;
-- entorno favorable al éxito;
-- ciclos de vida y puertas de decisión;
-- gestión de beneficios;
-- control de cambios;
-- actividades previas y posteriores al proyecto;
-- formato basado en prácticas y narrativa.
-
-> **Clave de test:** ISO 21500:2021 quedó orientada al contexto y conceptos generales de proyectos, programas y portafolios; ISO 21502:2020 contiene la guía específica de gestión de proyectos.
-
----
-
-**5.9.9. Serie ISO 21500 relacionada.**
+El paso de ISO 21500:2012 a ISO 21502:2020 amplió el enfoque incorporando la supervisión y dirección de la organización patrocinadora, la atención a resultados y beneficios, el contexto organizativo, nuevos roles y responsabilidades, la creación de un entorno favorable al éxito, los ciclos de vida y las puertas de decisión, la gestión de beneficios, el control de cambios, las actividades previas y posteriores al proyecto, y un formato basado en prácticas y en narrativa. Conviene situar la norma dentro de su familia, que se reorganizó en 2020-2021: **ISO 21500** dejó de ser la guía de gestión de proyectos y pasó a describir el contexto y los conceptos generales, mientras que la guía de proyectos propiamente dicha quedó en ISO 21502.
 
 | Norma | Materia principal |
 |---|---|
 | **ISO 21500:2021** | Contexto y conceptos de gestión de proyectos, programas y portafolios |
 | **ISO 21502:2020** | Orientación sobre gestión de proyectos |
-| **ISO 21504** | Orientación sobre gestión de portafolios |
-| **ISO 21505** | Orientación sobre gobernanza |
-| **ISO 21508** | Gestión del valor ganado en proyectos y programas |
+| **ISO 21503:2022** | Orientación sobre gestión de programas |
+| **ISO 21504:2022** | Orientación sobre gestión de portafolios |
+| **ISO 21505:2017** | Orientación sobre gobernanza |
+| **ISO 21508** | Gestión del valor ganado en proyectos y programas (edición de 2018, actualizada en 2026) |
 | **ISO 21511** | Estructuras de desglose del trabajo |
-| **ISO 21512:2024** | Orientación para implementar gestión del valor ganado |
+| **ISO 21512:2024** | Orientación para implementar la gestión del valor ganado |
 
-La pertenencia a una misma serie no significa que todas las normas tengan el mismo alcance ni sean requisitos obligatorios.
+Pertenecer a una misma serie no significa que todas las normas compartan alcance ni que sean requisitos obligatorios.
+
+> **Clave de test:** ISO 21500:2021 quedó orientada al contexto y los conceptos generales de proyectos, programas y portafolios; ISO 21502:2020 contiene la guía específica de gestión de proyectos. No hay que confundir el número «21500» con la guía de proyectos: esa es la 21502.
 
 ---
 
 # 5.10. Comparación global de las referencias
 
-**5.10.1. Qué pregunta responde mejor cada una.**
+Reunidas las cinco referencias, cada una responde especialmente bien a una pregunta distinta, lo que resume su vocación.
 
 | Pregunta | Referencia especialmente útil |
 |---|---|
 | ¿Cómo estructuro la autoridad y las decisiones por etapas? | PRINCE2 |
 | ¿Qué principios y áreas debo considerar para entregar valor? | PMBOK |
 | ¿Cómo trabajo empíricamente sobre un producto complejo? | Scrum |
-| ¿Cómo optimizo el flujo y reduzco trabajo abierto? | Kanban |
+| ¿Cómo optimizo el flujo y reduzco el trabajo abierto? | Kanban |
 | ¿Cómo creo una base internacional común para mi metodología? | ISO 21502 |
 
----
-
-**5.10.2. Elementos distintivos.**
+Ese reparto se aprecia mejor contrastando elementos distintivos, que es justamente lo que suelen pedir asociar los enunciados.
 
 | Elemento | PRINCE2 | PMBOK 7/8 | Scrum | Kanban | ISO 21502 |
 |---|---|---|---|---|---|
-| Caso de negocio continuo | Central | Importante en el sistema de valor | No prescrito | No prescrito | Incluido en justificación |
-| Gestión por excepción | Principio explícito | Puede utilizarse | No es regla de Scrum | Puede diseñarse mediante políticas | Compatible, no principio con ese nombre |
+| Caso de negocio continuo | Central | Importante en el sistema de valor | No prescrito | No prescrito | Incluido en la justificación |
+| Gestión por excepción | Principio explícito | Puede utilizarse | No es regla de Scrum | Puede diseñarse por políticas | Compatible, sin ese nombre |
 | Roles definidos | Amplia estructura de gobernanza | Funciones adaptables | Tres responsabilidades | No exige roles específicos | Roles de alto nivel |
 | Ciclos cortos | Puede adaptarse | Compatible | Sprints | Flujo continuo y cadencias | Compatible |
-| Límites WIP | No elemento nuclear | Técnica seleccionable | No regla explícita | Elemento central | Técnica adaptable |
+| Límites WIP | No es nuclear | Técnica seleccionable | No es regla explícita | Elemento central | Técnica adaptable |
 | Dominios de desempeño | No | Sí | No | No | No con ese nombre |
 | Prácticas de gestión | Siete prácticas | Modelos, métodos, procesos y dominios | Reglas mínimas | Prácticas de flujo | Prácticas integradas y específicas |
-| Norma internacional | No | Estándar profesional PMI | No | No | Sí |
+| Norma internacional | No | Estándar profesional de PMI | No | No | Sí |
 
----
-
-**5.10.3. Propuesta de enfoque híbrido en un proyecto TIC.**
-
-### Gobernanza
-
-PRINCE2 o metodología alineada con ISO 21502:
-
-- caso de negocio;
-- patrocinio;
-- junta de proyecto;
-- etapas y puertas de decisión;
-- tolerancias;
-- riesgos y cambios.
-
-### Desarrollo del producto
-
-Scrum:
-
-- Product Owner;
-- Product Backlog;
-- Sprints;
-- incrementos;
-- inspección con interesados;
-- mejora retrospectiva.
-
-### Flujo operativo
-
-Kanban:
-
-- visualización;
-- límites WIP;
-- tiempos de ciclo;
-- control de bloqueos;
-- flujo de incidencias y despliegues.
-
-### Conocimiento y técnicas
-
-PMBOK:
-
-- estimación;
-- interesados;
-- planificación;
-- medición;
-- riesgos;
-- adaptación;
-- liderazgo;
-- valor.
-
-No es necesario duplicar documentos o controles. La adaptación debe integrar los elementos en un sistema coherente.
+Todo ello desemboca en la idea que vertebra el tema: estas referencias se integran, no se enfrentan. Un enfoque híbrido razonable para un proyecto TIC podría gobernarse con **PRINCE2** o con una metodología alineada con **ISO 21502** —caso de negocio, patrocinio, junta de proyecto, etapas y puertas de decisión, tolerancias, riesgos y cambios—; desarrollar el producto con **Scrum** —Product Owner, Product Backlog, Sprints, incrementos, inspección con interesados y mejora retrospectiva—; gestionar el flujo operativo con **Kanban** —visualización, límites WIP, tiempos de ciclo y control de bloqueos—; y apoyarse en el **PMBOK** como fuente de conocimiento y técnicas —estimación, interesados, planificación, medición, riesgos, adaptación, liderazgo y valor—. No se trata de duplicar documentos ni controles, sino de integrar los elementos en un sistema coherente.
 
 ---
 
 # 5.11. Errores y confusiones frecuentes
 
-1. **PMBOK no es una metodología obligatoria.** Es un estándar y guía que requiere adaptación.
-2. **PRINCE2 no es solo documentación.** Es un método de gobernanza y dirección adaptable.
-3. **Scrum no es una técnica de planificación de proyectos predictivos.** Es un marco empírico para problemas complejos.
-4. **Kanban no es únicamente un tablero.** Requiere gestionar y mejorar el flujo.
-5. **ISO 21502 no gestiona en detalle programas y portafolios**, pese al título de la serie.
-6. **Los dominios PMBOK no son fases.** Funcionan de forma interactiva.
-7. **Los procesos PRINCE2 no son etapas técnicas.** Describen actividades de dirección.
-8. **La junta de proyecto no sustituye al director del proyecto.** Dirige y decide; el director gestiona el día a día.
-9. **Una excepción PRINCE2 se escala cuando se pronostica superar tolerancias**, no solo después.
-10. **El Product Owner es una persona, no un comité.**
+Al repasar, conviene tener presentes las trampas que más se repiten. **PMBOK no es una metodología obligatoria**, sino un estándar y guía que exige adaptación, y **PMBOK 8 no elimina la agilidad** al recuperar procesos: mantiene enfoques adaptables e híbridos. **PRINCE2 no es solo documentación**, sino un método de gobernanza adaptable, y sus **procesos no son etapas técnicas** sino actividades de dirección; su **junta de proyecto no sustituye al director**, porque la junta dirige y decide mientras el director gestiona el día a día; y una **excepción se escala cuando se pronostica** superar tolerancias, no solo cuando ya se han superado. **Scrum no es una técnica de planificación predictiva**, sino un marco empírico para problemas complejos: su **Product Owner es una persona, no un comité**; el **Daily Scrum es para los Developers** y no un reporte al Scrum Master; el **refinamiento del Product Backlog no es un evento oficial**; la **Sprint Review no es una simple demostración ni una puerta obligatoria de liberación**; y Scrum **no prescribe** historias de usuario, velocidad ni gráficos *burn-down*.
 
-11. **Daily Scrum es para Developers** y no es una reunión de reporte al Scrum Master.
-12. **Refinamiento del Product Backlog no es un evento oficial de Scrum.**
-
-13. **La Sprint Review no es una simple demostración ni una puerta obligatoria de liberación.**
-
-14. **Scrum no prescribe historias de usuario, velocidad ni gráficos burn-down.**
-
-15. **Kanban no requiere Sprints ni roles Scrum.**
-
-16. **Throughput cuenta elementos terminados por unidad de tiempo; no mide esfuerzo.**
-
-17. **Edad de elemento se aplica a trabajo abierto; tiempo de ciclo, a trabajo terminado.**
-
-18. **Adaptar no significa eliminar controles arbitrariamente.**
-
-19. **PMBOK 8 no elimina la agilidad al recuperar procesos.** Mantiene enfoques adaptables e híbridos.
-20. **ISO 21502 es orientación de alto nivel**, no una receta única ni una norma de requisitos de sistema de gestión.
-21. **Tema 5 no desarrolla técnicas operativas completas.** Presenta dónde encajan en cada marco; los cálculos, herramientas e informes se estudian en Tema 6.
-22. **Híbrido en Tema 5 no equivale a tendencia.** Aquí sirve para comparar marcos; en Tema 7 se estudia como evolución de la gestión.
+Del lado de Kanban, **no es únicamente un tablero**: requiere gestionar y mejorar el flujo, y **no exige Sprints ni roles de Scrum**; conviene recordar que el **throughput cuenta elementos terminados por unidad de tiempo y no mide esfuerzo**, y que la **edad se aplica al trabajo abierto y el tiempo de ciclo al terminado**. Respecto a los dominios, **los de PMBOK 7 no son fases**, sino grupos de actividades que funcionan de forma interactiva. Sobre ISO 21502, hay que insistir en que **no gestiona en detalle programas ni portafolios**, pese al título de la serie, y en que es **orientación de alto nivel**, no una receta única ni una norma de requisitos de sistema de gestión. Por último, dos advertencias de alcance del propio tema: **adaptar no significa eliminar controles arbitrariamente**, y este Tema 5 **no desarrolla técnicas operativas completas** —presenta dónde encaja cada una en cada marco, mientras que los cálculos, herramientas e informes se estudian en el Tema 6 y la hibridación como tendencia en el Tema 7—.
 
 ---
 
@@ -1867,54 +376,40 @@ No es necesario duplicar documentos o controles. La adaptación debe integrar lo
 ## PMBOK y PMI
 
 - [PMI — PMBOK Guide](https://www.pmi.org/standards/pmbok) — Página oficial de las ediciones disponibles y descripción de PMBOK 8. El acceso completo puede requerir compra o membresía.
-- [PMI — Índice oficial de PMBOK Guide, 8.ª edición](https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf) — PDF gratuito con la estructura oficial, principios, dominios y apéndices.
+- [PMI — Índice oficial de PMBOK Guide, 8.ª edición](https://www.pmi.org/-/media/pmi/documents/public/pdf/publications/pmbok-guide-eighth-edition_table-of-contents.pdf) — PDF gratuito con la estructura oficial: principios, dominios, áreas de enfoque y apéndices.
 - [PMI — 12 Principles of Project Management](https://www.pmi.org/-/media/pmi/documents/public/pdf/pmbok-standards/12-project-management-principles.pdf) — Recurso oficial gratuito sobre los principios de PMBOK 7.
 - [PMI — Project Performance Domains](https://www.pmi.org/-/media/pmi/documents/public/pdf/pmbok-standards/pmbok-project-performance-domains.pdf) — Recurso oficial gratuito sobre los ocho dominios de PMBOK 7.
-- [PMI — Standards and Publications](https://www.pmi.org/standards) — Catálogo oficial de estándares de proyectos, programas, portafolios, riesgo y otras áreas.
+- [PMI — Standards and Publications](https://www.pmi.org/standards) — Catálogo oficial de estándares de proyectos, programas, portafolios y riesgo.
 
 ## PRINCE2
 
-- [PeopleCert — PRINCE2 Project Management Foundation, versión 7](https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-foundation-3579) — Presentación oficial de principios, prácticas, procesos, personas, sostenibilidad y adaptación.
-- [PeopleCert — PRINCE2 Project Management Practitioner, versión 7](https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-practitioner-3581) — Información oficial sobre aplicación y adaptación del método.
+- [PeopleCert — PRINCE2 7 Foundation](https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-foundation-3579) — Presentación oficial de principios, prácticas, procesos, personas, sostenibilidad y adaptación.
+- [PeopleCert — PRINCE2 7 Practitioner](https://www.peoplecert.org/browse-certifications/project-programme-and-portfolio-management/PRINCE2-2/PRINCE2-7-practitioner-3581) — Información oficial sobre aplicación y adaptación del método.
 - [PeopleCert — PRINCE2 7: Best practice made better](https://www.peoplecert.org/news-and-announcements/2023/new-prince2-7) — Resumen oficial de las novedades de la versión 7.
-- [PeopleCert — Marco PRINCE2 Project Management](https://www.peoplecert.org/Frameworks-Professionals/PRINCE2-Project-Management-Framework) — Página general oficial del método.
+- [PeopleCert — Marco PRINCE2](https://www.peoplecert.org/Frameworks-Professionals/PRINCE2-Project-Management-Framework) — Página general oficial del método.
 
-> El manual completo oficial de PRINCE2 está sujeto a licencia y normalmente se obtiene mediante compra, suscripción o formación acreditada.
+> El manual completo oficial de PRINCE2 está sujeto a licencia y suele obtenerse mediante compra, suscripción o formación acreditada.
 
 ## Scrum
 
-- [Scrum Guides — La Guía Scrum 2020, español de España](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-European.pdf) — Fuente oficial, completa y gratuita.
-- [Scrum Guides — The Scrum Guide 2020, inglés](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) — Texto oficial en inglés.
-- [Scrum Guides — Cambios entre las versiones de 2017 y 2020](https://scrumguides.org/revisions.html) — Explicación oficial de los cambios principales.
-- [Manifesto for Agile Software Development](https://agilemanifesto.org/iso/es/manifesto.html) — Texto oficial del Manifiesto Ágil en español.
-- [Principios del Manifiesto Ágil](https://agilemanifesto.org/iso/es/principles.html) — Los doce principios originales.
+- [Scrum Guides — La Guía Scrum 2020 (español de España)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-Spanish-European.pdf) — Fuente oficial, completa y gratuita.
+- [Scrum Guides — The Scrum Guide 2020 (inglés)](https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf) — Texto oficial en inglés.
+- [Scrum Guides — Cambios entre 2017 y 2020](https://scrumguides.org/revisions.html) — Explicación oficial de los cambios principales.
+- [Manifiesto Ágil (español)](https://agilemanifesto.org/iso/es/manifesto.html) y [sus doce principios](https://agilemanifesto.org/iso/es/principles.html) — Textos oficiales.
 
 ## Kanban
 
-- [La Guía Kanban, mayo de 2025 — español de España](https://kanbanguides.org/es-es/the-kanban-guide/) — Guía mínima actual, gratuita, con prácticas y métricas obligatorias.
-- [The Kanban Guide, mayo de 2025 — inglés](https://kanbanguides.org/the-kanban-guide/) — Versión oficial vigente en inglés.
-- [Kanban University — Official Guide to the Kanban Method](https://kanban.university/kanban-guide/) — Guía oficial del Método Kanban, con principios, prácticas, tableros y métricas.
-- [Kanban University — Infografía del Método Kanban](https://kanban.university/resources/kanbanmethodinfographic/) — Resumen visual de las seis prácticas generales.
+- [La Guía Kanban, mayo de 2025 (español de España)](https://kanbanguides.org/es-es/the-kanban-guide/) y [versión en inglés](https://kanbanguides.org/the-kanban-guide/) — Guía mínima vigente, gratuita, con las tres prácticas y las cuatro métricas obligatorias.
+- [Kanban University — Official Guide to the Kanban Method](https://kanban.university/kanban-guide/) — Guía del Método Kanban, con las seis prácticas generales.
 
-## ISO 21502
+## ISO 21502 y serie ISO 21500
 
-- [ISO — ISO 21502:2020](https://www.iso.org/standard/74947.html) — Ficha oficial, alcance, estado y acceso comercial a la norma.
-- [ISO — ISO 21502:2020, página en español](https://www.iso.org/es/contents/data/standard/07/49/74947.html) — Resumen oficial del alcance y enfoques compatibles.
-- [ISO — Improving project management](https://www.iso.org/news/ref2645.html) — Presentación oficial de ISO 21502 y de la serie ISO 21500.
-- [ISO — Project Management Methodology in the ISO and IEC Environment](https://www.iso.org/files/live/sites/isoorg/files/store/en/PUB100482.pdf) — Metodología gratuita de ISO/IEC adaptada a partir de ISO 21502; útil para observar una aplicación práctica.
-- [ISO/TC 258 — Normas publicadas](https://committee.iso.org/sites/tc258/home/projects.html) — Relación oficial de normas de proyectos, programas y portafolios.
+- [ISO — ISO 21502:2020](https://www.iso.org/standard/74947.html) — Ficha oficial: alcance, estado y acceso comercial.
+- [ISO — Improving project management](https://www.iso.org/news/ref2645.html) — Presentación oficial de la serie ISO 21500.
+- [ISO/TC 258 — Normas publicadas](https://committee.iso.org/sites/tc258/home/projects/published/Published_projects.html) — Relación oficial y actualizada de la serie (21500, 21502, 21503, 21504, 21505, 21506, 21508, 21511, 21512, 21513…).
 
-> El texto completo de ISO 21502 es de pago. La ficha oficial y la metodología ISO/IEC permiten estudiar gratuitamente el alcance y varios conceptos, pero no sustituyen al estándar completo.
-
-## Orden recomendado de estudio
-
-1. Memorizar las tablas numéricas del apartado 12.
-2. Estudiar PRINCE2 por capas: principios → prácticas → procesos → roles.
-3. Comparar PMBOK 7 y 8 sin intentar convertir sus elementos en equivalencias exactas.
-4. Leer íntegramente la Guía Scrum, que es breve y gratuita.
-5. Aprender en Kanban la diferencia entre flujo, WIP, throughput, edad y tiempo de ciclo.
-6. Estudiar ISO 21502 como referencia de alto nivel y compararla con PRINCE2 y PMBOK.
-7. Repetir el test hasta poder justificar también por qué son falsas las opciones incorrectas.
+> El texto completo de ISO 21502 es de pago; la ficha oficial permite estudiar gratuitamente su alcance, pero no sustituye al estándar.
 
 ---
 
+*Las herramientas de estudio —resumen esencial con cifras a memorizar, repaso rápido, tarjetas, test de 45 preguntas con soluciones razonadas y lista de verificación de competencias— se encuentran en el fichero de práctica de este mismo tema.*
