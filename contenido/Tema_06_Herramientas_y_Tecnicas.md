@@ -51,57 +51,13 @@ Al finalizar el tema se debe ser capaz de:
 
 # 6.1. Planificación integrada del proyecto
 
-**6.1.1. Finalidad de la planificación.**
+Planificar es determinar de forma razonada qué debe entregarse, qué trabajo es necesario, en qué secuencia se realizará, cuánto durará, qué recursos exige, cuánto costará, qué riesgos existen, cómo se controlará el desempeño y qué información se utilizará para tomar decisiones. Conviene deshacer desde el principio una confusión muy extendida: un plan no es únicamente un cronograma. El cronograma representa la dimensión temporal, pero la planificación integra alcance, recursos, costes, calidad, riesgos, comunicaciones, adquisiciones, interesados y control en un conjunto coherente. Reducir la planificación a un diagrama de barras es quedarse con una de sus dimensiones y perder las demás.
 
-Planificar consiste en determinar de forma razonada:
+No siempre se dispone al comienzo de información suficiente para detallar todo el trabajo, y forzar ese detalle prematuro solo genera una falsa sensación de certeza. La **elaboración progresiva** permite aumentar el nivel de detalle a medida que se obtiene conocimiento, y su expresión más habitual en la programación es la **planificación gradual** o *rolling wave planning*: el trabajo cercano se planifica con detalle, el trabajo futuro se mantiene a un nivel más agregado y ese detalle se incorpora cuando se aproxima el momento de ejecución. Esto no significa trabajar sin dirección. Aunque el detalle fino llegue más tarde, deben mantenerse desde el principio los objetivos, el alcance de alto nivel, los hitos, las restricciones, los supuestos, el presupuesto y los mecanismos de control.
 
-- Qué debe entregarse.
-- Qué trabajo es necesario.
-- En qué secuencia se realizará.
-- Cuánto durará.
-- Qué recursos se necesitan.
-- Cuánto costará.
-- Qué riesgos existen.
-- Cómo se controlará el desempeño.
-- Qué información se utilizará para tomar decisiones.
+El plan aprobado se materializa en **líneas base**, entendidas como versiones aprobadas de un elemento de planificación que sirven de referencia para comparar el desempeño. Las tres principales son la línea base del alcance —que en el enfoque clásico incluye la declaración de alcance, la WBS y su diccionario—, la línea base del cronograma —versión aprobada del modelo de programación— y la línea base de costes —presupuesto distribuido en el tiempo que normalmente excluye la reserva de gestión—. La regla de oro es que las líneas base no se modifican para ocultar desviaciones: solo se actualizan mediante un cambio aprobado o una replanificación formalmente autorizada.
 
-Un plan no es únicamente un cronograma. El cronograma representa la dimensión temporal, pero la planificación integra alcance, recursos, costes, calidad, riesgos, comunicaciones, adquisiciones, interesados y control.
-
-**6.1.2. Planificación progresiva.**
-
-Al comienzo del proyecto no siempre existe información suficiente para detallar todo el trabajo. La **elaboración progresiva** permite aumentar el nivel de detalle a medida que se obtiene conocimiento.
-
-Una técnica relacionada es la **planificación gradual** o *rolling wave planning*:
-
-- El trabajo cercano se planifica con detalle.
-- El trabajo futuro se mantiene a un nivel más agregado.
-- El detalle se incorpora cuando se aproxima el momento de ejecución.
-
-No significa trabajar sin dirección. Deben mantenerse:
-
-- Objetivos.
-- Alcance de alto nivel.
-- Hitos.
-- Restricciones.
-- Supuestos.
-- Presupuesto.
-- Mecanismos de control.
-
-**6.1.3. Líneas base.**
-
-Una línea base es una versión aprobada de un elemento de planificación que sirve como referencia para comparar el desempeño.
-
-Las principales líneas base son:
-
-- **Línea base del alcance:** en el enfoque clásico, incluye la declaración de alcance, la WBS y su diccionario.
-- **Línea base del cronograma:** versión aprobada del modelo de programación.
-- **Línea base de costes:** presupuesto distribuido en el tiempo, excluyendo normalmente la reserva de gestión.
-
-Las líneas base no deben modificarse para ocultar desviaciones. Solo se actualizan mediante un cambio aprobado o una replanificación formalmente autorizada.
-
-**6.1.4. Plan frente a previsión.**
-
-No deben confundirse:
+De ahí la importancia de no confundir cuatro conceptos que las preguntas de test suelen mezclar. El **plan o línea base** es el compromiso aprobado contra el que se mide; los **datos reales** son lo que efectivamente ha ocurrido; la **previsión** es la estimación actual de lo que probablemente ocurrirá; y el **objetivo** es el resultado que se pretende alcanzar. Un mismo proyecto puede conservar intacta su línea base original y, al mismo tiempo, disponer de una previsión actualizada que anticipe un posible retraso: ambas cosas conviven sin contradicción.
 
 | Concepto | Significado |
 |---|---|
@@ -110,187 +66,23 @@ No deben confundirse:
 | **Previsión** | Estimación actual de lo que probablemente ocurrirá |
 | **Objetivo** | Resultado que se pretende alcanzar |
 
-Un proyecto puede mantener su línea base original y, al mismo tiempo, disponer de una previsión actualizada que muestre un posible retraso.
-
 ---
 
 # 6.2. Estructura de División del Trabajo
 
-**6.2.1. Concepto.**
+La **Estructura de División del Trabajo** —**EDT** en español, **WBS** en su forma inglesa— es una descomposición jerárquica del alcance total del trabajo que el equipo debe realizar para alcanzar los objetivos y crear los entregables requeridos. Representa el alcance autorizado y lo divide en componentes cada vez más manejables, de modo que sirve de base para estimar, asignar, hacer seguimiento y controlar, y de cimiento común para el cronograma, el presupuesto, los riesgos y el reparto de responsabilidades. No es un organigrama ni una lista cronológica de tareas; puede orientarse a entregables, productos, fases, componentes o a una combinación coherente de estos criterios, pero lo esencial es que abarque todo el alcance sin duplicidades.
 
-La **Estructura de División del Trabajo**, **EDT** o **WBS** es una descomposición jerárquica del alcance total del trabajo que debe realizar el equipo para alcanzar los objetivos y crear los entregables requeridos.
+Esa exigencia se formaliza en la **regla del 100 %**: la WBS debe incluir el cien por cien del trabajo necesario para completar el alcance del proyecto. La regla opera en ambos sentidos. Hacia abajo, el trabajo de un nivel inferior debe representar el 100 % del componente padre. Hacia los lados, no debe incluirse trabajo ajeno al alcance ni contarse el mismo trabajo en más de un componente. Y no debe olvidarse que el propio trabajo de gestión del proyecto forma parte del alcance cuando así se ha definido, por lo que también ha de figurar. Un ejemplo aclara la idea: si el proyecto consiste en implantar una plataforma, el nivel superior podría recoger la gestión del proyecto, los requisitos, el diseño, la construcción, la migración, las pruebas, la formación, el despliegue y la transición; si se omite la migración de datos, la WBS ya no representa el 100 % del trabajo, aunque a primera vista parezca completa.
 
-La WBS:
+Descomponer consiste en dividir los componentes hasta alcanzar un nivel que pueda estimarse, asignarse, programarse, presupuestarse, controlarse y aceptarse. No existe un número universal de niveles: la descomposición debe ser suficiente pero no excesiva, y ambos extremos tienen coste. Una descomposición insuficiente produce estimaciones poco fiables, responsabilidades ambiguas, riesgos ocultos y dificultad para medir el avance. Una descomposición excesiva genera sobrecarga administrativa, microgestión, coste de actualización y pérdida de visión global. El buen juicio consiste en detenerse en el punto en que el trabajo ya es gestionable sin haberlo fragmentado hasta lo inmanejable.
 
-- Representa el alcance autorizado.
-- Divide el trabajo en componentes cada vez más manejables.
-- Facilita estimación, asignación, seguimiento y control.
-- Sirve de base para cronograma, presupuesto, riesgos y responsabilidades.
-- No es simplemente un organigrama ni una lista cronológica.
+El nivel inferior de esa descomposición es el **paquete de trabajo**: el componente para el que ya pueden estimarse y gestionarse coste, duración, recursos y responsabilidad. Un paquete de trabajo puede contener varias actividades del cronograma, y aquí conviene fijar una distinción que reaparece en muchas preguntas: el paquete de trabajo es un componente de *alcance*, la actividad es la unidad *temporal* necesaria para realizar ese trabajo y el entregable es el *resultado verificable*. Por ejemplo, el paquete «Migrar el catálogo de usuarios» puede desglosarse en actividades como extraer datos, depurar duplicados, transformar formatos, cargar, validar resultados y corregir incidencias.
 
-Puede estar orientada principalmente a:
+Por encima del paquete de trabajo, la **cuenta de control** es un punto de gestión donde se integran alcance, cronograma y coste para medir el desempeño. Puede agrupar uno o varios paquetes de trabajo y suele asociarse a una persona responsable, un presupuesto, un periodo y un ámbito de control, y es especialmente relevante en los sistemas formales de valor ganado, que miden precisamente en esos puntos. En el otro extremo temporal, el **paquete de planificación** representa trabajo futuro ya conocido pero todavía no descompuesto con suficiente detalle: se emplea cuando el alcance de alto nivel está identificado pero la ejecución queda lejos y aún no hay información para definir paquetes de trabajo detallados, y se descompone más adelante mediante planificación gradual.
 
-- Entregables.
-- Productos.
-- Fases.
-- Componentes.
-- Una combinación coherente de estos criterios.
+La representación gráfica de la WBS muestra la jerarquía, pero es el **diccionario de la WBS** el que explica su contenido. Este documento amplía la información de cada componente y puede recoger su identificador, descripción, responsable, entregables, criterios de aceptación, límites, supuestos, restricciones, dependencias, recursos, estimaciones, hitos y referencias técnicas. A esa identificación contribuye la **codificación**, que asigna a cada componente un código único —por ejemplo, 1.0 Plataforma, 1.1 Requisitos, 1.2 Desarrollo, 1.2.1 Módulo de autenticación, 1.2.2 Módulo de expedientes, 1.3 Migración— y facilita la trazabilidad, la agregación, los informes, el control de costes y la relación con el cronograma y los riesgos.
 
-Lo importante es que abarque todo el alcance sin duplicidades.
-
-**6.2.2. Regla del 100 %.**
-
-La regla del 100 % establece que la WBS debe incluir el **100 % del trabajo** necesario para completar el alcance del proyecto.
-
-Además:
-
-- El trabajo de un nivel inferior debe representar el 100 % del componente padre.
-- No debe incluirse trabajo ajeno al alcance.
-- Debe evitarse contar el mismo trabajo en más de un componente.
-- También debe incluirse el trabajo de gestión del proyecto cuando forme parte del alcance.
-
-### Ejemplo
-
-Si el proyecto consiste en implantar una plataforma, el nivel superior podría incluir:
-
-1. Gestión del proyecto.
-2. Requisitos.
-3. Diseño.
-4. Construcción.
-5. Migración.
-6. Pruebas.
-7. Formación.
-8. Despliegue.
-9. Transición.
-
-Si se omite la migración de datos, la WBS no representa el 100 % del trabajo.
-
-**6.2.3. Descomposición.**
-
-Descomponer consiste en dividir componentes hasta alcanzar un nivel que pueda:
-
-- Estimarse.
-- Asignarse.
-- Programarse.
-- Presupuestarse.
-- Controlarse.
-- Aceptarse.
-
-No existe un número universal de niveles. La descomposición debe ser suficiente, pero no excesiva.
-
-### Descomposición insuficiente
-
-Produce:
-
-- Estimaciones poco fiables.
-- Responsabilidades ambiguas.
-- Riesgos ocultos.
-- Dificultad para medir avance.
-
-### Descomposición excesiva
-
-Produce:
-
-- Sobrecarga administrativa.
-- Microgestión.
-- Coste de actualización.
-- Pérdida de visión global.
-
-**6.2.4. Paquete de trabajo.**
-
-El **paquete de trabajo** es el componente del nivel inferior de la WBS para el que pueden estimarse y gestionarse coste, duración, recursos y responsabilidad.
-
-Un paquete de trabajo puede contener varias actividades del cronograma.
-
-No debe confundirse:
-
-- **Paquete de trabajo:** componente de alcance.
-- **Actividad:** unidad temporal necesaria para realizar trabajo.
-- **Entregable:** resultado verificable.
-
-### Ejemplo
-
-Paquete de trabajo: «Migrar el catálogo de usuarios».
-
-Actividades posibles:
-
-1. Extraer datos.
-2. Depurar duplicados.
-3. Transformar formatos.
-4. Cargar datos.
-5. Validar resultados.
-6. Corregir incidencias.
-
-**6.2.5. Cuenta de control.**
-
-Una **cuenta de control** es un punto de gestión donde se integran alcance, cronograma y coste para medir desempeño.
-
-Puede agrupar uno o varios paquetes de trabajo y suele asociarse a:
-
-- Una persona responsable.
-- Un presupuesto.
-- Un periodo.
-- Un ámbito de control.
-- Medición mediante EVM.
-
-La cuenta de control es especialmente relevante en sistemas formales de valor ganado.
-
-**6.2.6. Paquete de planificación.**
-
-Un **paquete de planificación** representa trabajo futuro conocido pero todavía no descompuesto con suficiente detalle.
-
-Se utiliza cuando:
-
-- El alcance de alto nivel está identificado.
-- La ejecución se encuentra lejos en el tiempo.
-- No existe información suficiente para definir paquetes de trabajo detallados.
-
-Posteriormente se descompone mediante planificación gradual.
-
-**6.2.7. Diccionario de la WBS.**
-
-El diccionario amplía la información de cada componente.
-
-Puede incluir:
-
-- Identificador.
-- Descripción.
-- Responsable.
-- Entregables.
-- Criterios de aceptación.
-- Límites.
-- Supuestos.
-- Restricciones.
-- Dependencias.
-- Recursos.
-- Estimaciones.
-- Hitos.
-- Referencias técnicas.
-
-La representación gráfica muestra la jerarquía; el diccionario explica su contenido.
-
-**6.2.8. Codificación.**
-
-Los códigos permiten identificar de forma única los componentes.
-
-Ejemplo:
-
-- 1.0 Plataforma.
-- 1.1 Requisitos.
-- 1.2 Desarrollo.
-- 1.2.1 Módulo de autenticación.
-- 1.2.2 Módulo de expedientes.
-- 1.3 Migración.
-
-La codificación facilita:
-
-- Trazabilidad.
-- Agregación.
-- Informes.
-- Control de costes.
-- Relación con cronograma y riesgos.
-
-**6.2.9. WBS y otras estructuras.**
+La WBS no debe confundirse con otras estructuras de desglose que responden a preguntas distintas. Cada una organiza una dimensión diferente del proyecto:
 
 | Estructura | Pregunta principal |
 |---|---|
@@ -301,226 +93,61 @@ La codificación facilita:
 | **RBS de riesgos** | ¿De qué fuentes pueden surgir los riesgos? |
 | **BOM** | ¿Qué materiales o componentes físicos forman el producto? |
 
-Una WBS puede construirse a partir de productos, pero no debe confundirse automáticamente con una PBS.
+Una WBS puede construirse a partir de productos, pero no debe identificarse automáticamente con una PBS: comparten inspiración, no definición.
 
-**6.2.10. Ventajas de la WBS.**
+Bien construida, la WBS delimita el alcance, facilita la asignación, mejora las estimaciones, ayuda a identificar riesgos, permite agregar costes, proporciona la base para el EVM, favorece la trazabilidad, reduce omisiones y facilita el control de cambios. Sus errores más frecuentes son la cara opuesta de esas ventajas: organizarla únicamente por departamentos, mezclar niveles con criterios incoherentes, detallar actividades en unos nodos mientras se dejan productos amplios en otros sin justificación, omitir la gestión, las pruebas, la transición o la documentación, duplicar trabajo, confundir el paquete de trabajo con una tarea individual, llevar el detalle hasta hacerla inmanejable o, en definitiva, utilizarla como si fuera un cronograma.
 
-- Delimita el alcance.
-- Facilita la asignación.
-- Mejora estimaciones.
-- Ayuda a identificar riesgos.
-- Permite agregar costes.
-- Proporciona base para EVM.
-- Favorece la trazabilidad.
-- Reduce omisiones.
-- Facilita control de cambios.
-
-**6.2.11. Errores frecuentes.**
-
-- Organizarla únicamente por departamentos.
-- Mezclar niveles con criterios incoherentes.
-- Incluir actividades detalladas en unos nodos y productos amplios en otros sin justificación.
-- Omitir gestión, pruebas, transición o documentación.
-- Duplicar trabajo.
-- Confundir paquete de trabajo con tarea individual.
-- Crear una WBS tan detallada que resulte inmanejable.
-- Utilizarla como cronograma.
+> **Clave de test:** la WBS responde a *qué* trabajo hay (alcance), no a *cuándo* se hace (tiempo). Si una pregunta describe una descomposición ordenada por fechas o secuencia, está describiendo un cronograma, no una WBS. Y ante «¿qué garantiza que no falte ni sobre trabajo?», la respuesta es la regla del 100 %.
 
 ---
 
 # 6.3. Cronogramas y programación
 
-**6.3.1. Modelo de programación.**
+Un cronograma fiable no es un dibujo de barras, sino un **modelo de programación** que relaciona actividades, duraciones, dependencias, calendarios, recursos, restricciones, hitos y riesgos con las fechas reales y el trabajo restante. La herramienta puede presentar ese modelo como un diagrama de Gantt, pero la lógica vive en el modelo subyacente, no en la representación. Sobre él se distinguen dos tipos de elemento: la **actividad**, que es una unidad de trabajo con duración, y el **hito**, punto significativo normalmente de duración cero —requisitos aprobados, contrato adjudicado, versión candidata disponible, autorización de producción, aceptación final—. Un hito señala que algo relevante ha ocurrido, pero no representa por sí mismo el trabajo necesario para alcanzarlo.
 
-Un cronograma fiable se apoya en un modelo que relaciona:
+Las actividades se ordenan mediante relaciones lógicas que conviene clasificar por su naturaleza. Una dependencia **obligatoria o dura** deriva de la propia naturaleza del trabajo; una **discrecional o blanda** se elige por preferencia o buena práctica; una **externa** depende de una entidad ajena al proyecto y una **interna** de trabajo bajo su control. Estas categorías no son excluyentes: una relación puede ser simultáneamente externa y obligatoria, por ejemplo cuando una autorización de un tercero es imprescindible antes de continuar.
 
-- Actividades.
-- Duraciones.
-- Dependencias.
-- Calendarios.
-- Recursos.
-- Restricciones.
-- Hitos.
-- Riesgos.
-- Fechas reales.
-- Trabajo restante.
-
-La herramienta puede mostrar un diagrama de Gantt, pero el modelo subyacente contiene la lógica.
-
-**6.3.2. Actividades e hitos.**
-
-### Actividad
-
-Unidad de trabajo con duración.
-
-### Hito
-
-Punto significativo, normalmente con duración cero.
-
-Ejemplos de hitos:
-
-- Requisitos aprobados.
-- Contrato adjudicado.
-- Versión candidata disponible.
-- Autorización de producción.
-- Aceptación final.
-
-Un hito no representa por sí mismo el trabajo necesario para alcanzarlo.
-
-**6.3.3. Secuenciación y dependencias.**
-
-Las actividades se ordenan mediante relaciones lógicas.
-
-### Tipos según su naturaleza
-
-- **Obligatorias o duras:** derivadas de la naturaleza del trabajo.
-- **Discrecionales o blandas:** elegidas por preferencia o buena práctica.
-- **Externas:** dependen de una entidad ajena al proyecto.
-- **Internas:** dependen de trabajo bajo control del proyecto.
-
-Una relación puede ser simultáneamente externa y obligatoria.
-
-**6.3.4. Relaciones de precedencia.**
+Junto a su naturaleza, cada relación tiene un tipo de precedencia según qué extremos de las dos actividades conecte.
 
 ### Final a inicio — FS
 
-La sucesora no puede comenzar hasta que finalice la predecesora.
-
-Ejemplo: no se inicia la carga hasta finalizar la extracción.
-
-Es la relación más habitual.
+La sucesora no puede comenzar hasta que finalice la predecesora. Es la relación más habitual. Ejemplo: no se inicia la carga hasta finalizar la extracción.
 
 ### Inicio a inicio — SS
 
-La sucesora no puede comenzar hasta que comience la predecesora.
-
-Ejemplo: la revisión puede empezar cuando comienza la redacción.
+La sucesora no puede comenzar hasta que comience la predecesora. Ejemplo: la revisión puede empezar cuando comienza la redacción.
 
 ### Final a final — FF
 
-La sucesora no puede finalizar hasta que finalice la predecesora.
-
-Ejemplo: la validación no puede terminar antes que la migración.
+La sucesora no puede finalizar hasta que finalice la predecesora. Ejemplo: la validación no puede terminar antes que la migración.
 
 ### Inicio a final — SF
 
-La sucesora no puede finalizar hasta que comience la predecesora.
+La sucesora no puede finalizar hasta que comience la predecesora. Es poco frecuente. Ejemplo: el turno anterior no finaliza hasta que comienza el relevo.
 
-Es poco frecuente.
+Sobre estas relaciones básicas pueden aplicarse ajustes. El **adelanto** o *lead* permite anticipar la actividad sucesora respecto a la relación básica —por ejemplo, comenzar a probar partes ya terminadas antes de concluir todo el desarrollo—, mientras que el **retraso** o *lag* introduce una espera —por ejemplo, aguardar 24 horas tras una carga antes de validar la replicación—. Los retrasos no deben emplearse para ocultar actividades reales: si durante esa espera se realiza control, curado, aprobación u otro trabajo efectivo, conviene modelarlo explícitamente como actividad en lugar de esconderlo dentro de un *lag*.
 
-Ejemplo: el turno anterior no finaliza hasta que comienza el relevo.
+El conjunto de actividades y relaciones lógicas conforma el **diagrama de red**, que permite visualizar secuencias, detectar dependencias ausentes, identificar caminos, calcular fechas, analizar holguras y, sobre todo, identificar el camino crítico. El **camino crítico** es, en términos generales, el camino de mayor duración a través de la red, y determina la fecha de finalización más temprana posible bajo las condiciones modeladas. Sus actividades suelen presentar holgura total cero —o la menor holgura disponible si existen restricciones—, y un proyecto puede tener un único camino crítico, varios simultáneos o caminos casi críticos con muy poca holgura. Además, el camino crítico no es inmutable: puede cambiar durante la ejecución a medida que se registran avances y retrasos.
 
-**6.3.5. Adelantos y retrasos.**
+> **Idea clave:** «crítico» se refiere a su efecto sobre la fecha final, no necesariamente a dificultad técnica, coste o importancia funcional. La actividad más difícil o más cara del proyecto puede no estar en el camino crítico, y una tarea trivial sí puede estarlo.
 
-### Adelanto — *lead*
-
-Permite anticipar la actividad sucesora respecto a la relación básica.
-
-Ejemplo: comenzar las pruebas de partes terminadas antes de finalizar todo el desarrollo.
-
-### Retraso — *lag*
-
-Introduce una espera.
-
-Ejemplo: esperar 24 horas después de una carga antes de validar la replicación.
-
-Los retrasos no deben utilizarse para ocultar actividades reales. Si durante la espera se realiza control, curado, aprobación u otro trabajo, conviene modelarlo explícitamente.
-
-**6.3.6. Diagrama de red.**
-
-Representa actividades y relaciones lógicas.
-
-Permite:
-
-- Visualizar secuencias.
-- Detectar dependencias ausentes.
-- Identificar caminos.
-- Calcular fechas.
-- Analizar holguras.
-- Identificar el camino crítico.
-
-**6.3.7. Camino crítico.**
-
-El **camino crítico** es, en términos generales, el camino de mayor duración a través de la red y determina la fecha de finalización más temprana posible bajo las condiciones modeladas.
-
-Sus actividades suelen presentar:
-
-- Holgura total cero.
-- O la menor holgura disponible si existen restricciones.
-
-Un proyecto puede tener:
-
-- Un único camino crítico.
-- Varios caminos críticos.
-- Caminos casi críticos con poca holgura.
-
-El camino crítico puede cambiar durante la ejecución.
-
-> **Idea clave:** «crítico» se refiere a su efecto sobre la fecha final, no necesariamente a dificultad técnica, coste o importancia funcional.
-
-**6.3.8. Cálculo hacia delante.**
-
-Determina fechas tempranas.
-
-Con una convención simplificada:
+El análisis de la red se apoya en dos recorridos. El **cálculo hacia delante** determina las fechas tempranas: para cada actividad, el fin temprano es el inicio temprano más la duración ($EF = ES + \text{Duración}$), y cuando una actividad tiene varias predecesoras su inicio temprano es el máximo de los fines tempranos de aquéllas ($ES = \max(EF\ \text{predecesoras})$). El **cálculo hacia atrás** determina las fechas tardías sin retrasar la finalización: el inicio tardío es el fin tardío menos la duración ($LS = LF - \text{Duración}$), y cuando una actividad tiene varias sucesoras su fin tardío es el mínimo de los inicios tardíos de aquéllas ($LF = \min(LS\ \text{sucesoras})$).
 
 $$
-EF = ES + Duración
+EF = ES + \text{Duración} \qquad ES = \max(EF\ \text{de las predecesoras})
 $$
 
-Para una actividad con varias predecesoras:
-
 $$
-ES = \max(EF\ de\ las\ predecesoras)
+LS = LF - \text{Duración} \qquad LF = \min(LS\ \text{de las sucesoras})
 $$
 
-**6.3.9. Cálculo hacia atrás.**
-
-Determina fechas tardías sin retrasar la finalización.
+De la comparación entre fechas tempranas y tardías surgen las holguras. La **holgura total** es el tiempo que puede retrasarse una actividad sin retrasar la fecha final comprometida, y se calcula indistintamente como $LS - ES$ o como $LF - EF$. Puede ser positiva, cero o incluso negativa, este último caso cuando una restricción exige una fecha más temprana de la que permite la lógica de la red. La **holgura libre**, en cambio, es el tiempo que puede retrasarse una actividad sin retrasar el inicio temprano de su sucesora inmediata, y de forma simplificada equivale a $ES_{\text{sucesora}} - EF_{\text{actividad}}$; por definición, nunca puede ser mayor que la holgura total.
 
 $$
-LS = LF - Duración
+\text{Holgura total} = LS - ES = LF - EF \qquad \text{Holgura libre} = ES_{\text{sucesora}} - EF_{\text{actividad}}
 $$
 
-Para una actividad con varias sucesoras:
-
-$$
-LF = \min(LS\ de\ las\ sucesoras)
-$$
-
-**6.3.10. Holgura total.**
-
-Tiempo que puede retrasarse una actividad sin retrasar la fecha final comprometida.
-
-$$
-Holgura\ total = LS - ES
-$$
-
-También:
-
-$$
-Holgura\ total = LF - EF
-$$
-
-Puede ser:
-
-- Positiva.
-- Cero.
-- Negativa cuando una restricción exige una fecha más temprana de la que permite la lógica.
-
-**6.3.11. Holgura libre.**
-
-Tiempo que puede retrasarse una actividad sin retrasar el inicio temprano de su sucesora inmediata.
-
-De forma simplificada:
-
-$$
-Holgura\ libre = ES_{sucesora} - EF_{actividad}
-$$
-
-La holgura libre no puede ser mayor que la holgura total.
-
-**6.3.12. Ejemplo básico de red.**
+Un ejemplo mínimo fija las ideas. Con las actividades A (3, sin predecesora), B (4, tras A), C (2, tras A), D (5, tras B), E (3, tras C) y F (2, tras D y E), existen dos caminos: A-B-D-F suma 3 + 4 + 5 + 2 = 14 y A-C-E-F suma 3 + 2 + 3 + 2 = 10. El camino crítico es A-B-D-F y la duración mínima modelada es de 14 unidades.
 
 | Actividad | Duración | Predecesora |
 |---|---:|---|
@@ -531,404 +158,59 @@ La holgura libre no puede ser mayor que la holgura total.
 | E | 3 | C |
 | F | 2 | D y E |
 
-Caminos:
+Cuando el cronograma resultante no cabe en el plazo, se recurre a la **compresión**, que admite dos técnicas distintas. La **ejecución rápida** o *fast tracking* realiza en paralelo actividades originalmente secuenciales: puede reducir la duración, pero aumenta el riesgo, puede provocar retrabajo y no siempre es técnicamente posible. La **intensificación** o *crashing* añade recursos o asume costes para acortar duraciones —incorporar especialistas, pagar horas adicionales, optar por una solución más cara pero rápida—, y exige analizar el coste incremental, la reducción realmente obtenida, el riesgo, la disponibilidad y el efecto sobre el camino crítico. Conviene recordar que añadir recursos no siempre reduce el tiempo, sobre todo cuando aparecen costes de coordinación o el trabajo no es divisible.
 
-- A-B-D-F = 3 + 4 + 5 + 2 = 14.
-- A-C-E-F = 3 + 2 + 3 + 2 = 10.
+Distinta de la compresión es la **optimización de recursos**, que también admite dos técnicas que no deben confundirse. La **nivelación de recursos** ajusta fechas para resolver sobreasignaciones o limitaciones y, al hacerlo, puede modificar el camino crítico, aumentar la duración y cambiar las fechas finales. El **suavizado de recursos**, en cambio, ajusta las actividades dentro de sus holguras para reducir los picos de uso, de modo que en principio no altera la fecha crítica ni excede las holguras disponibles. La diferencia esencial es que la nivelación puede mover la fecha final y el suavizado, no.
 
-El camino crítico es A-B-D-F y la duración mínima modelada es 14 unidades.
+El comportamiento del cronograma depende también de sus restricciones y calendarios. Las **restricciones de fecha** —no comenzar antes de, finalizar antes de, debe comenzar el, debe finalizar el— resultan a veces necesarias, pero las restricciones rígidas impiden que el cronograma responda correctamente a los cambios y solo deben emplearse cuando exista una razón real. Los **calendarios** —del proyecto, de recursos, de días laborables, turnos, festivos, ventanas de despliegue o periodos de indisponibilidad— explican por qué una actividad de cinco días de trabajo no ocupa necesariamente cinco días naturales.
 
-**6.3.13. Compresión del cronograma.**
+La representación más conocida sigue siendo el **diagrama de Gantt**, útil para comunicar fechas, mostrar dependencias, visualizar el progreso e identificar hitos; ahora bien, un Gantt vistoso no garantiza que el modelo sea lógico o fiable, y puede mostrar barras sin las dependencias adecuadas por detrás. Durante el seguimiento, sobre la línea base deben registrarse las fechas reales, la duración restante, el avance físico, los cambios aprobados, las nuevas previsiones y las variaciones; mover continuamente la línea base para que coincida con lo ocurrido destruye su función de referencia.
 
-### Ejecución rápida — *fast tracking*
-
-Realiza en paralelo actividades originalmente secuenciales.
-
-Ventajas:
-
-- Puede reducir duración.
-
-Inconvenientes:
-
-- Aumenta riesgo.
-- Puede causar retrabajo.
-- No siempre es técnicamente posible.
-
-### Intensificación — *crashing*
-
-Añade recursos o asume costes para reducir duración.
-
-Ejemplos:
-
-- Incorporar especialistas.
-- Pagar horas adicionales.
-- Utilizar una solución más cara pero rápida.
-
-Debe analizarse:
-
-- Coste incremental.
-- Reducción obtenida.
-- Riesgo.
-- Disponibilidad.
-- Efecto sobre el camino crítico.
-
-Añadir recursos no siempre reduce tiempo, especialmente cuando existen costes de coordinación o trabajo no divisible.
-
-**6.3.14. Optimización de recursos.**
-
-### Nivelación de recursos
-
-Ajusta fechas para resolver sobreasignaciones o limitaciones.
-
-Puede:
-
-- Modificar el camino crítico.
-- Aumentar la duración.
-- Cambiar fechas finales.
-
-### Suavizado de recursos
-
-Ajusta actividades dentro de sus holguras.
-
-En principio:
-
-- No cambia la fecha crítica.
-- No excede las holguras disponibles.
-- Reduce picos de uso.
-
-**6.3.15. Restricciones de fecha.**
-
-Ejemplos:
-
-- No comenzar antes de.
-- Finalizar antes de.
-- Debe comenzar el.
-- Debe finalizar el.
-
-Las restricciones rígidas pueden impedir que el cronograma responda correctamente a cambios. Deben utilizarse solo cuando exista una razón real.
-
-**6.3.16. Calendarios.**
-
-Pueden definirse:
-
-- Calendario del proyecto.
-- Calendario de recursos.
-- Días laborables.
-- Turnos.
-- Festivos.
-- Ventanas de despliegue.
-- Periodos de indisponibilidad.
-
-Una actividad de cinco días no necesariamente ocupa cinco días naturales.
-
-**6.3.17. Diagrama de Gantt.**
-
-Representa actividades sobre una escala temporal.
-
-Es útil para:
-
-- Comunicar fechas.
-- Mostrar dependencias.
-- Visualizar progreso.
-- Identificar hitos.
-
-Pero un Gantt no garantiza que el modelo sea lógico o fiable. Puede mostrar barras sin dependencias adecuadas.
-
-**6.3.18. Línea base y actualización.**
-
-Durante el seguimiento deben registrarse:
-
-- Fechas reales.
-- Duración restante.
-- Porcentaje o avance físico.
-- Cambios aprobados.
-- Nuevas previsiones.
-- Variaciones.
-
-Mover continuamente la línea base para que coincida con lo ocurrido destruye su función de referencia.
-
-**6.3.19. Planificación ágil.**
-
-En un entorno adaptativo pueden utilizarse:
-
-- Hoja de ruta.
-- Plan de versiones.
-- Product Backlog.
-- Sprint Backlog.
-- Pronósticos de capacidad.
-- Velocidad histórica.
-- Burndown.
-- Burnup.
-- Diagrama de flujo acumulado.
-
-La planificación ágil no elimina:
-
-- Dependencias.
-- Restricciones.
-- Riesgos.
-- Necesidad de previsión.
-- Coordinación con hitos externos.
+Todo lo anterior es igualmente pertinente en entornos adaptativos. La **planificación ágil** emplea instrumentos propios —hoja de ruta, plan de versiones, *product backlog*, *sprint backlog*, pronósticos de capacidad, velocidad histórica, *burndown*, *burnup* y diagrama de flujo acumulado—, pero no elimina las dependencias, las restricciones, los riesgos, la necesidad de previsión ni la coordinación con hitos externos: cambia la forma de planificar, no la existencia de las fuerzas que la planificación debe gobernar.
 
 ---
 
 # 6.4. Técnicas de estimación
 
-**6.4.1. Estimación y compromiso.**
+Antes de examinar los métodos conviene separar dos ideas que se confunden con facilidad: una **estimación** expresa una previsión basada en información y supuestos, mientras que un **compromiso** es una decisión organizativa sobre un objetivo. Transformar sin más una estimación en una fecha obligatoria, sin analizar la incertidumbre subyacente, no mejora su fiabilidad; solo disfraza de certeza lo que sigue siendo una previsión.
 
-Una estimación expresa una previsión basada en información y supuestos.
+También conviene distinguir **exactitud** —proximidad al valor real— de **precisión** —grado de detalle o dispersión—, porque una cifra muy precisa puede ser profundamente inexacta. Afirmar que un proyecto «costará 103.487,26 euros» parece riguroso, pero si el alcance no está definido esa aparente precisión es engañosa. Por eso una buena estimación se acompaña de sus supuestos, su rango, su nivel de confianza, la fecha en que se realizó y el método empleado.
 
-Un compromiso es una decisión organizativa sobre un objetivo.
-
-No deben confundirse. Transformar una estimación en una fecha obligatoria sin analizar incertidumbre no mejora su fiabilidad.
-
-**6.4.2. Exactitud, precisión y rango.**
-
-### Exactitud
-
-Proximidad al valor real.
-
-### Precisión
-
-Grado de detalle o dispersión.
-
-Una cifra muy precisa puede ser inexacta.
-
-Ejemplo:
-
-- «Costará 103.487,26 euros» parece preciso.
-- Si el alcance no está definido, puede ser poco fiable.
-
-Conviene expresar:
-
-- Supuestos.
-- Rango.
-- Nivel de confianza.
-- Fecha de la estimación.
-- Método utilizado.
-
-**6.4.3. Juicio de expertos.**
-
-Utiliza conocimiento especializado.
-
-Es útil cuando:
-
-- Existen expertos con experiencia comparable.
-- Hay poca información histórica estructurada.
-- Se necesita valorar complejidad.
-
-Riesgos:
-
-- Sesgos.
-- Dependencia de una sola persona.
-- Optimismo.
-- Anclaje.
-
-Puede reforzarse con:
-
-- Talleres.
-- Técnica Delphi.
-- Datos históricos.
-- Revisión independiente.
-
-**6.4.4. Estimación análoga.**
-
-Utiliza resultados de proyectos o actividades similares.
-
-Características:
-
-- Rápida.
-- Menos costosa.
-- Útil en fases tempranas.
-- Generalmente menos precisa.
-- Depende de la similitud y ajustes realizados.
-
-Ejemplo: estimar una migración tomando como referencia otra de tamaño parecido.
-
-**6.4.5. Estimación paramétrica.**
-
-Utiliza una relación estadística entre variables.
+Ese método puede ser de varios tipos. El **juicio de expertos** aprovecha conocimiento especializado y resulta útil cuando existen expertos con experiencia comparable, hay poca información histórica estructurada o se necesita valorar la complejidad; sus riesgos son los sesgos, la dependencia de una sola persona, el optimismo y el anclaje, y se refuerza con talleres, técnica Delphi, datos históricos y revisión independiente. La **estimación análoga** utiliza resultados de proyectos o actividades similares —por ejemplo, estimar una migración a partir de otra de tamaño parecido—; es rápida, poco costosa y útil en fases tempranas, aunque generalmente menos precisa y muy dependiente de la similitud real y de los ajustes aplicados. La **estimación paramétrica** se apoya en una relación estadística entre variables, según la expresión general $\text{Estimación} = \text{Cantidad} \times \text{Tasa}$: horas por interfaz, coste por usuario migrado, tiempo por caso de prueba o esfuerzo por punto de función; su fiabilidad depende de la calidad de los datos, la validez del modelo, la homogeneidad, la escala y los ajustes. La **estimación ascendente** estima los componentes detallados y los agrega, lo que aporta mayor trazabilidad, permite la participación de especialistas y facilita el control, a cambio de consumir tiempo, requerir detalle suficiente, arriesgarse a omitir trabajo si la WBS está incompleta y poder acumular sesgos.
 
 $$
-Estimación = Cantidad \times Tasa
+\text{Estimación paramétrica} = \text{Cantidad} \times \text{Tasa}
 $$
 
-Ejemplos:
-
-- Horas por interfaz.
-- Coste por usuario migrado.
-- Tiempo por caso de prueba.
-- Esfuerzo por punto de función.
-
-Su fiabilidad depende de:
-
-- Calidad de datos.
-- Validez del modelo.
-- Homogeneidad.
-- Escala.
-- Ajustes.
-
-**6.4.6. Estimación ascendente.**
-
-Estima componentes detallados y los agrega.
-
-Ventajas:
-
-- Mayor trazabilidad.
-- Permite participación de especialistas.
-- Facilita control.
-
-Inconvenientes:
-
-- Consume tiempo.
-- Puede omitir trabajo si la WBS está incompleta.
-- Puede acumular sesgos.
-- Requiere detalle suficiente.
-
-**6.4.7. Estimación de tres puntos.**
-
-Utiliza:
-
-- **O:** optimista.
-- **M:** más probable.
-- **P:** pesimista.
-
-### Distribución triangular
+Especial atención merece la **estimación de tres puntos**, que trabaja con un valor optimista (O), uno más probable (M) y uno pesimista (P) para incorporar la incertidumbre. La **distribución triangular** promedia los tres con igual peso, mientras que la variante **PERT o beta** otorga mayor peso a la estimación más probable; la dispersión se aproxima mediante la desviación típica y la varianza:
 
 $$
-E = \frac{O + M + P}{3}
+E_{\text{triangular}} = \frac{O + M + P}{3} \qquad E_{\text{PERT}} = \frac{O + 4M + P}{6}
 $$
 
-### PERT o beta
-
 $$
-E = \frac{O + 4M + P}{6}
+\sigma = \frac{P - O}{6} \qquad \sigma^2 = \left(\frac{P - O}{6}\right)^2
 $$
 
-La estimación más probable recibe mayor peso.
+Con O = 6 días, M = 9 y P = 18, la estimación triangular es $(6 + 9 + 18)/3 = 11$ días, la PERT es $(6 + 4 \cdot 9 + 18)/6 = 10$ días y la desviación típica aproximada es $(18 - 6)/6 = 2$ días. La diferencia entre 11 y 10 ilustra el efecto de ponderar más el valor más probable.
 
-### Desviación típica aproximada
+En entornos ágiles se usa además la **estimación relativa**, basada en puntos de historia, tallas, comparación con elementos de referencia o *planning poker*. Los puntos de historia no representan necesariamente horas, combinan esfuerzo, complejidad e incertidumbre, son relativos a cada equipo y, por ello, no deben utilizarse para comparar productividad entre equipos distintos sin contexto.
 
-$$
-\sigma = \frac{P - O}{6}
-$$
-
-### Varianza aproximada
+Cualquiera que sea el método, la estimación se completa con un **análisis de reservas**. La **reserva de contingencia** se destina a riesgos identificados —los «conocidos desconocidos»— y puede formar parte de la línea base de costes. La **reserva de gestión** se destina a trabajo imprevisto dentro del alcance global —los «desconocidos desconocidos»—, normalmente no forma parte de la línea base de costes aunque sí del presupuesto total, y requiere autorización de gestión para su uso. La relación entre ambas magnitudes se resume así:
 
 $$
-\sigma^2 = \left(\frac{P - O}{6}\right)^2
+\text{Presupuesto del proyecto} = \text{Línea base de costes} + \text{Reserva de gestión}
 $$
 
-**6.4.8. Ejemplo de tres puntos.**
-
-Supuestos:
-
-- O = 6 días.
-- M = 9 días.
-- P = 18 días.
-
-Triangular:
-
-$$
-E = \frac{6 + 9 + 18}{3} = 11
-$$
-
-PERT:
-
-$$
-E = \frac{6 + 4(9) + 18}{6} = 10
-$$
-
-Desviación:
-
-$$
-\sigma = \frac{18 - 6}{6} = 2
-$$
-
-**6.4.9. Estimación relativa.**
-
-En entornos ágiles puede utilizarse:
-
-- Puntos de historia.
-- Tallas.
-- Comparación con elementos de referencia.
-- *Planning poker*.
-
-Los puntos de historia:
-
-- No representan necesariamente horas.
-- Combinan esfuerzo, complejidad e incertidumbre.
-- Son relativos al equipo.
-- No deben utilizarse para comparar productividad entre equipos sin contexto.
-
-**6.4.10. Análisis de reservas.**
-
-### Reserva de contingencia
-
-Se destina a riesgos identificados o «conocidos desconocidos».
-
-Puede formar parte de la línea base de costes.
-
-### Reserva de gestión
-
-Se destina a trabajo imprevisto dentro del alcance global, asociado a «desconocidos desconocidos».
-
-Normalmente:
-
-- No forma parte de la línea base de costes.
-- Sí forma parte del presupuesto total.
-- Requiere autorización de gestión para su uso.
-
-Relación habitual:
-
-$$
-Presupuesto\ del\ proyecto = Línea\ base\ de\ costes + Reserva\ de\ gestión
-$$
-
-**6.4.11. Sesgos habituales.**
-
-- Optimismo.
-- Anclaje.
-- Presión política.
-- Ignorar datos históricos.
-- Omitir integración, pruebas o gestión.
-- Suponer productividad constante.
-- No considerar aprendizaje.
-- Confundir mejor caso con estimación.
-- Reducir cifras para encajar en un presupuesto predefinido.
-- No actualizar con datos reales.
-
-**6.4.12. Buenas prácticas.**
-
-- Basarse en una WBS.
-- Documentar supuestos.
-- Utilizar datos históricos.
-- Incluir a quienes harán el trabajo.
-- Expresar incertidumbre.
-- Separar estimación y negociación.
-- Realizar revisión independiente.
-- Actualizar la estimación.
-- Integrar riesgos.
-- Evitar falsa precisión.
+Buena parte de los problemas de estimación proceden de sesgos recurrentes: el optimismo, el anclaje, la presión política, ignorar los datos históricos, omitir la integración, las pruebas o la gestión, suponer una productividad constante, no considerar el aprendizaje, confundir el mejor caso con la estimación, reducir cifras para encajar en un presupuesto predefinido o no actualizar la estimación con datos reales. Frente a ellos, las buenas prácticas son casi el reverso: partir de una WBS, documentar los supuestos, apoyarse en datos históricos, incluir a quienes harán el trabajo, expresar la incertidumbre, separar la estimación de la negociación, realizar una revisión independiente, actualizar la estimación con el tiempo, integrar los riesgos y evitar la falsa precisión.
 
 ---
 
 # 6.5. Gestión de riesgos
 
-**6.5.1. Concepto de riesgo.**
+Un **riesgo** es un evento o condición incierta que, si ocurre, afecta a uno o más objetivos. Su efecto puede ser negativo —una **amenaza**— o positivo —una **oportunidad**—, y esta doble naturaleza es importante porque gestionar el riesgo no consiste solo en defenderse de lo malo, sino también en aprovechar lo bueno. Además, debe separarse el **riesgo individual**, que es un evento o condición concreta, del **riesgo global del proyecto**, que es el efecto de la incertidumbre total sobre el conjunto del proyecto.
 
-Un riesgo es un evento o condición incierta que, si ocurre, afecta a uno o más objetivos.
-
-Puede tener efecto:
-
-- Negativo: amenaza.
-- Positivo: oportunidad.
-
-Debe distinguirse:
-
-- **Riesgo individual:** evento o condición concreta.
-- **Riesgo global del proyecto:** efecto de la incertidumbre total sobre el proyecto.
-
-**6.5.2. Riesgo e incidencia.**
+Una confusión muy penalizada en los exámenes es la que mezcla riesgo con incidencia. El riesgo es incierto; la incidencia ya ha ocurrido. Un riesgo materializado, de hecho, puede convertirse en incidencia, y por eso ambos conceptos se relacionan sin ser lo mismo:
 
 | Riesgo | Incidencia |
 |---|---|
@@ -937,565 +219,39 @@ Debe distinguirse:
 | Se planifican respuestas | Se aplican acciones de resolución |
 | Puede ser amenaza u oportunidad | Normalmente exige tratamiento inmediato |
 
-Un riesgo materializado puede convertirse en incidencia.
+La gestión de riesgos sigue una secuencia iterativa que recorre todo el proyecto: planificar la gestión, identificar los riesgos, analizarlos cualitativamente, analizarlos cuantitativamente cuando proceda, planificar las respuestas, implementarlas y supervisar. Esa secuencia se articula en un **plan de gestión de riesgos** que puede definir la metodología, los roles, las categorías, las escalas, la matriz de probabilidad e impacto, los umbrales, la frecuencia de revisión, el formato de los registros, las reglas de escalado, las reservas y los informes.
 
-**6.5.3. Proceso de gestión.**
+La **identificación** se apoya en técnicas como talleres, entrevistas, listas de comprobación, lecciones aprendidas, análisis de supuestos, análisis FODA, diagramas causa-efecto, revisión documental, estructura de desglose de riesgos, análisis de interfaces y *prompt lists*. Sea cual sea la técnica, conviene redactar cada riesgo con la estructura **causa-evento-efecto**: «Debido a *causa*, podría ocurrir *evento incierto*, lo que produciría *efecto*». Así, en vez de un enunciado vago como «la migración puede salir mal», se escribe algo accionable: «Debido a la baja calidad de los datos históricos, podría aumentar el número de registros rechazados durante la migración, provocando retrasos y trabajo adicional». Cada riesgo identificado se anota en el **registro de riesgos**, que puede incluir identificador, descripción, causa, evento, consecuencia, categoría, probabilidad, impacto, prioridad, propietario, respuesta, responsable de acción, disparador, riesgo residual, estado y fecha de revisión. En ese registro conviene distinguir dos papeles: el **propietario del riesgo**, que garantiza que se gestione, y el **responsable de acción**, que ejecuta una acción concreta; pueden coincidir en la misma persona, pero no necesariamente.
 
-Una secuencia habitual es:
+El **análisis cualitativo** prioriza los riesgos mediante criterios como la probabilidad, el impacto, la proximidad, la urgencia, la detectabilidad, la gestionabilidad, la persistencia, la conectividad y la calidad de los datos, y su herramienta habitual es la matriz de probabilidad e impacto. Puede emplearse una puntuación sencilla del tipo $\text{Puntuación} = \text{Probabilidad} \times \text{Impacto}$, pero esa cifra no sustituye al juicio profesional: dos riesgos con la misma puntuación pueden exigir tratamientos muy distintos. En este terreno conviene diferenciar tres nociones próximas: el **apetito de riesgo** es la cantidad y el tipo de riesgo que una organización está dispuesta a perseguir o retener; la **tolerancia** es la variación aceptable alrededor de los objetivos; y el **umbral** es el nivel concreto a partir del cual se requiere acción o escalado. Las definiciones varían ligeramente entre marcos, pero la idea central es distinguir la disposición general, el margen aceptable y el límite operativo.
 
-1. Planificar la gestión.
-2. Identificar riesgos.
-3. Analizar cualitativamente.
-4. Analizar cuantitativamente cuando proceda.
-5. Planificar respuestas.
-6. Implementar respuestas.
-7. Supervisar riesgos.
-
-Es un proceso iterativo durante todo el proyecto.
-
-**6.5.4. Plan de gestión de riesgos.**
-
-Puede definir:
-
-- Metodología.
-- Roles.
-- Categorías.
-- Escalas.
-- Matriz de probabilidad e impacto.
-- Umbrales.
-- Frecuencia de revisión.
-- Formato de registros.
-- Reglas de escalado.
-- Reservas.
-- Informes.
-
-**6.5.5. Identificación.**
-
-Técnicas:
-
-- Talleres.
-- Entrevistas.
-- Listas de comprobación.
-- Lecciones aprendidas.
-- Análisis de supuestos.
-- Análisis FODA.
-- Diagramas causa-efecto.
-- Revisión documental.
-- Estructura de desglose de riesgos.
-- Análisis de interfaces.
-- *Prompt lists*.
-
-**6.5.6. Redacción causa-evento-efecto.**
-
-Una formulación útil es:
-
-> Debido a **causa**, podría ocurrir **evento incierto**, lo que produciría **efecto**.
-
-Ejemplo:
-
-> Debido a la baja calidad de los datos históricos, podría aumentar el número de registros rechazados durante la migración, provocando retrasos y trabajo adicional.
-
-Evita enunciados vagos como «la migración puede salir mal».
-
-**6.5.7. Registro de riesgos.**
-
-Puede incluir:
-
-- Identificador.
-- Descripción.
-- Causa.
-- Evento.
-- Consecuencia.
-- Categoría.
-- Probabilidad.
-- Impacto.
-- Prioridad.
-- Propietario.
-- Respuesta.
-- Responsable de acción.
-- Disparador.
-- Riesgo residual.
-- Estado.
-- Fecha de revisión.
-
-**6.5.8. Propietario y responsable de acción.**
-
-- **Propietario del riesgo:** garantiza que se gestione.
-- **Responsable de acción:** ejecuta una acción concreta.
-
-Pueden ser la misma persona, pero no necesariamente.
-
-**6.5.9. Análisis cualitativo.**
-
-Prioriza riesgos mediante criterios como:
-
-- Probabilidad.
-- Impacto.
-- Proximidad.
-- Urgencia.
-- Detectabilidad.
-- Gestionabilidad.
-- Persistencia.
-- Conectividad.
-- Calidad de datos.
-
-La matriz de probabilidad e impacto es una herramienta habitual.
-
-### Puntuación
-
-Puede utilizarse:
+Cuando se necesita medir la incertidumbre en términos numéricos se recurre al **análisis cuantitativo**, con técnicas como el valor monetario esperado, los árboles de decisión, la simulación Monte Carlo, el análisis de sensibilidad, las distribuciones de probabilidad y el análisis de escenarios. No todos los proyectos requieren un análisis cuantitativo completo, y conviene precisar el enfoque de este tema: aquí estas técnicas se utilizan para gestionar la exposición, las reservas, las fechas, los costes y las respuestas *durante* el proyecto, mientras que la comparación de alternativas para autorizar o priorizar proyectos corresponde al Tema 3. El **valor monetario esperado** pondera el impacto por su probabilidad, $EMV = \text{Probabilidad} \times \text{Impacto monetario}$; si la probabilidad de una pérdida es del 30 % y su impacto de 50.000 euros, el valor esperado es $0{,}30 \times (-50.000) = -15.000$ euros, y para varias ramas se suman los valores ponderados. El **árbol de decisión** representa decisiones, eventos inciertos, probabilidades, costes, impactos y valores esperados, y permite comparar respuestas o caminos de actuación dentro del proyecto sin convertirse en una selección de cartera; conviene recordar que el valor esperado es una media ponderada, no el resultado que necesariamente ocurrirá. La **simulación Monte Carlo**, por su parte, realiza múltiples iteraciones con distribuciones de probabilidad para estimar fechas, costes, probabilidad de cumplir objetivos y reservas necesarias, y produce resultados como una fecha P50 (50 % de probabilidad) o P80 (80 %), siendo la P80 más conservadora que la P50.
 
 $$
-Puntuación = Probabilidad \times Impacto
+EMV = \text{Probabilidad} \times \text{Impacto monetario}
 $$
 
-Pero una puntuación simplificada no sustituye al juicio profesional. Dos riesgos con la misma puntuación pueden requerir tratamientos distintos.
+Identificados y analizados los riesgos, se planifican las **respuestas**, que difieren según se trate de amenazas u oportunidades. Frente a una **amenaza** cabe *evitar* —eliminar la amenaza o su causa, por ejemplo sustituyendo una tecnología inmadura—, *mitigar* —reducir su probabilidad o impacto, por ejemplo con una prueba de concepto—, *transferir* —trasladar la responsabilidad financiera o contractual a un tercero mediante un seguro o un contrato, lo que no elimina necesariamente el riesgo global—, *aceptar* —reconocerlo sin acción preventiva específica, de forma pasiva o activa con contingencia— o *escalar* —transferir su gestión a un nivel con autoridad suficiente cuando excede el ámbito del proyecto—. Frente a una **oportunidad**, las respuestas son simétricas: *explotar* para asegurar que ocurra, *mejorar* para aumentar su probabilidad o impacto positivo, *compartir* asignándola a un tercero mejor posicionado para capturarla, *aceptar* para aprovecharla si se presenta sin acción proactiva y *escalar* cuando excede la autoridad del proyecto.
 
-**6.5.10. Apetito, tolerancia y umbral.**
+Conviene no confundir dos planes distintos: el **plan de contingencia** es la acción prevista para cuando se produce un disparador, mientras que el **plan alternativo** o *fallback* se activa si la respuesta principal no funciona. Y toda respuesta genera efectos secundarios que hay que vigilar: el **riesgo residual** es el que permanece después de aplicar una respuesta, y el **riesgo secundario** es el que surge como consecuencia directa de esa respuesta —externalizar, por ejemplo, reduce el riesgo de capacidad interna, pero crea dependencia del proveedor—.
 
-### Apetito de riesgo
-
-Cantidad y tipo de riesgo que una organización está dispuesta a perseguir o retener.
-
-### Tolerancia
-
-Variación aceptable alrededor de objetivos.
-
-### Umbral
-
-Nivel concreto a partir del cual se requiere acción o escalado.
-
-Las definiciones pueden variar ligeramente entre marcos, pero la idea central es distinguir disposición general, margen aceptable y límite operativo.
-
-**6.5.11. Análisis cuantitativo.**
-
-Evalúa numéricamente el efecto de la incertidumbre.
-
-Técnicas:
-
-- Valor monetario esperado.
-- Árboles de decisión.
-- Simulación Monte Carlo.
-- Análisis de sensibilidad.
-- Distribuciones de probabilidad.
-- Análisis de escenarios.
-
-No todos los proyectos requieren un análisis cuantitativo completo.
-
-En este tema se utiliza para gestionar exposición, reservas, fechas, costes y respuestas durante el proyecto. La comparación de alternativas para autorizar o priorizar proyectos corresponde al Tema 3.
-
-**6.5.12. Valor monetario esperado.**
-
-$$
-EMV = Probabilidad \times Impacto\ monetario
-$$
-
-Ejemplo:
-
-- Probabilidad de pérdida: 30 %.
-- Impacto: 50.000 euros.
-
-$$
-EMV = 0{,}30 \times (-50.000) = -15.000
-$$
-
-Para varias ramas se suman los valores ponderados.
-
-En selección de proyectos puede apoyar la comparación de alternativas; aquí interesa sobre todo para cuantificar riesgos concretos, contingencias y exposición agregada.
-
-**6.5.13. Árbol de decisión.**
-
-Representa:
-
-- Decisiones.
-- Eventos inciertos.
-- Probabilidades.
-- Costes.
-- Impactos.
-- Valores esperados.
-
-Permite comparar respuestas o caminos de actuación dentro del proyecto, pero no debe convertirse en una selección de cartera. El valor esperado no representa necesariamente el resultado que ocurrirá; es una media ponderada.
-
-**6.5.14. Simulación Monte Carlo.**
-
-Realiza múltiples iteraciones utilizando distribuciones para estimar:
-
-- Fechas.
-- Costes.
-- Probabilidad de cumplir objetivos.
-- Reservas necesarias.
-
-Puede producir resultados como:
-
-- P50: 50 % de probabilidad.
-- P80: 80 % de probabilidad.
-
-Una fecha P80 suele ser más conservadora que una P50.
-
-**6.5.15. Respuestas a amenazas.**
-
-### Evitar
-
-Eliminar la amenaza o su causa.
-
-Ejemplo: sustituir una tecnología inmadura.
-
-### Mitigar
-
-Reducir probabilidad o impacto.
-
-Ejemplo: realizar una prueba de concepto.
-
-### Transferir
-
-Trasladar la responsabilidad financiera o contractual a un tercero.
-
-Ejemplo: seguro o contrato.
-
-No elimina necesariamente el riesgo global.
-
-### Aceptar
-
-Reconocer el riesgo sin acción preventiva específica.
-
-Puede ser:
-
-- Pasiva.
-- Activa, con contingencia.
-
-### Escalar
-
-Transferir su gestión a un nivel que tenga autoridad cuando excede el ámbito del proyecto.
-
-**6.5.16. Respuestas a oportunidades.**
-
-### Explotar
-
-Asegurar que la oportunidad ocurra.
-
-### Mejorar
-
-Aumentar probabilidad o impacto positivo.
-
-### Compartir
-
-Asignarla a un tercero mejor posicionado para capturarla.
-
-### Aceptar
-
-Aprovecharla si ocurre sin acción proactiva.
-
-### Escalar
-
-Elevarla cuando excede la autoridad del proyecto.
-
-**6.5.17. Plan de contingencia y plan alternativo.**
-
-### Contingencia
-
-Acción prevista si se produce un disparador.
-
-### Plan alternativo o *fallback*
-
-Se utiliza si la respuesta principal no funciona.
-
-**6.5.18. Riesgo residual y secundario.**
-
-### Residual
-
-Permanece después de aplicar una respuesta.
-
-### Secundario
-
-Surge como consecuencia directa de una respuesta.
-
-Ejemplo: externalizar reduce riesgo de capacidad interna, pero crea dependencia del proveedor.
-
-**6.5.19. Supervisión.**
-
-Incluye:
-
-- Revisar riesgos existentes.
-- Identificar nuevos.
-- Comprobar disparadores.
-- Verificar respuestas.
-- Cerrar riesgos obsoletos.
-- Revisar reservas.
-- Analizar tendencias.
-- Escalar exposiciones.
-- Actualizar riesgo global.
-
-**6.5.20. Errores frecuentes.**
-
-- Registrar solo amenazas.
-- Confundir problema con riesgo.
-- Redactar riesgos sin causa ni efecto.
-- Asignar todos al director.
-- No financiar respuestas.
-- Considerar la transferencia como eliminación.
-- No revisar riesgos cerrados o emergentes.
-- Aplicar una matriz sin definir escalas.
-- No distinguir propietario y responsable de acción.
-- Mantener riesgos sin fecha de revisión.
+La **supervisión** cierra y reabre el ciclo continuamente: revisa los riesgos existentes, identifica nuevos, comprueba disparadores, verifica respuestas, cierra riesgos obsoletos, revisa las reservas, analiza tendencias, escala exposiciones y actualiza el riesgo global. Los errores más frecuentes en todo este proceso son registrar solo amenazas, confundir un problema con un riesgo, redactar riesgos sin causa ni efecto, asignarlos todos al director, no financiar las respuestas, considerar la transferencia como una eliminación, no revisar los riesgos cerrados o emergentes, aplicar una matriz sin definir escalas, no distinguir propietario y responsable de acción y mantener riesgos sin fecha de revisión.
 
 ---
 
 # 6.6. Control de cambios y gestión de configuración
 
-**6.6.1. Necesidad de controlar cambios.**
+Los cambios en un proyecto pueden afectar al alcance, el cronograma, el coste, la calidad, los recursos, los riesgos, la seguridad, los contratos, los beneficios y las operaciones, y precisamente por su alcance transversal no pueden gestionarse de forma improvisada. El objetivo del control de cambios no es impedir que existan, sino garantizar que se registren, se analicen, se decidan por la autoridad adecuada, se comuniquen, se implementen de forma controlada y conserven su trazabilidad. Una **solicitud de cambio** puede surgir por un nuevo requisito, un error, un riesgo materializado, un cambio normativo, una mejora, un problema técnico, una recomendación de auditoría, un cambio contractual, una necesidad de corrección o un cambio en las prioridades.
 
-Los cambios pueden afectar:
+No toda respuesta a la realidad del proyecto es igual. La **acción correctiva** realinea el desempeño futuro con el plan; la **acción preventiva** reduce la probabilidad de una desviación futura; la **reparación de defecto** corrige un producto que no cumple los requisitos; y la **actualización** modifica documentos o información del proyecto. Como criterio, no toda acción requiere modificar una línea base, pero toda modificación de una línea base debe seguir el control correspondiente.
 
-- Alcance.
-- Cronograma.
-- Coste.
-- Calidad.
-- Recursos.
-- Riesgos.
-- Seguridad.
-- Contratos.
-- Beneficios.
-- Operaciones.
+Ese control se articula en un **flujo integrado** que conviene conocer en orden: registrar la solicitud, comprobar que está suficientemente definida, clasificarla y priorizarla, analizar sus impactos, identificar alternativas, formular una recomendación, decidir, actualizar los planes y las líneas base si se aprueba, comunicar, implementar, verificar y, por último, cerrar conservando la trazabilidad. El paso decisivo es el **análisis de impacto**, que debe considerar, cuando proceda, la justificación, el valor, el alcance, el coste, la duración, los recursos, la calidad, el riesgo, la seguridad, la privacidad, la accesibilidad, los contratos, la arquitectura, las operaciones, los beneficios y la sostenibilidad. Aprobar un cambio atendiendo solo a su coste, sin mirar el resto de dimensiones, es una de las causas más habituales de decisiones equivocadas.
 
-El objetivo no es impedir cambios, sino garantizar que:
+La decisión corresponde a la **autoridad de cambio** que se haya definido, que puede recaer en un director con autoridad limitada, un patrocinador, una Junta de Proyecto, un comité de control de cambios, un responsable de producto, una autoridad técnica o un órgano de contratación, delimitada por umbrales, tipos, importes, impactos, tolerancias y requisitos regulatorios. Cuando existe, el **comité de control de cambios (CCB)** evalúa y decide los cambios dentro de su mandato, pudiendo aprobar, rechazar, aplazar, solicitar más información o escalar; eso sí, no debe convertirse en un cuello de botella para cambios menores que podrían delegarse. Todas estas decisiones quedan anotadas en el **registro de cambios**, que puede contener el identificador, el solicitante, la descripción, el motivo, la fecha, la prioridad, los impactos, las alternativas, la decisión, la autoridad, el estado, la fecha de implementación, las evidencias y los elementos afectados. Para situaciones excepcionales debe preverse un **procedimiento de cambios urgentes** con decisión acelerada, autoridad especial, implementación inmediata y revisión posterior, porque la urgencia justifica acelerar, pero nunca prescindir de la trazabilidad.
 
-- Se registran.
-- Se analizan.
-- Se deciden por la autoridad adecuada.
-- Se comunican.
-- Se implementan de forma controlada.
-- Se conserva la trazabilidad.
+Junto al control de cambios, y estrechamente relacionada con él, opera la **gestión de configuración**, que mantiene la integridad y la trazabilidad de los productos y sus elementos a lo largo de todo el ciclo de vida. Sus funciones clásicas son cinco: planificación, identificación de la configuración, control de cambios de configuración, registro o contabilidad del estado, y verificación y auditoría. El objeto sobre el que actúa es el **elemento de configuración** (*configuration item*), designado para ser gestionado bajo control —código fuente, requisitos, modelo de datos, infraestructura como código, manuales, interfaces, bibliotecas, imágenes de contenedor, esquemas de base de datos o planes de prueba—, sin que todos los archivos requieran el mismo nivel de control. La **identificación de configuración** define qué elementos se controlan, cómo se denominan, cómo se versionan, qué relaciones existen, qué atributos se registran y quién es responsable. La **línea base de configuración** es un conjunto aprobado de características de uno o varios elementos que sirve de referencia —línea base de requisitos, de diseño, de versión o configuración de producción aprobada—. El **registro del estado** informa sobre versiones, cambios propuestos, cambios aprobados, estado de implementación, elementos afectados, auditorías y desviaciones. Y la **auditoría de configuración** comprueba que el producto físico o lógico se corresponde con su documentación, que los cambios aprobados se han implementado, que no hay modificaciones no autorizadas, que la línea base es coherente y que se cumplen los requisitos.
 
-**6.6.2. Solicitud de cambio.**
-
-Puede surgir por:
-
-- Nuevo requisito.
-- Error.
-- Riesgo materializado.
-- Cambio normativo.
-- Mejora.
-- Problema técnico.
-- Recomendación de auditoría.
-- Cambio contractual.
-- Necesidad de corrección.
-- Cambio en prioridades.
-
-**6.6.3. Tipos de acción.**
-
-### Acción correctiva
-
-Realinea el desempeño futuro con el plan.
-
-### Acción preventiva
-
-Reduce la probabilidad de una desviación futura.
-
-### Reparación de defecto
-
-Corrige un producto que no cumple requisitos.
-
-### Actualización
-
-Modifica documentos o información del proyecto.
-
-No toda acción requiere modificar una línea base, pero toda modificación de línea base debe seguir el control correspondiente.
-
-**6.6.4. Flujo de control integrado.**
-
-1. Registrar la solicitud.
-2. Comprobar que está suficientemente definida.
-3. Clasificar y priorizar.
-4. Analizar impactos.
-5. Identificar alternativas.
-6. Formular recomendación.
-7. Decidir.
-8. Actualizar planes y líneas base si se aprueba.
-9. Comunicar.
-10. Implementar.
-11. Verificar.
-12. Cerrar y conservar trazabilidad.
-
-**6.6.5. Análisis de impacto.**
-
-Debe considerar, cuando proceda:
-
-- Justificación.
-- Valor.
-- Alcance.
-- Coste.
-- Duración.
-- Recursos.
-- Calidad.
-- Riesgo.
-- Seguridad.
-- Privacidad.
-- Accesibilidad.
-- Contratos.
-- Arquitectura.
-- Operaciones.
-- Beneficios.
-- Sostenibilidad.
-
-Aprobar un cambio atendiendo solo a su coste puede producir una decisión incorrecta.
-
-**6.6.6. Autoridad de cambio.**
-
-Puede existir:
-
-- Director con autoridad limitada.
-- Patrocinador.
-- Junta de Proyecto.
-- Comité de control de cambios.
-- Responsable de producto.
-- Autoridad técnica.
-- Órgano de contratación.
-
-La autoridad debe definirse mediante:
-
-- Umbrales.
-- Tipos.
-- Importes.
-- Impactos.
-- Tolerancias.
-- Requisitos regulatorios.
-
-**6.6.7. Comité de control de cambios.**
-
-El **CCB** evalúa y decide cambios dentro de su mandato.
-
-Puede:
-
-- Aprobar.
-- Rechazar.
-- Aplazar.
-- Solicitar información.
-- Escalar.
-
-No debe convertirse en un cuello de botella para cambios menores delegables.
-
-**6.6.8. Registro de cambios.**
-
-Puede contener:
-
-- Identificador.
-- Solicitante.
-- Descripción.
-- Motivo.
-- Fecha.
-- Prioridad.
-- Impactos.
-- Alternativas.
-- Decisión.
-- Autoridad.
-- Estado.
-- Fecha de implementación.
-- Evidencias.
-- Elementos afectados.
-
-**6.6.9. Cambios urgentes.**
-
-Debe existir un procedimiento para emergencias.
-
-Puede permitir:
-
-- Decisión acelerada.
-- Autoridad especial.
-- Implementación urgente.
-- Revisión posterior.
-
-Urgencia no significa ausencia de trazabilidad.
-
-**6.6.10. Gestión de configuración.**
-
-La gestión de configuración mantiene la integridad y trazabilidad de productos y elementos a lo largo de su ciclo de vida.
-
-Funciones clásicas:
-
-1. Planificación.
-2. Identificación de configuración.
-3. Control de cambios de configuración.
-4. Registro o contabilidad del estado.
-5. Verificación y auditoría.
-
-**6.6.11. Elemento de configuración.**
-
-Un **configuration item** es un elemento designado para ser gestionado bajo control de configuración.
-
-Ejemplos:
-
-- Código fuente.
-- Requisitos.
-- Modelo de datos.
-- Infraestructura como código.
-- Manual.
-- Interfaz.
-- Biblioteca.
-- Imagen de contenedor.
-- Esquema de base de datos.
-- Plan de pruebas.
-
-No todos los archivos requieren el mismo nivel de control.
-
-**6.6.12. Identificación de configuración.**
-
-Define:
-
-- Qué elementos se controlan.
-- Cómo se denominan.
-- Cómo se versionan.
-- Qué relaciones existen.
-- Qué atributos se registran.
-- Quién es responsable.
-
-**6.6.13. Línea base de configuración.**
-
-Conjunto aprobado de características de uno o varios elementos que sirve como referencia.
-
-Ejemplos:
-
-- Línea base de requisitos.
-- Línea base de diseño.
-- Línea base de versión.
-- Configuración de producción aprobada.
-
-**6.6.14. Registro del estado.**
-
-Proporciona información sobre:
-
-- Versiones.
-- Cambios propuestos.
-- Cambios aprobados.
-- Estado de implementación.
-- Elementos afectados.
-- Auditorías.
-- Desviaciones.
-
-**6.6.15. Auditoría de configuración.**
-
-Comprueba que:
-
-- El producto físico o lógico corresponde con su documentación.
-- Los cambios aprobados se han implementado.
-- No existen modificaciones no autorizadas.
-- La línea base es coherente.
-- Se cumplen requisitos.
-
-**6.6.16. Control de versiones.**
-
-Gestiona variantes y evolución de artefactos.
-
-Ejemplos:
-
-- Historial.
-- Ramas.
-- Etiquetas.
-- Fusiones.
-- Reversiones.
-
-El control de versiones es una herramienta importante, pero no equivale a toda la gestión de configuración, que también incluye identificación, autoridad, estado y auditoría.
-
-**6.6.17. Cambio frente a configuración.**
+Un matiz habitualmente preguntado es la relación entre control de versiones y gestión de configuración. El **control de versiones** gestiona variantes y evolución de artefactos mediante historial, ramas, etiquetas, fusiones y reversiones; es una herramienta importante, pero no equivale a toda la gestión de configuración, que además incluye la identificación, la autoridad, el estado y la auditoría. La distinción de fondo con el control de cambios puede resumirse así:
 
 | Control de cambios | Gestión de configuración |
 |---|---|
@@ -1504,748 +260,97 @@ El control de versiones es una herramienta importante, pero no equivale a toda l
 | Utiliza autoridad de aprobación | Registra estado |
 | Puede afectar planes y productos | Audita correspondencia entre producto y documentación |
 
-Ambas disciplinas se relacionan.
+En el ámbito TIC, la gestión de configuración se integra con repositorios, revisiones de código, integración continua, despliegue automatizado, gestión de paquetes, catálogo de activos, CMDB, infraestructura como código, gestión de secretos y control de entornos. La automatización reduce errores, pero exige controles de acceso, revisión y auditoría para no trasladar a gran velocidad configuraciones incorrectas.
 
-**6.6.18. Gestión de configuración en TIC.**
-
-Puede integrarse con:
-
-- Repositorios.
-- Revisiones de código.
-- Integración continua.
-- Despliegue automatizado.
-- Gestión de paquetes.
-- Catálogo de activos.
-- CMDB.
-- Infraestructura como código.
-- Gestión de secretos.
-- Control de entornos.
-
-La automatización reduce errores, pero requiere controles de acceso, revisión y auditoría.
+> **Clave de test:** el control de cambios *decide* sobre una modificación (¿se hace o no?); la gestión de configuración *conserva la integridad y el estado* de los elementos (¿qué versión hay, coincide con su documentación?). Y el control de versiones es solo una pieza de la gestión de configuración, no su equivalente.
 
 ---
 
 # 6.7. Gestión del valor ganado
 
-**6.7.1. Concepto.**
+La **gestión del valor ganado** integra alcance, cronograma y coste en un único marco de medición: compara el valor presupuestado del trabajo realmente realizado con el trabajo que debía haberse realizado y con el coste real incurrido, y a partir de esa comparación permite evaluar el desempeño y elaborar previsiones. Es fundamental delimitar qué mide y qué no mide. El EVM mide la ejecución frente a una línea base aprobada; no mide por sí solo la rentabilidad, el valor público, la satisfacción de los usuarios ni la conveniencia estratégica del proyecto. Un proyecto puede ir impecable en sus índices de valor ganado y, aun así, no merecer la pena.
 
-La gestión del valor ganado integra:
+Para que las fórmulas signifiquen algo, el EVM exige una serie de requisitos previos: alcance definido, WBS, responsabilidades asignadas, cronograma lógico, presupuesto distribuido, línea base de medición, reglas objetivas de avance, fecha de estado, datos reales fiables y control de cambios. Sin estas bases, las mismas fórmulas producen resultados engañosos con apariencia de rigor.
 
-- Alcance.
-- Cronograma.
-- Coste.
+El método se construye sobre cuatro magnitudes básicas. El **valor planificado (PV)** es el presupuesto autorizado del trabajo que debía haberse completado a la fecha de estado. El **valor ganado (EV)** es el presupuesto autorizado del trabajo realmente completado —conviene insistir en que no es ni ingreso ni coste real, sino presupuesto asociado a lo hecho—. El **coste real (AC)** es el coste efectivamente incurrido por el trabajo realizado. Y el **presupuesto a la conclusión (BAC)** es el presupuesto total autorizado del trabajo.
 
-Compara el valor presupuestado del trabajo realizado con:
-
-- El trabajo que debía haberse realizado.
-- El coste real incurrido.
-
-Permite evaluar desempeño y elaborar previsiones.
-
-Mide ejecución frente a una línea base aprobada. No mide por sí sola rentabilidad, valor público, satisfacción de usuarios ni conveniencia estratégica del proyecto.
-
-**6.7.2. Requisitos previos.**
-
-EVM requiere:
-
-- Alcance definido.
-- WBS.
-- Responsabilidades.
-- Cronograma lógico.
-- Presupuesto distribuido.
-- Línea base de medición.
-- Reglas objetivas de avance.
-- Fecha de estado.
-- Datos reales fiables.
-- Control de cambios.
-
-Sin estas bases, las fórmulas producen resultados engañosos.
-
-**6.7.3. Conceptos fundamentales.**
-
-### Valor planificado — PV
-
-Presupuesto autorizado del trabajo que debía haberse completado a la fecha de estado.
-
-### Valor ganado — EV
-
-Presupuesto autorizado del trabajo realmente completado.
-
-No es ingreso ni coste real.
-
-### Coste real — AC
-
-Coste incurrido por el trabajo realizado.
-
-### Presupuesto a la conclusión — BAC
-
-Presupuesto total autorizado del trabajo.
-
-**6.7.4. Variación de coste.**
+A partir de estas magnitudes se calculan las variaciones y los índices. La **variación de coste** compara el valor ganado con el coste real, y es favorable cuando es positiva, ajustada al presupuesto cuando es nula y desfavorable cuando es negativa. La **variación del cronograma** compara el valor ganado con el planificado: si es positiva, se ha ganado más valor del previsto; si es nula, se va conforme al plan; si es negativa, se ha ganado menos valor del planificado.
 
 $$
-CV = EV - AC
+CV = EV - AC \qquad SV = EV - PV
 $$
 
-Interpretación:
+> **Trampa:** la SV se expresa en unidades monetarias o presupuestarias, no en días. Una SV negativa indica que se ha ganado menos valor del planificado, pero no dice directamente cuántos días de retraso se acumulan.
 
-- CV > 0: favorable.
-- CV = 0: según presupuesto.
-- CV < 0: desfavorable.
-
-**6.7.5. Variación del cronograma.**
+Los mismos datos, expresados como cocientes, dan los dos índices de eficiencia. El **índice de rendimiento de costes (CPI)** relaciona el valor ganado con el coste real: por encima de 1 la eficiencia es favorable, en 1 es conforme y por debajo de 1 es desfavorable. Un CPI de 0,80 significa que por cada euro gastado se obtienen 0,80 euros de valor presupuestado. El **índice de rendimiento del cronograma (SPI)** relaciona el valor ganado con el planificado, con la misma lectura respecto a 1, aunque no debe traducirse automáticamente como porcentaje exacto de retraso temporal.
 
 $$
-SV = EV - PV
+CPI = \frac{EV}{AC} \qquad SPI = \frac{EV}{PV}
 $$
 
-Interpretación:
+Con el valor ganado y el presupuesto total puede aproximarse además el porcentaje completado, $\% = (EV / BAC) \times 100$, siempre que el EV se mida de forma objetiva.
 
-- SV > 0: se ha ganado más valor del planificado.
-- SV = 0: conforme al plan.
-- SV < 0: se ha ganado menos valor del previsto.
-
-> **Trampa:** SV se expresa en unidades monetarias o presupuestarias, no en días. No indica directamente cuántos días de retraso existen.
-
-**6.7.6. Índice de rendimiento de costes.**
+La verdadera potencia del EVM está en la **previsión**. La **estimación a la conclusión (EAC)** proyecta el coste final total y adopta una fórmula distinta según la hipótesis que se asuma sobre el trabajo restante. Si se supone que ese trabajo restante se ejecutará según el presupuesto original, se suma al coste ya incurrido el presupuesto pendiente. Si se supone que continuará la eficiencia de costes actual, el presupuesto pendiente se corrige dividiéndolo entre el CPI, lo que equivale —cuando se aplica el mismo CPI a todo el proyecto— a dividir directamente el BAC entre el CPI. Si se supone que tanto los costes como el cronograma influirán en el trabajo restante, se corrige por el producto de ambos índices. Y si se realiza una nueva estimación ascendente del trabajo pendiente, se suma esa estimación al coste incurrido.
 
 $$
-CPI = \frac{EV}{AC}
+EAC_{1} = AC + (BAC - EV) \qquad EAC_{2} = AC + \frac{BAC - EV}{CPI} = \frac{BAC}{CPI}
 $$
 
-Interpretación:
-
-- CPI > 1: eficiencia favorable.
-- CPI = 1: conforme.
-- CPI < 1: eficiencia desfavorable.
-
-Ejemplo: CPI = 0,80 significa que por cada euro gastado se obtiene 0,80 euros de valor presupuestado.
-
-**6.7.7. Índice de rendimiento del cronograma.**
-
 $$
-SPI = \frac{EV}{PV}
+EAC_{3} = AC + \frac{BAC - EV}{CPI \times SPI} \qquad EAC_{4} = AC + ETC_{\text{ascendente}}
 $$
 
-Interpretación:
-
-- SPI > 1: rendimiento favorable.
-- SPI = 1: conforme.
-- SPI < 1: rendimiento desfavorable.
-
-No debe traducirse automáticamente como porcentaje exacto de retraso temporal.
-
-**6.7.8. Porcentaje completado según EVM.**
-
-Una aproximación es:
+La regla de oro es que la fórmula se elige según la hipótesis que mejor describe el proyecto, no por conveniencia del resultado. De la EAC se derivan otras dos magnitudes: la **estimación para completar (ETC)**, que es el coste previsto del trabajo restante ($ETC = EAC - AC$), y la **variación a la conclusión (VAC)**, que compara el presupuesto con la previsión y es positiva cuando se prevé terminar por debajo del presupuesto y negativa cuando se anticipa sobrecoste ($VAC = BAC - EAC$).
 
 $$
-\%\ completado = \frac{EV}{BAC} \times 100
+ETC = EAC - AC \qquad VAC = BAC - EAC
 $$
 
-Depende de que EV se mida de forma objetiva.
-
-**6.7.9. Estimación a la conclusión.**
-
-### Caso 1: el trabajo restante se realizará según presupuesto original
+Cierra el cuadro el **índice de desempeño para completar (TCPI)**, que mide la eficiencia que exigiría el trabajo restante para alcanzar un objetivo. Para cumplir el BAC se relaciona el trabajo pendiente con el presupuesto restante, y para cumplir una EAC aprobada se relaciona con los fondos restantes según esa EAC. Un TCPI notablemente superior a la eficiencia actual es una señal de que el objetivo puede ser poco realista.
 
 $$
-EAC = AC + (BAC - EV)
+TCPI_{BAC} = \frac{BAC - EV}{BAC - AC} \qquad TCPI_{EAC} = \frac{BAC - EV}{EAC - AC}
 $$
 
-### Caso 2: continuará la eficiencia de costes actual
+Un **ejercicio integrado** muestra cómo encajan todas las piezas. Con BAC = 100.000 €, PV = 50.000 €, EV = 40.000 € y AC = 45.000 €, la variación de coste es $CV = 40.000 - 45.000 = -5.000$ (hay sobrecoste respecto al valor producido) y la del cronograma $SV = 40.000 - 50.000 = -10.000$ (se ha completado menos trabajo presupuestado del previsto). Los índices son $CPI = 40.000 / 45.000 = 0{,}89$ y $SPI = 40.000 / 50.000 = 0{,}80$. Si se supone que continúa la eficiencia de costes, $EAC = 100.000 / 0{,}89 \approx 112.500$, de donde $ETC = 112.500 - 45.000 = 67.500$ y $VAC = 100.000 - 112.500 = -12.500$. Finalmente, la eficiencia necesaria para cumplir aún el presupuesto es $TCPI_{BAC} = (100.000 - 40.000)/(100.000 - 45.000) = 60.000 / 55.000 \approx 1{,}09$: el trabajo restante tendría que ejecutarse con una eficiencia de 1,09, superior al 0,89 observado, lo que hace que cumplir el BAC resulte exigente.
 
-$$
-EAC = AC + \frac{BAC - EV}{CPI}
-$$
+La fiabilidad de estos cálculos depende de cómo se mida el valor ganado, y para ello existen varias **técnicas**. La regla **0/100** no reconoce valor hasta terminar la tarea: es objetiva y adecuada para tareas cortas, aunque oculta el avance intermedio. La regla **50/50** reconoce el 50 % al iniciar y el 50 % al terminar: es simple, pero puede distorsionar si las tareas son largas. Los **hitos ponderados** asignan valor a hitos verificables; el **porcentaje físico completado** mide el avance real mediante unidades objetivas; el **esfuerzo prorrateado** hace depender el valor de otro trabajo medible; y el **nivel de esfuerzo** se reserva para actividades de soporte cuyo avance se distribuye con el tiempo, sin que deba usarse para disimular retrasos en productos discretos. Todas estas mediciones se calculan sobre la **línea base de medición del desempeño**, que integra alcance, cronograma y presupuesto, excluye normalmente la reserva de gestión y sirve para calcular el PV y el EV.
 
-Cuando se aplica el mismo CPI a todo el proyecto:
-
-$$
-EAC = \frac{BAC}{CPI}
-$$
-
-### Caso 3: costes y cronograma influirán en el trabajo restante
-
-$$
-EAC = AC + \frac{BAC - EV}{CPI \times SPI}
-$$
-
-### Caso 4: nueva estimación ascendente
-
-$$
-EAC = AC + ETC_{ascendente}
-$$
-
-La fórmula debe seleccionarse según la hipótesis, no por conveniencia.
-
-**6.7.10. Estimación para completar.**
-
-$$
-ETC = EAC - AC
-$$
-
-Representa el coste previsto del trabajo restante.
-
-**6.7.11. Variación a la conclusión.**
-
-$$
-VAC = BAC - EAC
-$$
-
-- VAC > 0: previsión por debajo del presupuesto.
-- VAC < 0: previsión de sobrecoste.
-
-**6.7.12. Índice de desempeño para completar.**
-
-Mide la eficiencia necesaria en el trabajo restante.
-
-### Para cumplir BAC
-
-$$
-TCPI_{BAC} = \frac{BAC - EV}{BAC - AC}
-$$
-
-### Para cumplir un EAC aprobado
-
-$$
-TCPI_{EAC} = \frac{BAC - EV}{EAC - AC}
-$$
-
-Un TCPI elevado puede indicar que el objetivo es poco realista.
-
-**6.7.13. Ejercicio integrado.**
-
-Datos:
-
-- BAC = 100.000 €.
-- PV = 50.000 €.
-- EV = 40.000 €.
-- AC = 45.000 €.
-
-### Variación de coste
-
-$$
-CV = 40.000 - 45.000 = -5.000
-$$
-
-Existe sobrecoste respecto al valor producido.
-
-### Variación de cronograma
-
-$$
-SV = 40.000 - 50.000 = -10.000
-$$
-
-Se ha completado menos trabajo presupuestado del previsto.
-
-### CPI
-
-$$
-CPI = \frac{40.000}{45.000} = 0{,}89
-$$
-
-### SPI
-
-$$
-SPI = \frac{40.000}{50.000} = 0{,}80
-$$
-
-### EAC si continúa CPI
-
-$$
-EAC = \frac{100.000}{0{,}89} \approx 112.500
-$$
-
-### ETC
-
-$$
-ETC = 112.500 - 45.000 = 67.500
-$$
-
-### VAC
-
-$$
-VAC = 100.000 - 112.500 = -12.500
-$$
-
-### TCPI para cumplir BAC
-
-$$
-TCPI_{BAC} = \frac{100.000 - 40.000}{100.000 - 45.000}
-= \frac{60.000}{55.000}
-\approx 1{,}09
-$$
-
-El trabajo restante tendría que ejecutarse con una eficiencia de 1,09, superior a la eficiencia actual de 0,89. Cumplir BAC parece exigente.
-
-**6.7.14. Técnicas para medir EV.**
-
-### 0/100
-
-No se gana valor hasta terminar.
-
-- Objetiva.
-- Adecuada para tareas cortas.
-- Puede ocultar avance intermedio.
-
-### 50/50
-
-Se reconoce 50 % al iniciar y 50 % al terminar.
-
-- Simple.
-- Puede distorsionar si las tareas son largas.
-
-### Hitos ponderados
-
-Se asigna valor a hitos verificables.
-
-### Porcentaje físico completado
-
-Se mide avance real mediante unidades objetivas.
-
-### Esfuerzo prorrateado
-
-El valor depende de otro trabajo medible.
-
-### Nivel de esfuerzo
-
-Para actividades de soporte cuyo avance se distribuye con el tiempo.
-
-No es adecuado usar nivel de esfuerzo para ocultar retrasos en productos discretos.
-
-**6.7.15. Línea base de medición del desempeño.**
-
-Integra:
-
-- Alcance.
-- Cronograma.
-- Presupuesto.
-
-Excluye normalmente la reserva de gestión.
-
-Sirve para calcular PV y EV.
-
-**6.7.16. Limitaciones.**
-
-- EV puede estar mal medido.
-- Completar trabajo no garantiza calidad.
-- SV no expresa tiempo.
-- SPI tiende a 1 al finalizar porque PV y EV alcanzan BAC.
-- EVM tradicional puede ocultar problemas de camino crítico.
-- Los datos dependen de una línea base realista.
-- Un cambio no controlado invalida comparaciones.
-- EVM no sustituye análisis de riesgos ni previsión de fechas.
-- EVM no demuestra que el proyecto siga siendo conveniente o valioso; esa evaluación exige criterios de negocio, servicio público y beneficios.
-
-**6.7.17. Earned Schedule.**
-
-Es una extensión que expresa desempeño temporal utilizando unidades de tiempo.
-
-Puede resultar útil porque la SV tradicional se expresa en valor y pierde capacidad de señal al final.
-
-No forma parte imprescindible del cálculo básico exigible, pero conviene reconocer su finalidad.
+El EVM tiene también **limitaciones** que hay que reconocer. El EV puede estar mal medido; completar trabajo no garantiza su calidad; la SV no expresa tiempo; el SPI tiende a 1 al finalizar porque tanto el PV como el EV alcanzan el BAC, perdiendo capacidad de señal; el EVM tradicional puede ocultar problemas de camino crítico; los datos dependen de una línea base realista; un cambio no controlado invalida las comparaciones; y, en conjunto, el EVM no sustituye al análisis de riesgos ni a la previsión de fechas, ni demuestra que el proyecto siga siendo conveniente o valioso, evaluación que exige criterios de negocio, de servicio público y de beneficios. Para paliar la debilidad de la SV al final del proyecto existe la extensión del **Earned Schedule**, que expresa el desempeño temporal en unidades de tiempo en lugar de valor; no forma parte imprescindible del cálculo básico exigible —de hecho, la segunda edición del estándar internacional de EVM, ISO 21508:2026, ya la incorpora como contenido—, pero conviene reconocer su finalidad.
 
 ---
 
 # 6.8. Herramientas colaborativas
 
-**6.8.1. Finalidad.**
+Las herramientas colaborativas deben apoyar los procesos y las decisiones, nunca sustituirlos: una buena aplicación no arregla un proceso mal diseñado. Las categorías habituales cubren la gestión de tareas, los tableros Kanban, los cronogramas, la documentación, la comunicación, la videoconferencia, los repositorios, el control de versiones, la gestión de requisitos, la gestión de pruebas, la gestión de riesgos, el registro de cambios, la automatización, los informes, la gestión documental y el seguimiento de incidencias.
 
-Las herramientas deben apoyar procesos y decisiones, no sustituirlos.
+El primer principio de gobierno es la **fuente única de verdad**: debe quedar claro dónde reside la información oficial. Sin esta regla proliferan versiones contradictorias, decisiones perdidas, duplicidades, datos obsoletos y confusión sobre las prioridades. No toda la información tiene que vivir en una sola aplicación, pero sí deben estar claras la autoridad del dato, las integraciones, los propietarios, la ubicación oficial y las reglas de actualización. En proyectos TIC es habitual, además, pasar de herramientas aisladas a **ecosistemas integrados** en los que repositorios, sistemas de incidencias, tableros, documentación, CI/CD, pruebas, riesgos, informes y gestión documental intercambian información mediante API, conectores o automatizaciones. Esa integración reduce el doble registro y mejora la trazabilidad, pero introduce dependencias, de modo que deben quedar definidos la fuente oficial, el flujo entre sistemas, la autoridad de cada dato, la sincronización, el tratamiento de errores, la exportación y la salida del proveedor.
 
-Categorías habituales:
+Elegir una herramienta implica sopesar su adecuación al proceso, la facilidad de uso, la integración, la escalabilidad, el coste, la accesibilidad, la disponibilidad, la seguridad, la privacidad, la residencia de datos, la trazabilidad, la auditoría, la exportación, la interoperabilidad, el soporte, la dependencia del proveedor y la automatización. Sobre el acceso rige el principio de **mínimo privilegio**, controlando de forma diferenciada la lectura, la edición, la aprobación, la administración, la exportación, la eliminación, el acceso externo y la información confidencial. En el terreno técnico, los repositorios y el control de versiones enlazan el repositorio de código, el repositorio documental, el registro de requisitos, el sistema de incidencias, el catálogo de artefactos, los entornos, los *pipelines* y los despliegues, y esas relaciones permiten la trazabilidad desde el requisito hasta la versión y la prueba.
 
-- Gestión de tareas.
-- Tableros Kanban.
-- Cronogramas.
-- Documentación.
-- Comunicación.
-- Videoconferencia.
-- Repositorios.
-- Control de versiones.
-- Gestión de requisitos.
-- Gestión de pruebas.
-- Gestión de riesgos.
-- Registro de cambios.
-- Automatización.
-- Informes.
-- Gestión documental.
-- Seguimiento de incidencias.
+La **automatización** de la que se ocupa este tema es la operativa —actualización de estados, notificaciones, validaciones, generación de informes, integración continua, pruebas automáticas, despliegues y recopilación de métricas—; la automatización basada en IA, la analítica avanzada o la dirección predictiva de proyectos se estudian como tendencia en el Tema 7. Automatizar bien exige vigilar sus riesgos: automatizar un proceso defectuoso, el exceso de notificaciones, la falta de supervisión, las dependencias ocultas, los permisos excesivos y las métricas sin contexto.
 
-**6.8.2. Fuente única de verdad.**
+La comunicación combina dos modos complementarios. La **comunicación síncrona** —reuniones, llamadas, talleres— es útil para el debate, la resolución y la construcción de acuerdos. La **comunicación asíncrona** —documentos, comentarios, mensajería, grabaciones, tableros— es útil para equipos distribuidos, para la trazabilidad, para la reflexión y para salvar diferencias horarias. Sea cual sea el canal, una decisión importante debe registrarse aunque se haya tomado en una conversación síncrona. En esa línea, la **información radiada** —un tablero visible— permite conocer rápidamente el estado, los bloqueos, los riesgos, el flujo, las prioridades y los objetivos, siempre que presente información actualizada, comprensible, relevante y accionable.
 
-Debe definirse dónde reside la información oficial.
-
-Sin esta regla aparecen:
-
-- Versiones contradictorias.
-- Decisiones perdidas.
-- Duplicidades.
-- Datos obsoletos.
-- Confusión sobre prioridades.
-
-No toda información debe estar en una única aplicación, pero sí deben estar claras:
-
-- Autoridad.
-- Integraciones.
-- Propietarios.
-- Ubicación oficial.
-- Reglas de actualización.
-
-**6.8.3. Plataformas integradas e interoperabilidad.**
-
-En proyectos TIC es habitual pasar de herramientas aisladas a ecosistemas conectados: repositorios, sistemas de incidencias, tableros, documentación, CI/CD, pruebas, riesgos, informes y gestión documental pueden intercambiar información mediante API, conectores o automatizaciones.
-
-La integración reduce doble registro y mejora trazabilidad, pero también introduce dependencias. Deben quedar claros la fuente oficial, el flujo entre sistemas, la autoridad de cada dato, la sincronización, los errores, la exportación y la salida del proveedor.
-
-**6.8.4. Criterios de selección.**
-
-- Adecuación al proceso.
-- Facilidad de uso.
-- Integración.
-- Escalabilidad.
-- Coste.
-- Accesibilidad.
-- Disponibilidad.
-- Seguridad.
-- Privacidad.
-- Residencia de datos.
-- Trazabilidad.
-- Auditoría.
-- Exportación.
-- Interoperabilidad.
-- Soporte.
-- Dependencia del proveedor.
-- Automatización.
-
-**6.8.5. Permisos.**
-
-Debe aplicarse el principio de mínimo privilegio.
-
-Se deben controlar:
-
-- Lectura.
-- Edición.
-- Aprobación.
-- Administración.
-- Exportación.
-- Eliminación.
-- Acceso externo.
-- Información confidencial.
-
-**6.8.6. Repositorios y control de versiones.**
-
-En proyectos TIC pueden relacionarse:
-
-- Repositorio de código.
-- Repositorio documental.
-- Registro de requisitos.
-- Sistema de incidencias.
-- Catálogo de artefactos.
-- Entornos.
-- Pipelines.
-- Despliegues.
-
-Las relaciones permiten trazabilidad desde requisito hasta versión y prueba.
-
-**6.8.7. Automatización.**
-
-Aquí se trata la automatización operativa de herramientas y flujos de trabajo. La automatización basada en IA, analítica avanzada o dirección predictiva de proyectos se estudia como tendencia en el Tema 7.
-
-Ejemplos:
-
-- Actualización de estados.
-- Notificaciones.
-- Validaciones.
-- Generación de informes.
-- Integración continua.
-- Pruebas automáticas.
-- Despliegues.
-- Recopilación de métricas.
-
-Riesgos:
-
-- Automatizar un proceso defectuoso.
-- Exceso de notificaciones.
-- Falta de supervisión.
-- Dependencias ocultas.
-- Permisos excesivos.
-- Métricas sin contexto.
-
-**6.8.8. Comunicación síncrona y asíncrona.**
-
-### Síncrona
-
-- Reuniones.
-- Llamadas.
-- Talleres.
-
-Útil para:
-
-- Debate.
-- Resolución.
-- Construcción de acuerdos.
-
-### Asíncrona
-
-- Documentos.
-- Comentarios.
-- Mensajería.
-- Grabaciones.
-- Tableros.
-
-Útil para:
-
-- Equipos distribuidos.
-- Trazabilidad.
-- Reflexión.
-- Diferencias horarias.
-
-La decisión importante debe registrarse aunque se haya tomado en una conversación síncrona.
-
-**6.8.9. Información radiada.**
-
-Un tablero visible permite conocer rápidamente:
-
-- Estado.
-- Bloqueos.
-- Riesgos.
-- Flujo.
-- Prioridades.
-- Objetivos.
-
-Debe presentar información:
-
-- Actualizada.
-- Comprensible.
-- Relevante.
-- Accionable.
-
-**6.8.10. Riesgos de las herramientas.**
-
-- Fragmentación.
-- Sobrecarga.
-- Doble registro.
-- Datos incompletos.
-- Métricas manipuladas.
-- Dependencia tecnológica.
-- Pérdida de información.
-- Acceso no autorizado.
-- Confusión entre actividad digital y progreso real.
+Por último, las herramientas comportan riesgos propios que conviene tener presentes: la fragmentación, la sobrecarga, el doble registro, los datos incompletos, las métricas manipuladas, la dependencia tecnológica, la pérdida de información, el acceso no autorizado y, muy especialmente, la confusión entre actividad digital y progreso real.
 
 ---
 
 # 6.9. Informes y seguimiento
 
-**6.9.1. Finalidad del seguimiento.**
+El seguimiento existe para tomar decisiones, no para narrar el pasado. Proporciona información para comprender la situación, compararla con el plan, prever resultados, identificar tendencias, adoptar acciones, escalar decisiones, mantener la confianza y aprender; si un informe se limita a describir lo ya ocurrido, no cumple su función. Un requisito de rigor previo es la **fecha de estado**, el punto temporal hasta el que se han actualizado los datos: un informe debe aclarar su fecha de corte, el periodo cubierto, la fecha de emisión y la fuente de los datos, porque comparar datos de fechas distintas conduce a conclusiones erróneas.
 
-El seguimiento proporciona información para:
+El **contenido de un informe de estado** puede incluir un resumen ejecutivo, el estado general, los logros del periodo, los próximos hitos y el detalle de alcance, cronograma, coste, calidad, riesgos, incidencias, cambios, dependencias, decisiones, acciones, previsión y necesidades de escalado. Una forma muy extendida de sintetizar el estado es el **semáforo RAG**: verde para lo que está dentro de límites, ámbar para el riesgo o la desviación que requiere atención y rojo para el incumplimiento relevante o la decisión urgente. Los criterios de cada color deben definirse: un color sin regla objetiva detrás puede ocultar problemas en lugar de revelarlos.
 
-- Comprender situación.
-- Comparar con plan.
-- Prever resultados.
-- Identificar tendencias.
-- Adoptar acciones.
-- Escalar decisiones.
-- Mantener confianza.
-- Aprender.
+En el marco de PRINCE2 existen informes con destinatarios definidos. El **informe de punto de control** va del Responsable de Equipo al Director del Proyecto; el **informe de aspectos destacados** (*highlight report*), del Director a la Junta de Proyecto; el **informe de excepción** se emite cuando se prevé superar las tolerancias; el **informe final de etapa** evalúa la etapa y facilita la autorización de la siguiente; y el **informe final de proyecto** resume el desempeño, la aceptación, los pendientes y el cierre.
 
-No debe limitarse a describir el pasado.
+La calidad del seguimiento depende también de elegir bien las métricas. Los **indicadores adelantados** ayudan a anticipar resultados —tendencia de defectos, trabajo bloqueado, riesgos sin respuesta, revisiones pendientes, cobertura de pruebas, variabilidad de flujo—, mientras que los **atrasados** muestran resultados ya ocurridos —coste real, retraso acumulado, defectos en producción, beneficios logrados, entregas completadas—; un buen sistema combina ambos. Frente a ellos, las **métricas de vanidad** parecen positivas pero aportan poca información para decidir —número de reuniones, horas trabajadas, líneas de código, número de correos, tareas creadas o puntos completados sin contexto—, y por eso toda métrica debe relacionarse con objetivos y con el comportamiento que se desea fomentar.
 
-**6.9.2. Fecha de estado.**
+En entornos de flujo se emplean métricas específicas: el **trabajo en curso (WIP)** cuenta los elementos iniciados y no terminados; el **tiempo de ciclo** mide desde que se empieza a trabajar en un elemento hasta que termina; el **tiempo de entrega** (*lead time*) mide desde la solicitud hasta la entrega; el **rendimiento** (*throughput*) cuenta los elementos completados por unidad de tiempo; y el **diagrama de flujo acumulado** muestra la acumulación por estados y ayuda a detectar cuellos de botella. En el seguimiento ágil, además, conviene distinguir el **burndown**, que muestra el trabajo restante y puede ocultar cambios de alcance, del **burnup**, que muestra el trabajo completado junto al alcance total y por tanto hace visibles esos cambios. La **velocidad** —cantidad de trabajo relativo completado por un equipo en una iteración— puede ayudar a prever la capacidad del mismo equipo, pero no debe usarse de forma directa para comparar equipos, evaluar a individuos, incentivar el aumento de puntos ni medir el valor.
 
-La fecha de estado es el punto temporal hasta el que se han actualizado los datos.
+Dos registros complementan los informes. El **registro de acciones** debe recoger la acción, el responsable, la fecha objetivo, el estado, la dependencia y la evidencia de cierre; el **registro de decisiones**, la decisión, la fecha, la autoridad, el contexto, las alternativas y las consecuencias. Todo ello se apoya en la **calidad de los datos**, que deben ser completos, oportunos, coherentes, trazables, comprensibles y verificables: un *dashboard* visualmente atractivo no compensa unos datos poco fiables.
 
-Un informe debe aclarar:
-
-- Fecha de corte.
-- Periodo cubierto.
-- Fecha de emisión.
-- Fuente de datos.
-
-Comparar datos de fechas distintas puede generar conclusiones erróneas.
-
-**6.9.3. Contenido de un informe de estado.**
-
-Puede incluir:
-
-- Resumen ejecutivo.
-- Estado general.
-- Logros del periodo.
-- Próximos hitos.
-- Alcance.
-- Cronograma.
-- Coste.
-- Calidad.
-- Riesgos.
-- Incidencias.
-- Cambios.
-- Dependencias.
-- Decisiones.
-- Acciones.
-- Previsión.
-- Necesidades de escalado.
-
-**6.9.4. Semáforo RAG.**
-
-- **Verde:** dentro de límites.
-- **Ámbar:** riesgo o desviación que requiere atención.
-- **Rojo:** incumplimiento relevante o decisión urgente.
-
-Los criterios deben definirse. Un color sin regla objetiva puede ocultar problemas.
-
-**6.9.5. Informes según PRINCE2.**
-
-### Informe de punto de control
-
-Del Responsable de Equipo al Director del Proyecto.
-
-### Informe de aspectos destacados
-
-Del Director a la Junta de Proyecto.
-
-### Informe de excepción
-
-Cuando se prevé superar tolerancias.
-
-### Informe final de etapa
-
-Evalúa la etapa y facilita la autorización de la siguiente.
-
-### Informe final de proyecto
-
-Resume desempeño, aceptación, pendientes y cierre.
-
-**6.9.6. Indicadores adelantados y atrasados.**
-
-### Adelantados
-
-Ayudan a anticipar resultados.
-
-Ejemplos:
-
-- Tendencia de defectos.
-- Trabajo bloqueado.
-- Riesgos sin respuesta.
-- Revisiones pendientes.
-- Cobertura de pruebas.
-- Variabilidad de flujo.
-
-### Atrasados
-
-Muestran resultados ya ocurridos.
-
-Ejemplos:
-
-- Coste real.
-- Retraso acumulado.
-- Defectos en producción.
-- Beneficios logrados.
-- Entregas completadas.
-
-Un buen sistema combina ambos.
-
-**6.9.7. Métricas de vanidad.**
-
-Parecen positivas, pero aportan poca información para decidir.
-
-Ejemplos:
-
-- Número de reuniones.
-- Horas trabajadas.
-- Líneas de código.
-- Número de correos.
-- Tareas creadas.
-- Puntos completados sin contexto.
-
-La métrica debe relacionarse con objetivos y comportamiento deseado.
-
-**6.9.8. Métricas de flujo.**
-
-### Trabajo en curso — WIP
-
-Número de elementos iniciados y no terminados.
-
-### Tiempo de ciclo
-
-Tiempo desde que se empieza a trabajar en un elemento hasta que termina.
-
-### Tiempo de entrega — *lead time*
-
-Tiempo desde la solicitud hasta la entrega.
-
-### Rendimiento — *throughput*
-
-Número de elementos completados por unidad de tiempo.
-
-### Diagrama de flujo acumulado
-
-Muestra acumulación por estados y permite detectar cuellos de botella.
-
-**6.9.9. Burndown y burnup.**
-
-### Burndown
-
-Muestra trabajo restante.
-
-Puede ocultar cambios de alcance.
-
-### Burnup
-
-Muestra trabajo completado y alcance total.
-
-Hace visibles cambios de alcance.
-
-**6.9.10. Velocidad.**
-
-Cantidad de trabajo relativo completado por un equipo en una iteración.
-
-Puede ayudar a prever capacidad del mismo equipo.
-
-No debe utilizarse de forma directa para:
-
-- Comparar equipos.
-- Evaluar individuos.
-- Incentivar aumentar puntos.
-- Medir valor.
-
-**6.9.11. Acciones y decisiones.**
-
-Un registro de acciones debe incluir:
-
-- Acción.
-- Responsable.
-- Fecha objetivo.
-- Estado.
-- Dependencia.
-- Evidencia de cierre.
-
-Un registro de decisiones debe incluir:
-
-- Decisión.
-- Fecha.
-- Autoridad.
-- Contexto.
-- Alternativas.
-- Consecuencias.
-
-**6.9.12. Calidad de datos.**
-
-La información debe ser:
-
-- Completa.
-- Oportuna.
-- Coherente.
-- Trazable.
-- Comprensible.
-- Verificable.
-
-Un dashboard visualmente atractivo no compensa datos poco fiables.
-
-**6.9.13. Cadencia y audiencia.**
-
-No todos necesitan el mismo informe.
+Finalmente, no todos los interesados necesitan el mismo informe, y ajustar la cadencia y la audiencia es parte del oficio:
 
 | Audiencia | Necesidad |
 |---|---|
@@ -2256,150 +361,27 @@ No todos necesitan el mismo informe.
 | Usuarios | Entregas, impactos y preparación |
 | Proveedor | Obligaciones, aceptación y dependencias |
 
-**6.9.14. Reuniones de seguimiento.**
-
-Deben tener:
-
-- Objetivo.
-- Preparación.
-- Datos actualizados.
-- Participantes adecuados.
-- Decisiones.
-- Acciones.
-- Registro.
-
-Una reunión no sustituye al sistema de información.
+Las reuniones de seguimiento, por su parte, deben tener objetivo, preparación, datos actualizados, participantes adecuados, decisiones, acciones y registro; y, en todo caso, una reunión no sustituye al sistema de información.
 
 ---
 
 # 6.10. Caso práctico integrado
 
-**6.10.1. Contexto.**
+Para ver cómo se combinan todas las técnicas del tema, considérese un proyecto que implanta un **portal de trámites electrónicos** con un presupuesto de 600.000 €, una duración prevista de 12 meses, un proveedor externo, integración con cuatro sistemas, migración de 300.000 expedientes y requisitos de seguridad y accesibilidad.
 
-Proyecto para implantar un portal de trámites electrónicos.
+El trabajo se organiza en una **WBS simplificada** de diez componentes de primer nivel —gestión, requisitos, diseño, desarrollo, integraciones, migración, pruebas, formación, despliegue y transición—, cada uno descompuesto en sus paquetes de trabajo. Sobre esa estructura se construye el **cronograma**, con dependencias como que los requisitos preceden al diseño y este a la construcción, que las integraciones pueden desarrollarse parcialmente en paralelo, que las pruebas integradas requieren los módulos y las interfaces, que la formación puede prepararse antes del despliegue y que la migración final depende de un ensayo previo; el camino crítico atraviesa requisitos, diseño, la integración crítica, las pruebas y la puesta en producción. La **estimación** combina métodos según convenga a cada parte: análoga para gestión y formación, paramétrica para la migración por volumen, ascendente para las integraciones y de tres puntos para las pruebas de rendimiento, reservando una contingencia para los riesgos identificados y una reserva de gestión fuera de la línea base.
 
-Datos iniciales:
+En materia de **riesgo** se registra que, debido a inconsistencias históricas, podrían fallar las validaciones de migración y retrasarse la puesta en producción; la respuesta combina perfilado temprano, ensayo, reglas de limpieza y contingencia, con un propietario asignado y disparadores basados en la tasa de error. Durante la ejecución surge una solicitud de **cambio** para añadir identificación biométrica, que se analiza en su valor, protección de datos, seguridad, coste, plazo, pruebas, accesibilidad e implicaciones contractuales; ponderado todo, la Junta decide aplazarlo a una fase posterior. La **gestión de configuración** controla los requisitos, el código, la infraestructura, las API, los manuales, los *scripts* de migración, los casos de prueba y las versiones desplegadas.
 
-- Presupuesto: 600.000 €.
-- Duración prevista: 12 meses.
-- Proveedor externo.
-- Integración con cuatro sistemas.
-- Migración de 300.000 expedientes.
-- Requisitos de seguridad y accesibilidad.
-
-**6.10.2. WBS simplificada.**
-
-1. Gestión.
-2. Requisitos.
-3. Diseño.
-4. Desarrollo.
-5. Integraciones.
-6. Migración.
-7. Pruebas.
-8. Formación.
-9. Despliegue.
-10. Transición.
-
-Cada componente se descompone en paquetes de trabajo.
-
-**6.10.3. Cronograma.**
-
-Dependencias:
-
-- Requisitos antes de diseño.
-- Diseño antes de construcción.
-- Integraciones pueden desarrollarse parcialmente en paralelo.
-- Pruebas integradas requieren módulos e interfaces.
-- Formación puede prepararse antes del despliegue.
-- Migración final depende de ensayo previo.
-
-Se identifica un camino crítico a través de requisitos, diseño, integración crítica, pruebas y puesta en producción.
-
-**6.10.4. Estimación.**
-
-- Análoga para gestión y formación.
-- Paramétrica para migración por volumen.
-- Ascendente para integraciones.
-- Tres puntos para pruebas de rendimiento.
-- Contingencia para riesgos identificados.
-- Reserva de gestión fuera de la línea base.
-
-**6.10.5. Riesgo.**
-
-Riesgo:
-
-> Debido a inconsistencias históricas, podrían fallar validaciones de migración, retrasando la puesta en producción.
-
-Respuesta:
-
-- Perfilado temprano.
-- Ensayo.
-- Reglas de limpieza.
-- Contingencia.
-- Propietario.
-- Disparadores por tasa de error.
-
-**6.10.6. Cambio.**
-
-Se solicita añadir identificación biométrica.
-
-Se analiza:
-
-- Valor.
-- Protección de datos.
-- Seguridad.
-- Coste.
-- Plazo.
-- Pruebas.
-- Accesibilidad.
-- Contrato.
-
-La Junta decide aplazarlo a una fase posterior.
-
-**6.10.7. Configuración.**
-
-Se controlan:
-
-- Requisitos.
-- Código.
-- Infraestructura.
-- APIs.
-- Manuales.
-- Scripts de migración.
-- Casos de prueba.
-- Versiones desplegadas.
-
-**6.10.8. EVM.**
-
-A mitad del proyecto:
-
-- PV: 300.000 €.
-- EV: 270.000 €.
-- AC: 320.000 €.
-
-$$
-CV = 270.000 - 320.000 = -50.000
-$$
-
-$$
-SV = 270.000 - 300.000 = -30.000
-$$
-
-$$
-CPI = \frac{270.000}{320.000} \approx 0{,}84
-$$
-
-$$
-SPI = \frac{270.000}{300.000} = 0{,}90
-$$
-
-El proyecto presenta ineficiencia de coste y menor valor completado del previsto. Debe analizarse la causa, no limitarse a reportar índices.
+Llegado el seguimiento con **EVM**, a mitad del proyecto se registran PV = 300.000 €, EV = 270.000 € y AC = 320.000 €. De ahí resultan $CV = 270.000 - 320.000 = -50.000$, $SV = 270.000 - 300.000 = -30.000$, $CPI = 270.000 / 320.000 \approx 0{,}84$ y $SPI = 270.000 / 300.000 = 0{,}90$. El proyecto presenta, por tanto, ineficiencia de coste y menor valor completado del previsto; lo correcto no es limitarse a reportar los índices, sino analizar la causa que los produce y decidir en consecuencia.
 
 ---
 
 # 6.11. Comparaciones esenciales
 
-**6.11.1. WBS y cronograma.**
+Buena parte de las preguntas de este tema se resuelven distinguiendo con precisión pares de conceptos muy próximos. Las tablas siguientes reúnen las diferencias que conviene tener automatizadas antes del examen.
+
+**WBS frente a cronograma.**
 
 | WBS | Cronograma |
 |---|---|
@@ -2408,7 +390,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | No representa necesariamente secuencia | Incluye dependencias |
 | Base de estimación | Base de fechas |
 
-**6.11.2. Paquete de trabajo y actividad.**
+**Paquete de trabajo frente a actividad.**
 
 | Paquete de trabajo | Actividad |
 |---|---|
@@ -2416,7 +398,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Puede contener varias actividades | Contribuye a producir el paquete |
 | Se ubica en la WBS | Se ubica en el cronograma |
 
-**6.11.3. Fast tracking y crashing.**
+**Fast tracking frente a crashing.**
 
 | Fast tracking | Crashing |
 |---|---|
@@ -2424,7 +406,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Aumenta riesgo de retrabajo | Aumenta coste |
 | No siempre posible | Solo útil sobre camino crítico |
 
-**6.11.4. Nivelación y suavizado.**
+**Nivelación frente a suavizado.**
 
 | Nivelación | Suavizado |
 |---|---|
@@ -2432,7 +414,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Puede cambiar fecha final | Utiliza holguras |
 | Puede alterar camino crítico | No debería alterar camino crítico |
 
-**6.11.5. Reserva de contingencia y gestión.**
+**Reserva de contingencia frente a reserva de gestión.**
 
 | Contingencia | Gestión |
 |---|---|
@@ -2440,7 +422,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Dentro de línea base habitualmente | Fuera de línea base |
 | Gestionada según plan | Requiere autoridad de gestión |
 
-**6.11.6. Riesgo e incidencia.**
+**Riesgo frente a incidencia.**
 
 | Riesgo | Incidencia |
 |---|---|
@@ -2448,7 +430,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Probabilidad e impacto | Efecto real |
 | Respuesta preventiva | Resolución |
 
-**6.11.7. Cambio y configuración.**
+**Control de cambios frente a gestión de configuración.**
 
 | Cambio | Configuración |
 |---|---|
@@ -2456,16 +438,16 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Evalúa impactos | Identifica versiones y relaciones |
 | Aprueba o rechaza | Registra y audita |
 
-**6.11.8. CV, SV, CPI y SPI.**
+**Métricas de valor ganado.**
 
 | Métrica | Fórmula | Favorable |
 |---|---|---|
-| CV | EV - AC | Positiva |
-| SV | EV - PV | Positiva |
+| CV | EV − AC | Positiva |
+| SV | EV − PV | Positiva |
 | CPI | EV / AC | Mayor que 1 |
 | SPI | EV / PV | Mayor que 1 |
 
-**6.11.9. Burndown y burnup.**
+**Burndown frente a burnup.**
 
 | Burndown | Burnup |
 |---|---|
@@ -2473,7 +455,7 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 | Puede ocultar cambio de alcance | Muestra alcance total |
 | Desciende | Asciende |
 
-**6.11.10. Herramienta aislada y plataforma integrada.**
+**Herramienta aislada frente a plataforma integrada.**
 
 | Herramienta aislada | Plataforma integrada |
 |---|---|
@@ -2486,39 +468,11 @@ El proyecto presenta ineficiencia de coste y menor valor completado del previsto
 
 # 6.12. Errores y confusiones frecuentes
 
-1. Considerar la WBS una lista de tareas cronológica.
-2. Omitir trabajo de gestión, pruebas o transición.
-3. Confundir paquete de trabajo y actividad.
-4. Suponer que el camino crítico contiene las tareas técnicamente más difíciles.
-5. Creer que toda actividad crítica es la más costosa.
-6. Confundir holgura total y libre.
-7. Considerar *lead* como retraso.
-8. Pensar que añadir personas siempre reduce duración.
-9. Confundir nivelación y suavizado.
-10. Utilizar restricciones rígidas sin necesidad.
-11. Presentar una estimación puntual como certeza.
-12. Confundir precisión y exactitud.
-13. Considerar puntos de historia equivalentes a horas.
-14. Incluir reserva de gestión en la línea base de costes.
-15. Registrar incidencias como riesgos futuros.
-16. Gestionar solo amenazas.
-17. Confundir mitigar con transferir.
-18. Pensar que transferir elimina el riesgo.
-19. Confundir residual y secundario.
-20. Aprobar cambios sin analizar impactos cruzados.
-21. Cambiar una línea base para borrar desviaciones.
-22. Confundir control de versiones con gestión de configuración completa.
-23. Confundir EV con coste real.
-24. Interpretar SV como días.
-25. Considerar CPI menor que 1 favorable.
-26. Elegir una fórmula EAC sin justificar hipótesis.
-27. Medir avance por tiempo consumido en lugar de producto completado.
-28. Utilizar velocidad para comparar equipos.
-29. Confundir actividad registrada con valor entregado.
-30. Utilizar semáforos sin criterios.
-31. Crear informes extensos sin decisiones accionables.
-32. Mantener datos en múltiples sistemas sin fuente oficial.
-33. Integrar herramientas sin definir autoridad del dato, errores, exportación o salida del proveedor.
+Los fallos típicos de este tema se agrupan en torno a unos pocos malentendidos. En **planificación y WBS**, es frecuente tratar la WBS como una lista de tareas cronológica, omitir el trabajo de gestión, pruebas o transición, y confundir el paquete de trabajo con la actividad. En el **cronograma**, suele suponerse que el camino crítico contiene las tareas técnicamente más difíciles o las más costosas —cuando lo que lo define es su efecto sobre la fecha final—, confundirse la holgura total con la libre, interpretarse el *lead* como un retraso, pensarse que añadir personas siempre reduce la duración, mezclarse nivelación con suavizado y abusarse de restricciones rígidas sin necesidad.
+
+En **estimación**, se presenta una estimación puntual como si fuera una certeza, se confunde precisión con exactitud y se tratan los puntos de historia como equivalentes a horas. En **reservas y riesgos**, se incluye la reserva de gestión en la línea base de costes, se registran incidencias como si fueran riesgos futuros, se gestionan solo las amenazas olvidando las oportunidades, se confunde mitigar con transferir, se cree que transferir elimina el riesgo y se confunde el riesgo residual con el secundario.
+
+En **cambios y configuración**, se aprueban cambios sin analizar sus impactos cruzados, se modifica una línea base para borrar desviaciones y se confunde el control de versiones con la gestión de configuración completa. En **valor ganado**, se confunde el EV con el coste real, se interpreta la SV como días, se considera favorable un CPI menor que 1 y se elige una fórmula EAC sin justificar la hipótesis. En **seguimiento**, se mide el avance por el tiempo consumido en lugar del producto completado, se usa la velocidad para comparar equipos, se confunde la actividad registrada con el valor entregado y se emplean semáforos sin criterios definidos. Y en **herramientas**, se crean informes extensos sin decisiones accionables, se mantienen datos en múltiples sistemas sin una fuente oficial y se integran herramientas sin definir la autoridad del dato, el tratamiento de errores, la exportación o la salida del proveedor.
 
 ---
 
